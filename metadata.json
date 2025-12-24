@@ -1,0 +1,5 @@
+{
+  "name": "Copy of DermoPath AI",
+  "description": "A specialized search engine and RAG assistant for dermatopathologists, featuring entity lookup, whole slide imaging (WSI) integration, and AI-powered analysis.",
+  "requestFramePermissions": []
+}

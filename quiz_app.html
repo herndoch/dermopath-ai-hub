@@ -1,0 +1,1851 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pathology Master Deck (AI Edition)</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --accent: #e74c3c;
+            --link-blue: #3498db;
+            --bg: #121212;
+            --panel-bg: #1e1e1e;
+            --text: #ecf0f1;
+            --text-muted: #bdc3c7;
+            --quiz-hidden: #34495e;
+            --success: #27ae60;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            height: 100vh;
+            width: 100vw;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* --- UPLOAD SCREEN --- */
+        #upload-screen {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--bg);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .upload-container {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: stretch;
+        }
+
+        .upload-card {
+            border: 2px dashed #444;
+            padding: 2rem;
+            border-radius: 12px;
+            text-align: center;
+            background: var(--panel-bg);
+            transition: all 0.3s ease;
+            width: 320px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+        }
+
+        .upload-card:hover {
+            border-color: var(--accent);
+            background: #252525;
+            transform: translateY(-2px);
+        }
+
+        /* Special Generator Card Styles */
+        .generator-card {
+            border-color: var(--link-blue);
+        }
+
+        .generator-card:hover {
+            border-color: #5dade2;
+        }
+
+        .upload-btn {
+            background: var(--accent);
+            color: white;
+            padding: 10px 24px;
+            border-radius: 6px;
+            font-weight: bold;
+            margin-top: 15px;
+            cursor: pointer;
+            border: none;
+            font-size: 1rem;
+            width: 100%;
+        }
+
+        .upload-btn.blue {
+            background: var(--link-blue);
+        }
+
+        .upload-btn:disabled {
+            background: #555;
+            color: #888;
+            cursor: not-allowed;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            background: #333;
+            color: white;
+            padding: 10px;
+            border-radius: 4px;
+            border: 1px solid #555;
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        select.cloud-select {
+            background: #333;
+            color: white;
+            padding: 10px;
+            border-radius: 4px;
+            border: 1px solid #555;
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        #error-msg {
+            color: #e74c3c;
+            margin-top: 20px;
+            font-weight: bold;
+            display: none;
+            background: rgba(231, 76, 60, 0.1);
+            padding: 10px;
+            border-radius: 4px;
+            text-align: center;
+        }
+
+        #file-status {
+            font-size: 0.85rem;
+            color: var(--success);
+            margin-top: 5px;
+            display: none;
+        }
+
+        #ai-status {
+            font-size: 0.85rem;
+            color: #3498db;
+            margin-top: 5px;
+            display: none;
+            font-style: italic;
+        }
+
+        /* --- HEADER --- */
+        header {
+            height: 50px;
+            background: var(--primary);
+            display: flex;
+            align-items: center;
+            padding: 0 1.5rem;
+            border-bottom: 2px solid var(--accent);
+            justify-content: space-between;
+            font-size: 0.9rem;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+            z-index: 50;
+            flex-shrink: 0;
+        }
+
+        .header-btn {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: #ecf0f1;
+            padding: 5px 12px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.8rem;
+            transition: background 0.2s;
+        }
+
+        .header-btn:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        /* --- VIEWPORT --- */
+        #presentation-ui {
+            display: none;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        #viewport {
+            flex-grow: 1;
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Standard Mode */
+        #viewport.standard-mode {
+            display: grid;
+            grid-template-columns: 25% 75%;
+        }
+
+        /* Unknowns Mode */
+        #viewport.unknown-mode {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            overflow-y: auto;
+            background: var(--bg);
+            padding-top: 40px;
+        }
+
+        /* Text Panel */
+        #text-panel {
+            padding: 1.5rem;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            height: 100%;
+        }
+
+        #viewport.standard-mode #text-panel {
+            background: var(--panel-bg);
+            border-right: 1px solid #333;
+        }
+
+        #viewport.unknown-mode #text-panel {
+            background: var(--panel-bg);
+            border: 1px solid #333;
+            border-radius: 8px;
+            width: 100%;
+            max-width: 700px;
+            height: auto;
+            min-height: 200px;
+            margin-bottom: 100px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Titles & Tags */
+        h1.slide-title {
+            font-size: 1.5rem;
+            color: var(--accent);
+            line-height: 1.2;
+            margin-top: 0;
+        }
+
+        .tag {
+            background: #333;
+            color: #aaa;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            align-self: flex-start;
+            letter-spacing: 0.5px;
+        }
+
+        /* Unknowns Buttons */
+        .wsi-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-top: 10px;
+        }
+
+        .wsi-button {
+            background: #34495e;
+            padding: 15px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: white;
+            font-size: 1.1rem;
+            border: 1px solid #455a64;
+            font-weight: 500;
+        }
+
+        .wsi-button:hover {
+            background: #2c3e50;
+            border-color: var(--accent);
+            transform: translateX(5px);
+        }
+
+        .wsi-icon {
+            margin-right: 12px;
+            font-size: 1.4rem;
+        }
+
+        .unknown-reveal-btn {
+            background: var(--accent);
+            color: white;
+            border: none;
+            padding: 15px;
+            border-radius: 6px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 30px;
+            width: 100%;
+            font-size: 1.1rem;
+            transition: opacity 0.2s;
+        }
+
+        .unknown-reveal-btn:hover {
+            opacity: 0.9;
+        }
+
+        .unknown-answer {
+            margin-top: 20px;
+            padding: 20px;
+            background: #222;
+            border-radius: 6px;
+            border-left: 5px solid #27ae60;
+            display: none;
+            font-size: 1.2rem;
+        }
+
+        .local-link-btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 8px 16px;
+            background-color: var(--link-blue);
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            transition: background 0.2s;
+        }
+
+        .local-link-btn:hover {
+            background-color: #2980b9;
+        }
+
+        /* Standard Mode Elements */
+        .mode-switch {
+            display: flex;
+            background: #333;
+            padding: 2px;
+            border-radius: 6px;
+            margin-bottom: 1rem;
+        }
+
+        .mode-opt {
+            flex: 1;
+            text-align: center;
+            padding: 6px;
+            font-size: 0.85rem;
+            cursor: pointer;
+            border-radius: 4px;
+            color: #888;
+            transition: all 0.2s;
+        }
+
+        .mode-opt.active {
+            background: var(--accent);
+            color: white;
+            font-weight: bold;
+        }
+
+        ul.bullets {
+            list-style: none;
+        }
+
+        ul.bullets li {
+            margin-bottom: 1rem;
+            line-height: 1.6;
+            font-size: 1.05rem;
+            color: var(--text-muted);
+            padding-left: 12px;
+            border-left: 3px solid var(--accent);
+        }
+
+        .cloze-gap {
+            background: var(--quiz-hidden);
+            color: transparent;
+            padding: 2px 6px;
+            border-radius: 4px;
+            cursor: pointer;
+            user-select: none;
+            font-weight: bold;
+            transition: all 0.2s;
+        }
+
+        .cloze-gap::after {
+            content: "[ ? ]";
+            color: #95a5a6;
+            font-size: 0.8rem;
+        }
+
+        .cloze-gap.revealed {
+            background: var(--accent);
+            color: white;
+        }
+
+        .cloze-gap.revealed::after {
+            content: "";
+        }
+
+        /* Image Panel */
+        #image-panel {
+            background: #000;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-auto-rows: minmax(400px, auto);
+            gap: 2px;
+            width: 100%;
+            height: 100%;
+            overflow-y: auto;
+            align-content: start;
+        }
+
+        #image-panel.has-1 {
+            grid-template-columns: 1fr;
+        }
+
+        .img-wrapper {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            min-height: 400px;
+            overflow: hidden;
+            cursor: zoom-in;
+            background: #050505;
+        }
+
+        .img-wrapper img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            display: block;
+        }
+
+        .caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.6));
+            color: #fff;
+            padding: 10px 15px;
+            font-size: 0.95rem;
+            line-height: 1.4;
+            opacity: 0;
+            transition: opacity 0.2s ease;
+            text-align: left;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            pointer-events: none;
+        }
+
+        .img-wrapper:hover .caption {
+            opacity: 1;
+        }
+
+        /* Controls */
+        #controls {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: rgba(44, 62, 80, 0.9);
+            padding: 8px;
+            border-radius: 50px;
+            display: flex;
+            gap: 8px;
+            z-index: 100;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        button.nav-btn {
+            background: var(--accent);
+            border: none;
+            color: white;
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 1.2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.1s;
+        }
+
+        button.nav-btn:active {
+            transform: scale(0.95);
+        }
+
+        #progress-bar {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 4px;
+            background: var(--accent);
+            width: 0%;
+            transition: width 0.3s;
+        }
+
+        #summary-view {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--bg);
+            padding: 2rem;
+            overflow-y: auto;
+            z-index: 50;
+        }
+
+        .summary-container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .summary-header {
+            text-align: center;
+            margin-bottom: 2rem;
+            color: var(--accent);
+            font-size: 2.5rem;
+            border-bottom: 1px solid #333;
+            padding-bottom: 1rem;
+        }
+
+        .summary-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .summary-row {
+            border-bottom: 1px solid #333;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        .summary-row:hover {
+            background: #252525;
+        }
+
+        .summary-cell {
+            padding: 15px;
+            text-align: left;
+            color: var(--text-muted);
+        }
+
+        #modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.98);
+            z-index: 2000;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #modal-img-container {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            padding: 20px;
+            overflow: hidden;
+        }
+
+        #modal-img {
+            max-width: 100%;
+            max-height: 100%;
+            border-radius: 4px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
+
+        #modal-caption-container {
+            width: 100%;
+            background: #1a1a1a;
+            border-top: 2px solid var(--accent);
+            padding: 20px;
+            color: #ecf0f1;
+            font-size: 1.1rem;
+            line-height: 1.6;
+            max-height: 30vh;
+            overflow-y: auto;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- SCREEN 1: UPLOAD & GENERATE -->
+    <div id="upload-screen">
+        <h1 style="margin-bottom: 2rem;">Pathology Master Deck (AI Edition)</h1>
+
+        <div class="upload-container">
+            <!-- 1. Local Quiz -->
+            <div class="upload-card" onclick="document.getElementById('file-input').click()">
+                <div style="font-size: 3rem; margin-bottom: 1rem;">📂</div>
+                <h2>Load Saved Quiz</h2>
+                <p style="color: #888;">Select a specific <strong>.json</strong> file</p>
+                <div id="btn-text" class="upload-btn">Choose File</div>
+                <input type="file" id="file-input" accept=".json" style="display: none;">
+            </div>
+
+            <!-- 2. Master Generator -->
+            <div class="upload-card generator-card">
+                <div style="font-size: 3rem; margin-bottom: 1rem;">🧠</div>
+                <h2>AI Quiz Generator</h2>
+                <p style="color: #888;">Load <strong>Master JSON</strong> first</p>
+
+                <input type="file" id="master-file-input" accept=".json" style="display:none">
+                <button class="upload-btn blue" onclick="document.getElementById('master-file-input').click()">1. Load
+                    Master File</button>
+                <div id="file-status">No file loaded</div>
+
+                <div style="width:100%; border-top:1px solid #444; margin:15px 0;"></div>
+
+                <div style="text-align: left; width: 100%; margin-bottom: 10px;">
+                    <strong style="color: #aaa; font-size: 0.9rem; display: block; margin-bottom: 5px;">Included
+                        Sources:</strong>
+                    <div style="display: flex; flex-wrap: wrap; gap: 10px; font-size: 0.85rem; color: #ccc;">
+                        <label style="cursor: pointer;"><input type="checkbox" id="src-leeds" checked> Leeds</label>
+                        <label style="cursor: pointer;"><input type="checkbox" id="src-mgh" checked> MGH</label>
+                        <label style="cursor: pointer;"><input type="checkbox" id="src-rosai" checked> Rosai</label>
+                        <label style="cursor: pointer;"><input type="checkbox" id="src-who" checked> WHO</label>
+                        <label style="cursor: pointer;"><input type="checkbox" id="src-dpa"> DPA/PathPresenter</label>
+                    </div>
+                </div>
+
+                <input type="password" id="api-key" placeholder="Enter Gemini API Key" autocomplete="off"
+                    style="display:none">
+                <div id="apikey-trigger" style="margin-top:10px; font-size:0.75rem; color:#555; cursor:pointer;"
+                    onclick="document.getElementById('api-key').style.display='block'; this.style.display='none'">(Using
+                    Hardcoded API Key. Click to Change)</div>
+                <input type="text" id="search-query" placeholder="e.g., Follicular, Melanocytic" disabled>
+
+                <button id="btn-generate" class="upload-btn blue" onclick="generateQuiz()" disabled>2. Generate
+                    Quiz</button>
+                <div id="ai-status"></div>
+            </div>
+
+            <!-- 3. Cloud Load -->
+            <div class="upload-card">
+                <div style="font-size: 3rem; margin-bottom: 1rem;">☁️</div>
+                <h2>Cloud Library</h2>
+                <p style="color: #888;">pathology-hub-0</p>
+                <select id="cloud-file-select" class="cloud-select" onchange="enableCloudLoad()">
+                    <option value="">Select a file...</option>
+                </select>
+                <button id="btn-cloud-load" class="upload-btn" onclick="loadFromCloud()" disabled>Load Selected</button>
+            </div>
+        </div>
+
+        <div id="error-msg"></div>
+    </div>
+
+    <!-- SCREEN 2: PRESENTATION -->
+    <div id="presentation-ui">
+        <header>
+            <div id="deck-title" style="font-weight: bold;">Loading...</div>
+            <div style="display: flex; gap: 15px; align-items: center;">
+                <button class="header-btn" onclick="goToSummary()">Index</button>
+                <button class="header-btn" onclick="resetApp()">Load New</button>
+                <div id="slide-counter" style="font-family: monospace;">-- / --</div>
+            </div>
+        </header>
+        <div id="progress-bar"></div>
+
+        <div id="summary-view">
+            <div class="summary-container">
+                <h1 class="summary-header">Index</h1>
+                <table class="summary-table">
+                    <tbody id="summary-body"></tbody>
+                </table>
+            </div>
+        </div>
+
+        <div id="viewport">
+            <div id="text-panel">
+                <div class="mode-switch" id="mode-switcher">
+                    <div class="mode-opt active" id="mode-study" onclick="setMode('bullets')">Study</div>
+                    <div class="mode-opt" id="mode-quiz" onclick="setMode('quiz')">Quiz</div>
+                </div>
+                <span id="slide-tag" class="tag">Topic</span>
+                <h1 id="slide-title" class="slide-title">Title</h1>
+                <div id="text-content"></div>
+            </div>
+            <div id="image-panel"></div>
+        </div>
+
+        <div id="controls">
+            <button id="btn-prev" class="nav-btn" onclick="changeSlide(-1)">&#8592;</button>
+            <button id="btn-next" class="nav-btn" onclick="changeSlide(1)">&#8594;</button>
+        </div>
+    </div>
+
+    <!-- MODALS -->
+    <div id="modal" onclick="closeModal(event)">
+        <div id="modal-img-container"><img id="modal-img"></div>
+        <div id="modal-caption-container">
+            <div id="modal-caption"></div>
+        </div>
+    </div>
+
+    <script>
+        // CONFIG
+        const CONFIG = {
+            bucketName: 'pathology-hub-0',
+            folderPrefix: 'Study_Set_Project/',
+            apiKey: 'AIzaSyAjU9tpcSDBfZZEUw2trqYHW2UlWjtYFPk' // Hardcoded as requested
+        };
+        const GCS_IMG_BASE = `https://storage.googleapis.com/${CONFIG.bucketName}/`;
+        const LOCAL_KB_BASE = "https://storage.googleapis.com/dermpath-hub/index.html?tag=";
+        const DEFAULT_MASTER_FILE = 'Skin_Global_Leaf_Optimized.json';
+
+        // STATE
+        let presentationData = null;
+        let masterData = null; // Stores the huge JSON
+        let currentSlide = 0;
+        let currentMode = 'bullets';
+
+        // DOM ELEMENTS
+        const fileInput = document.getElementById('file-input');
+        const masterInput = document.getElementById('master-file-input');
+        const errorMsg = document.getElementById('error-msg');
+        const cloudSelect = document.getElementById('cloud-file-select');
+        const aiStatus = document.getElementById('ai-status');
+
+        // --- HELPER FUNCTIONS ---
+        function resolveImgUrl(path) {
+            if (!path) return "";
+            if (path.startsWith('http') || path.startsWith('data:')) return path;
+            const cleanPath = path.startsWith('/') ? path.substring(1) : path;
+            return GCS_IMG_BASE + cleanPath;
+        }
+
+        function openWsiViewer(url) {
+            const width = 1200, height = 900;
+            const features = `width=${width},height=${height},top=${(screen.height - height) / 2},left=${(screen.width - width) / 2},resizable=yes,scrollbars=no,status=no`;
+            window.open(url, 'WSIWindow', features);
+        }
+
+        // --- GEMINI SERVICE ---
+        async function getGeminiCuration(apiKey, query, candidates) {
+            const candidateNames = candidates.map(c => c.entity_name);
+            // Limit candidates sent to API to avoid huge payloads if query is too broad
+            const truncatedCandidates = candidateNames.slice(0, 300);
+
+            // Embedded Taxonomy from Skin_Tags.txt for context
+            const TAXONOMY = `
+Skin::Congenital_Structural
+Skin::Congenital_Structural::Cyst::Cutaneous_Cyst_Overview_NOS
+Skin::Congenital_Structural::Cyst::Branchial_Cleft_Cyst
+Skin::Congenital_Structural::Cyst::Bronchogenic_Cyst
+Skin::Congenital_Structural::Cyst::Cutaneous_Ciliated_Cyst
+Skin::Congenital_Structural::Cyst::Dermoid_Cyst
+Skin::Congenital_Structural::Cyst::Epidermoid_Cyst_Infundibular
+Skin::Congenital_Structural::Cyst::Eruptive_Vellus_Hair_Cyst
+Skin::Congenital_Structural::Cyst::Hidrocystoma_Eccrine_Apocrine
+Skin::Congenital_Structural::Cyst::Median_Raphe_Cyst
+Skin::Congenital_Structural::Cyst::Pilar_Cyst_Trichilemmal
+Skin::Congenital_Structural::Cyst::Pilonidal_Cyst_Sinus
+Skin::Congenital_Structural::Cyst::Proliferating_Pilar_Cyst
+Skin::Congenital_Structural::Cyst::Ruptured_Follicular_Cyst_Granuloma
+Skin::Congenital_Structural::Cyst::Steatocystoma_Multiplex_Simplex
+Skin::Congenital_Structural::Cyst::Thymic_Cyst
+Skin::Congenital_Structural::Cyst::Thyroglossal_Duct_Cyst
+Skin::Congenital_Structural::Genodermatosis::Genodermatosis_Overview_NOS
+Skin::Congenital_Structural::Genodermatosis::Aplasia_Cutis_Congenita
+Skin::Congenital_Structural::Genodermatosis::Darier_Disease_Keratosis_Follicularis
+Skin::Congenital_Structural::Genodermatosis::Epidermolytic_Ichthyosis
+Skin::Congenital_Structural::Genodermatosis::Hailey_Hailey_Disease_Familial_Pemphigus
+Skin::Congenital_Structural::Genodermatosis::Ichthyosis_Vulgaris
+Skin::Congenital_Structural::Genodermatosis::Incontinentia_Pigmenti
+Skin::Congenital_Structural::Genodermatosis::Lipoid_Proteinosis
+Skin::Congenital_Structural::Genodermatosis::Pseudoxanthoma_Elasticum
+Skin::Congenital_Structural::Hamartoma::Accessory_Nipple_Polythelia
+Skin::Congenital_Structural::Hamartoma::Acrochordon_Skin_Tag
+Skin::Congenital_Structural::Hamartoma::Connective_Tissue_Nevus_Collagenoma
+Skin::Congenital_Structural::Hamartoma::Nevus_Sebaceus_of_Jadassohn
+Skin::Infectious
+Skin::Infectious::Bacterial::Cutaneous_Bacterial_Infection_NOS
+Skin::Infectious::Bacterial::Bacillary_Angiomatosis_Bartonella
+Skin::Infectious::Bacterial::Bullous_Impetigo
+Skin::Infectious::Bacterial::Erythrasma_Corynebacterium
+Skin::Infectious::Bacterial::Pitted_Keratolysis
+Skin::Infectious::Bacterial::Rickettsial_Infection_Rocky_Mountain_Spotted_Fever
+Skin::Infectious::Bacterial::Staphylococcal_Scalded_Skin_Syndrome
+Skin::Infectious::Bacterial::Syphilis_Secondary_Cutaneous
+Skin::Infectious::Fungal::Cutaneous_Fungal_Infection_NOS
+Skin::Infectious::Fungal::Coccidioidomycosis_Cutaneous
+Skin::Infectious::Fungal::Cryptococcosis_Cutaneous
+Skin::Infectious::Fungal::Dermatophytosis_Tinea_Overview
+Skin::Infectious::Fungal::Majocchi_Granuloma_Fungal_Folliculitis
+Skin::Infectious::Fungal::Tinea_Capitis
+Skin::Infectious::Fungal::Tinea_Corporis
+Skin::Infectious::Fungal::Tinea_Nigra
+Skin::Infectious::Fungal::Tinea_Pedis
+Skin::Infectious::Fungal::Tinea_Versicolor_Pityriasis
+Skin::Infectious::Parasitic::Cutaneous_Parasitic_Infestation_NOS
+Skin::Infectious::Parasitic::Arthropod_Bite_Reaction_Persistent
+Skin::Infectious::Parasitic::Demodicosis_Demodex
+Skin::Infectious::Parasitic::Leishmaniasis_Cutaneous
+Skin::Infectious::Parasitic::Myiasis
+Skin::Infectious::Parasitic::Scabies_Sarcoptes_Scabiei
+Skin::Infectious::Viral::Cutaneous_Viral_Infection_NOS
+Skin::Infectious::Viral::Hand_Foot_And_Mouth_Disease
+Skin::Infectious::Viral::Herpes_Simplex_Virus_HSV1_HSV2
+Skin::Infectious::Viral::Herpes_Zoster_Varicella_VZV
+Skin::Infectious::Viral::Molluscum_Contagiosum
+Skin::Infectious::Viral::Verruca_Plana_Flat_Wart
+Skin::Infectious::Viral::Verruca_Plantaris_Plantar_Wart
+Skin::Infectious::Viral::Verruca_Vulgaris_Common_Wart
+Skin::Inflammatory
+Skin::Inflammatory::Adnexal::Acneiform_Follicular_Overview
+Skin::Inflammatory::Adnexal::Acne_Keloidalis_Nuchae
+Skin::Inflammatory::Adnexal::Acne_Vulgaris
+Skin::Inflammatory::Adnexal::Dissecting_Cellulitis_Scalp
+Skin::Inflammatory::Adnexal::Eosinophilic_Pustular_Folliculitis_Ofuji
+Skin::Inflammatory::Adnexal::Favre_Racouchot_Syndrome
+Skin::Inflammatory::Adnexal::Folliculitis_Decalvans
+Skin::Inflammatory::Adnexal::Hidradenitis_Suppurativa
+Skin::Inflammatory::Adnexal::Neutrophilic_Eccrine_Hidradenitis
+Skin::Inflammatory::Adnexal::Rosacea_Granulomatous
+Skin::Inflammatory::Adnexal::Rosacea_Erythematotelangiectatic
+Skin::Inflammatory::Alopecia::Alopecia_Overview_NOS
+Skin::Inflammatory::Alopecia::Alopecia_Areata
+Skin::Inflammatory::Alopecia::Alopecia_Mucinosa_Follicular_Mucinosis
+Skin::Inflammatory::Alopecia::Androgenic_Alopecia_Male_Female_Pattern
+Skin::Inflammatory::Alopecia::Central_Centrifugal_Cicatricial_Alopecia_CCCA
+Skin::Inflammatory::Alopecia::Frontal_Fibrosing_Alopecia
+Skin::Inflammatory::Alopecia::Lichen_Planopilaris
+Skin::Inflammatory::Alopecia::Lupus_Erythematosus_Discoid_Alopecia
+Skin::Inflammatory::Alopecia::Pseudopelade_of_Brocq
+Skin::Inflammatory::Alopecia::Telogen_Effluvium
+Skin::Inflammatory::Alopecia::Traction_Alopecia
+Skin::Inflammatory::Alopecia::Trichotillomania
+Skin::Inflammatory::Blistering::Immunobullous_Dermatosis_Overview
+Skin::Inflammatory::Blistering::Acute_Generalized_Exanthematous_Pustulosis_AGEP
+Skin::Inflammatory::Blistering::Bullous_Lichen_Sclerosus
+Skin::Inflammatory::Blistering::Bullous_Lupus_Erythematosus
+Skin::Inflammatory::Blistering::Bullous_Pemphigoid
+Skin::Inflammatory::Blistering::Cicatricial_Pemphigoid_Mucous_Membrane
+Skin::Inflammatory::Blistering::Dermatitis_Herpetiformis
+Skin::Inflammatory::Blistering::Epidermolysis_Bullosa_Acquisita
+Skin::Inflammatory::Blistering::Friction_Blister
+Skin::Inflammatory::Blistering::Grover_Disease_Transient_Acantholytic
+Skin::Inflammatory::Blistering::IgA_Pemphigus
+Skin::Inflammatory::Blistering::Linear_IgA_Bullous_Dermatosis
+Skin::Inflammatory::Blistering::Paraneoplastic_Pemphigus
+Skin::Inflammatory::Blistering::Pemphigoid_Gestationis
+Skin::Inflammatory::Blistering::Pemphigus_Foliaceus
+Skin::Inflammatory::Blistering::Pemphigus_Vegetans
+Skin::Inflammatory::Blistering::Pemphigus_Vulgaris
+Skin::Inflammatory::Blistering::Porphyria_Cutanea_Tarda
+Skin::Inflammatory::Blistering::Pseudoporphyria
+Skin::Inflammatory::Blistering::Stevens_Johnson_Syndrome_Toxic_Epidermal_Necrolysis
+Skin::Inflammatory::Blistering::Subcorneal_Pustular_Dermatosis_Sneddon_Wilkinson
+Skin::Inflammatory::Dermal_Sclerosing::Acrodermatitis_Chronica_Atrophicans
+Skin::Inflammatory::Dermal_Sclerosing::Anetoderma
+Skin::Inflammatory::Dermal_Sclerosing::Atrophoderma_of_Pasini_and_Pierini
+Skin::Inflammatory::Dermal_Sclerosing::Chondrodermatitis_Nodularis_Helicis
+Skin::Inflammatory::Dermal_Sclerosing::Chronic_Radiation_Dermatitis
+Skin::Inflammatory::Dermal_Sclerosing::Eosinophilic_Fasciitis_Shulman
+Skin::Inflammatory::Dermal_Sclerosing::Hypertrophic_Scar
+Skin::Inflammatory::Dermal_Sclerosing::Keloid
+Skin::Inflammatory::Dermal_Sclerosing::Lichen_Sclerosus_et_Atrophicus
+Skin::Inflammatory::Dermal_Sclerosing::Morphea_Localized_Scleroderma
+Skin::Inflammatory::Dermal_Sclerosing::Nephrogenic_Systemic_Fibrosis
+Skin::Inflammatory::Dermal_Sclerosing::Reactive_Perforating_Collagenosis
+Skin::Inflammatory::Dermal_Sclerosing::Sclerodermoid_Graft_Versus_Host_Disease
+Skin::Inflammatory::Granulomatous::Granulomatous_Dermatitis_Overview
+Skin::Inflammatory::Granulomatous::Actinic_Granuloma_Annular_Elastolytic
+Skin::Inflammatory::Granulomatous::Cutaneous_Crohns_Disease
+Skin::Inflammatory::Granulomatous::Foreign_Body_Granuloma
+Skin::Inflammatory::Granulomatous::Granuloma_Annulare
+Skin::Inflammatory::Granulomatous::Granuloma_Faciale
+Skin::Inflammatory::Granulomatous::Lupus_Miliaris_Disseminatus_Faciei
+Skin::Inflammatory::Granulomatous::Necrobiosis_Lipoidica
+Skin::Inflammatory::Granulomatous::Necrobiotic_Xanthogranuloma
+Skin::Inflammatory::Granulomatous::Rheumatoid_Nodule
+Skin::Inflammatory::Granulomatous::Rosai_Dorfman_Disease_Cutaneous
+Skin::Inflammatory::Granulomatous::Ruptured_Cyst_Granuloma
+Skin::Inflammatory::Granulomatous::Sarcoidosis_Cutaneous
+Skin::Inflammatory::Interface::Interface_Dermatitis_Overview
+Skin::Inflammatory::Interface::Benign_Lichenoid_Keratosis_LPLK
+Skin::Inflammatory::Interface::Dermatomyositis
+Skin::Inflammatory::Interface::Erythema_Multiforme
+Skin::Inflammatory::Interface::Fixed_Drug_Eruption
+Skin::Inflammatory::Interface::Graft_Versus_Host_Disease_Acute
+Skin::Inflammatory::Interface::Lichen_Nitidus
+Skin::Inflammatory::Interface::Lichen_Planus
+Skin::Inflammatory::Interface::Lichen_Striatus
+Skin::Inflammatory::Interface::Lichenoid_Actinic_Keratosis
+Skin::Inflammatory::Interface::Lichenoid_Drug_Eruption
+Skin::Inflammatory::Interface::Lupus_Erythematosus_Discoid_DLE
+Skin::Inflammatory::Interface::Lupus_Erythematosus_Subacute_Cutaneous_SCLE
+Skin::Inflammatory::Interface::Lupus_Erythematosus_Systemic_SLE
+Skin::Inflammatory::Interface::Lupus_Erythematosus_Tumid
+Skin::Inflammatory::Interface::Pityriasis_Lichenoides_PLEVA_PLC
+Skin::Inflammatory::Interface::Poikiloderma
+Skin::Inflammatory::Interface::Polymorphous_Light_Eruption
+Skin::Inflammatory::Panniculitis::Panniculitis_Overview_NOS
+Skin::Inflammatory::Panniculitis::Alpha_1_Antitrypsin_Deficiency_Panniculitis
+Skin::Inflammatory::Panniculitis::Cold_Panniculitis
+Skin::Inflammatory::Panniculitis::Erythema_Induratum_Nodular_Vasculitis
+Skin::Inflammatory::Panniculitis::Erythema_Nodosum
+Skin::Inflammatory::Panniculitis::Lipodermatosclerosis
+Skin::Inflammatory::Panniculitis::Lupus_Panniculitis_Profundus
+Skin::Inflammatory::Panniculitis::Pancreatic_Panniculitis
+Skin::Inflammatory::Panniculitis::Subcutaneous_Fat_Necrosis_of_Newborn
+Skin::Inflammatory::Psoriasiform::Psoriasiform_Dermatitis_Overview
+Skin::Inflammatory::Psoriasiform::Granular_Parakeratosis
+Skin::Inflammatory::Psoriasiform::Inflammatory_Linear_Verrucous_Epidermal_Nevus_ILVEN
+Skin::Inflammatory::Psoriasiform::Nutritional_Deficiency_Dermatitis
+Skin::Inflammatory::Psoriasiform::Pityriasis_Rubra_Pilaris
+Skin::Inflammatory::Psoriasiform::Psoriasis_Vulgaris_Plaque
+Skin::Inflammatory::Psoriasiform::Psoriasis_Guttate
+Skin::Inflammatory::Psoriasiform::Psoriasis_Pustular
+Skin::Inflammatory::Spongiotic::Spongiotic_Dermatitis_Eczema_Overview
+Skin::Inflammatory::Spongiotic::Acute_Spongiotic_Dermatitis
+Skin::Inflammatory::Spongiotic::Allergic_Contact_Dermatitis
+Skin::Inflammatory::Spongiotic::Atopic_Dermatitis
+Skin::Inflammatory::Spongiotic::Chronic_Spongiotic_Dermatitis_Lichen_Simplex
+Skin::Inflammatory::Spongiotic::Dyshidrotic_Eczema_Pompholyx
+Skin::Inflammatory::Spongiotic::Eosinophilic_Spongiosis
+Skin::Inflammatory::Spongiotic::Id_Reaction_Autoeczematization
+Skin::Inflammatory::Spongiotic::Irritant_Contact_Dermatitis
+Skin::Inflammatory::Spongiotic::Nummular_Dermatitis
+Skin::Inflammatory::Spongiotic::Pityriasis_Rosea
+Skin::Inflammatory::Spongiotic::Prurigo_Nodularis
+Skin::Inflammatory::Spongiotic::Seborrheic_Dermatitis
+Skin::Inflammatory::Spongiotic::Stasis_Dermatitis
+Skin::Inflammatory::Spongiotic::Zoon_Balanitis_Plasma_Cell
+Skin::Inflammatory::Vasculitis::Vasculitis_Overview_NOS
+Skin::Inflammatory::Vasculitis::Churg_Strauss_Syndrome_EGPA
+Skin::Inflammatory::Vasculitis::Cryoglobulinemic_Vasculitis
+Skin::Inflammatory::Vasculitis::Degos_Disease_Malignant_Atrophic_Papulosis
+Skin::Inflammatory::Vasculitis::Erythema_Annulare_Centrifugum
+Skin::Inflammatory::Vasculitis::Erythema_Elevatum_Diutinum
+Skin::Inflammatory::Vasculitis::Giant_Cell_Arteritis_Temporal
+Skin::Inflammatory::Vasculitis::Gyrate_Erythema
+Skin::Inflammatory::Vasculitis::Henoch_Schonlein_Purpura_IgA_Vasculitis
+Skin::Inflammatory::Vasculitis::Kawasaki_Disease
+Skin::Inflammatory::Vasculitis::Leukocytoclastic_Vasculitis_LCV
+Skin::Inflammatory::Vasculitis::Livedoid_Vasculopathy_Atrophie_Blanche
+Skin::Inflammatory::Vasculitis::Lymphocytic_Vasculitis
+Skin::Inflammatory::Vasculitis::Microscopic_Polyangiitis
+Skin::Inflammatory::Vasculitis::Morbilliform_Drug_Eruption
+Skin::Inflammatory::Vasculitis::Pernio_Chilblains
+Skin::Inflammatory::Vasculitis::Pigmented_Purpuric_Dermatosis_Capillaritis
+Skin::Inflammatory::Vasculitis::Polyarteritis_Nodosa
+Skin::Inflammatory::Vasculitis::Rheumatoid_Vasculitis
+Skin::Inflammatory::Vasculitis::Septic_Vasculitis
+Skin::Inflammatory::Vasculitis::Solar_Purpura
+Skin::Inflammatory::Vasculitis::Sweet_Syndrome
+Skin::Inflammatory::Vasculitis::Takayasu_Arteritis
+Skin::Inflammatory::Vasculitis::Thromboangiitis_Obliterans_Buerger
+Skin::Inflammatory::Vasculitis::Thrombophlebitis
+Skin::Inflammatory::Vasculitis::Urticaria_Hives
+Skin::Inflammatory::Vasculitis::Urticarial_Vasculitis
+Skin::Inflammatory::Vasculitis::Wegener_Granulomatosis_GPA
+Skin::Inflammatory::Vasculitis::Wells_Syndrome_Eosinophilic_Cellulitis
+Skin::Depositional_Metabolic
+Skin::Depositional_Metabolic::Amyloidosis::Amyloidosis_Lichen
+Skin::Depositional_Metabolic::Amyloidosis::Amyloidosis_Macular
+Skin::Depositional_Metabolic::Amyloidosis::Amyloidosis_Nodular
+Skin::Depositional_Metabolic::Calcification::Calciphylaxis
+Skin::Depositional_Metabolic::Calcification::Calcinosis_Cutis_Dystrophic
+Skin::Depositional_Metabolic::Calcification::Calcinosis_Cutis_Metastatic
+Skin::Depositional_Metabolic::Calcification::Scrotal_Calcinosis
+Skin::Depositional_Metabolic::Calcification::Subepidermal_Calcified_Nodule
+Skin::Depositional_Metabolic::Crystal::Gout_Urate_Crystal
+Skin::Depositional_Metabolic::Crystal::Oxalosis
+Skin::Depositional_Metabolic::Embolic::Cholesterol_Emboli
+Skin::Depositional_Metabolic::Hyaline::Colloid_Milium
+Skin::Depositional_Metabolic::Hyaline::Erythropoietic_Protoporphyria
+Skin::Depositional_Metabolic::Hyaline::Lipoid_Proteinosis
+Skin::Depositional_Metabolic::Mucinosis::Digital_Myxoid_Cyst
+Skin::Depositional_Metabolic::Mucinosis::Focal_Cutaneous_Mucinosis
+Skin::Depositional_Metabolic::Mucinosis::Mucocele
+Skin::Depositional_Metabolic::Mucinosis::Pretibial_Myxedema
+Skin::Depositional_Metabolic::Mucinosis::Reticular_Erythematous_Mucinosis
+Skin::Depositional_Metabolic::Mucinosis::Scleredema_of_Buschke
+Skin::Depositional_Metabolic::Mucinosis::Scleromyxedema
+Skin::Depositional_Metabolic::Pigment::Argyria
+Skin::Depositional_Metabolic::Pigment::Minocycline_Pigmentation
+Skin::Depositional_Metabolic::Pigment::Ochronosis_Exogenous_Endogenous
+Skin::Depositional_Metabolic::Pigment::Tattoo_Reaction
+Skin::Depositional_Metabolic::Xanthoma::Eruptive_Xanthoma
+Skin::Depositional_Metabolic::Xanthoma::Tendinous_Xanthoma
+Skin::Depositional_Metabolic::Xanthoma::Tuberous_Xanthoma
+Skin::Depositional_Metabolic::Xanthoma::Verruciform_Xanthoma
+Skin::Depositional_Metabolic::Xanthoma::Xanthelasma
+Skin::Depositional_Metabolic::Xanthoma::Xanthogranuloma_Juvenile
+Skin::Neoplastic
+Skin::Neoplastic::Adnexal::Adnexal_Neoplasm_Overview_NOS
+Skin::Neoplastic::Adnexal::Apocrine::Hidradenoma_Papilliferum
+Skin::Neoplastic::Adnexal::Apocrine::Syringocystadenoma_Papilliferum
+Skin::Neoplastic::Adnexal::Apocrine::Tubular_Apocrine_Adenoma
+Skin::Neoplastic::Adnexal::Eccrine::Adenoid_Cystic_Carcinoma_Cutaneous
+Skin::Neoplastic::Adnexal::Eccrine::Clear_Cell_Hidradenoma
+Skin::Neoplastic::Adnexal::Eccrine::Cylindroma
+Skin::Neoplastic::Adnexal::Eccrine::Dermal_Duct_Tumor
+Skin::Neoplastic::Adnexal::Eccrine::Digital_Papillary_Adenocarcinoma
+Skin::Neoplastic::Adnexal::Eccrine::Eccrine_Angiomatous_Hamartoma
+Skin::Neoplastic::Adnexal::Eccrine::Hidradenocarcinoma
+Skin::Neoplastic::Adnexal::Eccrine::Hidroacanthoma_Simplex
+Skin::Neoplastic::Adnexal::Eccrine::Microcystic_Adnexal_Carcinoma
+Skin::Neoplastic::Adnexal::Eccrine::Mixed_Tumor_Chondroid_Syringoma
+Skin::Neoplastic::Adnexal::Eccrine::Mucinous_Carcinoma_Primary_Cutaneous
+Skin::Neoplastic::Adnexal::Eccrine::Nodular_Hidradenoma
+Skin::Neoplastic::Adnexal::Eccrine::Papillary_Eccrine_Adenoma
+Skin::Neoplastic::Adnexal::Eccrine::Porocarcinoma
+Skin::Neoplastic::Adnexal::Eccrine::Poroma_Eccrine
+Skin::Neoplastic::Adnexal::Eccrine::Sclerosing_Sweat_Duct_Carcinoma
+Skin::Neoplastic::Adnexal::Eccrine::Spiradenocarcinoma
+Skin::Neoplastic::Adnexal::Eccrine::Spiradenoma
+Skin::Neoplastic::Adnexal::Eccrine::Syringofibroadenoma_of_Mascaro
+Skin::Neoplastic::Adnexal::Eccrine::Syringoma
+Skin::Neoplastic::Adnexal::Follicular::Basaloid_Follicular_Hamartoma
+Skin::Neoplastic::Adnexal::Follicular::Desmoplastic_Trichilemmoma
+Skin::Neoplastic::Adnexal::Follicular::Dilated_Pore_Of_Winer
+Skin::Neoplastic::Adnexal::Follicular::Fibrofolliculoma
+Skin::Neoplastic::Adnexal::Follicular::Inverted_Follicular_Keratosis
+Skin::Neoplastic::Adnexal::Follicular::Panfolliculoma
+Skin::Neoplastic::Adnexal::Follicular::Pilar_Sheath_Acanthoma
+Skin::Neoplastic::Adnexal::Follicular::Pilomatrical_Carcinoma
+Skin::Neoplastic::Adnexal::Follicular::Pilomatricoma
+Skin::Neoplastic::Adnexal::Follicular::Trichilemmal_Carcinoma
+Skin::Neoplastic::Adnexal::Follicular::Trichilemmoma
+Skin::Neoplastic::Adnexal::Follicular::Trichoadenoma
+Skin::Neoplastic::Adnexal::Follicular::Trichoblastoma
+Skin::Neoplastic::Adnexal::Follicular::Trichodiscoma
+Skin::Neoplastic::Adnexal::Follicular::Trichoepithelioma
+Skin::Neoplastic::Adnexal::Follicular::Trichofolliculoma
+Skin::Neoplastic::Adnexal::Follicular::Tumor_Of_Follicular_Infundibulum
+Skin::Neoplastic::Adnexal::Paget::Extramammary_Paget_Disease
+Skin::Neoplastic::Adnexal::Sebaceous::Cystic_Sebaceous_Adenoma
+Skin::Neoplastic::Adnexal::Sebaceous::Fordyce_Spot
+Skin::Neoplastic::Adnexal::Sebaceous::Sebaceoma
+Skin::Neoplastic::Adnexal::Sebaceous::Sebaceous_Adenoma
+Skin::Neoplastic::Adnexal::Sebaceous::Sebaceous_Carcinoma
+Skin::Neoplastic::Adnexal::Sebaceous::Sebaceous_Hyperplasia
+Skin::Neoplastic::Epidermal::Benign::Acantholytic_Acanthoma
+Skin::Neoplastic::Epidermal::Benign::Clear_Cell_Acanthoma
+Skin::Neoplastic::Epidermal::Benign::Epidermal_Nevus
+Skin::Neoplastic::Epidermal::Benign::Epidermolytic_Acanthoma
+Skin::Neoplastic::Epidermal::Benign::Inflammatory_Linear_Verrucous_Epidermal_Nevus
+Skin::Neoplastic::Epidermal::Benign::Large_Cell_Acanthoma
+Skin::Neoplastic::Epidermal::Benign::Lichen_Planus_Like_Keratosis
+Skin::Neoplastic::Epidermal::Benign::Melanoacanthoma
+Skin::Neoplastic::Epidermal::Benign::Seborrheic_Keratosis_NOS
+Skin::Neoplastic::Epidermal::Benign::Seborrheic_Keratosis_Acanthotic
+Skin::Neoplastic::Epidermal::Benign::Seborrheic_Keratosis_Clonal
+Skin::Neoplastic::Epidermal::Benign::Seborrheic_Keratosis_Irritated
+Skin::Neoplastic::Epidermal::Benign::Seborrheic_Keratosis_Reticulated
+Skin::Neoplastic::Epidermal::Benign::Warty_Dyskeratoma
+Skin::Neoplastic::Epidermal::Malignant::Basal_Cell_Carcinoma_Overview_NOS
+Skin::Neoplastic::Epidermal::Malignant::Basal_Cell_Carcinoma_Infiltrative
+Skin::Neoplastic::Epidermal::Malignant::Basal_Cell_Carcinoma_Micronodular
+Skin::Neoplastic::Epidermal::Malignant::Basal_Cell_Carcinoma_Morpheaform
+Skin::Neoplastic::Epidermal::Malignant::Basal_Cell_Carcinoma_Nodular
+Skin::Neoplastic::Epidermal::Malignant::Basal_Cell_Carcinoma_Superficial
+Skin::Neoplastic::Epidermal::Malignant::Basosquamous_Carcinoma
+Skin::Neoplastic::Epidermal::Malignant::Fibroepithelioma_Of_Pinkus
+Skin::Neoplastic::Epidermal::Malignant::Keratoacanthoma
+Skin::Neoplastic::Epidermal::Malignant::Lymphoepithelioma_Like_Carcinoma
+Skin::Neoplastic::Epidermal::Malignant::Squamous_Cell_Carcinoma_Invasive_NOS
+Skin::Neoplastic::Epidermal::Malignant::Squamous_Cell_Carcinoma_Acantholytic
+Skin::Neoplastic::Epidermal::Malignant::Squamous_Cell_Carcinoma_Spindle_Cell
+Skin::Neoplastic::Epidermal::Malignant::Squamous_Cell_Carcinoma_Verrucous
+Skin::Neoplastic::Epidermal::Precursor::Actinic_Keratosis_NOS
+Skin::Neoplastic::Epidermal::Precursor::Actinic_Keratosis_Hypertrophic
+Skin::Neoplastic::Epidermal::Precursor::Actinic_Keratosis_Lichenoid
+Skin::Neoplastic::Epidermal::Precursor::Bowen_Disease_SCC_In_Situ
+Skin::Neoplastic::Epidermal::Precursor::Porokeratosis_Disseminated_Superficial_Actinic
+Skin::Neoplastic::Hematolymphoid::Cutaneous_Lymphoma_Overview_NOS
+Skin::Neoplastic::Hematolymphoid::Anaplastic_Large_Cell_Lymphoma_Cutaneous
+Skin::Neoplastic::Hematolymphoid::Cutaneous_B_Cell_Lymphoma
+Skin::Neoplastic::Hematolymphoid::Langerhans_Cell_Histiocytosis
+Skin::Neoplastic::Hematolymphoid::Leukemia_Cutis
+Skin::Neoplastic::Hematolymphoid::Lymphomatoid_Papulosis
+Skin::Neoplastic::Hematolymphoid::Mastocytosis_Urticaria_Pigmentosa
+Skin::Neoplastic::Hematolymphoid::Mycosis_Fungoides
+Skin::Neoplastic::Hematolymphoid::Mycosis_Fungoides_Folliculotropic
+Skin::Neoplastic::Hematolymphoid::Sezary_Syndrome
+Skin::Neoplastic::Hematolymphoid::Subcutaneous_Panniculitis_Like_T_Cell_Lymphoma
+Skin::Neoplastic::Melanocytic::Benign::Acral_Nevus
+Skin::Neoplastic::Melanocytic::Benign::Balloon_Cell_Nevus
+Skin::Neoplastic::Melanocytic::Benign::Blue_Nevus_Common
+Skin::Neoplastic::Melanocytic::Benign::Blue_Nevus_Cellular
+Skin::Neoplastic::Melanocytic::Benign::Blue_Nevus_Epithelioid
+Skin::Neoplastic::Melanocytic::Benign::Combined_Nevus
+Skin::Neoplastic::Melanocytic::Benign::Common_Acquired_Nevus_NOS
+Skin::Neoplastic::Melanocytic::Benign::Congenital_Nevus
+Skin::Neoplastic::Melanocytic::Benign::Deep_Penetrating_Nevus
+Skin::Neoplastic::Melanocytic::Benign::Dysplastic_Nevus
+Skin::Neoplastic::Melanocytic::Benign::Ephelis_Freckle
+Skin::Neoplastic::Melanocytic::Benign::Halo_Nevus
+Skin::Neoplastic::Melanocytic::Benign::Lentigo_Simplex
+Skin::Neoplastic::Melanocytic::Benign::Melanotic_Macule_Labial_Oral
+Skin::Neoplastic::Melanocytic::Benign::Meyerson_Nevus
+Skin::Neoplastic::Melanocytic::Benign::Mongolian_Spot
+Skin::Neoplastic::Melanocytic::Benign::Nevus_of_Ota_Ito
+Skin::Neoplastic::Melanocytic::Benign::Recurrent_Nevus_Pseudomelanoma
+Skin::Neoplastic::Melanocytic::Benign::Solar_Lentigo
+Skin::Neoplastic::Melanocytic::Benign::Spitz_Nevus
+Skin::Neoplastic::Melanocytic::Benign::Spitz_Nevus_Pigmented_Reed
+Skin::Neoplastic::Melanocytic::InterMedia ─ placeholder te::Atypical_Spitz_Tumor
+Skin::Neoplastic::Melanocytic::InterMedia ─ placeholder te::BAPoma_BAP1_Inactivated_Nevus
+Skin::Neoplastic::Melanocytic::InterMedia ─ placeholder te::Melanocytoma_PEM
+Skin::Neoplastic::Melanocytic::Malignant::Melanoma_Invasive_Overview_NOS
+Skin::Neoplastic::Melanocytic::Malignant::Melanoma_Acral_Lentiginous
+Skin::Neoplastic::Melanocytic::Malignant::Melanoma_Desmoplastic
+Skin::Neoplastic::Melanocytic::Malignant::Melanoma_In_Situ
+Skin::Neoplastic::Melanocytic::Malignant::Melanoma_Lentigo_Maligna_Type
+Skin::Neoplastic::Melanocytic::Malignant::Melanoma_Metastatic_To_Skin
+Skin::Neoplastic::Melanocytic::Malignant::Melanoma_Nodular
+Skin::Neoplastic::Melanocytic::Malignant::Melanoma_Spitzoid
+Skin::Neoplastic::Melanocytic::Malignant::Melanoma_Superficial_Spreading
+Skin::Neoplastic::Metastatic::Metastatic_Carcinoma_Cutaneous_Overview
+Skin::Neoplastic::Metastatic::Metastatic_Breast_Carcinoma
+Skin::Neoplastic::Metastatic::Metastatic_Colon_Carcinoma
+Skin::Neoplastic::Metastatic::Metastatic_Lung_Carcinoma
+Skin::Neoplastic::Metastatic::Metastatic_Renal_Cell_Carcinoma
+Skin::Neoplastic::Soft_Tissue::Adipocytic::Angiolipoma
+Skin::Neoplastic::Soft_Tissue::Adipocytic::Atypical_Lipomatous_Tumor
+Skin::Neoplastic::Soft_Tissue::Adipocytic::Hibernoma
+Skin::Neoplastic::Soft_Tissue::Adipocytic::Lipoblastoma
+Skin::Neoplastic::Soft_Tissue::Adipocytic::Lipoma
+Skin::Neoplastic::Soft_Tissue::Adipocytic::Nevus_Lipomatosus_Superficialis
+Skin::Neoplastic::Soft_Tissue::Adipocytic::Pleomorphic_Liposarcoma
+Skin::Neoplastic::Soft_Tissue::Adipocytic::Spindle_Cell_Lipoma
+Skin::Neoplastic::Soft_Tissue::Fibrous::Acquired_Digital_Fibrokeratoma
+Skin::Neoplastic::Soft_Tissue::Fibrous::Angiofibroma_Fibrous_Papule
+Skin::Neoplastic::Soft_Tissue::Fibrous::Atypical_Fibroxanthoma
+Skin::Neoplastic::Soft_Tissue::Fibrous::Dermatofibroma_Benign_Fibrous_Histiocytoma
+Skin::Neoplastic::Soft_Tissue::Fibrous::Dermatofibroma_Atypical
+Skin::Neoplastic::Soft_Tissue::Fibrous::Dermatofibroma_Cellular
+Skin::Neoplastic::Soft_Tissue::Fibrous::Dermatofibrosarcoma_Protuberans_DFSP
+Skin::Neoplastic::Soft_Tissue::Fibrous::Dermatomyofibroma
+Skin::Neoplastic::Soft_Tissue::Fibrous::Desmoplastic_Fibroblastoma
+Skin::Neoplastic::Soft_Tissue::Fibrous::Elastofibroma_Dorsi
+Skin::Neoplastic::Soft_Tissue::Fibrous::Fibroma_of_Tendon_Sheath
+Skin::Neoplastic::Soft_Tissue::Fibrous::Fibrous_Hamartoma_of_Infancy
+Skin::Neoplastic::Soft_Tissue::Fibrous::Gardner_Fibroma
+Skin::Neoplastic::Soft_Tissue::Fibrous::Giant_Cell_Tumor_Soft_Tissue
+Skin::Neoplastic::Soft_Tissue::Fibrous::Giant_Cell_Tumor_Tendon_Sheath
+Skin::Neoplastic::Soft_Tissue::Fibrous::Infantile_Digital_Fibromatosis
+Skin::Neoplastic::Soft_Tissue::Fibrous::Inflammatory_Myofibroblastic_Tumor
+Skin::Neoplastic::Soft_Tissue::Fibrous::Low_Grade_Fibromyxoid_Sarcoma
+Skin::Neoplastic::Soft_Tissue::Fibrous::Multinucleate_Cell_Angiohistiocytoma
+Skin::Neoplastic::Soft_Tissue::Fibrous::Myxofibrosarcoma
+Skin::Neoplastic::Soft_Tissue::Fibrous::Myxoinflammatory_Fibroblastic_Sarcoma
+Skin::Neoplastic::Soft_Tissue::Fibrous::Nodular_Fasciitis
+Skin::Neoplastic::Soft_Tissue::Fibrous::Nuchal_Type_Fibroma
+Skin::Neoplastic::Soft_Tissue::Fibrous::Pleomorphic_Dermal_Sarcoma
+Skin::Neoplastic::Soft_Tissue::Fibrous::Plexiform_Fibrohistiocytic_Tumor
+Skin::Neoplastic::Soft_Tissue::Fibrous::Sclerosing_Epithelioid_Fibrosarcoma
+Skin::Neoplastic::Soft_Tissue::Fibrous::Solitary_Fibrous_Tumor
+Skin::Neoplastic::Soft_Tissue::Fibrous::Superficial_Acral_Fibromyxoma
+Skin::Neoplastic::Soft_Tissue::Fibrous::Superficial_Fibromatosis
+Skin::Neoplastic::Soft_Tissue::Muscular::Angioleiomyoma
+Skin::Neoplastic::Soft_Tissue::Muscular::Cutaneous_Leiomyoma_Pilar
+Skin::Neoplastic::Soft_Tissue::Muscular::Genital_Leiomyoma
+Skin::Neoplastic::Soft_Tissue::Muscular::Leiomyosarcoma_Cutaneous
+Skin::Neoplastic::Soft_Tissue::Muscular::Rhabdomyoma
+Skin::Neoplastic::Soft_Tissue::Muscular::Smooth_Muscle_Hamartoma
+Skin::Neoplastic::Soft_Tissue::Neural::Granular_Cell_Tumor
+Skin::Neoplastic::Soft_Tissue::Neural::Malignant_Peripheral_Nerve_Sheath_Tumor
+Skin::Neoplastic::Soft_Tissue::Neural::Merkel_Cell_Carcinoma
+Skin::Neoplastic::Soft_Tissue::Neural::Neurofibroma
+Skin::Neoplastic::Soft_Tissue::Neural::Neurofibroma_Plexiform
+Skin::Neoplastic::Soft_Tissue::Neural::Neurothekeoma
+Skin::Neoplastic::Soft_Tissue::Neural::Palisaded_Encapsulated_Neuroma
+Skin::Neoplastic::Soft_Tissue::Neural::Perineurioma
+Skin::Neoplastic::Soft_Tissue::Neural::Schwannoma
+Skin::Neoplastic::Soft_Tissue::Uncertain::Angiomatoid_Fibrous_Histiocytoma
+Skin::Neoplastic::Soft_Tissue::Uncertain::Clear_Cell_Sarcoma_Soft_Tissue
+Skin::Neoplastic::Soft_Tissue::Uncertain::Epithelioid_Sarcoma
+Skin::Neoplastic::Soft_Tissue::Uncertain::Ewing_Sarcoma_Cutaneous
+Skin::Neoplastic::Soft_Tissue::Uncertain::Myoepithelial_Carcinoma
+Skin::Neoplastic::Soft_Tissue::Uncertain::Ossifying_Fibromyxoid_Tumor
+Skin::Neoplastic::Soft_Tissue::Uncertain::PEComa
+Skin::Neoplastic::Soft_Tissue::Uncertain::Synovial_Sarcoma
+Skin::Neoplastic::Soft_Tissue::Vascular::Acquired_Elastotic_Hemangioma
+Skin::Neoplastic::Soft_Tissue::Vascular::Acroangiodermatitis
+Skin::Neoplastic::Soft_Tissue::Vascular::Angiokeratoma
+Skin::Neoplastic::Soft_Tissue::Vascular::Angiosarcoma_Cutaneous
+Skin::Neoplastic::Soft_Tissue::Vascular::Arteriovenous_Malformation
+Skin::Neoplastic::Soft_Tissue::Vascular::Cherry_Hemangioma
+Skin::Neoplastic::Soft_Tissue::Vascular::Composite_Hemangioendothelioma
+Skin::Neoplastic::Soft_Tissue::Vascular::Epithelioid_Hemangioendothelioma
+Skin::Neoplastic::Soft_Tissue::Vascular::Epithelioid_Hemangioma
+Skin::Neoplastic::Soft_Tissue::Vascular::Glomus_Tumor
+Skin::Neoplastic::Soft_Tissue::Vascular::Glomuvenous_Malformation
+Skin::Neoplastic::Soft_Tissue::Vascular::Hobnail_Hemangioma
+Skin::Neoplastic::Soft_Tissue::Vascular::Infantile_Hemangioma
+Skin::Neoplastic::Soft_Tissue::Vascular::Kaposi_Sarcoma
+Skin::Neoplastic::Soft_Tissue::Vascular::Kaposiform_Hemangioendothelioma
+Skin::Neoplastic::Soft_Tissue::Vascular::Lobular_Capillary_Hemangioma_Pyogenic_Granuloma
+Skin::Neoplastic::Soft_Tissue::Vascular::Lymphangioma
+Skin::Neoplastic::Soft_Tissue::Vascular::Microvenular_Hemangioma
+Skin::Neoplastic::Soft_Tissue::Vascular::Myopericytoma
+Skin::Neoplastic::Soft_Tissue::Vascular::Papillary_Endothelial_Hyperplasia_Masson
+Skin::Neoplastic::Soft_Tissue::Vascular::Spindle_Cell_Hemangioma
+Skin::Neoplastic::Soft_Tissue::Vascular::Tufted_Hemangioma
+Skin::Neoplastic::Soft_Tissue::Vascular::Verrucous_Hemangioma
+`;
+
+            const systemPrompt = `
+                You are a Dermatopathology teaching assistant.
+                I have a list of available slides matching the search term "${query}".
+                
+                Goal: Select exactly 10 slides to create a "well-rounded" educational quiz set.
+                - You MUST return 10 items.
+                - Include common/classic examples.
+                - Include important variants or differential diagnoses if available in the list.
+                - Use the provided TAXONOMY to identify relevant differentials or broad categories for the search term "${query}".
+                - Avoid duplicates.
+                
+                Return ONLY a valid JSON array of strings, where each string is the exact 'entity_name' from the provided list.
+                Do not include markdown formatting or extra text.
+
+                TAXONOMY CONTEXT:
+                ${TAXONOMY}
+            `;
+
+            const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?key=${apiKey}`;
+
+            const payload = {
+                contents: [{
+                    parts: [{ text: systemPrompt + "\n\nAvailable List: " + JSON.stringify(truncatedCandidates) }]
+                }]
+            };
+
+            const response = await fetch(url, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(payload)
+            });
+
+            if (!response.ok) throw new Error("Gemini API Error: " + response.statusText);
+
+            const data = await response.json();
+            const textResponse = data.candidates[0].content.parts[0].text;
+
+            // Cleanup markdown if present
+            const cleanJson = textResponse.replace(/^```json/, '').replace(/^```/, '').replace(/```$/, '').trim();
+            return JSON.parse(cleanJson);
+        }
+
+
+        // --- MASTER FILE LOADER (THE NEW FEATURE) ---
+        // Auto-load on startup
+        async function autoLoadMasterAndSetup() {
+            const status = document.getElementById('file-status');
+            const btnGen = document.getElementById('btn-generate');
+            const searchInput = document.getElementById('search-query');
+            const apiKeyInput = document.getElementById('api-key');
+
+            // Pre-fill API Key in UI
+            if (CONFIG.apiKey) {
+                apiKeyInput.value = CONFIG.apiKey;
+                // It is hidden by default in HTML
+            } else {
+                // If no hardcoded key, show the input and hide the "Click to Change" text
+                apiKeyInput.style.display = 'block';
+                document.getElementById('apikey-trigger').style.display = 'none';
+            }
+
+            status.style.display = 'block';
+            status.style.color = '#3498db';
+            status.innerText = "Auto-loading Dataset (Skin_Global_Leaf_Optimized.json)...";
+
+            try {
+                const response = await fetch(DEFAULT_MASTER_FILE);
+                if (!response.ok) throw new Error("Failed to fetch default dataset");
+                masterData = await response.json();
+
+                if (!Array.isArray(masterData)) throw new Error("Master file must be an array of entities.");
+
+                status.style.color = '#27ae60';
+                status.innerText = `Ready! Loaded ${masterData.length} entities.`;
+
+                // Enable Search
+                searchInput.disabled = false;
+                btnGen.disabled = false;
+                searchInput.focus();
+
+            } catch (err) {
+                console.error(err);
+                status.style.color = '#e74c3c';
+                status.innerText = "Auto-load failed. Please load file manually.";
+            }
+        }
+
+        masterInput.addEventListener('change', function (e) {
+            const file = e.target.files[0];
+            if (!file) return;
+
+            const status = document.getElementById('file-status');
+            status.style.display = 'block';
+            status.style.color = '#bdc3c7';
+            status.innerText = "Loading Master File (This may take a moment)...";
+
+            const reader = new FileReader();
+            reader.onload = function (e) {
+                try {
+                    masterData = JSON.parse(e.target.result);
+                    // Basic validation
+                    if (!Array.isArray(masterData)) throw new Error("Master file must be an array of entities.");
+
+                    status.style.color = '#27ae60';
+                    status.innerText = `Loaded: ${masterData.length} entities`;
+
+                    // Enable Search
+                    document.getElementById('search-query').disabled = false;
+                    document.getElementById('btn-generate').disabled = false;
+                } catch (err) {
+                    status.style.color = '#e74c3c';
+                    status.innerText = "Error: Invalid JSON format";
+                    console.error(err);
+                }
+            };
+            reader.readAsText(file);
+        });
+
+
+        // --- QUIZ GENERATOR LOGIC ---
+        async function generateQuiz() {
+            const queryRaw = document.getElementById('search-query').value.trim();
+            const apiKey = document.getElementById('api-key').value.trim();
+            const btn = document.getElementById('btn-generate');
+
+            if (!queryRaw) { alert("Please enter a search term."); return; }
+            if (!masterData) { alert("Master file not loaded."); return; }
+            if (!apiKey) {
+                if (!confirm("No API Key provided. Quiz will be RANDOMIZED instead of AI-Curated. Continue?")) return;
+            }
+
+            btn.disabled = true;
+            aiStatus.style.display = 'block';
+            aiStatus.innerText = "Scanning dataset...";
+
+            // 1. Flexible "Bag of Words" Search
+            // Tokenize query: "show me melanoma" -> ["show", "me", "melanoma"]
+            const tokens = queryRaw.toLowerCase().split(/\s+/).filter(t => t.length > 2); // Ignore short words
+
+            if (tokens.length === 0) {
+                alert("Please enter a more specific search term.");
+                btn.disabled = false;
+                return;
+            }
+
+            // Score entities
+            const scoredMatches = [];
+            masterData.forEach(item => {
+                let score = 0;
+                const name = item.entity_name ? item.entity_name.toLowerCase() : "";
+                const tags = item.tags ? item.tags.join(" ").toLowerCase() : "";
+
+                tokens.forEach(token => {
+                    if (name.includes(token)) score += 3; // Name match weight
+                    if (tags.includes(token)) score += 1; // Tag match weight
+                });
+
+                if (score > 0) {
+                    scoredMatches.push({ item: item, score: score });
+                }
+            });
+
+            // Sort by score
+            scoredMatches.sort((a, b) => b.score - a.score);
+            const matches = scoredMatches.map(m => m.item);
+
+            if (matches.length === 0) {
+                alert("No matches found for: " + queryRaw);
+                btn.disabled = false;
+                aiStatus.style.display = 'none';
+                return;
+            }
+
+            let selectedEntities = matches;
+
+            // 2. AI Curation
+            if (apiKey && matches.length > 5) {
+                try {
+                    aiStatus.innerText = `Found ${matches.length} candidates. Consulting Gemini for top 10...`;
+                    const curatedNames = await getGeminiCuration(apiKey, queryRaw, matches);
+
+                    if (curatedNames && Array.isArray(curatedNames) && curatedNames.length > 0) {
+                        selectedEntities = masterData.filter(e => curatedNames.includes(e.entity_name));
+                        console.log("Gemini curated:", curatedNames);
+                        aiStatus.innerText = "AI Curation Complete!";
+                    }
+                } catch (e) {
+                    console.error("AI Curation Failed, falling back to local scores", e);
+                    aiStatus.innerText = "AI Failed, using top matches.";
+                    aiStatus.style.color = "orange";
+                    // Fallback: take top 10 highest scored
+                    selectedEntities = matches.slice(0, 10);
+                }
+            } else {
+                // No API key or few matches
+                aiStatus.innerText = "Generating Randomized Quiz...";
+                // Randomly pick 10 from top 50 matches to keep it relevant but varied
+                const pool = matches.slice(0, 50);
+                selectedEntities = [];
+                while (selectedEntities.length < 10 && pool.length > 0) {
+                    const idx = Math.floor(Math.random() * pool.length);
+                    selectedEntities.push(pool.splice(idx, 1)[0]);
+                }
+            }
+
+            // 3. Flatten WSIs into Unknowns Format with Source Filtering
+            const slides = [];
+
+            // Source Filters
+            const allowLeeds = document.getElementById('src-leeds').checked;
+            const allowMgh = document.getElementById('src-mgh').checked;
+            const allowRosai = document.getElementById('src-rosai').checked;
+            const allowWho = document.getElementById('src-who').checked;
+            const allowDpa = document.getElementById('src-dpa').checked;
+
+            selectedEntities.forEach(entity => {
+                if (entity.media && Array.isArray(entity.media)) {
+                    // Get only WSIs, filter junk
+                    const validWsis = entity.media.filter(m => {
+                        if (m.type !== 'wsi') return false;
+
+                        // Strict Image Extension Filter
+                        if (m.url.match(/\.(jpeg|jpg|png|gif|webp)(\?.*)?$/i)) return false;
+
+                        // Source Domain Filter
+                        const url = m.url.toLowerCase();
+                        let allowed = false;
+
+                        if (allowLeeds && (url.includes('leeds.ac.uk') || url.includes('leeds.ac'))) allowed = true;
+                        if (allowMgh && url.includes('mghpathology.org')) allowed = true;
+                        if (allowRosai && url.includes('rosai.secondslide.com')) allowed = true;
+                        if (allowWho && (url.includes('who.int') || url.includes('iarc'))) allowed = true;
+                        if (allowDpa && (url.includes('dpa-dapa') || url.includes('pathpresenter'))) allowed = true;
+
+                        return allowed;
+                    });
+
+                    // Create a slide for EACH valid WSI
+                    validWsis.forEach(wsi => {
+                        slides.push({
+                            title: "Unknown Case",
+                            tag: "Generated Quiz",
+                            tags: entity.tags || [], // Pass tags for smart linking
+                            entity_name: entity.entity_name, // Hidden Answer
+                            entity_name: entity.entity_name, // Hidden Answer
+                            bullets: [],
+                            quiz: [],
+                            images: [],
+                            wsi_media: [wsi]
+                        });
+                    });
+                }
+            });
+
+            // Enforce Exact Length Limit (10)
+            // Shuffle first so we don't just take the first 10 if we have more
+            for (let i = slides.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [slides[i], slides[j]] = [slides[j], slides[i]];
+            }
+
+            // Slice to exactly 10 (or fewer if we don't have enough)
+            const finalSlides = slides.slice(0, 10);
+
+            if (finalSlides.length === 0) {
+                alert(`Found matches, but none had valid WSI links.`);
+                btn.disabled = false;
+                return;
+            }
+
+            // 5. Create Presentation Data
+            presentationData = {
+                title: `Quiz: "${queryRaw}" (${finalSlides.length} cases)`,
+                theme: { primary: "#2c3e50", accent: "#e74c3c" },
+                type: "unknowns",
+                slides: finalSlides
+            };
+
+            initDeck();
+            btn.disabled = false;
+        }
+
+
+        // --- STANDARD LOADERS ---
+        function normalizeData(rawData) {
+            let normalized = {
+                title: "Pathology Quiz",
+                theme: { primary: "#2c3e50", accent: "#e74c3c" },
+                type: "standard",
+                slides: []
+            };
+
+            // Array = Unknowns
+            if (Array.isArray(rawData)) {
+                normalized.title = "WSI Unknowns Set";
+                normalized.type = "unknowns";
+
+                // FLATTEN LOGIC for Uploaded Unknowns
+                const slides = [];
+                rawData.forEach(item => {
+                    // Check if it has media
+                    if (item.media && Array.isArray(item.media)) {
+                        // Create one slide per WSI to allow randomization
+                        item.media.forEach(m => {
+                            if (m.type === 'wsi') {
+                                slides.push({
+                                    title: "Unknown Case",
+                                    tag: "WSI Unknown",
+                                    entity_name: item.entity_name,
+                                    bullets: [], quiz: [], images: [],
+                                    wsi_media: [m]
+                                });
+                            }
+                        });
+                    }
+                });
+
+                // Randomize Uploaded Unknowns too
+                for (let i = slides.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [slides[i], slides[j]] = [slides[j], slides[i]];
+                }
+                normalized.slides = slides;
+            }
+            // Object = Standard
+            else if (rawData.slides) {
+                normalized.title = rawData.title || "Pathology Quiz";
+                if (rawData.theme) normalized.theme = rawData.theme;
+                normalized.type = "standard";
+                normalized.slides = rawData.slides;
+            }
+            return normalized;
+        }
+
+        window.addEventListener('DOMContentLoaded', () => {
+            fetchGCSFiles();
+            autoLoadMasterAndSetup();
+        });
+
+        async function fetchGCSFiles() {
+            if (!CONFIG.bucketName) return;
+            let listUrl = `https://storage.googleapis.com/storage/v1/b/${CONFIG.bucketName}/o?prefix=${CONFIG.folderPrefix}`;
+            if (CONFIG.apiKey) listUrl += `&key=${CONFIG.apiKey}`;
+
+            try {
+                const response = await fetch(listUrl);
+                if (!response.ok) throw new Error("Check CORS");
+                const data = await response.json();
+                if (!data.items) { cloudSelect.innerHTML += '<option disabled>No files</option>'; return; }
+                data.items.forEach(item => {
+                    if (item.name.endsWith('.json') && !item.name.endsWith('/')) {
+                        const option = document.createElement('option');
+                        option.value = item.mediaLink;
+                        option.textContent = item.name.replace(CONFIG.folderPrefix, '');
+                        cloudSelect.appendChild(option);
+                    }
+                });
+            } catch (err) { console.error(err); }
+        }
+
+        function enableCloudLoad() { document.getElementById('btn-cloud-load').disabled = !cloudSelect.value; }
+
+        async function loadFromCloud() {
+            const url = cloudSelect.value;
+            const btn = document.getElementById('btn-cloud-load');
+            if (!url) return;
+            btn.innerText = "Downloading...";
+            btn.disabled = true;
+            try {
+                const response = await fetch(url);
+                if (!response.ok) throw new Error("Failed");
+                const rawJson = await response.json();
+                presentationData = normalizeData(rawJson);
+                initDeck();
+            } catch (err) {
+                alert("Error loading cloud file: " + err.message);
+                btn.innerText = "Load Selected";
+                btn.disabled = false;
+            }
+        }
+
+        fileInput.addEventListener('change', function (e) {
+            const file = e.target.files[0];
+            if (!file) return;
+            const reader = new FileReader();
+            reader.onload = function (e) {
+                try {
+                    const rawJson = JSON.parse(e.target.result);
+                    presentationData = normalizeData(rawJson);
+                    initDeck();
+                } catch (err) { alert("Invalid JSON"); }
+            };
+            reader.readAsText(file);
+        });
+
+        // --- RENDER LOGIC ---
+        function initDeck() {
+            document.documentElement.style.setProperty('--primary', presentationData.theme.primary);
+            document.documentElement.style.setProperty('--accent', presentationData.theme.accent);
+            document.getElementById('deck-title').textContent = presentationData.title;
+
+            const summaryBody = document.getElementById('summary-body');
+            summaryBody.innerHTML = '';
+            presentationData.slides.forEach((s, idx) => {
+                const row = document.createElement('tr');
+                row.className = 'summary-row';
+                row.onclick = () => { currentSlide = idx; renderSlide(); };
+                const displayTitle = presentationData.type === 'unknowns' ? `Case ${idx + 1}` : s.title;
+                row.innerHTML = `<td class="summary-cell">${idx + 1}</td><td class="summary-cell">${displayTitle}</td><td class="summary-cell"><span class="tag">${s.tag || ''}</span></td>`;
+                summaryBody.appendChild(row);
+            });
+
+            document.getElementById('upload-screen').style.display = 'none';
+            document.getElementById('presentation-ui').style.display = 'flex';
+            currentSlide = 0;
+            renderSlide();
+        }
+
+        function parseMd(text) {
+            if (!text) return "";
+            return text
+                .replace(/\*\*(.*?)\*\*/g, '<strong style="color:var(--text)">$1</strong>')
+                .replace(/\*(.*?)\*/g, '<em>$1</em>')
+                .replace(/\[View WSI\]\((.*?)\)/g, '<a href="#" onclick="openWsiViewer(\'$1\'); return false;" style="color: var(--accent); font-weight: bold; text-decoration: none;">🔬 View WSI</a>');
+        }
+
+        function renderSlide() {
+            const totalSlides = presentationData.slides.length;
+            const isSummary = currentSlide === totalSlides;
+            const viewport = document.getElementById('viewport');
+            const imagePanel = document.getElementById('image-panel');
+
+            if (isSummary) {
+                document.getElementById('summary-view').style.display = 'block';
+                viewport.style.display = 'none';
+                document.getElementById('slide-counter').textContent = "INDEX";
+                document.getElementById('btn-next').disabled = true;
+                document.getElementById('btn-prev').disabled = false;
+                return;
+            }
+
+            document.getElementById('summary-view').style.display = 'none';
+            document.getElementById('btn-next').disabled = false;
+            document.getElementById('btn-prev').disabled = currentSlide === 0;
+
+            const slide = presentationData.slides[currentSlide];
+            const textContainer = document.getElementById('text-content');
+            textContainer.innerHTML = '';
+
+            if (presentationData.type === 'unknowns') {
+                // UNKNOWNS MODE
+                viewport.className = 'unknown-mode';
+                viewport.style.display = 'flex';
+                imagePanel.style.display = 'none';
+
+                document.getElementById('mode-switcher').style.display = 'none';
+                document.getElementById('slide-tag').textContent = "Unknown Case";
+                document.getElementById('slide-title').textContent = `Case ${currentSlide + 1}`;
+
+                // WSI Button
+                if (slide.wsi_media && slide.wsi_media.length > 0) {
+                    const listDiv = document.createElement('div');
+                    listDiv.className = 'wsi-list';
+                    slide.wsi_media.forEach((item, i) => {
+                        const link = document.createElement('a');
+                        link.className = 'wsi-button';
+                        link.href = "#";
+                        link.innerHTML = `<span class="wsi-icon">🔬</span> View Digital Slide`;
+                        link.onclick = (e) => { e.preventDefault(); openWsiViewer(item.url); };
+                        listDiv.appendChild(link);
+                    });
+                    textContainer.appendChild(listDiv);
+                } else {
+                    textContainer.innerHTML = "<p>No WSI slides available.</p>";
+                }
+
+                // Reveal Button
+                const btn = document.createElement('button');
+                btn.className = 'unknown-reveal-btn';
+                btn.textContent = "Reveal Diagnosis";
+                const ansDiv = document.createElement('div');
+                ansDiv.className = 'unknown-answer';
+
+                // SMART NAMING & LINKING
+                let displayName = slide.entity_name;
+                let linkParam = slide.entity_name;
+                let isTag = false;
+
+                // Try to derive cleaner name from Tags if available
+                if (slide.tags && slide.tags.length > 0) {
+                    // Prefer shortest tag? or first tag? Usually first tag is primary.
+                    const bestTag = slide.tags[0];
+                    linkParam = bestTag;
+                    isTag = true;
+
+                    // Clean name from tag: "Skin::Tumors::Basal_Cell_Carcinoma" -> "Basal Cell Carcinoma"
+                    const parts = bestTag.split('::');
+                    displayName = parts[parts.length - 1].replace(/_/g, ' ');
+                }
+
+                const diagText = document.createElement('div');
+                diagText.innerHTML = `<strong>Diagnosis:</strong> ${displayName} <div style="font-size:0.8em; color:#888; margin-top:4px;">(${slide.entity_name})</div>`;
+                ansDiv.appendChild(diagText);
+
+                const localLink = LOCAL_KB_BASE + encodeURIComponent(linkParam);
+                const kbBtn = document.createElement('a');
+                kbBtn.className = 'local-link-btn';
+                kbBtn.href = localLink;
+                kbBtn.target = "_blank";
+                kbBtn.innerHTML = "📖 Open Reference (DermPath Hub)";
+                ansDiv.appendChild(kbBtn);
+
+                btn.onclick = () => {
+                    if (ansDiv.style.display === 'block') {
+                        ansDiv.style.display = 'none';
+                        btn.textContent = "Reveal Diagnosis";
+                    } else {
+                        ansDiv.style.display = 'block';
+                        btn.textContent = "Hide Diagnosis";
+                    }
+                };
+                textContainer.appendChild(btn);
+                textContainer.appendChild(ansDiv);
+
+            } else {
+                // STANDARD MODE
+                viewport.className = 'standard-mode';
+                viewport.style.display = 'grid';
+                imagePanel.style.display = 'grid';
+                document.getElementById('mode-switcher').style.display = 'flex';
+                document.getElementById('slide-tag').textContent = slide.tag || 'General';
+                document.getElementById('slide-title').textContent = slide.title;
+
+                if (currentMode === 'bullets') {
+                    if (slide.bullets && slide.bullets.length > 0) {
+                        const ul = document.createElement('ul');
+                        ul.className = 'bullets';
+                        slide.bullets.forEach(txt => {
+                            const li = document.createElement('li');
+                            li.innerHTML = parseMd(txt);
+                            ul.appendChild(li);
+                        });
+                        textContainer.appendChild(ul);
+                    } else { textContainer.innerHTML = '<p style="color:#666">No notes.</p>'; }
+                } else {
+                    if (slide.quiz && slide.quiz.length > 0) {
+                        slide.quiz.forEach(q => {
+                            const wrapper = document.createElement('div');
+                            wrapper.style.marginBottom = '1.5rem';
+                            const answerHtml = `<span class="cloze-gap" onclick="this.classList.add('revealed')">${q.answer}</span>`;
+                            const questionText = parseMd(q.question).replace('{{c1}}', answerHtml);
+                            wrapper.innerHTML = `<div style="font-size:1.1rem; line-height:1.5;">${questionText}</div>${q.hint ? `<div style="font-size:0.85rem; color:#666; margin-top:5px;">💡 ${q.hint}</div>` : ''}`;
+                            textContainer.appendChild(wrapper);
+                        });
+                    } else { textContainer.innerHTML = '<p style="color:#666">No quiz.</p>'; }
+                }
+
+                // Images
+                imagePanel.innerHTML = '';
+                const imgs = slide.images || [];
+                const count = imgs.length;
+                imagePanel.className = '';
+                if (count === 1) imagePanel.classList.add('has-1');
+                imgs.forEach((img, idx) => {
+                    const wrap = document.createElement('div');
+                    wrap.className = 'img-wrapper';
+                    if (count === 3 && idx === 0) wrap.style.gridColumn = "span 2";
+                    const resolvedUrl = resolveImgUrl(img.url);
+                    const safeUrl = resolvedUrl.replace(/'/g, "&apos;").replace(/"/g, "&quot;");
+                    const fullText = img.description || img.caption || "";
+                    const safeFullText = fullText.replace(/'/g, "&apos;").replace(/"/g, "&quot;");
+                    wrap.innerHTML = `<img src="${resolvedUrl}" onclick='openModal("${safeUrl}", "${safeFullText}")'><div class="caption">${parseMd(img.caption)}</div>`;
+                    imagePanel.appendChild(wrap);
+                });
+            }
+
+            document.getElementById('slide-counter').textContent = `${currentSlide + 1} / ${totalSlides}`;
+            document.getElementById('progress-bar').style.width = `${((currentSlide + 1) / totalSlides) * 100}%`;
+        }
+
+        function changeSlide(dir) {
+            const total = presentationData.slides.length + 1;
+            const newIndex = currentSlide + dir;
+            if (newIndex >= 0 && newIndex < total) {
+                currentSlide = newIndex;
+                renderSlide();
+            }
+        }
+
+        function setMode(mode) {
+            currentMode = mode;
+            document.getElementById('mode-study').className = `mode-opt ${mode === 'bullets' ? 'active' : ''}`;
+            document.getElementById('mode-quiz').className = `mode-opt ${mode === 'quiz' ? 'active' : ''}`;
+            renderSlide();
+        }
+
+        function goToSummary() { currentSlide = presentationData.slides.length; renderSlide(); }
+        function resetApp() { if (confirm("Load a new deck?")) window.location.reload(); }
+        function openModal(url, fullText) {
+            document.getElementById('modal-img').src = url;
+            document.getElementById('modal-caption').innerHTML = parseMd(fullText);
+            document.getElementById('modal').style.display = 'flex';
+        }
+        function closeModal(e) {
+            if (e.target.id === 'modal' || e.target.id === 'modal-img-container') document.getElementById('modal').style.display = 'none';
+        }
+        document.addEventListener('keydown', (e) => {
+            // IGNORE events if user is typing in an input field
+            const tag = document.activeElement.tagName;
+            if (tag === 'INPUT' || tag === 'TEXTAREA') return;
+
+            if (document.getElementById('modal').style.display === 'flex') { if (e.key === 'Escape') closeModal({ target: { id: 'modal' } }); return; }
+            if (e.key === 'ArrowRight') changeSlide(1);
+            if (e.key === 'ArrowLeft') changeSlide(-1);
+            if (e.key === ' ') {
+                e.preventDefault();
+                document.querySelectorAll('.cloze-gap').forEach(el => el.classList.add('revealed'));
+                const btn = document.querySelector('.unknown-reveal-btn');
+                if (btn) btn.click();
+            }
+            if (e.key === 'Escape') goToSummary();
+        });
+    </script>
+</body>
+
+</html>

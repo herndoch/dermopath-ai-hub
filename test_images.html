@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Image Diagnostic</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            padding: 20px;
+        }
+
+        .img-container {
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+
+        img {
+            max-width: 300px;
+            display: block;
+            margin-top: 10px;
+        }
+
+        .label {
+            font-weight: bold;
+        }
+
+        .working {
+            color: green;
+        }
+
+        .broken {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Image Diagnostic Page</h1>
+    <p>Please check which of the following images are visible.</p>
+
+    <div class="img-container">
+        <div class="label working">1. Textbook Image (Scabies) - SHOULD WORK</div>
+        <div>URL: _asset_library/textbooks/Skin_Levers/figure_images/Skin_Levers_page_910_img_1.jpeg</div>
+        <img src="https://storage.googleapis.com/pathology-hub-0/_asset_library/textbooks/Skin_Levers/figure_images/Skin_Levers_page_910_img_1.jpeg"
+            alt="Scabies Image">
+    </div>
+
+    <div class="img-container">
+        <div class="label broken">2. PathPresenter Image (BCC) - EXPECTED BROKEN (Expired)</div>
+        <div>URL: PathPresenter...</div>
+        <img src="https://pathpresenter.blob.core.windows.net/pathpresenterdata/Raj_Skin/Scabies%20mite%20and%20scybala_files/8/0_0.jpeg?sig=lhQDBbNHsDm3TFC%2FKbCR%2F99oCqeTzFayNnT4DolWfLQ%3D&st=2025-12-20T23%3A06%3A14Z&se=2025-12-20T23%3A36%3A14Z&sv=2018-03-28&sp=r&sr=c"
+            alt="PathPresenter Image">
+    </div>
+
+    <div class="img-container">
+        <div class="label broken">3. WHO Image (BCC) - EXPECTED BROKEN (Blocked)</div>
+        <div>URL: tumourclassification.iarc.who.int...</div>
+        <img src="https://tumourclassification.iarc.who.int/static/dzi/38354_files/10/0_0.jpeg" alt="WHO Image">
+    </div>
+</body>
+
+</html>
