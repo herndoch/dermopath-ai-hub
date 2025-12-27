@@ -1,0 +1,460 @@
+[
+  {
+    "entity_name": "Herpes Simplex Virus Infection (Oral)",
+    "definition": "A viral infection caused by HSV-1 (occasionally HSV-2) affecting the oral mucosa. Manifests as primary herpetic gingivostomatitis in na\u00efve individuals or recurrent herpes labialis/intraoral herpes in previously infected individuals.",
+    "tags": [
+      "Skin::Infectious::Viral::Herpes_Simplex_Virus_HSV1_HSV2"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Primary Herpetic Gingivostomatitis: Occurs in children or adults escaping childhood infection; presents with fever, malaise, and bilateral, fiery red gingiva with tiny blisters on attached gingiva and palate. \nRecurrent Herpes: Reactivation from trigeminal ganglion; often at vermilion border (Herpes Labialis) or keratinized mucosa. Prodrome of tingling followed by crops of vesicles that ulcerate. Can cause herpetic whitlow (finger) or herpetic keratitis (eye) in dental personnel without protection.",
+    "pathogenesis": "Viral infection (HSV-1 > HSV-2). Virus resides in trigeminal ganglion and reactivates due to stress, UV, or trauma.",
+    "macroscopic": "Primary: Widespread gingival erythema and vesiculation. Recurrent: Cluster of vesicles on an erythematous base, often crusting (lips) or ulcerating (intraoral).",
+    "microscopic": "Intraepithelial vesiculation with viral cytopathic effects (ballooning degeneration, multinucleation, nuclear molding).",
+    "ancillary_studies": "Direct fluorescent antibody (DFA), PCR, or Tzanck smear (though not explicitly detailed in lecture, viral etiology is noted).",
+    "differential_diagnosis": "Erythema Multiforme (can look similar to widespread primary herpes), Aphthous ulcers (occur on non-keratinized mucosa vs HSV on keratinized).",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Primary infection resolves; virus remains latent. Recurrent episodes are self-limiting. Treat with acyclovir/valacyclovir.",
+    "related_figures": [
+      {
+        "id": "Slide_11",
+        "src": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0011.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0011.jpg",
+        "diagnosis": "Primary Herpetic Gingivostomatitis",
+        "legend": "Fiery red gingiva with tiny blisters on attached gingiva and palate. (Time: 433s)"
+      },
+      {
+        "id": "Slide_12",
+        "src": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0012.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0012.jpg",
+        "diagnosis": "Primary Herpetic Gingivostomatitis",
+        "legend": "Involvement of the tongue. (Time: 556s)"
+      },
+      {
+        "id": "Slide_14",
+        "src": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0014.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0014.jpg",
+        "diagnosis": "Recurrent Herpes Labialis",
+        "legend": "Crops of vesicles at the vermilion border. (Time: 581s)"
+      },
+      {
+        "id": "Slide_15",
+        "src": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0015.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0015.jpg",
+        "diagnosis": "Recurrent Herpes Labialis",
+        "legend": "Bilateral involvement of lips due to virus traveling down maxillary and mandibular branches. (Time: 636s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Hand, Foot, and Mouth Disease",
+    "definition": "A viral infection typically affecting children, characterized by vesicles on the hands, feet, and oral mucosa.",
+    "tags": [
+      "Skin::Infectious::Viral::Hand_Foot_And_Mouth_Disease"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Blisters/ulcers in the mouth accompanied by lesions on hands and feet. Occurs in waves, typically in winter. No lasting immunity (can recur with different strains).",
+    "pathogenesis": "Caused by Coxsackievirus A16 or Enterovirus A71.",
+    "macroscopic": "Vesicles and ulcers in oral cavity; acral vesicles.",
+    "microscopic": "Intraepidermal vesiculation.",
+    "ancillary_studies": "N/A",
+    "differential_diagnosis": "Herpangina (mouth only), Primary Herpes.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Self-limiting.",
+    "related_figures": [
+      {
+        "id": "Slide_19",
+        "src": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0019.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0019.jpg",
+        "diagnosis": "Hand, Foot, and Mouth Disease",
+        "legend": "Infection affecting the hands, feet, and mouth. (Time: 741s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Herpangina",
+    "definition": "An acute febrile viral illness associated with vesicles and ulcers on the soft palate and tonsillar pillars.",
+    "tags": [
+      "Skin::Infectious::Viral::Cutaneous_Viral_Infection_NOS"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Sore throat, red soft palate with blisters. Essentially HFMD restricted to the mouth. Typical in winter.",
+    "pathogenesis": "Caused by Coxsackievirus.",
+    "macroscopic": "Vesicles and ulcers on the soft palate.",
+    "microscopic": "N/A",
+    "ancillary_studies": "N/A",
+    "differential_diagnosis": "Hand, Foot, and Mouth Disease, Herpetic stomatitis.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Self-limiting.",
+    "related_figures": [
+      {
+        "id": "Slide_20",
+        "src": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0020.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0020.jpg",
+        "diagnosis": "Herpangina",
+        "legend": "Redness and blisters involving the soft palate. (Time: 776s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Pemphigus Vulgaris (Oral)",
+    "definition": "An autoimmune mucocutaneous blistering disease caused by antibodies against desmoglein 3.",
+    "tags": [
+      "Skin::Inflammatory::Blistering::Pemphigus_Vulgaris"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Widespread intraoral blisters that are fragile and rupture easily, leaving ragged, shallow ulcers on palate, gingiva, lips, and cheeks. Patients often recall having blisters even if only ulcers are seen.",
+    "pathogenesis": "Autoantibodies target Desmoglein 3 (component of desmosomes), leading to loss of cell-cell adhesion.",
+    "macroscopic": "Irregular ragged shallow ulcers; intact blisters are rare due to fragility.",
+    "microscopic": "Suprabasal epithelial separation (clefting) with free-floating acantholytic keratinocytes (Tzanck cells) within the cleft.",
+    "ancillary_studies": "Direct Immunofluorescence (DIF): Intercellular IgG deposits (fishnet/chicken-wire appearance).",
+    "differential_diagnosis": "Mucous Membrane Pemphigoid (intact blisters, subepithelial), Paraneoplastic Pemphigus (if DIF is negative or atypical).",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Chronic course; requires management. Can be fatal if untreated.",
+    "related_figures": [
+      {
+        "id": "Slide_21",
+        "src": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0021.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0021.jpg",
+        "diagnosis": "Pemphigus Vulgaris",
+        "legend": "Irregular ragged shallow ulcers on the palate. (Time: 818s)"
+      },
+      {
+        "id": "Slide_25",
+        "src": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0025.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0025.jpg",
+        "diagnosis": "Pemphigus Vulgaris",
+        "legend": "Histology showing suprabasal cleft. (Time: 989s)"
+      },
+      {
+        "id": "Slide_26",
+        "src": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0026.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0026.jpg",
+        "diagnosis": "Pemphigus Vulgaris",
+        "legend": "DIF showing intercellular IgG (fishnet appearance). (Time: 1016s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Mucous Membrane Pemphigoid",
+    "definition": "A chronic autoimmune subepithelial blistering disease predominantly affecting mucous membranes.",
+    "tags": [
+      "Skin::Inflammatory::Blistering::Cicatricial_Pemphigoid_Mucous_Membrane"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Intact blisters (tense) on gingiva/mucosa, desquamative gingivitis. Positive Nikolsky-like sign (air syringe can lift tissue). Significant ocular morbidity (symblepharon, entropion, scarring). Affects older adults (>10 years older than PV).",
+    "pathogenesis": "Autoantibodies against basement membrane zone proteins: Laminin 5 and BP180.",
+    "macroscopic": "Tense, intact blisters; erosions on gingiva; ocular scarring.",
+    "microscopic": "Subepithelial separation (clean separation of epithelium from connective tissue at basement membrane).",
+    "ancillary_studies": "Direct Immunofluorescence (DIF): Linear deposits of IgG and/or C3 along the basement membrane zone.",
+    "differential_diagnosis": "Pemphigus Vulgaris, Bullous Pemphigoid, Lichen Planus.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Low mortality but high morbidity (blindness/scarring). Treated with topical steroids (often using dental trays) or systemic therapy.",
+    "related_figures": [
+      {
+        "id": "Slide_27",
+        "src": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0027.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0027.jpg",
+        "diagnosis": "Mucous Membrane Pemphigoid",
+        "legend": "Intact blisters on the lingual mucosa. (Time: 1070s)"
+      },
+      {
+        "id": "Slide_31",
+        "src": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0031.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0031.jpg",
+        "diagnosis": "Mucous Membrane Pemphigoid",
+        "legend": "Symblepharon (scarring of eyelid to cornea). (Time: 1277s)"
+      },
+      {
+        "id": "Slide_32",
+        "src": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0032.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0032.jpg",
+        "diagnosis": "Mucous Membrane Pemphigoid",
+        "legend": "Histology showing subepithelial separation. (Time: 1333s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Traumatic Ulcer (Mechanical & Thermal)",
+    "definition": "Ulceration of the oral mucosa caused by acute or chronic trauma, such as biting, sharp teeth, or thermal injury (pizza burns).",
+    "tags": [
+      "Skin::Traumatic::Thermal_Injury"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Acute ulcers usually heal in 10 days; chronic ulcers persist. 'Pizza burns' appear as shallow palatal ulcers. Riga-Fede disease is traumatic ulceration in infants (nursing/neonatal teeth).",
+    "pathogenesis": "Physical or thermal damage to the mucosa.",
+    "macroscopic": "Shallow, punched-out ulcer often covered by a white fibrinous exudate (fibrin turns white when wet).",
+    "microscopic": "Ulceration with granulation tissue, fibrin, and mixed inflammation.",
+    "ancillary_studies": "N/A",
+    "differential_diagnosis": "Squamous Cell Carcinoma, Infectious ulcers (TB, Syphilis, fungal).",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Heals with removal of cause. Persistent ulcers require biopsy to rule out malignancy.",
+    "related_figures": [
+      {
+        "id": "Slide_42",
+        "src": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0042.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0042.jpg",
+        "diagnosis": "Thermal Injury (Pizza Burn)",
+        "legend": "Shallow ulcer on the palate due to hot food. (Time: 1783s)"
+      },
+      {
+        "id": "Slide_43",
+        "src": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0043.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0043.jpg",
+        "diagnosis": "Traumatic Ulcer",
+        "legend": "Punched out ulcer with hyperkeratotic border due to sharp tooth. (Time: 1869s)"
+      },
+      {
+        "id": "Slide_44",
+        "src": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0044.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0044.jpg",
+        "diagnosis": "Riga-Fede Disease",
+        "legend": "Traumatic ulcer in an infant. (Time: 1895s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Syphilis (Oral Manifestations)",
+    "definition": "Oral involvement of Treponema pallidum infection, presenting in primary, secondary, tertiary, or congenital stages.",
+    "tags": [
+      "Skin::Infectious::Bacterial::Syphilis_Secondary_Cutaneous"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Primary: Chancre (firm, painless ulcer on lip/tongue). Secondary: Mucous patches, 'snail track' ulcers, condyloma lata. Tertiary: Gumma (palatal perforation). Congenital: Hutchinson incisors (screwdriver shape), Mulberry molars.",
+    "pathogenesis": "Infection with spirochete Treponema pallidum.",
+    "macroscopic": "Ulcers (chancre/mucous patch), papillary lesions, or destructive perforations (gumma).",
+    "microscopic": "Perivascular plasma cell-rich infiltrate.",
+    "ancillary_studies": "IHC: Anti-Treponema pallidum antibody (highly sensitive). Silver stains (Warthin-Starry, Steiner) are historical/less reliable. Serology: RPR, VDRL, FTA-ABS.",
+    "differential_diagnosis": "Squamous Cell Carcinoma, TB, Traumatic ulcer.",
+    "staging": "Primary, Secondary, Tertiary.",
+    "prognosis_and_prediction": "Treatable with penicillin.",
+    "related_figures": [
+      {
+        "id": "Slide_48",
+        "src": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0048.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0048.jpg",
+        "diagnosis": "Primary Syphilis",
+        "legend": "Chancre on the lip. (Time: 2018s)"
+      },
+      {
+        "id": "Slide_50",
+        "src": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0050.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0050.jpg",
+        "diagnosis": "Secondary Syphilis",
+        "legend": "Mucous patches/snail track ulcers. (Time: 2070s)"
+      },
+      {
+        "id": "Slide_51",
+        "src": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0051.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0051.jpg",
+        "diagnosis": "Syphilis",
+        "legend": "Treponema pallidum organisms visible with specific antibody stain. (Time: 2106s)"
+      },
+      {
+        "id": "Slide_52",
+        "src": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0052.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0052.jpg",
+        "diagnosis": "Tertiary Syphilis",
+        "legend": "Palatal perforation (Gumma). (Time: 2174s)"
+      },
+      {
+        "id": "Slide_54",
+        "src": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0054.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0054.jpg",
+        "diagnosis": "Congenital Syphilis",
+        "legend": "Mulberry molars. (Time: 2245s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Aphthous Stomatitis",
+    "definition": "A common condition characterized by recurrent, painful ulcers on non-keratinized oral mucosa.",
+    "tags": [
+      "Skin::Inflammatory::Vasculitis::Behcet_Disease"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Restricted to non-keratinized mucosa (e.g., labial/buccal mucosa, soft palate). Minor aphthae (<5mm, heal 7-10 days), Major/Sutton's (>5mm, scarring, mimic cancer), Herpetiform (clusters of tiny ulcers, not viral).",
+    "pathogenesis": "Unknown; likely immune-dysregulation.",
+    "macroscopic": "Shallow ulcer with a yellowish base and erythematous halo.",
+    "microscopic": "Non-specific ulceration.",
+    "ancillary_studies": "N/A (Diagnosis is clinical). Biopsy Major type to rule out malignancy.",
+    "differential_diagnosis": "Herpes Simplex (occurs on keratinized mucosa), Behcet's Disease, Traumatic Ulcer.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Recurrent but self-limiting. Treated with topical steroids or doxycycline rinse.",
+    "related_figures": [
+      {
+        "id": "Slide_55",
+        "src": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0055.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0055.jpg",
+        "diagnosis": "Aphthous Stomatitis",
+        "legend": "Shallow ulcer with erythematous halo on non-keratinized mucosa. (Time: 2272s)"
+      },
+      {
+        "id": "Slide_57",
+        "src": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0057.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0057.jpg",
+        "diagnosis": "Major Aphthous Ulcer (Sutton's Disease)",
+        "legend": "Large, deep ulcer mimicking carcinoma. (Time: 2441s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Oral Tuberculosis",
+    "definition": "Oral infection by Mycobacterium tuberculosis, typically secondary to active pulmonary disease.",
+    "tags": [
+      "Skin::Infectious::Bacterial::Tuberculosis"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Chronic, non-healing ulcer, often from coughing up infected sputum.",
+    "pathogenesis": "Infection by Mycobacterium tuberculosis.",
+    "macroscopic": "Irregular, indurated ulcer, can mimic carcinoma.",
+    "microscopic": "Caseating granulomas with Langhans giant cells.",
+    "ancillary_studies": "Stains: Ziehl-Neelsen or Fite stain (acid-fast bacilli). Culture/PCR.",
+    "differential_diagnosis": "Squamous Cell Carcinoma, Deep fungal infection, Syphilis.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Resolves with systemic anti-tuberculous therapy.",
+    "related_figures": [
+      {
+        "id": "Slide_62",
+        "src": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0062.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0062.jpg",
+        "diagnosis": "Oral Tuberculosis",
+        "legend": "Non-healing ulcer on the tongue. (Time: 2554s)"
+      },
+      {
+        "id": "Slide_63",
+        "src": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0063.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0063.jpg",
+        "diagnosis": "Oral Tuberculosis",
+        "legend": "Caseating granuloma with Langhans giant cell. (Time: 2560s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Oral Squamous Cell Carcinoma (Conventional)",
+    "definition": "Malignant neoplasm of squamous differentiation arising from the oral epithelium, strongly associated with tobacco and alcohol.",
+    "tags": [
+      "Skin::Neoplastic::Epidermal::Malignant::Squamous_Cell_Carcinoma_Invasive_NOS"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Presents as Red (Erythroplakia), White (Leukoplakia), Red/White (Erythroleukoplakia), or Ulcer. Common sites: Floor of mouth, ventral tongue. Affects older adults. High morbidity.",
+    "pathogenesis": "Carcinogenesis driven by tobacco and alcohol use.",
+    "macroscopic": "Indurated ulcer with rolled borders, fungating mass, or verrucous plaque.",
+    "microscopic": "Invasive islands of squamous cells with keratinization (keratin pearls).",
+    "ancillary_studies": "Negative for p16 (typically).",
+    "differential_diagnosis": "Traumatic ulcer, TB, Syphilis, Deep fungal infection.",
+    "staging": "TNM Staging.",
+    "prognosis_and_prediction": "5-year survival ~40-50%. Often presents with lymph node metastasis.",
+    "related_figures": [
+      {
+        "id": "Slide_69",
+        "src": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0069.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0069.jpg",
+        "diagnosis": "Squamous Cell Carcinoma",
+        "legend": "Fungating ulcer on the floor of mouth in a smoker. (Time: 2720s)"
+      },
+      {
+        "id": "Slide_71",
+        "src": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0071.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0071.jpg",
+        "diagnosis": "Squamous Cell Carcinoma",
+        "legend": "Presentations: White, Red, Red/White, Ulcer. (Time: 2802s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "HPV-Associated Squamous Cell Carcinoma (Oropharyngeal)",
+    "definition": "A distinct subset of head and neck SCC arising in the oropharynx (tonsil/base of tongue) driven by High-Risk HPV.",
+    "tags": [
+      "Skin::Neoplastic::Epidermal::Malignant::Squamous_Cell_Carcinoma_Invasive_NOS"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Affects younger patients, often non-smokers/non-drinkers. Site: Tonsil, base of tongue. Sexually transmitted.",
+    "pathogenesis": "HPV infection (High Risk). Virus disables G1-S checkpoint.",
+    "macroscopic": "Mass in tonsil or base of tongue.",
+    "microscopic": "Basaloid, non-keratinizing squamous proliferation.",
+    "ancillary_studies": "p16 (surrogate marker for HPV, implied positive).",
+    "differential_diagnosis": "Conventional SCC, Lymphoma.",
+    "staging": "Separate TNM staging system from conventional SCC.",
+    "prognosis_and_prediction": "Significantly better prognosis than conventional SCC. Exquisitely sensitive to radiation.",
+    "related_figures": [
+      {
+        "id": "Slide_80",
+        "src": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0080.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0080.jpg",
+        "diagnosis": "Comparison of SCC Types",
+        "legend": "HPV+ vs HPV- risk factors and sites. (Time: 3083s)"
+      },
+      {
+        "id": "Slide_81",
+        "src": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0081.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0081.jpg",
+        "diagnosis": "HPV-Associated SCC",
+        "legend": "Histology showing basaloid, non-keratinizing morphology. (Time: 3092s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Oral Lichen Planus",
+    "definition": "A chronic inflammatory mucocutaneous condition characterized by T-cell mediated attack on basal keratinocytes.",
+    "tags": [
+      "Skin::Inflammatory::Interface::Lichen_Planus"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Persistent (years/decades). Reticular form: Wickham striae (lace-like/crushed tennis racket appearance), bilateral on buccal mucosa. Erosive form: Ulceration/erythema, painful. Skin lesions may coexist (purple pruritic papules).",
+    "pathogenesis": "T-cell mediated autoimmune reaction.",
+    "macroscopic": "White reticulated streaks (Wickham striae), plaques, or erosions.",
+    "microscopic": "Hyperkeratosis, saw-toothed rete ridges, band-like lymphocytic infiltrate at DEJ, Civatte bodies (necrotic keratinocytes).",
+    "ancillary_studies": "Direct Immunofluorescence (DIF): Shaggy deposits of Fibrinogen at the basement membrane zone.",
+    "differential_diagnosis": "Lichenoid mucositis (drug/amalgam), Discoid Lupus Erythematosus, Mucous Membrane Pemphigoid (if erosive).",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Chronic. Asymptomatic cases need no treatment. Erosive cases treated with topical steroids.",
+    "related_figures": [
+      {
+        "id": "Slide_83",
+        "src": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0083.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0083.jpg",
+        "diagnosis": "Oral Lichen Planus",
+        "legend": "Classic reticulated 'crushed tennis racket' white lesions on buccal mucosa. (Time: 3313s)"
+      },
+      {
+        "id": "Slide_85",
+        "src": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0085.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0085.jpg",
+        "diagnosis": "Oral Lichen Planus",
+        "legend": "DIF showing shaggy fibrinogen deposits. (Time: 3406s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Lichenoid Mucositis (Drug/Contact)",
+    "definition": "Oral lesions clinically and histologically mimicking Lichen Planus, caused by medications or contact with dental materials (amalgam).",
+    "tags": [
+      "Skin::Inflammatory::Drug_Eruption::Lichenoid_Drug_Eruption"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Resembles Erosive Lichen Planus but often unilateral (if contact) or associated with drug history. Contact reaction to gold/silver/amalgam.",
+    "pathogenesis": "Hypersensitivity reaction to drugs or metals.",
+    "macroscopic": "Erythema, ulceration, and white striae.",
+    "microscopic": "Lichenoid interface dermatitis (similar to LP).",
+    "ancillary_studies": "Patch testing may be relevant.",
+    "differential_diagnosis": "Idiopathic Lichen Planus, Lupus Erythematosus.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Responds to topical steroids. Removal of offending agent (if possible) may help.",
+    "related_figures": [
+      {
+        "id": "Slide_89",
+        "src": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0089.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0089.jpg",
+        "diagnosis": "Lichenoid Reaction",
+        "legend": "Unilateral reaction often associated with dental materials. (Time: 3514s)"
+      },
+      {
+        "id": "Slide_90",
+        "src": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0090.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_28_oral/Derm_Lecture_28_oral_slide_0090.jpg",
+        "diagnosis": "Contact Reaction",
+        "legend": "Reaction to dental metals (gold/silver). (Time: 3521s)"
+      }
+    ]
+  }
+]

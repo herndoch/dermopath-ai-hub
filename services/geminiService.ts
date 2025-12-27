@@ -2,7 +2,7 @@ import { GoogleGenAI } from "@google/genai";
 import { DiseaseEntity } from "../types";
 
 // Initialize the client
-const ai = new GoogleGenAI({ apiKey: 'AIzaSyAjU9tpcSDBfZZEUw2trqYHW2UlWjtYFPk' });
+const ai = new GoogleGenAI({ apiKey: 'AIzaSyAQSUmErSd8wCEC9rG7V6CAg8dsCKDQarc' });
 
 export const askGeminiAboutEntity = async (
   entity: DiseaseEntity,

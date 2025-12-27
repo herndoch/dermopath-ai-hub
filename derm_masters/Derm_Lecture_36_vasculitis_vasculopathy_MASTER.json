@@ -1,0 +1,468 @@
+[
+  {
+    "entity_name": "Leukocytoclastic Vasculitis (LCV)",
+    "definition": "The most common form of vasculitis, characterized by neutrophil-mediated inflammation and damage to small vessel walls (post-capillary venules). Often used synonymously with 'Cutaneous Small Vessel Vasculitis'.",
+    "tags": [
+      "Skin::Inflammatory::Vasculitis::Leukocytoclastic_Vasculitis_LCV"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Presents as palpable purpura, typically in dependent areas (lower legs). Lesions may progress to vesicles, bullae, nodules, or ulcers. If slightly larger vessels in the mid-reticular dermis are involved, can present with fixed livedo.",
+    "pathogenesis": "Immune complex deposition in vessel walls leading to complement activation, neutrophil attraction, enzyme release, and vessel wall damage. Causes include idiopathic (most common), medications, infections, and malignancy.",
+    "macroscopic": "Red-purple palpable papules (palpable purpura). Can have hemorrhagic vesicles or central necrosis.",
+    "microscopic": "Neutrophils within the vessel wall and perivascular zone. Fibrinoid necrosis (fibrin in vessel wall). Leukocytoclasia (nuclear dust/fragmented neutrophil nuclei). Extravasated erythrocytes. Secondary thrombi may be present.",
+    "ancillary_studies": "Direct Immunofluorescence (DIF): Best on lesions <24 hours old. Shows C3 and IgM in vessel walls (early), C3 and fibrinogen (late).",
+    "differential_diagnosis": "Henoch-Sch\u00f6nlein Purpura (IgA dominant), Urticarial Vasculitis, Septic Vasculitis, Thrombotic Vasculopathy.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Depends on underlying cause and systemic involvement.",
+    "related_figures": [
+      {
+        "id": "Slide_10",
+        "src": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0010.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0010.jpg",
+        "diagnosis": "Leukocytoclastic Vasculitis",
+        "legend": "Schema illustrating correlation between vessel depth/size and clinical presentation (palpable purpura vs. livedo). (Time: 561s)"
+      },
+      {
+        "id": "Slide_18",
+        "src": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0018.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0018.jpg",
+        "diagnosis": "Leukocytoclastic Vasculitis",
+        "legend": "High power showing neutrophils around a vessel and fibrin deposition within the vessel wall. (Time: 740s)"
+      },
+      {
+        "id": "Slide_24",
+        "src": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0024.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0024.jpg",
+        "diagnosis": "Leukocytoclastic Vasculitis",
+        "legend": "Demonstrates fibrin in vessel walls, neutrophils, leukocytoclasia, and secondary thrombus formation. (Time: 819s)"
+      },
+      {
+        "id": "Slide_26",
+        "src": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0026.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0026.jpg",
+        "diagnosis": "Leukocytoclastic Vasculitis",
+        "legend": "Direct Immunofluorescence (DIF) showing immunoreactant deposition in vessel walls. (Time: 867s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "IgA Vasculitis (Henoch-Sch\u00f6nlein Purpura)",
+    "definition": "A specific subtype of leukocytoclastic vasculitis characterized by IgA immune complex deposition.",
+    "tags": [
+      "Skin::Inflammatory::Vasculitis::Henoch_Schonlein_Purpura_IgA_Vasculitis"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Palpable purpura, often in children. Can have systemic involvement including renal (hematuria/proteinuria) and gastrointestinal tract (pain).",
+    "pathogenesis": "IgA immune complex deposition.",
+    "macroscopic": "Palpable purpura, typically on buttocks and lower extremities.",
+    "microscopic": "Identical to leukocytoclastic vasculitis: neutrophils, nuclear dust, fibrinoid necrosis, and extravasated erythrocytes.",
+    "ancillary_studies": "Direct Immunofluorescence (DIF): Shows IgA deposition in vessel walls (definitive feature).",
+    "differential_diagnosis": "Acute Hemorrhagic Edema of Infancy (IgA negative), other forms of LCV.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Generally self-limited; prognosis depends on renal involvement.",
+    "related_figures": [
+      {
+        "id": "Slide_30",
+        "src": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0030.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0030.jpg",
+        "diagnosis": "IgA Vasculitis (HSP)",
+        "legend": "Direct Immunofluorescence showing IgA deposition in blood vessel walls. (Time: 928s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Acute Hemorrhagic Edema of Infancy",
+    "definition": "A form of leukocytoclastic vasculitis affecting infants.",
+    "tags": [
+      "Skin::Inflammatory::Vasculitis::Leukocytoclastic_Vasculitis_LCV"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Occurs in children/infants. Large, targetoid, plaque-like lesions often described as having a 'Cockade' (knot of ribbons) pattern or rosette shape.",
+    "pathogenesis": "Immune complex mediated.",
+    "macroscopic": "Edematous, hemorrhagic plaques and targetoid lesions.",
+    "microscopic": "Leukocytoclastic vasculitis.",
+    "ancillary_studies": "Direct Immunofluorescence (DIF): Negative for IgA (distinguishes from HSP).",
+    "differential_diagnosis": "Henoch-Sch\u00f6nlein Purpura (IgA positive), Urticaria multiforme.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Benign and self-limited.",
+    "related_figures": [
+      {
+        "id": "Slide_33",
+        "src": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0033.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0033.jpg",
+        "diagnosis": "Acute Hemorrhagic Edema of Infancy",
+        "legend": "Clinical presentation showing targetoid, 'cockade' pattern lesions. (Time: 1072s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Mixed Cryoglobulinemia",
+    "definition": "Vasculitis caused by the deposition of cryoglobulins (proteins that precipitate below 37\u00b0C) in vessel walls.",
+    "tags": [
+      "Skin::Inflammatory::Vasculitis::Cryoglobulinemic_Vasculitis"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Palpable purpura, weakness, arthralgias.",
+    "pathogenesis": "Frequently associated with Hepatitis C infection. Immune complexes containing cryoglobulins deposit in vessels.",
+    "macroscopic": "Purpura, necrosis.",
+    "microscopic": "Leukocytoclastic vasculitis. May show intraluminal cryoglobulin precipitates (hyaline thrombi).",
+    "ancillary_studies": "Serology for cryoglobulins and Hepatitis C.",
+    "differential_diagnosis": "Other forms of LCV.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Depends on management of underlying Hepatitis C or lymphoproliferative disorder.",
+    "related_figures": [
+      {
+        "id": "Slide_37",
+        "src": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0037.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0037.jpg",
+        "diagnosis": "Mixed Cryoglobulinemia",
+        "legend": "Text slide description. (Time: 1112s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Granuloma Faciale",
+    "definition": "A chronic, localized form of small vessel vasculitis typically affecting the face.",
+    "tags": [
+      "Skin::Inflammatory::Granulomatous::Granuloma_Faciale"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Red-brown papules, plaques, or nodules primarily on the face. Can be single or multiple.",
+    "pathogenesis": "Unknown.",
+    "macroscopic": "Smooth, red-brown facial plaques.",
+    "microscopic": "Mixed dermal infiltrate containing neutrophils, eosinophils, lymphocytes, and histiocytes. Neutrophils cluster around vessels with mild leukocytoclasia. A distinctive 'Grenz zone' is typically spared. Older lesions show concentric 'onion-skin' fibrosis around vessels.",
+    "ancillary_studies": "N/A",
+    "differential_diagnosis": "Sarcoidosis, Tuberculosis, Tumid Lupus, Lymphoma, Rosacea.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Chronic and persistent.",
+    "related_figures": [
+      {
+        "id": "Slide_43",
+        "src": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0043.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0043.jpg",
+        "diagnosis": "Granuloma Faciale",
+        "legend": "Clinical presentation of red-brown plaques on the face. (Time: 1252s)"
+      },
+      {
+        "id": "Slide_45",
+        "src": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0045.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0045.jpg",
+        "diagnosis": "Granuloma Faciale",
+        "legend": "Mixed infiltrate with eosinophils, histiocytes, and neutrophils. (Time: 1375s)"
+      },
+      {
+        "id": "Slide_47",
+        "src": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0047.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0047.jpg",
+        "diagnosis": "Granuloma Faciale",
+        "legend": "Later lesion showing concentric fibrosis around blood vessels. (Time: 1383s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Erythema Elevatum Diutinum (EED)",
+    "definition": "A rare, chronic fibrosing leukocytoclastic vasculitis.",
+    "tags": [
+      "Skin::Inflammatory::Vasculitis::Erythema_Elevatum_Diutinum"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Erythematous to purple/brown plaques, nodules, or indurated plaques, typically on extensor surfaces (elbows, knees, hands). Associated with arthralgias and paraproteins (IgA gammopathy).",
+    "pathogenesis": "Immune complex deposition.",
+    "macroscopic": "Firm plaques on extensors.",
+    "microscopic": "Leukocytoclastic vasculitis associated with granulation tissue and significant fibrosis. Older lesions show fibrosis in a storiform pattern. Cholesterol clefts may be seen.",
+    "ancillary_studies": "Evaluation for IgA monoclonal gammopathy.",
+    "differential_diagnosis": "Granuloma Faciale (usually on face), Dermatofibroma (storiform pattern), Kaposi Sarcoma.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Chronic course.",
+    "related_figures": [
+      {
+        "id": "Slide_50",
+        "src": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0050.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0050.jpg",
+        "diagnosis": "Erythema Elevatum Diutinum",
+        "legend": "Clinical presentation of a plaque on the elbow. (Time: 1419s)"
+      },
+      {
+        "id": "Slide_53",
+        "src": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0053.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0053.jpg",
+        "diagnosis": "Erythema Elevatum Diutinum",
+        "legend": "Low power showing storiform fibrosis and inflammation. (Time: 1462s)"
+      },
+      {
+        "id": "Slide_55",
+        "src": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0055.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0055.jpg",
+        "diagnosis": "Erythema Elevatum Diutinum",
+        "legend": "Neutrophils and eosinophils associated with fibrosis. (Time: 1480s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Urticarial Vasculitis",
+    "definition": "A clinicopathologic entity characterized by urticarial lesions that show histologic features of vasculitis.",
+    "tags": [
+      "Skin::Inflammatory::Vasculitis::Urticarial_Vasculitis"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Urticarial papules or plaques that persist >24 hours, are painful/burning rather than itchy, and resolve with residual purpura or hyperpigmentation. May be associated with hypocomplementemia and SLE.",
+    "pathogenesis": "Type III hypersensitivity (immune complex).",
+    "macroscopic": "Wheals with purpuric quality.",
+    "microscopic": "Features of leukocytoclastic vasculitis (neutrophils, fibrin, nuclear dust) but often with more prominent dermal edema than classic LCV.",
+    "ancillary_studies": "Check complement levels (C3, C4), ANA.",
+    "differential_diagnosis": "Urticaria (neutrophilic or common), LCV.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Hypocomplementemic form is associated with systemic disease (SLE, COPD).",
+    "related_figures": [
+      {
+        "id": "Slide_59",
+        "src": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0059.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0059.jpg",
+        "diagnosis": "Urticarial Vasculitis",
+        "legend": "Histologic example showing LCV features with edema. (Time: 1564s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Polyarteritis Nodosa (PAN)",
+    "definition": "A necrotizing vasculitis affecting small to medium-sized muscular arteries.",
+    "tags": [
+      "Skin::Inflammatory::Vasculitis::Polyarteritis_Nodosa"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Subcutaneous nodules, ulcers, livedo reticularis. Can be purely cutaneous or systemic. Systemic PAN is a serious disease.",
+    "pathogenesis": "Immune mediated. Associated with Hepatitis B surface antigen, cryoglobulinemia.",
+    "macroscopic": "Ulcers, nodules, star-burst livedo.",
+    "microscopic": "Involves medium-sized muscular arteries in the deep dermis or subcutis. Neutrophilic infiltrate (early) becoming mixed/mononuclear (late). Fibrinoid necrosis of the vessel wall. Involvement is often segmental. Requires deep incisional biopsy.",
+    "ancillary_studies": "Hepatitis B serologies. ANCA is typically negative.",
+    "differential_diagnosis": "Other medium vessel vasculitides, nodular vasculitis.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Systemic PAN has high morbidity; Cutaneous PAN is chronic but benign.",
+    "related_figures": [
+      {
+        "id": "Slide_63",
+        "src": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0063.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0063.jpg",
+        "diagnosis": "Polyarteritis Nodosa",
+        "legend": "Clinical presentation showing livedo pattern and ulceration. (Time: 1679s)"
+      },
+      {
+        "id": "Slide_65",
+        "src": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0065.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0065.jpg",
+        "diagnosis": "Polyarteritis Nodosa",
+        "legend": "Low power showing deep involvement in subcutaneous tissue. (Time: 1741s)"
+      },
+      {
+        "id": "Slide_66",
+        "src": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0066.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0066.jpg",
+        "diagnosis": "Polyarteritis Nodosa",
+        "legend": "Medium-sized vessel with mural neutrophils and fibrin. (Time: 1752s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Perniosis (Chilblains)",
+    "definition": "A localized inflammatory condition resulting from abnormal response to cold, classified as a lymphocytic vasculitis.",
+    "tags": [
+      "Skin::Inflammatory::Vasculitis::Pernio_Chilblains"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Erythematous to blue-violet macules, papules, or nodules on acral sites (distal digits, toes) after cold exposure. May blister or ulcerate.",
+    "pathogenesis": "Cold-induced vasospasm and inflammation.",
+    "macroscopic": "Acral purple/red swollen lesions.",
+    "microscopic": "Papillary dermal edema. Superficial and deep lymphocytic infiltrate. Lymphocytic vasculitis features: endothelial swelling, fibrin in walls (sometimes), and extravasated erythrocytes.",
+    "ancillary_studies": "Rule out Chilblain Lupus (anti-nuclear antibodies).",
+    "differential_diagnosis": "Chilblain Lupus Erythematosus, COVID toes.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Self-limiting but recurrent with cold exposure.",
+    "related_figures": [
+      {
+        "id": "Slide_75",
+        "src": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0075.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0075.jpg",
+        "diagnosis": "Perniosis",
+        "legend": "Low power showing papillary dermal edema and superficial/deep infiltrate. (Time: 1878s)"
+      },
+      {
+        "id": "Slide_77",
+        "src": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0077.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0077.jpg",
+        "diagnosis": "Perniosis",
+        "legend": "Extravasated erythrocytes and lymphocytic inflammation. (Time: 1891s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Pityriasis Lichenoides (PLEVA/PLC)",
+    "definition": "A spectrum of inflammatory dermatoses exhibiting features of both interface dermatitis and lymphocytic vasculitis.",
+    "tags": [
+      "Skin::Inflammatory::Interface::Pityriasis_Lichenoides_PLEVA_PLC"
+    ],
+    "html_gcs_path": null,
+    "clinical": "PLEVA (Acute): Crops of crusting, hemorrhagic papules that may scar. PLC (Chronic): Scaly red-brown papules resolving with hypopigmentation.",
+    "pathogenesis": "T-cell lymphoproliferative disorder/reaction.",
+    "macroscopic": "Red-brown papules with central scale or crust.",
+    "microscopic": "Wedge-shaped dermal infiltrate. Band-like lymphocytic interface dermatitis with necrotic keratinocytes. Lymphocytic vasculitis (endothelial swelling, extravasated erythrocytes). Broad parakeratosis.",
+    "ancillary_studies": "N/A",
+    "differential_diagnosis": "Lymphomatoid Papulosis (LyP), Guttate Psoriasis, Lichen Planus.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Variable course; rare progression to cutaneous lymphoma reported.",
+    "related_figures": [
+      {
+        "id": "Slide_79",
+        "src": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0079.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0079.jpg",
+        "diagnosis": "Pityriasis Lichenoides",
+        "legend": "Clinical presentation of red-brown papules with central crust. (Time: 1995s)"
+      },
+      {
+        "id": "Slide_81",
+        "src": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0081.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0081.jpg",
+        "diagnosis": "Pityriasis Lichenoides",
+        "legend": "Low power showing band-like infiltrate and wedge shape. (Time: 2055s)"
+      },
+      {
+        "id": "Slide_83",
+        "src": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0083.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0083.jpg",
+        "diagnosis": "Pityriasis Lichenoides",
+        "legend": "Extravasated erythrocytes and necrotic keratinocytes. (Time: 2067s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Granulomatosis with Polyangiitis (GPA)",
+    "definition": "An ANCA-associated small-to-medium vessel vasculitis characterized by granulomatous inflammation, formerly known as Wegener Granulomatosis.",
+    "tags": [
+      "Skin::Inflammatory::Vasculitis::Wegener_Granulomatosis_GPA"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Involves upper/lower respiratory tract and kidneys. Cutaneous lesions include palpable purpura, subcutaneous nodules, and large ulcers (pyoderma gangrenosum-like).",
+    "pathogenesis": "Autoimmune; associated with c-ANCA (PR3).",
+    "macroscopic": "Ulcers, purpura.",
+    "microscopic": "Paradoxically, cutaneous lesions most commonly show leukocytoclastic vasculitis (LCV) without granulomas. Granulomatous vasculitis is rare in skin biopsies despite the disease name.",
+    "ancillary_studies": "c-ANCA (anti-PR3) positive.",
+    "differential_diagnosis": "Pyoderma Gangrenosum, other vasculitides.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Serious systemic disease requiring immunosuppression.",
+    "related_figures": [
+      {
+        "id": "Slide_93",
+        "src": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0093.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0093.jpg",
+        "diagnosis": "Granulomatosis with Polyangiitis",
+        "legend": "Histology showing prominent neutrophilic vasculitis (LCV pattern). (Time: 2275s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Eosinophilic Granulomatosis with Polyangiitis (EGPA)",
+    "definition": "An ANCA-associated vasculitis characterized by asthma, eosinophilia, and granulomatous inflammation, formerly known as Churg-Strauss Syndrome.",
+    "tags": [
+      "Skin::Inflammatory::Vasculitis::Churg_Strauss_Syndrome_EGPA"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Asthma, allergic rhinitis, peripheral eosinophilia. Skin lesions: Palpable purpura, nodules.",
+    "pathogenesis": "Autoimmune; associated with p-ANCA (MPO).",
+    "macroscopic": "Purpura, nodules.",
+    "microscopic": "Vasculitis of small arteries or veins. Mixed infiltrate with prominent eosinophils. Extravascular necrotizing granulomas (palisading granulomas) are seen in ~50% of cutaneous biopsies.",
+    "ancillary_studies": "p-ANCA (anti-MPO) positive.",
+    "differential_diagnosis": "Hypereosinophilic syndrome, PAN.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Systemic involvement determines prognosis.",
+    "related_figures": [
+      {
+        "id": "Slide_97",
+        "src": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0097.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0097.jpg",
+        "diagnosis": "Eosinophilic Granulomatosis with Polyangiitis",
+        "legend": "Extravascular necrotizing granuloma with eosinophils. (Time: 2354s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Giant Cell Arteritis (Temporal Arteritis)",
+    "definition": "Granulomatous vasculitis involving medium to large elastic arteries.",
+    "tags": [
+      "Skin::Inflammatory::Vasculitis::Giant_Cell_Arteritis_Temporal"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Headache, jaw claudication, visual disturbance (blindness risk). Scalp tenderness, necrosis, or ulceration.",
+    "pathogenesis": "T-cell mediated immune response.",
+    "macroscopic": "Scalp ulceration, tender temporal artery.",
+    "microscopic": "Involves large arteries (temporal). Granulomatous inflammation with multinucleated giant cells, lymphocytes, and histiocytes disrupting the internal elastic lamina. Segmental involvement (skip lesions).",
+    "ancillary_studies": "Elastic stains (Verhoeff-Van Gieson) to demonstrate disruption of internal elastic lamina.",
+    "differential_diagnosis": "Systemic vasculitis.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Requires prompt steroids to prevent blindness.",
+    "related_figures": [
+      {
+        "id": "Slide_102",
+        "src": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0102.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0102.jpg",
+        "diagnosis": "Giant Cell Arteritis",
+        "legend": "Large vessel with mural inflammation and giant cells. (Time: 2420s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Thrombotic Vasculopathy",
+    "definition": "Vascular occlusive disease caused by intraluminal thrombi rather than primary vessel wall inflammation.",
+    "tags": [
+      "Skin::Inflammatory::Vasculitis::Thrombotic_Vasculopathy"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Retiform (angulated) purpura, necrosis, ulcers, livedo reticularis.",
+    "pathogenesis": "Hypercoagulable states (Factor V Leiden, Protein C/S deficiency, Lupus anticoagulant), Cryoglobulinemia, Sepsis, Calciphylaxis.",
+    "macroscopic": "Black eschar, retiform purpura.",
+    "microscopic": "Fibrin thrombi within the lumen of venules or arterioles. Bland thrombi (minimal inflammation), though secondary inflammation can occur later. Ischemic necrosis of overlying skin.",
+    "ancillary_studies": "Systemic hypercoagulability workup.",
+    "differential_diagnosis": "Vasculitis (primary inflammation vs secondary thrombus).",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Depends on underlying etiology.",
+    "related_figures": [
+      {
+        "id": "Slide_109",
+        "src": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0109.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0109.jpg",
+        "diagnosis": "Thrombotic Vasculopathy",
+        "legend": "Multiple superficial vessels occluded by fibrin thrombi with minimal inflammation. (Time: 2510s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Livedoid Vasculopathy (Atrophie Blanche)",
+    "definition": "A specific form of chronic thrombotic vasculopathy affecting the lower extremities.",
+    "tags": [
+      "Skin::Inflammatory::Vasculitis::Livedoid_Vasculopathy_Atrophie_Blanche"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Purpuric papules/plaques evolving into painful ulcers, healing with porcelain-white atrophic scars (atrophie blanche). Associated with livedo reticularis.",
+    "pathogenesis": "Prothrombotic/occlusive states (Lupus anticoagulant, Protein C/S deficiency, Factor V Leiden).",
+    "macroscopic": "White angular scars with peripheral telangiectasia/pigmentation.",
+    "microscopic": "Fibrin thrombi within the lumen AND thickened vessel walls ('outline' appearance). Hyalinized vessel walls. Minimal inflammation.",
+    "ancillary_studies": "PAS stain: Positive (highlights thickened vessel walls).",
+    "differential_diagnosis": "Stasis dermatitis, Polyarteritis Nodosa.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Chronic, painful, recurrent.",
+    "related_figures": [
+      {
+        "id": "Slide_114",
+        "src": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0114.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0114.jpg",
+        "diagnosis": "Livedoid Vasculopathy",
+        "legend": "Clinical appearance of porcelain white scars (Atrophie Blanche). (Time: 2598s)"
+      },
+      {
+        "id": "Slide_117",
+        "src": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0117.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_36_vasculitis_vasculopathy/Derm_Lecture_36_vasculitis_vasculopathy_slide_0117.jpg",
+        "diagnosis": "Livedoid Vasculopathy",
+        "legend": "Vessels with thickened, hyalinized walls ('outline' appearance) and fibrin thrombi. (Time: 2625s)"
+      }
+    ]
+  }
+]

@@ -1,5 +1,6 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import { DiseaseEntity, SectionType, MediaItem } from '../types';
+import ImageModal from './ImageModal';
 import { ArrowLeft, Microscope, Activity, Dna, FileText, Search, AlertCircle, Eye, X, Maximize2, BookOpen, ExternalLink, PlayCircle, Sparkles, Loader2, Database, MessageSquare, ChevronLeft, ChevronRight } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
 import { getImageUrl } from '../utils/media';
@@ -95,7 +96,7 @@ const EntityDetail: React.FC<EntityDetailProps> = ({ entity, onBack }) => {
     if (entity.related_figures) {
       entity.related_figures.forEach(fig => {
         media.push({
-          type: fig.isWSI ? 'wsi' : (fig.timestamp !== null ? 'lecture_slide' : 'figure'),
+          type: fig.isWSI ? 'wsi' : ((fig.timestamp !== null && fig.timestamp !== undefined) ? 'lecture_slide' : 'figure'),
           path: fig.gcs_path?.replace('gs://pathology-hub-0/', '') || undefined,
           url: fig.wsi_link || undefined,
           legend: fig.legend,
@@ -239,12 +240,19 @@ const EntityDetail: React.FC<EntityDetailProps> = ({ entity, onBack }) => {
       // For now, the logic above essentially makes them readable in all cases if they exist.
     }
 
-    // Add timestamp hyperlinking [MM:SS] or MM:SS
-    const timestampRegex = /(\[?\d{1,2}:\d{2}\]?)/g;
+    // Add timestamp hyperlinking [MM:SS], MM:SS, (Time: 109s), etc.
+    const timestampRegex = /(\[?\d{1,2}:\d{2}\]?|\(Time:\s*\d+s?\)|\[Time:\s*\d+s?\])/gi;
     processed = processed.replace(timestampRegex, (match) => {
-      const timeStr = match.replace(/[\[\]]/g, '');
-      const parts = timeStr.split(':');
-      const seconds = parseInt(parts[0]) * 60 + parseInt(parts[1]);
+      let seconds = 0;
+      const colonMatch = match.match(/(\d{1,2}):(\d{2})/);
+      if (colonMatch) {
+        seconds = parseInt(colonMatch[1]) * 60 + parseInt(colonMatch[2]);
+      } else {
+        const secMatch = match.match(/(\d+)/);
+        if (secMatch) {
+          seconds = parseInt(secMatch[1]);
+        }
+      }
 
       const videoBase = entity.gcs_video_path || entity.video;
       // Try to resolve video from entity video fields or fallback if null
@@ -305,8 +313,8 @@ const EntityDetail: React.FC<EntityDetailProps> = ({ entity, onBack }) => {
       addSource('WHO Classification of Tumours', url, 'html', 'Online Reference');
     }
 
-    if (entity.media) {
-      entity.media.forEach(item => {
+    if (allMedia.length > 0) {
+      allMedia.forEach(item => {
         // Try to infer source from path if possible, usually for textbooks in path
         if (item.path && item.path.includes('/textbooks/')) {
           const matchBook = item.path.match(/\/textbooks\/([^\/]+)\//);
@@ -314,6 +322,8 @@ const EntityDetail: React.FC<EntityDetailProps> = ({ entity, onBack }) => {
 
           if (matchBook) {
             const rawBookName = matchBook[1];
+            // Fix: Map known raw book names to cleaner PDF filenames if needed, or assume identical.
+            // Current GCS structure usually matches rawBookName.pdf
             const pdfFileName = rawBookName;
             let pdfUrl = `https://storage.googleapis.com/pathology-hub-0/source_pdfs/${pdfFileName}.pdf`;
             let details = "Textbook Reference";
@@ -326,7 +336,17 @@ const EntityDetail: React.FC<EntityDetailProps> = ({ entity, onBack }) => {
             addSource(displayTitle, pdfUrl, 'pdf', details);
           }
         }
+
+        // Also capture WHO WSI links as references if they exist
+        if (item.url && item.url.includes('who.int')) {
+          addSource('WHO Classification of Tumours', item.url, 'html', item.legend || 'WSI');
+        }
       });
+    }
+
+    // Explicit check for WHO URL in entity fields if not caught above
+    if (entity.html && (entity.html.includes('http') || entity.html.includes('who.int'))) {
+      addSource('WHO Classification of Tumours', entity.html, 'html', 'Main Entry');
     }
 
     const newEntityContent: Record<string, string> = {};
@@ -355,8 +375,8 @@ const EntityDetail: React.FC<EntityDetailProps> = ({ entity, onBack }) => {
   // Group WSIs by source and type (Gallery vs List)
   const wsiGroups = useMemo(() => {
     const wsiMedia = allMedia.filter(m => m.type === 'wsi');
-    const galleryWSIs: MediaItem[] = []; // Leeds, MGH, Rosai
-    const pathPresenterList: MediaItem[] = []; // PathPresenter
+    const galleryWSIs: MediaItem[] = []; // Leeds, MGH, Rosai (Have thumbnails)
+    const pathPresenterList: MediaItem[] = []; // PathPresenter (No thumbnails, use list)
 
     wsiMedia.forEach(m => {
       const source = getWSISource(m.url);
@@ -739,42 +759,11 @@ const EntityDetail: React.FC<EntityDetailProps> = ({ entity, onBack }) => {
       </div>
 
       {/* Modal */}
-      {selectedMedia && (
-        <div
-          className="fixed inset-0 z-[10000] bg-black/95 backdrop-blur-sm flex items-center justify-center p-4 animate-in fade-in duration-200"
-          onClick={() => setSelectedMedia(null)}
-        >
-          <button
-            className="absolute top-4 right-4 text-white/50 hover:text-white transition-colors p-2"
-            onClick={() => setSelectedMedia(null)}
-          >
-            <X size={32} />
-          </button>
-
-          <div
-            className="max-w-7xl w-full max-h-screen flex flex-col md:flex-row gap-6 p-4"
-            onClick={e => e.stopPropagation()}
-          >
-            <div className="flex-1 relative aspect-video bg-black rounded-lg overflow-hidden flex items-center justify-center">
-              <img
-                src={getImageUrl(selectedMedia.path || null) || ''}
-                alt={selectedMedia.legend || ''}
-                className="max-w-full max-h-full object-contain"
-                onError={(e) => {
-                  (e.target as HTMLImageElement).src = 'https://placehold.co/800x600?text=No+Preview';
-                }}
-              />
-            </div>
-
-            <div className="md:w-80 text-white flex flex-col justify-center">
-              <h3 className="text-lg font-medium mb-2">{getEntityTitle(entity)}</h3>
-              <div className="bg-white/10 rounded-lg p-4 backdrop-blur-md">
-                <p className="text-sm leading-relaxed">{selectedMedia.legend || 'No description available'}</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
+      <ImageModal
+        media={selectedMedia}
+        onClose={() => setSelectedMedia(null)}
+        title={getEntityTitle(entity)}
+      />
     </div>
   );
 };

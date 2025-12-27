@@ -1,0 +1,425 @@
+[
+  {
+    "entity_name": "Merkel Cell Carcinoma",
+    "definition": "A highly aggressive primary cutaneous neuroendocrine carcinoma.",
+    "tags": [
+      "Skin::Neoplastic::Soft_Tissue::Neural::Merkel_Cell_Carcinoma"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Rapidly enlarging erythematous nodule. Occurs in older patients, typically with fair skin on sun-exposed sites (head and neck). Immunosuppression is a significant risk factor.",
+    "pathogenesis": "Two distinct etiologic pathways: 1) Merkel Cell Polyomavirus (MCPyV) positive (70-80% of North American cases, integrated into genome, truncated Large T-antigen, better prognosis). 2) Virus-negative (UV-driven, high mutational burden including p53, RB, and Notch pathways, worse prognosis).",
+    "macroscopic": "Erythematous nodule; clinical size is the most important metric for staging.",
+    "microscopic": "Diffusely infiltrative small round blue cell tumor. Patterns include sheets, nests, trabeculae, or clusters. Cells have large nuclei with little cytoplasm (high N:C ratio), finely granular ('salt and pepper') chromatin, and nuclear molding. High mitotic rate and numerous apoptotic bodies. Often prone to crush artifact.",
+    "ancillary_studies": "IHC Positives: CK20 (characteristic large paranuclear dots), Neurofilament (paranuclear dots), INSM1 (highly sensitive nuclear marker), Synaptophysin, Chromogranin, CD56, MCPyV T-antigen (CM2B4 antibody). IHC Negatives: TTF-1 (excludes lung small cell), CK7, LCA/CD45 (excludes lymphoma), S100/Melan-A (excludes melanoma).",
+    "differential_diagnosis": "Metastatic Small Cell Lung Carcinoma (TTF-1+, CK7+, CK20-), Basal Cell Carcinoma, Melanoma, Lymphoma, Ewing Sarcoma.",
+    "staging": "Staged by clinical size of primary tumor. Sentinel lymph node biopsy is important for staging nodal disease. Prognosis depends on viral status (virus-positive is better) and immune status (immunosuppression is worse).",
+    "prognosis_and_prediction": "Aggressive. Virus-positive tumors have better progression-free and overall survival independent of stage. Tumors with robust CD8+ T-cell infiltrates have better outcomes.",
+    "related_figures": [
+      {
+        "id": "Slide_4",
+        "src": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0004.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0004.jpg",
+        "diagnosis": "Merkel Cell Carcinoma",
+        "legend": "Low power view showing a diffusely infiltrative small round blue cell tumor replacing the dermis. (Time: 77s)"
+      },
+      {
+        "id": "Slide_6",
+        "src": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0006.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0006.jpg",
+        "diagnosis": "Merkel Cell Carcinoma",
+        "legend": "High power showing high N:C ratio, finely granular chromatin, nuclear molding, and mitoses. (Time: 148s)"
+      },
+      {
+        "id": "Slide_9",
+        "src": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0009.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0009.jpg",
+        "diagnosis": "Merkel Cell Carcinoma",
+        "legend": "CK20 immunohistochemistry showing characteristic large paranuclear dot-like positivity. (Time: 278s)"
+      },
+      {
+        "id": "Slide_16",
+        "src": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0016.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0016.jpg",
+        "diagnosis": "Merkel Cell Carcinoma",
+        "legend": "INSM1 positivity, a highly sensitive nuclear marker for neuroendocrine differentiation. (Time: 526s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Extramammary Paget Disease",
+    "definition": "An intraepithelial adenocarcinoma involving apocrine-rich skin (anogenital, axillary).",
+    "tags": [
+      "Skin::Neoplastic::Adnexal::Paget::Extramammary_Paget_Disease"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Erythematous, eczematoid, slowly spreading plaque. Anogenital and axillary areas.",
+    "pathogenesis": "May be primary (cutaneous adnexal origin) or secondary (extension from internal malignancy, e.g., colorectal or urothelial).",
+    "macroscopic": "Eczematous plaque.",
+    "microscopic": "Intraepidermal proliferation of malignant epithelioid cells with pale or basophilic cytoplasm ('buckshot' scatter). Distinctive feature: Paget cells often spare the basal layer of keratinocytes (unlike melanoma or SCC). Underlying dermis often shows smooth muscle (anogenital/areolar skin).",
+    "ancillary_studies": "IHC Positives: CK7, CAM5.2, CEA, Mucin stains (Mucicarmine). IHC Negatives: p63, CK5/6, SOX10, S100, Melan-A. (Note: CK20/CDX2 may be positive in secondary disease from GI).",
+    "differential_diagnosis": "Squamous Cell Carcinoma in situ (p63+, CK5/6+), Melanoma in situ (S100+, SOX10+), Sebaceous Carcinoma.",
+    "staging": "Assessment for underlying internal malignancy is crucial.",
+    "prognosis_and_prediction": "Slowly progressive but can be invasive.",
+    "related_figures": [
+      {
+        "id": "Slide_37",
+        "src": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0037.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0037.jpg",
+        "diagnosis": "Extramammary Paget Disease",
+        "legend": "Intraepidermal proliferation of large epithelioid cells. (Time: 1384s)"
+      },
+      {
+        "id": "Slide_40",
+        "src": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0040.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0040.jpg",
+        "diagnosis": "Extramammary Paget Disease",
+        "legend": "Mucicarmine stain highlighting intracytoplasmic mucin (red). (Time: 1452s)"
+      },
+      {
+        "id": "Slide_41",
+        "src": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0041.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0041.jpg",
+        "diagnosis": "Extramammary Paget Disease",
+        "legend": "CAM5.2 positive in tumor cells; p63 highlights background keratinocytes but is negative in tumor. (Time: 1470s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Hidradenocarcinoma",
+    "definition": "A malignant adnexal carcinoma related to hidradenoma, often aggressive.",
+    "tags": [
+      "Skin::Neoplastic::Adnexal::Eccrine::Hidradenocarcinoma"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Face and extremities. Aggressive course with potential for lymph node, lung, and bone metastases.",
+    "pathogenesis": "Can arise de novo or from a pre-existing hidradenoma. Enriched for p53 mutations.",
+    "macroscopic": "Nodular growth.",
+    "microscopic": "Infiltrative growth pattern. High-grade cytology: large pleomorphic nuclei, irregular nuclear membranes, clumpy chromatin, prominent nucleoli. High mitotic rate and necrosis. May show remnants of benign hidradenoma (clear cells, eosinophilic cells, hyalinized stroma).",
+    "ancillary_studies": "IHC Positives: CK7, CEA, p53 (diffuse/mutated pattern). Genetics: Gene rearrangements (MAML2 implied in benign precursor); p53 mutations.",
+    "differential_diagnosis": "Metastatic Renal Cell Carcinoma (PAX8+), Sebaceous Carcinoma (vacuoles indenting nucleus), Apocrine Carcinoma.",
+    "staging": "Aggressive, metastatic potential.",
+    "prognosis_and_prediction": "Poor prognosis due to metastatic potential.",
+    "related_figures": [
+      {
+        "id": "Slide_45",
+        "src": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0045.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0045.jpg",
+        "diagnosis": "Hidradenocarcinoma",
+        "legend": "Low power showing transition from benign hidradenoma to high-grade carcinoma. (Time: 1668s)"
+      },
+      {
+        "id": "Slide_51",
+        "src": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0051.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0051.jpg",
+        "diagnosis": "Hidradenocarcinoma",
+        "legend": "Malignant cytology: pleomorphism, necrosis, and irregular chromatin. (Time: 1779s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Papillary Digital Adenocarcinoma",
+    "definition": "A malignant sweat gland tumor occurring on the digits (formerly Aggressive Digital Papillary Adenocarcinoma).",
+    "tags": [
+      "Skin::Neoplastic::Adnexal::Eccrine::Digital_Papillary_Adenocarcinoma"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Solitary painless mass on fingers, toes, palms, or soles. Can occur in both young and older patients. Aggressive with high metastatic rate.",
+    "pathogenesis": "Driven by Human Papillomavirus type 42 (HPV42).",
+    "macroscopic": "Nodule on digit.",
+    "microscopic": "Solid and cystic growth with distinct papillary formations (fibrovascular cores lined by multiple layers of epithelial cells). Cells may be basaloid. Poorly circumscribed.",
+    "ancillary_studies": "IHC/ISH: HPV42 positive (highly specific).",
+    "differential_diagnosis": "Hidradenoma, Papillary Eccrine Adenoma.",
+    "staging": "High risk of metastasis (lung, lymph nodes).",
+    "prognosis_and_prediction": "Requires wide local excision or amputation due to aggressive behavior.",
+    "related_figures": [
+      {
+        "id": "Slide_60",
+        "src": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0060.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0060.jpg",
+        "diagnosis": "Papillary Digital Adenocarcinoma",
+        "legend": "Solid and cystic growth with papillary formations on acral skin. (Time: 1964s)"
+      },
+      {
+        "id": "Slide_61",
+        "src": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0061.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0061.jpg",
+        "diagnosis": "Papillary Digital Adenocarcinoma",
+        "legend": "Papillae with fibrovascular cores lined by multiple layers of epithelial cells. (Time: 1978s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Endocrine Mucin-Producing Sweat Gland Carcinoma",
+    "definition": "A low-grade cutaneous neuroendocrine/mucinous carcinoma, considered a precursor to primary cutaneous mucinous carcinoma.",
+    "tags": [
+      "Skin::Neoplastic::Adnexal::Eccrine::Endocrine_Mucin_Producing_Sweat_Gland_Carcinoma"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Elderly females. Predilection for eyelid, cheek, and face.",
+    "pathogenesis": "Precursor to Mucinous Carcinoma.",
+    "macroscopic": "Nodule on eyelid/face.",
+    "microscopic": "Multi-lobulated tumor in dermis. Solid and cystic areas with 'pseudo-papillary' structures (no true fibrovascular cores). Cells are relatively banal with neuroendocrine (finely granular) chromatin. Intracellular and extracellular mucin. Can transition into Mucinous Carcinoma (nests floating in large pools of mucin).",
+    "ancillary_studies": "IHC Positives: CK7, Estrogen Receptor (ER), Progesterone Receptor (PR), INSM1, Synaptophysin, Chromogranin. Markers like WT1 (often positive, not explicitly mentioned but standard).",
+    "differential_diagnosis": "Mucinous Carcinoma (more extensive mucin pools), Metastatic Breast Carcinoma.",
+    "staging": "Indolent course.",
+    "prognosis_and_prediction": "Generally indolent/low-grade.",
+    "related_figures": [
+      {
+        "id": "Slide_68",
+        "src": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0068.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0068.jpg",
+        "diagnosis": "Endocrine Mucin-Producing Sweat Gland Carcinoma",
+        "legend": "Lobulated tumor with pseudo-papillary structures and mucin. (Time: 2219s)"
+      },
+      {
+        "id": "Slide_74",
+        "src": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0074.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0074.jpg",
+        "diagnosis": "EMPSGC associated with Mucinous Carcinoma",
+        "legend": "Transition to mucinous carcinoma with epithelial nests floating in extracellular mucin. (Time: 2311s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Microcystic Adnexal Carcinoma",
+    "definition": "A locally aggressive, infiltrating, sclerosing adnexal carcinoma.",
+    "tags": [
+      "Skin::Neoplastic::Adnexal::Eccrine::Microcystic_Adnexal_Carcinoma"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Commonly upper lip and nasolabial fold. 5th-6th decade.",
+    "pathogenesis": "Unknown.",
+    "macroscopic": "Indurated plaque or nodule.",
+    "microscopic": "Superficial keratinous cysts (resembling trichoadenoma/desmoplastic trichoepithelioma) blending into small ductal structures and cords in the deep dermis. Diffusely infiltrative into subcutis/muscle with a dense desmoplastic stroma. Cytologically bland cells. Perineural invasion is very common.",
+    "ancillary_studies": "Diagnosis primarily morphologic (infiltrative silhouette). CEA+ (ducts).",
+    "differential_diagnosis": "Syringoma, Desmoplastic Trichoepithelioma, Squamous Cell Carcinoma.",
+    "staging": "Locally destructive.",
+    "prognosis_and_prediction": "High recurrence rate if not completely excised; low metastatic potential.",
+    "related_figures": [
+      {
+        "id": "Slide_84",
+        "src": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0084.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0084.jpg",
+        "diagnosis": "Microcystic Adnexal Carcinoma",
+        "legend": "Superficial keratocysts overlying infiltrative small ducts. (Time: 2465s)"
+      },
+      {
+        "id": "Slide_85",
+        "src": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0085.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0085.jpg",
+        "diagnosis": "Microcystic Adnexal Carcinoma",
+        "legend": "Diffusely infiltrative cords and small ducts in desmoplastic stroma. (Time: 2485s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Adenoid Cystic Carcinoma (Cutaneous)",
+    "definition": "A rare primary cutaneous carcinoma identical to salivary gland adenoid cystic carcinoma.",
+    "tags": [
+      "Skin::Neoplastic::Adnexal::Eccrine::Adenoid_Cystic_Carcinoma_Cutaneous"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Slow growing tumor in older patients.",
+    "pathogenesis": "Driven by MYB gene fusions.",
+    "macroscopic": "Nodule.",
+    "microscopic": "Basaloid cells arranged in cribriform ('Swiss cheese'), tubular, or solid patterns. Mucin often present in pseudocysts. Perineural invasion is ubiquitous.",
+    "ancillary_studies": "IHC Positives: MYB (nuclear), CD117 (c-kit), p63, SOX10. Genetics: MYB fusions.",
+    "differential_diagnosis": "Basal Cell Carcinoma, Adenoid Basal Cell Carcinoma.",
+    "staging": "Locally recurrent, late metastasis possible.",
+    "prognosis_and_prediction": "Slow growth but persistent.",
+    "related_figures": [
+      {
+        "id": "Slide_89",
+        "src": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0089.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0089.jpg",
+        "diagnosis": "Adenoid Cystic Carcinoma",
+        "legend": "Classic cribriform architecture with basaloid cells and mucin-filled spaces. (Time: 2523s)"
+      },
+      {
+        "id": "Slide_91",
+        "src": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0091.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0091.jpg",
+        "diagnosis": "Adenoid Cystic Carcinoma",
+        "legend": "Perineural invasion by tumor nests. (Time: 2565s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Porocarcinoma",
+    "definition": "A malignant adnexal tumor with eccrine differentiation, arising de novo or from a poroma.",
+    "tags": [
+      "Skin::Neoplastic::Adnexal::Eccrine::Porocarcinoma"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Older patients, acral skin (palms/soles) or lower extremities.",
+    "pathogenesis": "NUTM1 (NUT-1) rearrangements in a subset.",
+    "macroscopic": "Nodule or plaque.",
+    "microscopic": "Infiltrative growth with connection to the epidermis (intraepidermal nesting/pagetoid spread). Poroid cells (basaloid) forming ducts/lumina. High grade features: necrosis, high mitotic rate, nuclear pleomorphism.",
+    "ancillary_studies": "IHC Positives: CEA (ducts), NUT-1 (subset).",
+    "differential_diagnosis": "Squamous Cell Carcinoma, Poroma.",
+    "staging": "Potential for metastasis (lymph nodes).",
+    "prognosis_and_prediction": "Aggressive potential.",
+    "related_figures": [
+      {
+        "id": "Slide_100",
+        "src": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0100.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0100.jpg",
+        "diagnosis": "Porocarcinoma",
+        "legend": "Infiltrative tumor with epidermal connection and high-grade cytology. (Time: 2690s)"
+      },
+      {
+        "id": "Slide_102",
+        "src": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0102.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0102.jpg",
+        "diagnosis": "Porocarcinoma",
+        "legend": "Ductal differentiation within solid nests of atypical cells. (Time: 2711s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Atypical Fibroxanthoma",
+    "definition": "A malignant mesenchymal neoplasm of the dermis, diagnosis of exclusion.",
+    "tags": [
+      "Skin::Neoplastic::Soft_Tissue::Fibrous::Atypical_Fibroxanthoma"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Rapidly growing, ulcerated nodule on sun-damaged skin (head/neck) of elderly patients.",
+    "pathogenesis": "UV-induced damage; p53 mutations.",
+    "macroscopic": "Ulcerated nodule.",
+    "microscopic": "Restricted to the dermis (if involves subcutis/necrosis/vascular invasion, termed Pleomorphic Dermal Sarcoma). Pleomorphic spindle and epithelioid cells, bizarre giant cells, atypical mitoses. High grade morphology.",
+    "ancillary_studies": "IHC: Diagnosis of exclusion. Positives: CD10 (diffuse), p53 (diffuse/mutated), Procollagen-1. Negatives (CRITICAL): Cytokeratins/p40/p63 (excludes SCC), S100/SOX10/Melan-A (excludes Melanoma), Desmin (excludes Leiomyosarcoma), Erg (excludes Angiosarcoma).",
+    "differential_diagnosis": "Pleomorphic Dermal Sarcoma (same tumor, deeper/more aggressive), Spindle Cell SCC, Desmoplastic Melanoma, Leiomyosarcoma, Angiosarcoma.",
+    "staging": "AFX has low metastatic potential; Pleomorphic Dermal Sarcoma has higher metastatic risk.",
+    "prognosis_and_prediction": "Good prognosis if strictly dermal (AFX).",
+    "related_figures": [
+      {
+        "id": "Slide_106",
+        "src": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0106.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0106.jpg",
+        "diagnosis": "Atypical Fibroxanthoma",
+        "legend": "Highly pleomorphic spindle and epithelioid cells with bizarre nuclei. (Time: 2829s)"
+      },
+      {
+        "id": "Slide_107",
+        "src": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0107.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0107.jpg",
+        "diagnosis": "Atypical Fibroxanthoma",
+        "legend": "Atypical mitotic figures and marked nuclear pleomorphism. (Time: 2850s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Metastatic Breast Carcinoma",
+    "definition": "Cutaneous metastasis from primary breast malignancy.",
+    "tags": [
+      "Skin::Neoplastic::Metastatic::Metastatic_Breast_Carcinoma"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Nodules typically near the site of the primary (chest wall, abdomen). Commonest cutaneous met in women.",
+    "pathogenesis": "Hematogenous or lymphatic spread.",
+    "macroscopic": "Firm nodules.",
+    "microscopic": "Tumor in dermis with no connection to epidermis. Ductal type: gland/tubule formation. Lobular type: single file 'Indian-filing' of cells between collagen bundles.",
+    "ancillary_studies": "IHC Positives: CK7, Mammaglobin, GATA3, ER/PR/Her2 (depending on primary). E-cadherin positive in Ductal, Negative in Lobular. IHC Negatives: p63, CK20.",
+    "differential_diagnosis": "Primary adnexal carcinoma, other metastases.",
+    "staging": "Stage IV disease.",
+    "prognosis_and_prediction": "Depends on primary characteristics.",
+    "related_figures": [
+      {
+        "id": "Slide_116",
+        "src": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0116.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0116.jpg",
+        "diagnosis": "Metastatic Breast Carcinoma (Ductal)",
+        "legend": "Glandular structures in dermis without epidermal connection. (Time: 3184s)"
+      },
+      {
+        "id": "Slide_119",
+        "src": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0119.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0119.jpg",
+        "diagnosis": "Metastatic Breast Carcinoma (Lobular)",
+        "legend": "Single file infiltration of tumor cells between collagen bundles. (Time: 3270s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Metastatic Lung Carcinoma",
+    "definition": "Cutaneous metastasis from primary lung malignancy.",
+    "tags": [
+      "Skin::Neoplastic::Metastatic::Metastatic_Lung_Carcinoma"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Rapidly growing nodules, scalp is a common site. Common in men.",
+    "pathogenesis": "Hematogenous spread.",
+    "macroscopic": "Nodules.",
+    "microscopic": "Adenocarcinoma: Glandular formation. Small Cell Carcinoma: Small round blue cells (mimics Merkel).",
+    "ancillary_studies": "Adenocarcinoma: TTF-1+, Napsin A+, CK7+. Small Cell: TTF-1+, CK7+, INSM1+, CK20- (usually), MCPyV-.",
+    "differential_diagnosis": "Merkel Cell Carcinoma (CK20+, TTF-1-), Primary Adnexal Carcinoma.",
+    "staging": "Stage IV disease.",
+    "prognosis_and_prediction": "Poor.",
+    "related_figures": [
+      {
+        "id": "Slide_121",
+        "src": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0121.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0121.jpg",
+        "diagnosis": "Metastatic Lung Adenocarcinoma",
+        "legend": "Glandular tumor in dermis, TTF-1 positive. (Time: 3306s)"
+      },
+      {
+        "id": "Slide_122",
+        "src": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0122.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0122.jpg",
+        "diagnosis": "Metastatic Small Cell Carcinoma",
+        "legend": "Small round blue cell tumor, TTF-1 positive, CK20 negative. (Time: 3369s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Metastatic Colon Carcinoma",
+    "definition": "Cutaneous metastasis from primary colorectal malignancy.",
+    "tags": [
+      "Skin::Neoplastic::Metastatic::Metastatic_Colon_Carcinoma"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Nodules, often abdominal wall/perineum.",
+    "pathogenesis": "Metastatic spread.",
+    "macroscopic": "Nodules.",
+    "microscopic": "Glandular structures with characteristic 'dirty necrosis' (central necrotic debris). No epidermal connection.",
+    "ancillary_studies": "IHC Positives: CK20, CDX2. IHC Negatives: CK7.",
+    "differential_diagnosis": "Primary Sweat Gland Carcinoma.",
+    "staging": "Stage IV disease.",
+    "prognosis_and_prediction": "Poor.",
+    "related_figures": [
+      {
+        "id": "Slide_123",
+        "src": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0123.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0123.jpg",
+        "diagnosis": "Metastatic Colorectal Carcinoma",
+        "legend": "Glands with central 'dirty' necrosis. (Time: 3407s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Metastatic Renal Cell Carcinoma",
+    "definition": "Cutaneous metastasis from renal cell carcinoma.",
+    "tags": [
+      "Skin::Neoplastic::Metastatic::Metastatic_Renal_Cell_Carcinoma"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Vascular nodules, often head and neck.",
+    "pathogenesis": "Hematogenous spread.",
+    "macroscopic": "Flesh-colored or violaceous nodules.",
+    "microscopic": "Clear cells arranged in nests or sheets. Highly vascular stroma with hemorrhage/red blood cells. Lack of epidermal connection.",
+    "ancillary_studies": "IHC Positives: PAX8, RCC antigen, Vimentin. IHC Negatives: CK7, CK20, p63.",
+    "differential_diagnosis": "Clear Cell Hidradenoma (CK7+, p63+), Sebaceous Carcinoma.",
+    "staging": "Stage IV disease.",
+    "prognosis_and_prediction": "Poor.",
+    "related_figures": [
+      {
+        "id": "Slide_124",
+        "src": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0124.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_2_Adnexal/Derm_Lecture_2_Adnexal_slide_0124.jpg",
+        "diagnosis": "Metastatic Renal Cell Carcinoma",
+        "legend": "Clear cells with prominent vascularity and hemorrhage; PAX8 positive. (Time: 3467s)"
+      }
+    ]
+  }
+]

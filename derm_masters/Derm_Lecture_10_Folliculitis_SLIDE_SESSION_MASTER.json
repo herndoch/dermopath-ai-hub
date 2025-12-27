@@ -1,0 +1,297 @@
+[
+  {
+    "entity_name": "Normal Hair Follicle Histology",
+    "definition": "The histological anatomy of the pilosebaceous unit, divided into specific segments with distinct functional roles.",
+    "tags": [
+      "Skin::Normal_Histology::Hair"
+    ],
+    "html_gcs_path": null,
+    "clinical": "N/A (Normal Anatomy)",
+    "pathogenesis": "N/A",
+    "macroscopic": "N/A",
+    "microscopic": "The hair follicle is divided into three segments: 1) Infundibulum: Top portion, contiguous with the epidermis and keratinizes similarly; extends to the insertion of the sebaceous gland. 2) Isthmus: Middle segment extending from the sebaceous gland insertion to the insertion of the arrector pili muscle. This area contains the 'bulge' where follicular stem cells reside (critical for regeneration). Destruction here causes permanent alopecia. 3) Lower Segment (Bulb): Bottom most part, metabolically active and proliferative, responsible for hair shaft production. Contains the matrix and dermal papilla. The follicle is lined by the Outer Root Sheath (pale/glycogenated keratinocytes) and surrounded by a fibrous sheath.",
+    "ancillary_studies": "N/A",
+    "differential_diagnosis": "N/A",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Inflammation affecting the isthmus/bulge area can lead to permanent scarring alopecia, whereas inflammation of the bulb (e.g., Alopecia Areata) is often reversible.",
+    "related_figures": [
+      {
+        "id": "Slide_7",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_10_Folliculitis_SLIDE_SESSION/Derm_Lecture_10_Folliculitis_SLIDE_SESSION_slide_0007.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_10_Folliculitis_SLIDE_SESSION/Derm_Lecture_10_Folliculitis_SLIDE_SESSION_slide_0007.jpg",
+        "diagnosis": "Normal Hair Follicle Histology",
+        "legend": "Cross section of a hair follicle showing the infundibulum and isthmus. (Time: 109s)"
+      },
+      {
+        "id": "Slide_12",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_10_Folliculitis_SLIDE_SESSION/Derm_Lecture_10_Folliculitis_SLIDE_SESSION_slide_0012.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_10_Folliculitis_SLIDE_SESSION/Derm_Lecture_10_Folliculitis_SLIDE_SESSION_slide_0012.jpg",
+        "diagnosis": "Normal Hair Follicle Histology",
+        "legend": "Lower segment of the hair follicle showing the bulb and prominent outer root sheath. (Time: 236s)"
+      },
+      {
+        "id": "Slide_19",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_10_Folliculitis_SLIDE_SESSION/Derm_Lecture_10_Folliculitis_SLIDE_SESSION_slide_0019.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_10_Folliculitis_SLIDE_SESSION/Derm_Lecture_10_Folliculitis_SLIDE_SESSION_slide_0019.jpg",
+        "diagnosis": "Normal Hair Follicle Histology",
+        "legend": "Hair follicle in catagen phase showing central pink dyskeratotic zone. (Time: 382s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Erythematotelangiectatic Rosacea",
+    "definition": "A subtype of rosacea characterized primarily by flushing, persistent erythema, and telangiectasias, typically on the head and neck.",
+    "tags": [
+      "Skin::Inflammatory::Adnexal::Rosacea_Erythematotelangiectatic"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Presents on head and neck skin. Clinically appears red/macular with visible telangiectasias. Typically lacks papules or pustules unless overlapping with other subtypes.",
+    "pathogenesis": "Vascular hyperreactivity and chronic inflammation.",
+    "macroscopic": "Erythema and telangiectasias on sun-exposed face.",
+    "microscopic": "High density of pilosebaceous units (indicating head/neck location). Prominent dilated blood vessels (telangiectasias) in the superficial dermis. Sparse perivascular and perifollicular lymphocytic inflammation. Absence of significant spongiosis or follicular pustules.",
+    "ancillary_studies": "None mentioned.",
+    "differential_diagnosis": "Other forms of rosacea, telangiectasias from other causes.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Chronic condition requiring management of triggers and inflammation.",
+    "related_figures": [
+      {
+        "id": "Slide_26",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_10_Folliculitis_SLIDE_SESSION/Derm_Lecture_10_Folliculitis_SLIDE_SESSION_slide_0026.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_10_Folliculitis_SLIDE_SESSION/Derm_Lecture_10_Folliculitis_SLIDE_SESSION_slide_0026.jpg",
+        "diagnosis": "Erythematotelangiectatic Rosacea",
+        "legend": "Scanning magnification showing head and neck skin with dilated superficial vessels. (Time: 502s)"
+      },
+      {
+        "id": "Slide_34",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_10_Folliculitis_SLIDE_SESSION/Derm_Lecture_10_Folliculitis_SLIDE_SESSION_slide_0034.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_10_Folliculitis_SLIDE_SESSION/Derm_Lecture_10_Folliculitis_SLIDE_SESSION_slide_0034.jpg",
+        "diagnosis": "Erythematotelangiectatic Rosacea",
+        "legend": "Closer view showing predominantly lymphocytic infiltrate around vessels and follicles. (Time: 613s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Dermatophytic Folliculitis (Majocchi Granuloma)",
+    "definition": "A fungal infection of the hair follicle caused by dermatophytes invading the deep follicular epithelium and dermis.",
+    "tags": [
+      "Skin::Infectious::Fungal::Majocchi_Granuloma_Fungal_Folliculitis"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Presents as follicular papules, pustules, or nodules. May not show typical surface tinea changes.",
+    "pathogenesis": "Dermatophytes invade the hair follicle, often due to trauma (shaving) or immunosuppression/topical steroid use. Deep invasion changes fungal morphology.",
+    "macroscopic": "Suppurative folliculitis.",
+    "microscopic": "Suppurative folliculitis (neutrophils within the follicular epithelium). The dermatophytes located deep in the follicle often appear as 'arthrospores' (large, round, yeast-like structures) rather than typical hyphae seen in the stratum corneum, though some septated hyphae may be present. Eosinophils are a frequent component of the infiltrate (a clue to fungal etiology).",
+    "ancillary_studies": "PASD (Periodic Acid-Schiff Diastase): Positive (highlights fungal cell walls red).",
+    "differential_diagnosis": "Bacterial folliculitis, Pityrosporum folliculitis, Candida folliculitis.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Requires systemic antifungal therapy as topical agents do not penetrate effectively.",
+    "related_figures": [
+      {
+        "id": "Slide_50",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_10_Folliculitis_SLIDE_SESSION/Derm_Lecture_10_Folliculitis_SLIDE_SESSION_slide_0050.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_10_Folliculitis_SLIDE_SESSION/Derm_Lecture_10_Folliculitis_SLIDE_SESSION_slide_0050.jpg",
+        "diagnosis": "Dermatophytic Folliculitis",
+        "legend": "True folliculitis with inflammation within the follicular epithelium. (Time: 921s)"
+      },
+      {
+        "id": "Slide_61",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_10_Folliculitis_SLIDE_SESSION/Derm_Lecture_10_Folliculitis_SLIDE_SESSION_slide_0061.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_10_Folliculitis_SLIDE_SESSION/Derm_Lecture_10_Folliculitis_SLIDE_SESSION_slide_0061.jpg",
+        "diagnosis": "Dermatophytic Folliculitis",
+        "legend": "High power showing large fungal elements (arthrospores) within the follicle lumen. (Time: 1075s)"
+      },
+      {
+        "id": "Slide_64",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_10_Folliculitis_SLIDE_SESSION/Derm_Lecture_10_Folliculitis_SLIDE_SESSION_slide_0064.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_10_Folliculitis_SLIDE_SESSION/Derm_Lecture_10_Folliculitis_SLIDE_SESSION_slide_0064.jpg",
+        "diagnosis": "Dermatophytic Folliculitis",
+        "legend": "PAS stain highlighting the fungal elements red. (Time: 1136s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Keratosis Pilaris",
+    "definition": "A common disorder of keratinization characterized by horny plugs in the hair follicles.",
+    "tags": [
+      "Skin::Inflammatory::Adnexal::Keratosis_Pilaris"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Follicular centric hyperkeratotic papules, typically on proximal extremities (arms/thighs).",
+    "pathogenesis": "Abnormal keratinization of the follicular infundibulum.",
+    "macroscopic": "Rough, 'chicken skin' appearance.",
+    "microscopic": "Infundibular dilation with a keratotic plug (comedonal widening). Sparse perifollicular inflammation (mild perifolliculitis). Perifollicular fibrosis that may contain mucin (appearing grayish-blue). Typically seen in skin with lower hair density (trunk/extremities) often involving vellus hairs.",
+    "ancillary_studies": "None mentioned.",
+    "differential_diagnosis": "Inflammatory Keratosis Pilaris, Lichen Spinulosus, Phrynoderma (Vitamin A deficiency).",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Benign chronic condition.",
+    "related_figures": [
+      {
+        "id": "Slide_86",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_10_Folliculitis_SLIDE_SESSION/Derm_Lecture_10_Folliculitis_SLIDE_SESSION_slide_0086.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_10_Folliculitis_SLIDE_SESSION/Derm_Lecture_10_Folliculitis_SLIDE_SESSION_slide_0086.jpg",
+        "diagnosis": "Keratosis Pilaris",
+        "legend": "Follicular plugging with a triangle-shaped keratin plug in the infundibulum. (Time: 1477s)"
+      },
+      {
+        "id": "Slide_90",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_10_Folliculitis_SLIDE_SESSION/Derm_Lecture_10_Folliculitis_SLIDE_SESSION_slide_0090.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_10_Folliculitis_SLIDE_SESSION/Derm_Lecture_10_Folliculitis_SLIDE_SESSION_slide_0090.jpg",
+        "diagnosis": "Keratosis Pilaris",
+        "legend": "Perifollicular fibrosis which appears slightly grayish-blue due to mucin. (Time: 1540s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Ruptured Folliculitis / Ruptured Cyst",
+    "definition": "An inflammatory reaction occurring when follicular contents (keratin) escape into the dermis.",
+    "tags": [
+      "Skin::Inflammatory::Granulomatous::Ruptured_Cyst_Granuloma"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Inflammatory papule or nodule.",
+    "pathogenesis": "Rupture of the follicular wall releases keratin and bacteria into the dermis, inciting a foreign body reaction.",
+    "macroscopic": "N/A",
+    "microscopic": "Suppurative and granulomatous perifolliculitis. The original hair follicle may be distorted or not fully visible. Granulomas often contain keratin debris or naked hair shafts. Neutrophils are present in the mixed infiltrate.",
+    "ancillary_studies": "Special stains (PAS, Gram, Fite) may be used to rule out infection, though often negative in sterile rupture.",
+    "differential_diagnosis": "Infectious folliculitis (fungal, bacterial), Ruptured epidermal inclusion cyst.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Resolves with destruction of the foreign material.",
+    "related_figures": [
+      {
+        "id": "Slide_121",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_10_Folliculitis_SLIDE_SESSION/Derm_Lecture_10_Folliculitis_SLIDE_SESSION_slide_0121.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_10_Folliculitis_SLIDE_SESSION/Derm_Lecture_10_Folliculitis_SLIDE_SESSION_slide_0121.jpg",
+        "diagnosis": "Ruptured Folliculitis",
+        "legend": "Granulomatous perifolliculitis with mixed inflammation. (Time: 2078s)"
+      },
+      {
+        "id": "Slide_131",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_10_Folliculitis_SLIDE_SESSION/Derm_Lecture_10_Folliculitis_SLIDE_SESSION_slide_0131.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_10_Folliculitis_SLIDE_SESSION/Derm_Lecture_10_Folliculitis_SLIDE_SESSION_slide_0131.jpg",
+        "diagnosis": "Ruptured Folliculitis",
+        "legend": "Debris within granulomatous inflammation indicating follicular rupture. (Time: 2203s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Eosinophilic Pustular Folliculitis",
+    "definition": "A spectrum of sterile folliculitis characterized by eosinophilic infiltration.",
+    "tags": [
+      "Skin::Inflammatory::Adnexal::Eosinophilic_Pustular_Folliculitis_Ofuji"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Pruritic follicular papules and pustules. Subtypes include Classic (Ofuji - Asian adults), Immunosuppression-associated (HIV/AIDS), and Infantile/Neonatal.",
+    "pathogenesis": "Unknown; associated with immune dysregulation.",
+    "macroscopic": "Pustules and papules.",
+    "microscopic": "Dense infiltration of eosinophils within the follicular epithelium (folliculitis) and surrounding dermis (perifolliculitis). Eosinophils may be diffuse throughout the dermis. The hair follicle is often distorted.",
+    "ancillary_studies": "None mentioned.",
+    "differential_diagnosis": "Infectious folliculitis (fungal/parasitic), Arthropod bite reaction.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Depends on subtype; HIV-associated improved with antiretrovirals.",
+    "related_figures": [
+      {
+        "id": "Slide_152",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_10_Folliculitis_SLIDE_SESSION/Derm_Lecture_10_Folliculitis_SLIDE_SESSION_slide_0152.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_10_Folliculitis_SLIDE_SESSION/Derm_Lecture_10_Folliculitis_SLIDE_SESSION_slide_0152.jpg",
+        "diagnosis": "Eosinophilic Folliculitis",
+        "legend": "Hair follicle containing a dense collection of eosinophils. (Time: 2454s)"
+      },
+      {
+        "id": "Slide_158",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_10_Folliculitis_SLIDE_SESSION/Derm_Lecture_10_Folliculitis_SLIDE_SESSION_slide_0158.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_10_Folliculitis_SLIDE_SESSION/Derm_Lecture_10_Folliculitis_SLIDE_SESSION_slide_0158.jpg",
+        "diagnosis": "Eosinophilic Folliculitis",
+        "legend": "Diffuse eosinophils throughout the dermis in addition to follicular involvement. (Time: 2492s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Acne Vulgaris (Comedonal)",
+    "definition": "A chronic inflammatory disease of the pilosebaceous unit, here demonstrating the comedonal stage.",
+    "tags": [
+      "Skin::Inflammatory::Adnexal::Acne_Vulgaris"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Open and closed comedones (blackheads and whiteheads), typically on face, chest, or back.",
+    "pathogenesis": "Follicular hyperkeratinization, excess sebum, C. acnes proliferation.",
+    "macroscopic": "Comedones.",
+    "microscopic": "Large, dilated follicular infundibula plugged with keratin (comedones). Perifollicular inflammation composed of lymphocytes and histiocytes. Fibrosis may be present. Sebaceous glands remain intact (distinguishing from scarring alopecias like LPP). More extensive and deep than Keratosis Pilaris.",
+    "ancillary_studies": "None mentioned.",
+    "differential_diagnosis": "Keratosis Pilaris, Chloracne, Favre-Racouchot.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Can progress to inflammatory/pustular acne or resolve.",
+    "related_figures": [
+      {
+        "id": "Slide_185",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_10_Folliculitis_SLIDE_SESSION/Derm_Lecture_10_Folliculitis_SLIDE_SESSION_slide_0185.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_10_Folliculitis_SLIDE_SESSION/Derm_Lecture_10_Folliculitis_SLIDE_SESSION_slide_0185.jpg",
+        "diagnosis": "Comedonal Acne",
+        "legend": "Deep follicular plugging with perifollicular lymphocytes and histiocytes. (Time: 2802s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Demodicosis (with Mixed Organisms)",
+    "definition": "Folliculitis associated with proliferation of Demodex mites, often accompanied by other commensal flora.",
+    "tags": [
+      "Skin::Infectious::Parasitic::Demodicosis_Demodex"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Papulopustular eruption, often overlapping with rosacea.",
+    "pathogenesis": "Overgrowth of Demodex mites (normal flora) occludes the follicle or induces inflammation. Rupture can release bacteria and yeast into the dermis.",
+    "macroscopic": "N/A",
+    "microscopic": "Suppurative folliculitis with neutrophils in the follicle. Follicular rupture may be present. Key finding is the presence of organisms within the inflammation/follicle: Demodex mites (large), Pityrosporum yeast, and bacterial colonies. Determining which organism is the primary pathogen vs. bystander can be difficult.",
+    "ancillary_studies": "N/A",
+    "differential_diagnosis": "Bacterial folliculitis, Rosacea.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Responds to anti-parasitic or antimicrobial therapy.",
+    "related_figures": [
+      {
+        "id": "Slide_191",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_10_Folliculitis_SLIDE_SESSION/Derm_Lecture_10_Folliculitis_SLIDE_SESSION_slide_0191.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_10_Folliculitis_SLIDE_SESSION/Derm_Lecture_10_Folliculitis_SLIDE_SESSION_slide_0191.jpg",
+        "diagnosis": "Demodex Folliculitis",
+        "legend": "Large Demodex mite visible within the inflamed follicle. (Time: 3121s)"
+      },
+      {
+        "id": "Slide_195",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_10_Folliculitis_SLIDE_SESSION/Derm_Lecture_10_Folliculitis_SLIDE_SESSION_slide_0195.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_10_Folliculitis_SLIDE_SESSION/Derm_Lecture_10_Folliculitis_SLIDE_SESSION_slide_0195.jpg",
+        "diagnosis": "Mixed Organism Folliculitis",
+        "legend": "Presence of Pityrosporum yeast and bacterial colonies alongside the inflammation. (Time: 3149s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Granulomatous Rosacea",
+    "definition": "A histological variant of rosacea characterized by granulomatous inflammation.",
+    "tags": [
+      "Skin::Inflammatory::Adnexal::Rosacea_Granulomatous"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Firm, yellow-brown or red papules and nodules on the face.",
+    "pathogenesis": "Variant of rosacea inflammation.",
+    "macroscopic": "Inflammatory papules/nodules.",
+    "microscopic": "Nodular areas of inflammation in a perifollicular distribution. Lymphocytes, histiocytes, and well-formed or vague granulomas with multinucleated giant cells. Unlike ruptured cysts, the inciting follicle is often not visualized directly in the center of the granuloma, though the location is perifollicular.",
+    "ancillary_studies": "None mentioned.",
+    "differential_diagnosis": "Lupus Miliaris Disseminatus Faciei, Sarcoidosis, Tuberculosis.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Chronic course.",
+    "related_figures": [
+      {
+        "id": "Slide_205",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_10_Folliculitis_SLIDE_SESSION/Derm_Lecture_10_Folliculitis_SLIDE_SESSION_slide_0205.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_10_Folliculitis_SLIDE_SESSION/Derm_Lecture_10_Folliculitis_SLIDE_SESSION_slide_0205.jpg",
+        "diagnosis": "Granulomatous Rosacea",
+        "legend": "Nodular area of inflammation in a perifollicular distribution. (Time: 3245s)"
+      },
+      {
+        "id": "Slide_214",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_10_Folliculitis_SLIDE_SESSION/Derm_Lecture_10_Folliculitis_SLIDE_SESSION_slide_0214.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_10_Folliculitis_SLIDE_SESSION/Derm_Lecture_10_Folliculitis_SLIDE_SESSION_slide_0214.jpg",
+        "diagnosis": "Granulomatous Rosacea",
+        "legend": "Granulomatous inflammation with multinucleated giant cells. (Time: 3323s)"
+      }
+    ]
+  }
+]

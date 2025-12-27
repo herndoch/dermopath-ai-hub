@@ -1,0 +1,317 @@
+[
+  {
+    "entity_name": "Actinic Keratosis",
+    "definition": "A common precursor lesion to squamous cell carcinoma (or early evolving in situ carcinoma) characterized by proliferation of atypical keratinocytes, most commonly induced by UV radiation.",
+    "tags": [
+      "Skin::Neoplastic::Epidermal::Precursor::Actinic_Keratosis_NOS"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Presents as scaly lesions on sun-damaged skin. Variants include pigmented (flat, mimics lentigo maligna) and hypertrophic (thick scale/cornified layer, mimics prurigo nodule). The transition to invasive carcinoma is unpredictable; some regress, some persist, some invade.",
+    "pathogenesis": "Mutational landscape is similar to invasive SCC (accumulated chromosomal copy number changes). Mutations occur in genes coding for keratin (epidermolytic variant) or connecting genes (acantholytic variant). P53 mutations result in abnormal protein stabilization.",
+    "macroscopic": "Slightly thickened epidermis with scale. Pigmented variants are often flat. Hypertrophic variants appear as hyperkeratotic papules/nodules.",
+    "microscopic": "Alternating pink (parakeratosis) and blue (basal atypia) pattern. The 'blue' areas represent atypical keratinocytes crowded in the lower epidermis, while the 'pink' represents the overlying parakeratosis. Key feature: 'Cell sharp margin' sparing adnexal structures (hair follicles and acrosyringia) where stem cells reside. The basket-weave stratum corneum between lesions is thickened.",
+    "ancillary_studies": "IHC: P53 positive (stabilized protein in basal layer). Pigmented AK: SOX10/Melan-A (increased but discontinuous/non-confluent melanocytes), PRAME negative. P63+.",
+    "differential_diagnosis": "Seborrheic dermatitis (lacks cell sharp margin/alternating color), Lentigo maligna (confluent melanocytes, PRAME+), Prurigo nodule (for hypertrophic AK), Superficial BCC.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "May progress to invasive SCC. Pigmented AKs rarely produce thick scale. Hypertrophic AKs on dorsal hands require deep shave/punch to rule out invasion.",
+    "related_figures": [
+      {
+        "id": "Slide_3",
+        "src": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0003.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0003.jpg",
+        "diagnosis": "Actinic Keratosis",
+        "legend": "Schematic showing atypical nuclei concentrated toward the basal layer with parakeratosis above, sparing adnexal structures. (Time: 261s)"
+      },
+      {
+        "id": "Slide_9",
+        "src": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0009.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0009.jpg",
+        "diagnosis": "Actinic Keratosis",
+        "legend": "High magnification showing alternating pink (parakeratosis) and blue (basal atypia) coloration. (Time: 709s)"
+      },
+      {
+        "id": "Slide_11",
+        "src": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0011.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0011.jpg",
+        "diagnosis": "Actinic Keratosis",
+        "legend": "Demonstration of the 'cell sharp margin' where atypical cells spare the hair follicle/adnexal structures. (Time: 761s)"
+      },
+      {
+        "id": "Slide_13",
+        "src": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0013.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0013.jpg",
+        "diagnosis": "Actinic Keratosis",
+        "legend": "Acantholytic variant showing suprabasal clefts with smooth, round edges. (Time: 858s)"
+      },
+      {
+        "id": "Slide_15",
+        "src": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0015.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0015.jpg",
+        "diagnosis": "Actinic Keratosis",
+        "legend": "Pigmented variant; typically flat lesions with increased melanocytes but lacking confluence. (Time: 886s)"
+      },
+      {
+        "id": "Slide_18",
+        "src": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0018.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0018.jpg",
+        "diagnosis": "Actinic Keratosis",
+        "legend": "Hypertrophic variant with thickened granular and cornified layers, mimicking prurigo nodule. (Time: 1058s)"
+      },
+      {
+        "id": "Slide_19",
+        "src": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0019.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0019.jpg",
+        "diagnosis": "Actinic Keratosis",
+        "legend": "Epidermolytic variant showing vacuolar degeneration within the lesion. (Time: 1211s)"
+      },
+      {
+        "id": "Slide_44",
+        "src": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0044.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0044.jpg",
+        "diagnosis": "Actinic Keratosis",
+        "legend": "P53 immunostain showing positivity in the basal layer of the actinic keratosis. (Time: 2100s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Bowen's Disease (Squamous Cell Carcinoma In Situ)",
+    "definition": "A form of full-thickness intraepidermal squamous cell carcinoma.",
+    "tags": [
+      "Skin::Neoplastic::Epidermal::Precursor::Bowen_Disease_SCC_In_Situ"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Erythematous, scaly plaque. Often occurs on non-sun-exposed or sun-exposed skin.",
+    "pathogenesis": "Distinct from AK pathologically; atypical cells tend to spare the basal layer.",
+    "macroscopic": "Large plaques, may have islands of regression.",
+    "microscopic": "Full-thickness atypia. 'Bowen's is Blue' at scanning magnification. Characterized by blunt, thickened rete ridges (not buds). Key feature: 'Eyeliner sign' \u2013 the basal layer is often spared and composed of small, less atypical cells, while significant atypia and mitoses are found in upper layers. Pagetoid variant exists with nests/single pale cells in upper epidermis.",
+    "ancillary_studies": "IHC: P63+ (stains nuclei of Bowen's cells, helpful to distinguish Pagetoid Bowen's from Extramammary Paget's which is P63/P40 negative). P53 spares the basal layer (eyeliner sign).",
+    "differential_diagnosis": "Actinic Keratosis (atypia at base vs upper layers in Bowen's), Paget's Disease (P63-), Melanoma In Situ (SOX10/Melan-A+).",
+    "staging": "In situ.",
+    "prognosis_and_prediction": "Can progress to invasive SCC. 'Basaloid' SCCs arising in Bowen's disease may have a worse prognosis/differentiation than those from AKs.",
+    "related_figures": [
+      {
+        "id": "Slide_3",
+        "src": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0003.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0003.jpg",
+        "diagnosis": "Bowen's Disease",
+        "legend": "Schematic showing blunt thickened epidermis, palisaded basal layer, and atypia above. (Time: 261s)"
+      },
+      {
+        "id": "Slide_31",
+        "src": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0031.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0031.jpg",
+        "diagnosis": "Bowen's Disease",
+        "legend": "Scanning view showing the 'blue' appearance and blunt ridges. (Time: 1696s)"
+      },
+      {
+        "id": "Slide_32",
+        "src": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0032.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0032.jpg",
+        "diagnosis": "Bowen's Disease",
+        "legend": "High power demonstrating the 'Eyeliner sign' (spared basal layer) with atypical cells above. (Time: 1728s)"
+      },
+      {
+        "id": "Slide_34",
+        "src": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0034.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0034.jpg",
+        "diagnosis": "Bowen's Disease",
+        "legend": "Pagetoid variant with pale cells scattering into the upper epidermis. (Time: 1771s)"
+      },
+      {
+        "id": "Slide_45",
+        "src": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0045.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0045.jpg",
+        "diagnosis": "Bowen's Disease",
+        "legend": "P53 immunostain highlighting the sparing of the basal layer (negative Eyeliner sign). (Time: 2119s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Bowenoid Papulosis",
+    "definition": "A form of high-grade squamous intraepithelial lesion (HGSIL) indistinguishable histologically from Bowen's disease, occurring on genitalia.",
+    "tags": [
+      "Skin::Neoplastic::Epidermal::Precursor::Bowen_Disease_SCC_In_Situ"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Pigmented, slightly raised papules or plaques on genitalia.",
+    "pathogenesis": "Caused by High-Risk HPV (Types 16, 18).",
+    "macroscopic": "Warty or rupioid surface.",
+    "microscopic": "Papillated, warty contour (resembling condyloma architecture) but with cytologic features of Bowen's disease: full-thickness atypia, 'eyeliner sign' (spared basal layer), and numerous mitotic figures.",
+    "ancillary_studies": "Genetics: HPV 16 or 18 positive (via ISH).",
+    "differential_diagnosis": "Condyloma Acuminatum (lacks severe atypia), Seborrheic Keratosis.",
+    "staging": "In situ.",
+    "prognosis_and_prediction": "Generally indolent; distinct term prevents overtreatment (e.g., vulvectomy). Local treatment is usually sufficient.",
+    "related_figures": [
+      {
+        "id": "Slide_3",
+        "src": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0003.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0003.jpg",
+        "diagnosis": "Bowenoid Papulosis",
+        "legend": "Schematic showing warty/rupioid surface with Bowen's-like atypia. (Time: 261s)"
+      },
+      {
+        "id": "Slide_40",
+        "src": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0040.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0040.jpg",
+        "diagnosis": "Bowenoid Papulosis",
+        "legend": "Histology showing condyloma-like silhouette with Bowenoid atypia. (Time: 1995s)"
+      },
+      {
+        "id": "Slide_41",
+        "src": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0041.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0041.jpg",
+        "diagnosis": "Bowenoid Papulosis",
+        "legend": "High power showing pigment, eyeliner sign, and mitotic figures. (Time: 2054s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Squamous Cell Carcinoma (Invasive)",
+    "definition": "Malignant proliferation of keratinocytes invading the dermis.",
+    "tags": [
+      "Skin::Neoplastic::Epidermal::Malignant::Squamous_Cell_Carcinoma_Invasive_NOS"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Indurated nodule, plaque, or ulceration. Lip lesions have higher risk.",
+    "pathogenesis": "Accumulation of chromosomal copy number changes and mutations (similar landscape to AK but higher burden). Invasion patterns include 'Infiltrative' (jagged nests, tumor budding) and 'Pushing' (broad, bulldozer-like).",
+    "macroscopic": "Variable; ulcerated, crusted, or nodular.",
+    "microscopic": "Invasion into the reticular dermis or distinct separation from epidermis. 'Infiltrative' type shows irregular jagged nests between collagen. 'Pushing' type shows broad advancing borders. 'Basaloid' SCC (arising from Bowen's) consists of cords of basaloid cells.",
+    "ancillary_studies": "N/A",
+    "differential_diagnosis": "Pseudoepitheliomatous hyperplasia, Keratoacanthoma, Basal Cell Carcinoma.",
+    "staging": "Tumor thickness >6mm is a critical risk factor for metastasis.",
+    "prognosis_and_prediction": "Thin SCCs rarely metastasize. Risk factors: Thickness >6mm, Desmoplastic subtype, Basaloid/Poorly differentiated subtype (Bowen's associated). Tumor budding is a negative prognostic sign.",
+    "related_figures": [
+      {
+        "id": "Slide_23",
+        "src": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0023.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0023.jpg",
+        "diagnosis": "Invasive Squamous Cell Carcinoma",
+        "legend": "Thin invasive SCC with an infiltrative lower border (jagged nests). (Time: 1290s)"
+      },
+      {
+        "id": "Slide_25",
+        "src": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0025.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0025.jpg",
+        "diagnosis": "Invasive Squamous Cell Carcinoma",
+        "legend": "Pushing invasion pattern; broad 'snow plow' front without tumor budding. (Time: 1433s)"
+      },
+      {
+        "id": "Slide_56",
+        "src": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0056.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0056.jpg",
+        "diagnosis": "Basaloid Squamous Cell Carcinoma",
+        "legend": "Basaloid SCC arising in Bowen's disease, showing cords of basaloid cells invading dermis. (Time: 2415s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Verrucous Carcinoma",
+    "definition": "A low-grade, well-differentiated variant of squamous cell carcinoma.",
+    "tags": [
+      "Skin::Neoplastic::Epidermal::Malignant::Squamous_Cell_Carcinoma_Verrucous"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Exophytic, papillated, hyperkeratotic lesions. Common on plantar surface (Epithelioma Cuniculatum), genitals (Buschke-Lowenstein), or oral mucosa.",
+    "pathogenesis": "Slow growing, locally destructive but low metastatic potential.",
+    "macroscopic": "Warty, cauliflower-like mass.",
+    "microscopic": "Exophytic finger-like projections extending deeply into the dermis with a broad 'pushing' margin. Minimal cytologic atypia. Key architectural feature: Vertical burrows in the centers of the fingers containing cornifying cells.",
+    "ancillary_studies": "N/A",
+    "differential_diagnosis": "Pseudoepitheliomatous Hyperplasia (PEH), Giant Condyloma, Common Wart.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Excellent if excised completely; rarely metastasizes. Deep biopsy required for diagnosis to distinguish from reactive hyperplasia.",
+    "related_figures": [
+      {
+        "id": "Slide_49",
+        "src": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0049.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0049.jpg",
+        "diagnosis": "Verrucous Carcinoma",
+        "legend": "Low power showing deep finger-like growth with pushing borders and central keratin-filled burrows. (Time: 2202s)"
+      },
+      {
+        "id": "Slide_50",
+        "src": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0050.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0050.jpg",
+        "diagnosis": "Verrucous Carcinoma",
+        "legend": "Detail of the pushing border, difficult to distinguish from PEH on shave biopsy. (Time: 2267s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Desmoplastic Squamous Cell Carcinoma",
+    "definition": "An aggressive variant of SCC characterized by infiltrative growth with a desmoplastic stroma.",
+    "tags": [
+      "Skin::Neoplastic::Epidermal::Malignant::Squamous_Cell_Carcinoma_Invasive_NOS"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Often indurated scar-like lesion.",
+    "pathogenesis": "High metastatic risk even at thinner depths (3-4mm).",
+    "macroscopic": "Scar-like.",
+    "microscopic": "Infiltrative atypical cells, often spindle-shaped or subtle, embedded in a dense fibrous (desmoplastic) stroma. Perineural invasion is common.",
+    "ancillary_studies": "IHC: High Molecular Weight Keratin positive (CK903/34betaE12). Negative for melanocytic markers (SOX10) and spindle cell vascular/fibrous markers.",
+    "differential_diagnosis": "Desmoplastic Melanoma, Atypical Fibroxanthoma (AFX), Scar.",
+    "staging": "More aggressive; significant metastatic risk at >3-4mm thickness.",
+    "prognosis_and_prediction": "Worse prognosis than conventional SCC. Higher rates of local recurrence and metastasis.",
+    "related_figures": [
+      {
+        "id": "Slide_53",
+        "src": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0053.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0053.jpg",
+        "diagnosis": "Desmoplastic Squamous Cell Carcinoma",
+        "legend": "H&E showing subtle atypical cells in a sclerotic stroma. (Time: 2335s)"
+      },
+      {
+        "id": "Slide_54",
+        "src": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0054.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0054.jpg",
+        "diagnosis": "Desmoplastic Squamous Cell Carcinoma",
+        "legend": "High molecular weight keratin stain highlighting the invasive carcinoma cells. (Time: 2352s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Keratoacanthoma",
+    "definition": "A rapidly evolving squamous neoplasm, often considered a variant of SCC, that may spontaneously regress.",
+    "tags": [
+      "Skin::Neoplastic::Epidermal::Malignant::Keratoacanthoma"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Rapidly growing dome-shaped nodule with a central keratin plug. Variants: Solitary, Centrifugum Marginatum (spreads and regresses simultaneously), Ferguson-Smith, Grzybowski.",
+    "pathogenesis": "Proliferation outpaces apoptosis initially, followed by regression if apoptosis dominates.",
+    "macroscopic": "Crateriform nodule.",
+    "microscopic": "Central keratin-filled crater with 'lipping' (buttressing) of the epidermis at the edges. Composed of lobules of pale, glassy keratinocytes. Intraepithelial microabscesses and apoptotic cells are prominent. Pushing deep border.",
+    "ancillary_studies": "N/A",
+    "differential_diagnosis": "Well-differentiated SCC (distinction often probabilistic based on architecture/clinical history).",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Many regress spontaneously, but complete excision is recommended as biological behavior cannot be guaranteed histologically.",
+    "related_figures": [
+      {
+        "id": "Slide_59",
+        "src": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0059.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0059.jpg",
+        "diagnosis": "Keratoacanthoma Centrifugum Marginatum",
+        "legend": "Variant showing spreading margin with central regression. (Time: 2511s)"
+      },
+      {
+        "id": "Slide_60",
+        "src": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0060.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0060.jpg",
+        "diagnosis": "Keratoacanthoma",
+        "legend": "Classic solitary KA with central keratin crater. (Time: 2528s)"
+      },
+      {
+        "id": "Slide_61",
+        "src": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0061.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0061.jpg",
+        "diagnosis": "Keratoacanthoma",
+        "legend": "Lobules of pale, glassy cells pushing up the epidermis. (Time: 2550s)"
+      },
+      {
+        "id": "Slide_62",
+        "src": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0062.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_34_AK_and_SCC/Derm_Lecture_34_AK_and_SCC_slide_0062.jpg",
+        "diagnosis": "Keratoacanthoma",
+        "legend": "High power showing apoptotic cells within the glassy lobules. (Time: 2564s)"
+      }
+    ]
+  }
+]

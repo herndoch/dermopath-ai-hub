@@ -1,0 +1,414 @@
+[
+  {
+    "entity_name": "Stevens-Johnson Syndrome / Toxic Epidermal Necrolysis (SJS/TEN)",
+    "definition": "A severe, life-threatening spectrum of mucocutaneous reactions characterized by extensive necrosis and detachment of the epidermis.",
+    "tags": [
+      "Skin::Inflammatory::Blistering::Stevens_Johnson_Syndrome_Toxic_Epidermal_Necrolysis"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Presents with erythematous macules evolving rapidly to blisters and widespread skin sloughing. Mucosal involvement (mouth, eyes, genitals) is common. Often drug-induced (e.g., sulfonamides, anticonvulsants, live attenuated vaccines like FluMist) or associated with infections/immunizations. Risk increased in immunocompromised patients (AIDS).",
+    "pathogenesis": "Cytotoxic lymphocyte-mediated immune reaction inducing extensive keratinocyte apoptosis.",
+    "macroscopic": "Widespread blistering, skin sloughing (positive Nikolsky sign), extensive erosions appearing like burns.",
+    "microscopic": "Subepidermal vesiculation with full-thickness epidermal necrosis. The cornified layer often remains 'pristine' (basket-weave orthokeratosis), indicating an acute process occurring faster than the time required for parakeratosis to form (under 2 weeks). Pauci-inflammatory infiltrate (sparse lymphocytes). Basal vacuolar alteration and dyskeratotic keratinocytes are seen in early lesions.",
+    "ancillary_studies": "Direct Immunofluorescence (DIF) is typically negative (helps distinguish from autoimmune blistering diseases).",
+    "differential_diagnosis": "Erythema Multiforme (major), Staphylococcal Scalded Skin Syndrome, Acute Graft-versus-Host Disease.",
+    "staging": "SJS (<10% BSA), SJS/TEN overlap (10-30% BSA), TEN (>30% BSA).",
+    "prognosis_and_prediction": "Life-threatening; high mortality rate correlated with body surface area involvement.",
+    "related_figures": [
+      {
+        "id": "Slide_8",
+        "src": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0008.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0008.jpg",
+        "diagnosis": "Stevens-Johnson Syndrome / Toxic Epidermal Necrolysis",
+        "legend": "Early clinical presentation with erythematous macules and subtle vesicles on the hand. (Time: 414s)"
+      },
+      {
+        "id": "Slide_15",
+        "src": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0015.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0015.jpg",
+        "diagnosis": "Toxic Epidermal Necrolysis",
+        "legend": "Extensive subepidermal blistering and epidermal sloughing. (Time: 491s)"
+      },
+      {
+        "id": "Slide_16",
+        "src": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0016.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0016.jpg",
+        "diagnosis": "Toxic Epidermal Necrolysis",
+        "legend": "Histology showing subepidermal split with full-thickness epidermal necrosis and sparse inflammation (pauci-inflammatory). (Time: 526s)"
+      },
+      {
+        "id": "Slide_17",
+        "src": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0017.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0017.jpg",
+        "diagnosis": "Toxic Epidermal Necrolysis",
+        "legend": "High power view showing necrotic epidermis beneath a normal 'pristine' basket-weave stratum corneum, indicating acute onset. (Time: 574s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Pressure Bulla (Coma Blister)",
+    "definition": "A mechanobullous disorder caused by prolonged pressure leading to ischemia and necrosis of the skin and underlying structures.",
+    "tags": [
+      "Skin::Inflammatory::Blistering::Pressure_Coma_Bulla"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Tense blisters arising at sites of pressure, often seen in immobilized patients or post-surgery. Can appear linear or follow pressure points. Lesions may be dusky or erythematous.",
+    "pathogenesis": "Ischemic necrosis secondary to prolonged mechanical pressure.",
+    "macroscopic": "Bullae at pressure sites, often with a surrounding rim of erythema.",
+    "microscopic": "Subepidermal blister with little to no inflammation (pauci-inflammatory). Blood vessels appear congested/dilated. A key diagnostic feature is necrosis of the eccrine sweat glands (sweat coils), which are highly sensitive to pressure.",
+    "ancillary_studies": "None specific.",
+    "differential_diagnosis": "Suction blister, bullous pemphigoid, burns.",
+    "staging": null,
+    "prognosis_and_prediction": "Heals upon relief of pressure; risk of secondary infection.",
+    "related_figures": [
+      {
+        "id": "Slide_22",
+        "src": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0022.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0022.jpg",
+        "diagnosis": "Pressure Bulla",
+        "legend": "Clinical appearance of linear blisters appearing post-surgically due to pressure. (Time: 773s)"
+      },
+      {
+        "id": "Slide_23",
+        "src": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0023.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0023.jpg",
+        "diagnosis": "Pressure Bulla",
+        "legend": "Histology showing subepidermal split, congested vessels, and necrosis of deep eccrine glands. (Time: 951s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Suction Blister",
+    "definition": "A mechanical blistering disorder caused by negative pressure separating the epidermis from the dermis.",
+    "tags": [
+      "Skin::Inflammatory::Blistering::Friction_Blister"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Tense bullae, often circular or linear depending on the device used (e.g., cupping therapy).",
+    "pathogenesis": "Mechanical separation of the epidermis from the dermis due to suction/negative pressure.",
+    "macroscopic": "Circular or geometric blistering corresponding to the suction device.",
+    "microscopic": "Subepidermal blister with minimal inflammation (pauci-inflammatory). Unlike pressure blisters, there is NO necrosis of the eccrine glands.",
+    "ancillary_studies": "None specific.",
+    "differential_diagnosis": "Pressure bulla, Epidermolysis Bullosa, Bullous Pemphigoid.",
+    "staging": null,
+    "prognosis_and_prediction": "Self-limiting.",
+    "related_figures": [
+      {
+        "id": "Slide_24",
+        "src": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0024.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0024.jpg",
+        "diagnosis": "Suction Blister",
+        "legend": "Clinical appearance of circular blisters following cupping therapy. (Time: 1036s)"
+      },
+      {
+        "id": "Slide_26",
+        "src": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0026.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0026.jpg",
+        "diagnosis": "Suction Blister",
+        "legend": "Histology showing clean subepidermal separation without eccrine necrosis. (Time: 1090s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Porphyria Cutanea Tarda (PCT)",
+    "definition": "The most common form of porphyria, characterized by photosensitivity and blistering on sun-exposed skin due to a defect in heme biosynthesis.",
+    "tags": [
+      "Skin::Inflammatory::Blistering::Porphyria_Cutanea_Tarda"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Vesicles, bullae, erosions, crusts, and scars primarily on dorsal hands (photo-distributed). Associated with hypertrichosis, liver disease, and alcohol use.",
+    "pathogenesis": "Deficiency in the enzyme uroporphyrinogen decarboxylase leading to accumulation of porphyrins.",
+    "macroscopic": "Tense blisters, erosions, milia, and scarring on sun-exposed sites.",
+    "microscopic": "Subepidermal blister with minimal inflammation (pauci-inflammatory). 'Festooning' of the dermal papillae (rigid dermal papillae protruding into the blister cavity). 'Caterpillar bodies' (linear eosinophilic basement membrane material) may be seen in the blister roof.",
+    "ancillary_studies": "DIF: Deposition of C3 and Immunoglobulins (IgG) around dermal blood vessels and at the DEJ. Urine studies: Elevated porphyrins (coral red fluorescence with Wood's lamp).",
+    "differential_diagnosis": "Pseudoporphyria, Epidermolysis Bullosa Acquisita.",
+    "staging": null,
+    "prognosis_and_prediction": "Manageable with phlebotomy and avoidance of triggers.",
+    "related_figures": [
+      {
+        "id": "Slide_30",
+        "src": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0030.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0030.jpg",
+        "diagnosis": "Porphyria Cutanea Tarda",
+        "legend": "Histology showing subepidermal blister with 'festooning' (preservation of dermal papillae). (Time: 1180s)"
+      },
+      {
+        "id": "Slide_31",
+        "src": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0031.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0031.jpg",
+        "diagnosis": "Porphyria Cutanea Tarda",
+        "legend": "High power view showing 'caterpillar bodies' (linear pink bands) in the blister roof. (Time: 1220s)"
+      },
+      {
+        "id": "Slide_33",
+        "src": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0033.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0033.jpg",
+        "diagnosis": "Porphyria Cutanea Tarda",
+        "legend": "Clinical presentation with erosions and subtle vesicles on dorsal hands. (Time: 1256s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Epidermolysis Bullosa (Overview)",
+    "definition": "A group of inherited mechanobullous disorders characterized by skin fragility and blistering in response to minor trauma.",
+    "tags": [
+      "Skin::Congenital_Structural::Genodermatosis::Epidermolytic_Ichthyosis"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Blistering and erosions starting in infancy/childhood, induced by friction/trauma.",
+    "pathogenesis": "Mutations in structural proteins of the cutaneous basement membrane zone (e.g., Keratins 5/14 in Simplex, Laminin-332 in Junctional, Collagen VII in Dystrophic).",
+    "macroscopic": "Widespread blistering, scarring (in dystrophic forms), milia.",
+    "microscopic": "Subepidermal (or intraepidermal for Simplex) vesiculation with little inflammation (pauci-inflammatory). Level of split correlates with the specific protein defect.",
+    "ancillary_studies": "Immunofluorescence mapping or genetic testing to identify specific protein defect.",
+    "differential_diagnosis": "Epidermolysis Bullosa Acquisita, Bullous Pemphigoid.",
+    "staging": "Simplex, Junctional, Dystrophic, Kindler.",
+    "prognosis_and_prediction": "Varies from mild to lethal depending on subtype.",
+    "related_figures": [
+      {
+        "id": "Slide_39",
+        "src": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0039.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0039.jpg",
+        "diagnosis": "Epidermolysis Bullosa",
+        "legend": "Diagram illustrating target proteins at the DEJ (Keratins, Laminins, Collagen VII) affected in EB subtypes. (Time: 1395s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Bullous Pemphigoid",
+    "definition": "The most common autoimmune subepidermal blistering disease, typically affecting the elderly.",
+    "tags": [
+      "Skin::Inflammatory::Blistering::Bullous_Pemphigoid"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Tense blisters, often on an urticarial base. Intense pruritus. Can present with urticarial plaques (pre-bullous), annular lesions, or eczema-like rash. Bimodal age distribution (elderly and children).",
+    "pathogenesis": "Autoantibodies against hemidesmosomal proteins BP180 (Collagen XVII) and BP230.",
+    "macroscopic": "Tense bullae that do not rupture easily. Urticarial plaques.",
+    "microscopic": "Subepidermal blister containing Eosinophils. Urticarial phase shows eosinophils lining the DEJ and 'eosinophilic spongiosis'. Neutrophils can be present but eosinophils are the hallmark.",
+    "ancillary_studies": "DIF: Linear deposition of C3 and IgG along the basement membrane zone (BMZ). N-serrated pattern (vs U-serrated in EBA) may be seen but is difficult to distinguish.",
+    "differential_diagnosis": "Epidermolysis Bullosa Acquisita (EBA), Bullous Arthropod Bite, Drug Eruptions.",
+    "staging": null,
+    "prognosis_and_prediction": "Generally chronic but treatable; significant morbidity in elderly.",
+    "related_figures": [
+      {
+        "id": "Slide_43",
+        "src": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0043.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0043.jpg",
+        "diagnosis": "Bullous Pemphigoid (Urticarial Phase)",
+        "legend": "Urticarial phase showing interstitial eosinophils and eosinophils lining the dermal-epidermal junction. (Time: 1616s)"
+      },
+      {
+        "id": "Slide_46",
+        "src": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0046.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0046.jpg",
+        "diagnosis": "Bullous Pemphigoid",
+        "legend": "Incipient subepidermal vesicle formation with eosinophils. (Time: 1719s)"
+      },
+      {
+        "id": "Slide_51",
+        "src": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0051.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0051.jpg",
+        "diagnosis": "Bullous Pemphigoid",
+        "legend": "Direct Immunofluorescence showing linear band of C3/IgG at the basement membrane zone. (Time: 1831s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Bullous Arthropod Bite Reaction",
+    "definition": "An exaggerated hypersensitivity reaction to an insect bite resulting in blister formation.",
+    "tags": [
+      "Skin::Infectious::Parasitic::Arthropod_Bite_Reaction_Persistent"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Grouped or linear blisters ('breakfast, lunch, dinner' sign).",
+    "pathogenesis": "Hypersensitivity to arthropod salivary antigens.",
+    "macroscopic": "Tense bullae on an erythematous base.",
+    "microscopic": "Subepidermal blister with eosinophils. Distinguished from BP by tremendous dermal edema and a deep, wedge-shaped inflammatory infiltrate extending into the reticular dermis.",
+    "ancillary_studies": "DIF is negative (helps distinguish from BP).",
+    "differential_diagnosis": "Bullous Pemphigoid.",
+    "staging": null,
+    "prognosis_and_prediction": "Self-limiting.",
+    "related_figures": [
+      {
+        "id": "Slide_56",
+        "src": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0056.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0056.jpg",
+        "diagnosis": "Bullous Arthropod Bite Reaction",
+        "legend": "Clinical appearance of grouped bullous lesions. (Time: 2032s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Dermatitis Herpetiformis",
+    "definition": "A cutaneous manifestation of gluten-sensitive enteropathy (Celiac disease), characterized by intensely pruritic grouped vesicles.",
+    "tags": [
+      "Skin::Inflammatory::Blistering::Dermatitis_Herpetiformis"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Intensely pruritic papulovesicles on extensor surfaces (elbows, knees), buttocks, and scalp. Intact vesicles are rare due to scratching (excoriations common).",
+    "pathogenesis": "IgA antibodies against tissue transglutaminase (anti-tTG) cross-react with epidermal transglutaminase, leading to neutrophil chemotaxis.",
+    "macroscopic": "Grouped excoriations and crusts on extensor surfaces.",
+    "microscopic": "Subepidermal blister with Neutrophils. Hallmark feature: Papillary dermal microabscesses (accumulations of neutrophils at the tips of dermal papillae).",
+    "ancillary_studies": "DIF: Granular IgA deposition in the dermal papillae. Serology: Positive Anti-tissue transglutaminase (tTG).",
+    "differential_diagnosis": "Linear IgA Bullous Dermatosis, Bullous Lupus, Scabies.",
+    "staging": null,
+    "prognosis_and_prediction": "Responds to gluten-free diet and Dapsone.",
+    "related_figures": [
+      {
+        "id": "Slide_58",
+        "src": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0058.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0058.jpg",
+        "diagnosis": "Dermatitis Herpetiformis",
+        "legend": "Clinical presentation on elbows with crusted lesions. (Time: 2103s)"
+      },
+      {
+        "id": "Slide_64",
+        "src": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0064.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0064.jpg",
+        "diagnosis": "Dermatitis Herpetiformis",
+        "legend": "Histology showing papillary dermal microabscesses (neutrophils at tips of papillae). (Time: 2173s)"
+      },
+      {
+        "id": "Slide_65",
+        "src": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0065.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0065.jpg",
+        "diagnosis": "Dermatitis Herpetiformis",
+        "legend": "Direct Immunofluorescence showing granular IgA in dermal papillae. (Time: 2208s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Linear IgA Bullous Dermatosis",
+    "definition": "An autoimmune subepidermal blistering disease characterized by linear IgA deposition at the basement membrane zone.",
+    "tags": [
+      "Skin::Inflammatory::Blistering::Linear_IgA_Bullous_Dermatosis"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Vesicles and bullae, sometimes arranged in a 'crown of jewels' (new vesicles surrounding an old crust). Can be idiopathic (Chronic Bullous Disease of Childhood) or drug-induced (commonly Vancomycin).",
+    "pathogenesis": "Autoantibodies (IgA) targeting the 97 kDa portion of the BP180 antigen (BPAG2).",
+    "macroscopic": "Annular or grouped blisters, 'string of pearls' or 'crown of jewels' appearance.",
+    "microscopic": "Subepidermal blister with Neutrophils. Unlike DH, neutrophils tend to form a linear band along the DEJ rather than papillary microabscesses.",
+    "ancillary_studies": "DIF: Linear IgA along the basement membrane zone.",
+    "differential_diagnosis": "Dermatitis Herpetiformis, Bullous Pemphigoid.",
+    "staging": null,
+    "prognosis_and_prediction": "Good prognosis, especially for drug-induced cases upon withdrawal of the offender.",
+    "related_figures": [
+      {
+        "id": "Slide_66",
+        "src": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0066.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0066.jpg",
+        "diagnosis": "Linear IgA Bullous Dermatosis",
+        "legend": "Widespread blistering in a child (Chronic Bullous Disease of Childhood). (Time: 2268s)"
+      },
+      {
+        "id": "Slide_67",
+        "src": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0067.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0067.jpg",
+        "diagnosis": "Linear IgA Bullous Dermatosis",
+        "legend": "Clinical 'crown of jewels' sign with vesicles arranged in a ring. (Time: 2296s)"
+      },
+      {
+        "id": "Slide_70",
+        "src": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0070.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0070.jpg",
+        "diagnosis": "Linear IgA Bullous Dermatosis",
+        "legend": "Direct Immunofluorescence showing linear IgA at the basement membrane zone. (Time: 2386s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Cicatricial Pemphigoid (Mucous Membrane Pemphigoid)",
+    "definition": "A group of autoimmune blistering disorders predominantly affecting mucous membranes and leading to scarring.",
+    "tags": [
+      "Skin::Inflammatory::Blistering::Cicatricial_Pemphigoid_Mucous_Membrane"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Involvement of oral mucosa (desquamative gingivitis), ocular conjunctiva (symblepharon, scarring), and scalp. Significant morbidity due to scarring.",
+    "pathogenesis": "Autoantibodies against various BMZ proteins, including BP180 and Laminin 5 (Laminin-332, associated with malignancy).",
+    "macroscopic": "Erosions and scarring on mucosal surfaces.",
+    "microscopic": "Subepidermal blister with Neutrophils (often more than BP) and eventual fibrosis/scarring. Eosinophils may be present.",
+    "ancillary_studies": "DIF: Linear IgG and C3 at the BMZ (indistinguishable from BP).",
+    "differential_diagnosis": "Bullous Pemphigoid, Lichen Planus.",
+    "staging": null,
+    "prognosis_and_prediction": "Chronic course with risk of blindness and airway stenosis; difficult to treat.",
+    "related_figures": [
+      {
+        "id": "Slide_71",
+        "src": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0071.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0071.jpg",
+        "diagnosis": "Cicatricial Pemphigoid",
+        "legend": "Text slide describing clinical features and autoantigens (Laminin 5, BPAG2). (Time: 2395s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Erythema Multiforme",
+    "definition": "An acute, self-limiting, often recurrent mucocutaneous hypersensitivity reaction characterized by target lesions.",
+    "tags": [
+      "Skin::Inflammatory::Interface::Erythema_Multiforme"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Targetoid lesions (dusky center, pale ring, erythematous rim) on palms, soles, and extremities.",
+    "pathogenesis": "Cell-mediated immune reaction, commonly triggered by infections (HSV, Mycoplasma).",
+    "macroscopic": "Target lesions, sometimes with central blistering.",
+    "microscopic": "Subepidermal blister mediated by Lymphocytes. Interface dermatitis with necrotic/dyskeratotic keratinocytes at the basal layer. The blister cavity often contains degenerated cellular debris ('messy').",
+    "ancillary_studies": "DIF negative.",
+    "differential_diagnosis": "SJS/TEN, Fixed Drug Eruption.",
+    "staging": "Minor (minimal mucosal), Major (significant mucosal).",
+    "prognosis_and_prediction": "Usually self-limiting.",
+    "related_figures": [
+      {
+        "id": "Slide_74",
+        "src": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0074.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0074.jpg",
+        "diagnosis": "Erythema Multiforme",
+        "legend": "Clinical appearance of target lesions. (Time: 2544s)"
+      },
+      {
+        "id": "Slide_78",
+        "src": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0078.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0078.jpg",
+        "diagnosis": "Erythema Multiforme",
+        "legend": "Histology showing lymphocytic interface dermatitis with dyskeratotic keratinocytes. (Time: 2636s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Cutaneous Mastocytosis (Bullous)",
+    "definition": "A proliferation of mast cells in the skin that can lead to blister formation, particularly in children.",
+    "tags": [
+      "Skin::Neoplastic::Hematolymphoid::Mastocytosis_Urticaria_Pigmentosa"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Children presenting with diffuse erythema or plaques (Urticaria Pigmentosa) that blister. Positive Darier sign.",
+    "pathogenesis": "Mast cell accumulation; release of mediators causes subepidermal separation.",
+    "macroscopic": "Bullae, often on a background of thickened or pigmented skin.",
+    "microscopic": "Subepidermal blister containing Mast Cells. Mast cells have a 'fried egg' appearance (central nucleus, granular cytoplasm). Eosinophils are frequently present.",
+    "ancillary_studies": "Stains: CD117 (c-kit), Tryptase, Giemsa.",
+    "differential_diagnosis": "Bullous Pemphigoid, Bullous Impetigo.",
+    "staging": null,
+    "prognosis_and_prediction": "Cutaneous forms in children often spontaneously regress.",
+    "related_figures": [
+      {
+        "id": "Slide_83",
+        "src": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0083.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0083.jpg",
+        "diagnosis": "Bullous Mastocytosis",
+        "legend": "Subepidermal blister with a dense inflammatory infiltrate. (Time: 2695s)"
+      },
+      {
+        "id": "Slide_85",
+        "src": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0085.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0085.jpg",
+        "diagnosis": "Bullous Mastocytosis",
+        "legend": "High power view identifying the infiltrate as mast cells (central nucleus, basophilic granules). (Time: 2709s)"
+      },
+      {
+        "id": "Slide_86",
+        "src": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0086.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_33_subepidermal_vesicular_dermatitis/Derm_Lecture_33_subepidermal_vesicular_dermatitis_slide_0086.jpg",
+        "diagnosis": "Bullous Mastocytosis",
+        "legend": "Mast cells accompanied by eosinophils. (Time: 2738s)"
+      }
+    ]
+  }
+]

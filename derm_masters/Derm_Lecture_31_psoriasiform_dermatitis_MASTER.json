@@ -1,0 +1,677 @@
+[
+  {
+    "entity_name": "Psoriasis Vulgaris (Plaque Psoriasis)",
+    "definition": "A chronic immune-mediated inflammatory skin disease characterized by well-demarcated erythematous plaques with silvery scale, affecting extensor surfaces and scalp.",
+    "tags": [
+      "Skin::Inflammatory::Psoriasiform::Psoriasis_Vulgaris_Plaque"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Classic presentation involves well-marginated erythematous plaques with adherent silvery/micaceous scale. Removal of scale reveals bleeding points (Auspitz sign). Common sites include extensor surfaces (elbows, knees), buttocks, scalp, and retroauricular areas. Inverse psoriasis affects flexural areas. Nail involvement includes oil spots, onycholysis, and subungual hyperkeratosis. May be associated with psoriatic arthritis.",
+    "pathogenesis": "Immune-mediated process involving T-cell activation and cytokine cascades (IL-17, IL-23, IL-36). Upregulation of IL-36 is a specific feature.",
+    "macroscopic": "Erythematous plaques with silvery scale. Variants include rupioid (limpet-like scale), inverse, and volar types.",
+    "microscopic": "Characterized by 'psoriasiform epidermal hyperplasia' (acanthosis with regular elongation of rete ridges, often clubbed or 'holding hands'). Key features include thinning of suprapapillary plates, hypogranulosis, and confluent parakeratosis containing neutrophils (Munro microabscesses). Spongiform pustules of Kogoj are neutrophilic collections in the spinous layer. Dilated, tortuous capillaries are present in the dermal papillae. Eosinophils are typically absent in classic plaque psoriasis.",
+    "ancillary_studies": "IHC: Interleukin-36 gamma (IL-36) shows strong expression/upregulation in the upper epidermis (highly specific compared to eczema). Beta-defensin 2 is variably positive.",
+    "differential_diagnosis": "Spongiotic dermatitis (eczema), Dermatophytosis (Tinea), Seborrheic dermatitis, Pityriasis Rubra Pilaris (PRP), Mycosis Fungoides, ILVEN.",
+    "staging": "Not applicable.",
+    "prognosis_and_prediction": "Chronic course with exacerbations and remissions. Association with metabolic syndrome and arthritis.",
+    "related_figures": [
+      {
+        "id": "Slide_1",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0001.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0001.jpg",
+        "diagnosis": "Psoriasis Vulgaris",
+        "legend": "Classic extensor presentation of well-marginated plaques. (Time: 8s)"
+      },
+      {
+        "id": "Slide_3",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0003.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0003.jpg",
+        "diagnosis": "Psoriasis Vulgaris",
+        "legend": "Adherent silvery/micaceous scale on an erythematous plaque. (Time: 47s)"
+      },
+      {
+        "id": "Slide_10",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0010.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0010.jpg",
+        "diagnosis": "Psoriasis Vulgaris",
+        "legend": "Diagram highlighting psoriasiform hyperplasia, thin suprapapillary plates, and dilated vessels. (Time: 167s)"
+      },
+      {
+        "id": "Slide_12",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0012.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0012.jpg",
+        "diagnosis": "Psoriasis Vulgaris",
+        "legend": "Histology showing regular acanthosis, thin suprapapillary plates, and parakeratosis. (Time: 307s)"
+      },
+      {
+        "id": "Slide_14",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0014.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0014.jpg",
+        "diagnosis": "Psoriasis Vulgaris",
+        "legend": "High power showing Munro microabscesses and spongiform pustules. (Time: 328s)"
+      },
+      {
+        "id": "Slide_52",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0052.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0052.jpg",
+        "diagnosis": "Psoriasis Vulgaris",
+        "legend": "Comparison of IL-36 staining: Strong expression in Psoriasis vs. minimal in Spongiotic Dermatitis. (Time: 899s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Erythrodermic Psoriasis",
+    "definition": "A severe form of psoriasis involving widespread erythema and scaling affecting the majority of the body surface area.",
+    "tags": [
+      "Skin::Inflammatory::Psoriasiform::Psoriasis_Vulgaris_Plaque"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Diffuse generalized erythema (erythroderma) with scaling. Represents rapid epidermal turnover. Can be difficult to distinguish clinically from drug eruptions or Sezary syndrome.",
+    "pathogenesis": "Severe exacerbation of psoriatic inflammation.",
+    "macroscopic": "Diffuse redness and scaling.",
+    "microscopic": "May not show classic psoriasiform hyperplasia due to rapid turnover. Features include broad but thin areas of parakeratosis and hypogranulosis. Unlike plaque psoriasis, eosinophils may be present, complicating differentiation from drug eruptions.",
+    "ancillary_studies": "None specific mentioned.",
+    "differential_diagnosis": "Drug eruption, Atopic dermatitis (erythrodermic), Sezary syndrome/Mycosis Fungoides.",
+    "staging": "Severe variant.",
+    "prognosis_and_prediction": "Can be life-threatening due to fluid/protein loss and infection risk.",
+    "related_figures": [
+      {
+        "id": "Slide_33",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0033.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0033.jpg",
+        "diagnosis": "Erythrodermic Psoriasis",
+        "legend": "Broad parakeratosis and less distinct hyperplasia in erythrodermic psoriasis. (Time: 549s)"
+      },
+      {
+        "id": "Slide_36",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0036.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0036.jpg",
+        "diagnosis": "Erythrodermic Psoriasis",
+        "legend": "Presence of neutrophils in the setting of erythroderma. (Time: 594s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Guttate Psoriasis",
+    "definition": "An acute eruption of small, drop-like psoriatic papules, often triggered by streptococcal infection.",
+    "tags": [
+      "Skin::Inflammatory::Psoriasiform::Psoriasis_Guttate"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Small 'drop-like' (gutta = drop) papules and plaques. Often follows streptococcal pharyngitis. Can exhibit the Koebner phenomenon (linear lesions at sites of trauma).",
+    "pathogenesis": "Associated with superantigens from streptococcal infection.",
+    "macroscopic": "Small erythematous scaly papules.",
+    "microscopic": "Early lesions may be subtle, lacking full psoriasiform hyperplasia. Key features include a small mound of parakeratosis with neutrophils, slight spongiosis, and dilated papillary dermal vessels. Later lesions show more developed acanthosis and thinning of suprapapillary plates.",
+    "ancillary_studies": "PAS stain (to rule out tinea/dermatophytosis).",
+    "differential_diagnosis": "Pityriasis Rosea, Pityriasis Lichenoides (PLEVA), Secondary Syphilis, Dermatophytosis.",
+    "staging": "None.",
+    "prognosis_and_prediction": "Often self-limited; may progress to chronic plaque psoriasis.",
+    "related_figures": [
+      {
+        "id": "Slide_191",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0191.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0191.jpg",
+        "diagnosis": "Guttate Psoriasis",
+        "legend": "Typical drop-like lesions. (Time: 3319s)"
+      },
+      {
+        "id": "Slide_195",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0195.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0195.jpg",
+        "diagnosis": "Guttate Psoriasis",
+        "legend": "Early histologic changes: mild spongiosis and dilated vessels. (Time: 3367s)"
+      },
+      {
+        "id": "Slide_197",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0197.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0197.jpg",
+        "diagnosis": "Guttate Psoriasis",
+        "legend": "Mounds of parakeratosis with neutrophils in a developing lesion. (Time: 3399s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Spongiotic Dermatitis (Eczema)",
+    "definition": "A broad category of inflammatory skin conditions characterized histologically by intercellular edema (spongiosis). Includes nummular, dyshidrotic, and allergic/irritant contact dermatitis.",
+    "tags": [
+      "Skin::Inflammatory::Spongiotic::Spongiotic_Dermatitis_Eczema_Overview"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Variable presentation; Acute lesions show vesicles and weeping; Subacute/Chronic lesions show scaling and lichenification. Nummular dermatitis presents as coin-shaped plaques with honey-colored crust.",
+    "pathogenesis": "T-cell mediated hypersensitivity or barrier dysfunction.",
+    "macroscopic": "Erythematous papules, vesicles, or plaques. Nummular type is discoid.",
+    "microscopic": "Essential feature is spongiosis (intercellular edema). Acute lesions show intraepidermal vesicles (spongiotic vesicles). Subacute/Chronic lesions show mild spongiosis, acanthosis, and scale. Eosinophils are commonly present in the infiltrate. Unlike psoriasis, there is no thinning of suprapapillary plates or regular rete ridge elongation.",
+    "ancillary_studies": "IHC: IL-36 shows minimal/negative expression (useful to distinguish from psoriasis). Beta-defensin 2 is variable.",
+    "differential_diagnosis": "Psoriasis, Tinea, Seborrheic dermatitis, Pre-bullous pemphigoid.",
+    "staging": "Categorized as Acute, Subacute, or Chronic.",
+    "prognosis_and_prediction": "Variable; often chronic and relapsing.",
+    "related_figures": [
+      {
+        "id": "Slide_41",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0041.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0041.jpg",
+        "diagnosis": "Acute Spongiotic Dermatitis",
+        "legend": "Vase-like vesicles indicative of acute spongiosis. (Time: 729s)"
+      },
+      {
+        "id": "Slide_45",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0045.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0045.jpg",
+        "diagnosis": "Spongiotic Dermatitis",
+        "legend": "Presence of eosinophils in the dermal infiltrate. (Time: 767s)"
+      },
+      {
+        "id": "Slide_47",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0047.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0047.jpg",
+        "diagnosis": "Spongiotic Dermatitis",
+        "legend": "Psoriasiform spongiotic dermatitis lacking neutrophils, distinguishing it from psoriasis. (Time: 772s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Stasis Dermatitis",
+    "definition": "Inflammatory skin changes on the lower extremities secondary to chronic venous insufficiency.",
+    "tags": [
+      "Skin::Inflammatory::Spongiotic::Stasis_Dermatitis"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Erythema, scale, and hyperpigmentation on the lower legs.",
+    "pathogenesis": "Venous hypertension leading to capillary proliferation and inflammation.",
+    "macroscopic": "Red-brown scaly plaques on lower legs.",
+    "microscopic": "Spongiosis accompanied by a lobular proliferation of thick-walled capillaries in the papillary dermis. Extravasated red blood cells and hemosiderin deposition are common. Fibrosis may be present.",
+    "ancillary_studies": "Iron stain (Perls) may highlight hemosiderin.",
+    "differential_diagnosis": "Psoriasis, Nummular dermatitis, Tinea.",
+    "staging": "None.",
+    "prognosis_and_prediction": "Chronic; risk of ulceration.",
+    "related_figures": [
+      {
+        "id": "Slide_48",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0048.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0048.jpg",
+        "diagnosis": "Stasis Dermatitis",
+        "legend": "Lobular vascular proliferation and fibrosis on the lower extremity. (Time: 796s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Lichen Simplex Chronicus (LSC)",
+    "definition": "Thickening of the skin (lichenification) caused by repetitive rubbing or scratching.",
+    "tags": [
+      "Skin::Inflammatory::Spongiotic::Chronic_Spongiotic_Dermatitis_Lichen_Simplex"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Elevated plaque with accentuated skin markings (lichenification). Often has a shiny surface.",
+    "pathogenesis": "Secondary to chronic mechanical trauma (itch-scratch cycle).",
+    "macroscopic": "Thickened, hyperkeratotic plaque.",
+    "microscopic": "Characteristic 'Hairy Palm Sign': Resembles acral skin (hypergranulosis, compact hyperkeratosis) but contains hair follicles. Rete ridges are irregularly elongated. Vertical streaking of collagen in papillary dermis (rubbing fibrosis).",
+    "ancillary_studies": "None specific.",
+    "differential_diagnosis": "Psoriasis, Chronic eczema, Hypertrophic Lichen Planus.",
+    "staging": "None.",
+    "prognosis_and_prediction": "Resolves with cessation of trauma.",
+    "related_figures": [
+      {
+        "id": "Slide_55",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0055.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0055.jpg",
+        "diagnosis": "Lichen Simplex Chronicus",
+        "legend": "Transition from normal skin to 'hairy palm' changes: hypergranulosis and compact hyperkeratosis. (Time: 1005s)"
+      },
+      {
+        "id": "Slide_59",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0059.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0059.jpg",
+        "diagnosis": "Lichen Simplex Chronicus",
+        "legend": "Marked epidermal hyperplasia with hypergranulosis and hair follicles ('Hairy Palm Sign'). (Time: 1076s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Prurigo Nodularis",
+    "definition": "A chronic condition characterized by intensely pruritic, hyperkeratotic nodules, often described as 'picker's nodules'.",
+    "tags": [
+      "Skin::Inflammatory::Spongiotic::Prurigo_Nodularis"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Multiple firm, excoriated, hyperkeratotic nodules.",
+    "pathogenesis": "Chronic picking and scratching.",
+    "macroscopic": "Crusted, excoriated nodules.",
+    "microscopic": "Features of Lichen Simplex Chronicus plus pseudoepitheliomatous hyperplasia (PEH). Thick crust, hemorrhage, and vertical fibrosis are common. Nerve fiber hyperplasia may be present.",
+    "ancillary_studies": "None specific.",
+    "differential_diagnosis": "Squamous Cell Carcinoma (due to PEH), Keratoacanthoma.",
+    "staging": "None.",
+    "prognosis_and_prediction": "Chronic and difficult to treat.",
+    "related_figures": [
+      {
+        "id": "Slide_64",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0064.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0064.jpg",
+        "diagnosis": "Prurigo Nodularis",
+        "legend": "Pseudoepitheliomatous hyperplasia with crust and hemorrhage. (Time: 1142s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Dermatophytosis (Tinea)",
+    "definition": "A fungal infection of the keratinized tissues (skin, hair, nails) caused by dermatophytes.",
+    "tags": [
+      "Skin::Infectious::Fungal::Dermatophytosis_Tinea_Overview"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Annular or nummular lesions with a scaly advancing border. May involve scalp (Tinea capitis), body (Tinea corporis), or feet (Tinea pedis).",
+    "pathogenesis": "Infection by dermatophyte fungi.",
+    "macroscopic": "Annular erythematous plaques with scale.",
+    "microscopic": "Spongiosis and neutrophils in the stratum corneum are clues. The 'Sandwich Sign' is classic: layers of orthokeratosis, parakeratosis with neutrophils, and basket-weave orthokeratosis. Hyphae are found in the cornified layer.",
+    "ancillary_studies": "Stains: PAS (Periodic Acid-Schiff) highlights septate hyphae. GMS (Grocott Methenamine Silver) can also be used.",
+    "differential_diagnosis": "Psoriasis, Nummular dermatitis, Candidiasis.",
+    "staging": "None.",
+    "prognosis_and_prediction": "Responds to antifungals.",
+    "related_figures": [
+      {
+        "id": "Slide_67",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0067.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0067.jpg",
+        "diagnosis": "Dermatophytosis",
+        "legend": "Spongiosis with neutrophils in the upper epithelium. (Time: 1217s)"
+      },
+      {
+        "id": "Slide_72",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0072.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0072.jpg",
+        "diagnosis": "Dermatophytosis",
+        "legend": "Sandwich sign: Alternating layers of cornification where organisms are found. (Time: 1310s)"
+      },
+      {
+        "id": "Slide_77",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0077.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0077.jpg",
+        "diagnosis": "Dermatophytosis",
+        "legend": "PAS stain showing septate fungal hyphae. (Time: 1394s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Candidiasis",
+    "definition": "A fungal infection caused by Candida species, often affecting intertriginous areas.",
+    "tags": [
+      "Skin::Infectious::Fungal::Candidiasis"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Erythema in folds (inguinal, scrotum, inframammary) with satellite pustules.",
+    "pathogenesis": "Candida yeast infection favored by moisture.",
+    "macroscopic": "Beefy red plaques with satellite lesions.",
+    "microscopic": "Subcorneal pustules containing neutrophils. Spongiosis.",
+    "ancillary_studies": "Stains: PAS highlights budding yeasts and pseudohyphae.",
+    "differential_diagnosis": "Tinea, Seborrheic dermatitis, Intertrigo.",
+    "staging": "None.",
+    "prognosis_and_prediction": "Responds to antifungals.",
+    "related_figures": [
+      {
+        "id": "Slide_84",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0084.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0084.jpg",
+        "diagnosis": "Candidiasis",
+        "legend": "PAS stain showing budding yeast forms in the stratum corneum. (Time: 1451s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Seborrheic Dermatitis",
+    "definition": "A chronic papulosquamous disorder affecting seborrheic areas (face, scalp, chest).",
+    "tags": [
+      "Skin::Inflammatory::Spongiotic::Seborrheic_Dermatitis"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Erythema and greasy scale in nasolabial folds, eyebrows, retroauricular areas, scalp (dandruff/cradle cap), and chest/back.",
+    "pathogenesis": "Reaction to Malassezia yeast in sebum-rich areas.",
+    "macroscopic": "Pink-yellow plaques with greasy scale.",
+    "microscopic": "Spongiosis and psoriasiform hyperplasia (less regular than psoriasis). Key feature is 'shoulder parakeratosis'\u2014parakeratosis and spongiosis accentuated at the follicular ostia. Neutrophils often present in scale crust. Plasma cells may be seen.",
+    "ancillary_studies": "None specific.",
+    "differential_diagnosis": "Psoriasis (sebopsoriasis overlap exists), Langerhans Cell Histiocytosis (in infants), Tinea.",
+    "staging": "None.",
+    "prognosis_and_prediction": "Chronic and relapsing.",
+    "related_figures": [
+      {
+        "id": "Slide_88",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0088.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0088.jpg",
+        "diagnosis": "Seborrheic Dermatitis",
+        "legend": "Follicular accentuation of parakeratosis ('shoulder parakeratosis'). (Time: 1532s)"
+      },
+      {
+        "id": "Slide_90",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0090.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0090.jpg",
+        "diagnosis": "Seborrheic Dermatitis",
+        "legend": "Neutrophils within the follicular parakeratosis. (Time: 1574s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Pityriasis Rubra Pilaris (PRP)",
+    "definition": "A chronic papulosquamous disorder characterized by reddish-orange plaques, palmoplantar keratoderma, and follicular papules.",
+    "tags": [
+      "Skin::Inflammatory::Psoriasiform::Pityriasis_Rubra_Pilaris"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Cephalocaudal spread of erythema, 'islands of sparing' (normal skin within erythema), follicular hyperkeratosis ('nutmeg grater' feel), and 'carnauba wax' thick yellow palmoplantar keratoderma.",
+    "pathogenesis": "Unknown.",
+    "macroscopic": "Orange-red plaques, follicular papules.",
+    "microscopic": "Psoriasiform hyperplasia with *minimal* inflammation. Characteristic 'Checkerboard pattern' of parakeratosis (alternating orthokeratosis and parakeratosis both vertically and horizontally). Follicular plugging (shoulder parakeratosis). Focal acantholysis may be seen.",
+    "ancillary_studies": "IL-36 not typically upregulated.",
+    "differential_diagnosis": "Psoriasis, Seborrheic dermatitis.",
+    "staging": "Five types (Juvenile/Adult, Classic/Circumscribed).",
+    "prognosis_and_prediction": "Variable; classic adult type often remits after 3-5 years.",
+    "related_figures": [
+      {
+        "id": "Slide_95",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0095.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0095.jpg",
+        "diagnosis": "Pityriasis Rubra Pilaris",
+        "legend": "Psoriasiform hyperplasia with minimal inflammation. (Time: 1749s)"
+      },
+      {
+        "id": "Slide_96",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0096.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0096.jpg",
+        "diagnosis": "Pityriasis Rubra Pilaris",
+        "legend": "Checkerboard pattern of alternating orthokeratosis and parakeratosis. (Time: 1774s)"
+      },
+      {
+        "id": "Slide_108",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0108.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0108.jpg",
+        "diagnosis": "Pityriasis Rubra Pilaris",
+        "legend": "Focal suprabasilar acantholysis, a helpful clue in PRP. (Time: 1868s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Inflammatory Linear Verrucous Epidermal Nevus (ILVEN)",
+    "definition": "A linear, pruritic, psoriasiform eruption following Blaschko's lines, typically appearing in childhood.",
+    "tags": [
+      "Skin::Inflammatory::Psoriasiform::Inflammatory_Linear_Verrucous_Epidermal_Nevus_ILVEN"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Linear verrucous plaques on extremities following lines of Blaschko. Intense pruritus.",
+    "pathogenesis": "Mosaicism (somatic mutation).",
+    "macroscopic": "Linear, scaly, inflammatory plaques.",
+    "microscopic": "Psoriasiform hyperplasia. Characteristic alternating pattern of cornification: Areas of parakeratosis with hypogranulosis alternating horizontally with areas of orthokeratosis and hypergranulosis (depressed epidermis). Spongiosis may be present.",
+    "ancillary_studies": "None.",
+    "differential_diagnosis": "Linear Psoriasis, Lichen Striatus.",
+    "staging": "None.",
+    "prognosis_and_prediction": "Persistent.",
+    "related_figures": [
+      {
+        "id": "Slide_117",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0117.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0117.jpg",
+        "diagnosis": "ILVEN",
+        "legend": "Alternating zones of parakeratosis/hypogranulosis and hypergranulosis/orthokeratosis. (Time: 2020s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Nutritional Deficiency Dermatitis",
+    "definition": "Dermatitis caused by deficiencies in zinc, amino acids, or vitamins, showing a characteristic necrolytic pattern.",
+    "tags": [
+      "Skin::Inflammatory::Psoriasiform::Nutritional_Deficiency_Dermatitis"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Includes Acrodermatitis Enteropathica (Zinc), Necrolytic Migratory Erythema (Glucagonoma), Pellagra (Niacin), Kwashiorkor (Protein). Periorificial and acral erosive dermatitis.",
+    "pathogenesis": "Nutritional deficiency leads to keratinocyte necrosis.",
+    "macroscopic": "Erosive, crusted, well-marginated plaques, often periorificial.",
+    "microscopic": "Sudden pallor/ballooning of the upper epidermis, loss of the granular layer, and necrotic keratinocytes. Confluent parakeratosis. Psoriasiform hyperplasia in chronic lesions.",
+    "ancillary_studies": "Serum levels of Zinc, Glucagon, or amino acids.",
+    "differential_diagnosis": "Psoriasis, Candida, Seborrheic dermatitis.",
+    "staging": "None.",
+    "prognosis_and_prediction": "Reversible with correction of deficiency or removal of tumor (glucagonoma).",
+    "related_figures": [
+      {
+        "id": "Slide_135",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0135.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0135.jpg",
+        "diagnosis": "Necrolytic Migratory Erythema",
+        "legend": "Upper epidermal pallor, vacuolization, and necrotic keratinocytes. (Time: 2382s)"
+      },
+      {
+        "id": "Slide_140",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0140.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0140.jpg",
+        "diagnosis": "Acrodermatitis Enteropathica",
+        "legend": "Pallor and necrosis of the upper epidermis with thick parakeratosis. (Time: 2447s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Lichen Striatus",
+    "definition": "A self-limiting linear inflammatory dermatosis following Blaschko's lines, usually in children.",
+    "tags": [
+      "Skin::Inflammatory::Interface::Lichen_Striatus"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Linear erythematous papules comprising a band, usually on extremities.",
+    "pathogenesis": "T-cell mediated response to mosaic clones.",
+    "macroscopic": "Linear lichenoid papules.",
+    "microscopic": "Combination of psoriasiform, spongiotic, and lichenoid patterns. Key feature is a deep perivascular and *perieccrine* lymphocytic infiltrate. Necrotic keratinocytes may be seen.",
+    "ancillary_studies": "None.",
+    "differential_diagnosis": "ILVEN, Linear Lichen Planus, Blaschkoid Mycosis Fungoides.",
+    "staging": "None.",
+    "prognosis_and_prediction": "Self-limiting, resolves in months to years.",
+    "related_figures": [
+      {
+        "id": "Slide_146",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0146.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0146.jpg",
+        "diagnosis": "Lichen Striatus",
+        "legend": "Psoriasiform and lichenoid changes with a deep perieccrine infiltrate. (Time: 2662s)"
+      },
+      {
+        "id": "Slide_147",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0147.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0147.jpg",
+        "diagnosis": "Lichen Striatus",
+        "legend": "Infiltrate coursing along the eccrine duct and coils. (Time: 2668s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Bullous Pemphigoid (Urticarial Phase)",
+    "definition": "The pre-bullous stage of bullous pemphigoid presenting with urticarial plaques.",
+    "tags": [
+      "Skin::Inflammatory::Blistering::Bullous_Pemphigoid"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Urticarial plaques, often annular, which may precede or accompany tense bullae.",
+    "pathogenesis": "Autoantibodies against hemidesmosomal proteins (BP180, BP230).",
+    "macroscopic": "Urticarial plaques.",
+    "microscopic": "Eosinophilic spongiosis is characteristic. Eosinophils lining the dermo-epidermal junction. Incipient subepidermal vesiculation.",
+    "ancillary_studies": "Direct Immunofluorescence (DIF): Linear IgG and C3 at the basement membrane zone.",
+    "differential_diagnosis": "Urticaria, Drug eruption, Arthropod bite reaction.",
+    "staging": "None.",
+    "prognosis_and_prediction": "Chronic autoimmune course.",
+    "related_figures": [
+      {
+        "id": "Slide_149",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0149.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0149.jpg",
+        "diagnosis": "Bullous Pemphigoid (Urticarial Phase)",
+        "legend": "Incipient subepidermal vesiculation with eosinophils. (Time: 2714s)"
+      },
+      {
+        "id": "Slide_150",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0150.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0150.jpg",
+        "diagnosis": "Bullous Pemphigoid (Urticarial Phase)",
+        "legend": "Eosinophils lining the dermo-epidermal junction (eosinophilic spongiosis). (Time: 2727s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Mycosis Fungoides (MF)",
+    "definition": "The most common form of cutaneous T-cell lymphoma, presenting initially as patches and plaques.",
+    "tags": [
+      "Skin::Neoplastic::Hematolymphoid::Mycosis_Fungoides"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Patches and plaques, often with a wrinkled ('cigarette paper') surface, favoring sun-protected sites (buttocks, inner thighs).",
+    "pathogenesis": "Malignant proliferation of skin-homing T-cells.",
+    "macroscopic": "Salmon-colored to violaceous patches and plaques.",
+    "microscopic": "Psoriasiform or lichenoid pattern. Lymphocytes aligned along the basal layer (epidermotropism) with little accompanying spongiosis (disproportionate epidermotropism). Pautrier microabscesses (clusters of atypical lymphocytes). Lymphocytes often have hyperchromatic, cerebriform nuclei and perinuclear halos ('tag-along' lymphocytes). CD8+ variant may show diffuse pagetoid spread.",
+    "ancillary_studies": "IHC: CD3+, CD4+ (usually), CD8- (usually), loss of CD7. TCR gene rearrangement (clonality).",
+    "differential_diagnosis": "Psoriasis, Eczema, Parapsoriasis.",
+    "staging": "TNM staging (Patch, Plaque, Tumor, Erythrodermic).",
+    "prognosis_and_prediction": "Slow progression in early stages.",
+    "related_figures": [
+      {
+        "id": "Slide_158",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0158.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0158.jpg",
+        "diagnosis": "Mycosis Fungoides",
+        "legend": "Lymphocytes lining up along the junctional zone with minimal spongiosis. (Time: 2885s)"
+      },
+      {
+        "id": "Slide_161",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0161.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0161.jpg",
+        "diagnosis": "Mycosis Fungoides",
+        "legend": "Pautrier microabscess: Intraepidermal collection of atypical lymphocytes. (Time: 2922s)"
+      },
+      {
+        "id": "Slide_166",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0166.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0166.jpg",
+        "diagnosis": "CD8+ Mycosis Fungoides",
+        "legend": "Heavy epidermotropism (pagetoid spread) of atypical lymphocytes. (Time: 2979s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Pigmented Purpuric Dermatosis (Lichenoid Purpura)",
+    "definition": "A chronic capillaritis characterized by petechiae and pigmentation, with a lichenoid histologic pattern (Gougerot-Blum variant).",
+    "tags": [
+      "Skin::Inflammatory::Vasculitis::Pigmented_Purpuric_Dermatosis_Capillaritis"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Rust-colored or violaceous plaques, typically on the lower legs.",
+    "pathogenesis": "Lymphocytic inflammation targeting capillaries.",
+    "macroscopic": "Red-brown to violaceous plaques.",
+    "microscopic": "Band-like (lichenoid) lymphocytic infiltrate. Extravasated red blood cells. Siderophages (hemosiderin-laden macrophages) typically found deep in the infiltrate.",
+    "ancillary_studies": "Stains: Perls/Iron stain highlights hemosiderin.",
+    "differential_diagnosis": "Mycosis Fungoides, Stasis dermatitis, Drug eruption.",
+    "staging": "None.",
+    "prognosis_and_prediction": "Chronic.",
+    "related_figures": [
+      {
+        "id": "Slide_174",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0174.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0174.jpg",
+        "diagnosis": "Lichenoid Purpura",
+        "legend": "Lichenoid infiltrate with hemorrhage. (Time: 3094s)"
+      },
+      {
+        "id": "Slide_177",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0177.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0177.jpg",
+        "diagnosis": "Lichenoid Purpura",
+        "legend": "Perls iron stain showing numerous siderophages. (Time: 3131s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Secondary Syphilis",
+    "definition": "The systemic dissemination phase of syphilis infection involving the skin and mucous membranes.",
+    "tags": [
+      "Skin::Infectious::Bacterial::Syphilis_Secondary_Cutaneous"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Ham-colored or copper-penny macules and papules, often on palms and soles. Generalized lymphadenopathy.",
+    "pathogenesis": "Infection with Treponema pallidum.",
+    "macroscopic": "Generalized papulosquamous eruption.",
+    "microscopic": "Psoriasiform and lichenoid pattern with slender rete ridges. The infiltrate is superficial and deep, perivascular and periadnexal, containing plasma cells (key feature). Endothelial swelling may be present. Neutrophils in the stratum corneum.",
+    "ancillary_studies": "IHC: Treponema pallidum immunostain (positive spirochetes). Silver stain (Steiner/Warthin-Starry) historically used.",
+    "differential_diagnosis": "Psoriasis, Pityriasis Rosea, Lichen Planus.",
+    "staging": "Secondary stage.",
+    "prognosis_and_prediction": "Curable with penicillin.",
+    "related_figures": [
+      {
+        "id": "Slide_182",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0182.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0182.jpg",
+        "diagnosis": "Secondary Syphilis",
+        "legend": "Psoriasiform and lichenoid pattern with periadnexal infiltrate. (Time: 3225s)"
+      },
+      {
+        "id": "Slide_183",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0183.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0183.jpg",
+        "diagnosis": "Secondary Syphilis",
+        "legend": "High power showing numerous plasma cells in the infiltrate. (Time: 3245s)"
+      },
+      {
+        "id": "Slide_187",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0187.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0187.jpg",
+        "diagnosis": "Secondary Syphilis",
+        "legend": "Treponema pallidum immunostain highlighting spirochetes. (Time: 3273s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Pityriasis Rosea",
+    "definition": "An acute, self-limiting papulosquamous eruption, often viral-associated.",
+    "tags": [
+      "Skin::Inflammatory::Spongiotic::Pityriasis_Rosea"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Herald patch (larger initial plaque) followed by smaller oval plaques in a 'Christmas tree' distribution on the trunk. Collarette scale.",
+    "pathogenesis": "Likely viral (HHV-6/7 reactivation).",
+    "macroscopic": "Oval salmon-colored plaques with trailing scale.",
+    "microscopic": "Mild spongiosis, focal mounds of parakeratosis, and extravasated red blood cells in the papillary dermis. Usually lacks neutrophils.",
+    "ancillary_studies": "None specific.",
+    "differential_diagnosis": "Guttate Psoriasis, Secondary Syphilis, Drug eruption.",
+    "staging": "None.",
+    "prognosis_and_prediction": "Self-limiting; resolves in 6-8 weeks.",
+    "related_figures": [
+      {
+        "id": "Slide_203",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0203.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0203.jpg",
+        "diagnosis": "Pityriasis Rosea",
+        "legend": "Spongiosis with lenticular mounds of parakeratosis and hemorrhage. (Time: 3476s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Pityriasis Lichenoides (PLEVA/PLC)",
+    "definition": "A spectrum of inflammatory skin conditions ranging from acute (PLEVA) to chronic (PLC).",
+    "tags": [
+      "Skin::Inflammatory::Interface::Pityriasis_Lichenoides_PLEVA_PLC"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Recurrent crops of erythematous papules. PLEVA (Mucha-Habermann) lesions are crusted/ulcerated; PLC lesions are scaly.",
+    "pathogenesis": "T-cell mediated clonal proliferation (sometimes considered a lymphoproliferative disorder).",
+    "macroscopic": "Red papules with scale (PLC) or crust/necrosis (PLEVA).",
+    "microscopic": "Wedge-shaped dermal infiltrate (superficial and deep). Interface dermatitis with necrotic keratinocytes. Confluent parakeratosis often containing neutrophils. Hemorrhage is common. No eosinophils.",
+    "ancillary_studies": "TCR gene rearrangement may show clonality.",
+    "differential_diagnosis": "Guttate Psoriasis, Lymphomatoid Papulosis, Arthropod bite.",
+    "staging": "Acute vs Chronic.",
+    "prognosis_and_prediction": "Chronic waxing and waning course.",
+    "related_figures": [
+      {
+        "id": "Slide_209",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0209.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0209.jpg",
+        "diagnosis": "Pityriasis Lichenoides (PLEVA)",
+        "legend": "Wedge-shaped infiltrate with interface change and necrosis. (Time: 3547s)"
+      },
+      {
+        "id": "Slide_212",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0212.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_31_psoriasiform_dermatitis/Derm_Lecture_31_psoriasiform_dermatitis_slide_0212.jpg",
+        "diagnosis": "Pityriasis Lichenoides (PLC)",
+        "legend": "Psoriasiform changes with parakeratosis and neutrophils, mimicking psoriasis. (Time: 3571s)"
+      }
+    ]
+  }
+]

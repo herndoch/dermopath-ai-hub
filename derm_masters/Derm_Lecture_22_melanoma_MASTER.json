@@ -1,0 +1,343 @@
+[
+  {
+    "entity_name": "Melanocytic Nevus (Common Acquired)",
+    "definition": "A benign proliferation of melanocytes, typically characterized by symmetry, circumscription, and maturation with dermal descent.",
+    "tags": [
+      "Skin::Neoplastic::Melanocytic::Benign::Common_Acquired_Nevus_NOS"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Presents as a symmetric, uniformly pigmented macule or papule. The 'ABCDE' criteria (Asymmetry, Border irregularity, Color variegation, Diameter >6mm, Evolution) are typically absent.",
+    "pathogenesis": "Often driven by BRAF mutations (e.g., BRAF V600E). Can show changes in the setting of targeted therapies (e.g., BRAF inhibitors) or pregnancy.",
+    "macroscopic": "Symmetric, well-circumscribed lesion.",
+    "microscopic": "Architecture: Symmetric, well-circumscribed (begins and ends with a nest). Junctional component shows nests predominating over single cells. Melanocytes confined to sides and tips of elongated rete ridges (not confluent). No pagetoid scatter (exceptions exist). \nDermal Component: 'Maturation' is key (progressive diminution of nuclear size with dermal descent). Cells disperse singly among collagen bundles deeper in the dermis. Nuclei are small, round, and predictable. Mitotic figures are generally absent or very rare.",
+    "ancillary_studies": "IHC: p16 positive (strong and diffuse or mosaic); PRAME negative (or low/focal expression); Ki-67 low proliferation index (typically <2%, absent in deeper dermis). \nMolecular: BRAF V600E mutation common.",
+    "differential_diagnosis": "Melanoma (Invasive and In Situ), Dysplastic Nevus, Recurrent Nevus, Spitz Nevus.",
+    "staging": "None.",
+    "prognosis_and_prediction": "Benign. Excellent prognosis.",
+    "related_figures": [
+      {
+        "id": "Slide_6",
+        "src": "_asset_library/lectures/Derm_Lecture_22_melanoma/Derm_Lecture_22_melanoma_slide_0006.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_22_melanoma/Derm_Lecture_22_melanoma_slide_0006.jpg",
+        "diagnosis": "Melanocytic Nevus",
+        "legend": "Low power view showing symmetry, circumscription (begins and ends in a nest), and lack of pagetoid scatter. (Time: 307s)"
+      },
+      {
+        "id": "Slide_8",
+        "src": "_asset_library/lectures/Derm_Lecture_22_melanoma/Derm_Lecture_22_melanoma_slide_0008.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_22_melanoma/Derm_Lecture_22_melanoma_slide_0008.jpg",
+        "diagnosis": "Melanocytic Nevus",
+        "legend": "High power showing crisp circumscription ending in a nest, contrasting with melanoma. (Time: 380s)"
+      },
+      {
+        "id": "Slide_13",
+        "src": "_asset_library/lectures/Derm_Lecture_22_melanoma/Derm_Lecture_22_melanoma_slide_0013.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_22_melanoma/Derm_Lecture_22_melanoma_slide_0013.jpg",
+        "diagnosis": "Melanocytic Nevus",
+        "legend": "Demonstration of maturation: melanocytes become progressively smaller and disperse singly with dermal descent. (Time: 621s)"
+      },
+      {
+        "id": "Slide_25",
+        "src": "_asset_library/lectures/Derm_Lecture_22_melanoma/Derm_Lecture_22_melanoma_slide_0025.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_22_melanoma/Derm_Lecture_22_melanoma_slide_0025.jpg",
+        "diagnosis": "Melanocytic Nevus with BRAF Inhibitor Changes",
+        "legend": "A BRAF-mutant nevus showing nuclear enlargement in the setting of BRAF inhibitor therapy, mimicking atypia. (Time: 941s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Melanoma (Invasive)",
+    "definition": "A malignant neoplasm of melanocytes characterized by architectural and cytologic atypia, capable of invasion and metastasis.",
+    "tags": [
+      "Skin::Neoplastic::Melanocytic::Malignant::Melanoma_Invasive_Overview_NOS"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Often asymmetric borders, color variegation, diameter >6mm, and evolution (ABCDE criteria). May present as a changing mole or new lesion.",
+    "pathogenesis": "Genomic progression often involves loss of p16 (CDKN2A/9p21 locus). Drivers include BRAF, NRAS, KIT (acral/mucosal), or NF1 (desmoplastic).",
+    "macroscopic": "Asymmetric, poorly circumscribed pigmented lesion. May be ulcerated.",
+    "microscopic": "Architecture: Asymmetry, poor circumscription (single cells trailing off at periphery). Confluent growth (not confined to sides/tips of rete). Pagetoid scatter (upward migration of melanocytes). \nCytology: Lack of maturation with dermal descent. Expansile/pushing growth of dermal nests. Cytologic atypia (pleomorphism, prominent nucleoli, irregular nuclear membranes). Mitotic figures in the dermis. \nHost Response: Often asymmetric lymphocytic infiltrate.",
+    "ancillary_studies": "IHC: PRAME positive (diffuse 4+ in >75% of nuclei strongly supports diagnosis); p16 often lost (or focal loss indicating progression); Ki-67 elevated (>3-5%, clusters in dermis); BRAF V600E (in non-Spitz lineages). SOX10 and S100 positive (nuclear/cytoplasmic).",
+    "differential_diagnosis": "Melanocytic Nevus, Spitz Nevus, Dysplastic Nevus, Cellular Blue Nevus.",
+    "staging": "AJCC 8th Edition. T-category based on Breslow thickness (cutoffs: 0.8mm, 1.0mm, 2.0mm, 4.0mm) and Ulceration. \nT1a: <0.8mm, no ulceration. \nT1b: <0.8mm with ulceration OR 0.8-1.0mm. \nN-category: Occult (sentinel node) vs. Clinical nodes vs. Satellites/In-transit/Microsatellites.",
+    "prognosis_and_prediction": "Dependent on stage. Breslow thickness and ulceration are key prognostic factors. Microsatellites, satellites, and in-transit metastases (N1c) confer worse survival.",
+    "related_figures": [
+      {
+        "id": "Slide_7",
+        "src": "_asset_library/lectures/Derm_Lecture_22_melanoma/Derm_Lecture_22_melanoma_slide_0007.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_22_melanoma/Derm_Lecture_22_melanoma_slide_0007.jpg",
+        "diagnosis": "Invasive Melanoma",
+        "legend": "Low power showing asymmetry, poor circumscription, ulceration, and lack of maturation. (Time: 349s)"
+      },
+      {
+        "id": "Slide_11",
+        "src": "_asset_library/lectures/Derm_Lecture_22_melanoma/Derm_Lecture_22_melanoma_slide_0011.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_22_melanoma/Derm_Lecture_22_melanoma_slide_0011.jpg",
+        "diagnosis": "Invasive Melanoma",
+        "legend": "High power cytology showing pleomorphic nuclei, prominent nucleoli, and mitotic figures. (Time: 508s)"
+      },
+      {
+        "id": "Slide_45",
+        "src": "_asset_library/lectures/Derm_Lecture_22_melanoma/Derm_Lecture_22_melanoma_slide_0045.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_22_melanoma/Derm_Lecture_22_melanoma_slide_0045.jpg",
+        "diagnosis": "Melanoma Arising in a Nevus",
+        "legend": "Contrast between large expansile melanoma nests (top/left) and small benign nevus cells (bottom/right). (Time: 1503s)"
+      },
+      {
+        "id": "Slide_50",
+        "src": "_asset_library/lectures/Derm_Lecture_22_melanoma/Derm_Lecture_22_melanoma_slide_0050.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_22_melanoma/Derm_Lecture_22_melanoma_slide_0050.jpg",
+        "diagnosis": "Melanoma Arising in a Nevus (IHC)",
+        "legend": "p16 stain showing loss in the melanoma component (left) and retention in the benign nevus (right). (Time: 1620s)"
+      },
+      {
+        "id": "Slide_100",
+        "src": "_asset_library/lectures/Derm_Lecture_22_melanoma/Derm_Lecture_22_melanoma_slide_0100.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_22_melanoma/Derm_Lecture_22_melanoma_slide_0100.jpg",
+        "diagnosis": "Melanoma with Microsatellite",
+        "legend": "A discrete nodule of melanoma separated from the primary tumor by normal tissue (microsatellite). (Time: 2614s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Melanoma In Situ",
+    "definition": "Melanoma confined to the epidermis (and adnexal epithelium) without invasion into the dermis.",
+    "tags": [
+      "Skin::Neoplastic::Melanocytic::In_Situ::Melanoma_In_Situ_NOS"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Variable presentation. Lentigo Maligna type occurs on chronically sun-damaged skin (Head/Neck). Superficial Spreading type on intermittently sun-exposed skin (Trunk/Extremities).",
+    "pathogenesis": "Subtypes correlate with cumulative sun damage (CSD). High CSD (Lentigo Maligna) vs. Low CSD (Superficial Spreading).",
+    "macroscopic": "Flat, irregular pigmented patch.",
+    "microscopic": "Continuous/confluent growth of melanocytes along the dermo-epidermal junction. Replacement of the basal layer. Pagetoid scatter (ascent of single cells or nests into upper epidermis). Poor circumscription. \nSubtypes:\nLentigo Maligna (High CSD): Effaced epidermis, solar elastosis, follicular extension.\nSuperficial Spreading (Low CSD): Acanthotic epidermis, extensive pagetoid scatter.",
+    "ancillary_studies": "IHC: SOX10, MART-1, PRAME (helpful in equivocal cases/margins).",
+    "differential_diagnosis": "Dysplastic Nevus, Lichenoid Keratosis (LPLK), Pigmented Actinic Keratosis.",
+    "staging": "Stage 0 (Tis). 100% survival if strictly confined to epidermis.",
+    "prognosis_and_prediction": "Excellent if completely excised.",
+    "related_figures": [
+      {
+        "id": "Slide_55",
+        "src": "_asset_library/lectures/Derm_Lecture_22_melanoma/Derm_Lecture_22_melanoma_slide_0055.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_22_melanoma/Derm_Lecture_22_melanoma_slide_0055.jpg",
+        "diagnosis": "Melanoma In Situ (Low CSD)",
+        "legend": "Acanthotic epidermis with confluent growth and extensive high-level pagetoid scatter. (Time: 1758s)"
+      },
+      {
+        "id": "Slide_59",
+        "src": "_asset_library/lectures/Derm_Lecture_22_melanoma/Derm_Lecture_22_melanoma_slide_0059.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_22_melanoma/Derm_Lecture_22_melanoma_slide_0059.jpg",
+        "diagnosis": "Melanoma In Situ (High CSD / Lentigo Maligna)",
+        "legend": "Atrophic epidermis with solar elastosis, confluent growth, and follicular extension. (Time: 1806s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Nodular Melanoma",
+    "definition": "An invasive melanoma subtype lacking a significant radial growth phase, presenting as an expansile nodule.",
+    "tags": [
+      "Skin::Neoplastic::Melanocytic::Malignant::Melanoma_Nodular"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Rapidly growing nodule, may be ulcerated.",
+    "pathogenesis": "Vertical growth phase from onset.",
+    "macroscopic": "Often symmetric, elevated nodule.",
+    "microscopic": "Can be symmetric and circumscribed at low power (mimicking a nevus). High power reveals significant cytologic atypia (large nuclei, prominent nucleoli), lack of maturation, and high mitotic rate (e.g., multiple mitoses per HPF).",
+    "ancillary_studies": "Ki-67 high proliferation index.",
+    "differential_diagnosis": "Dermal Nevus, Metastatic Melanoma.",
+    "staging": "T-stage usually advanced due to depth.",
+    "prognosis_and_prediction": "Worse prognosis due to greater Breslow thickness at presentation.",
+    "related_figures": [
+      {
+        "id": "Slide_20",
+        "src": "_asset_library/lectures/Derm_Lecture_22_melanoma/Derm_Lecture_22_melanoma_slide_0020.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_22_melanoma/Derm_Lecture_22_melanoma_slide_0020.jpg",
+        "diagnosis": "Nodular Melanoma",
+        "legend": "Low power showing a symmetric nodular growth pattern. (Time: 868s)"
+      },
+      {
+        "id": "Slide_21",
+        "src": "_asset_library/lectures/Derm_Lecture_22_melanoma/Derm_Lecture_22_melanoma_slide_0021.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_22_melanoma/Derm_Lecture_22_melanoma_slide_0021.jpg",
+        "diagnosis": "Nodular Melanoma",
+        "legend": "High power revealing marked atypia and multiple mitotic figures. (Time: 878s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Nevoid Melanoma",
+    "definition": "A rare subtype of melanoma that mimics a benign nevus at low power due to small cell size and apparent maturation.",
+    "tags": [
+      "Skin::Neoplastic::Melanocytic::Malignant::Melanoma_Nevoid"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Variable.",
+    "pathogenesis": "Unknown.",
+    "macroscopic": "Resembles a nevus.",
+    "microscopic": "Resembles a nevus at low power but shows subtle atypia: overlapping nuclei, prominent nucleoli, expansile growth patterns, and mitotic activity deeper in the lesion. Does not show true maturation (cells at base are similar to top).",
+    "ancillary_studies": "Ki-67 and PRAME can be very helpful to distinguish from benign nevus.",
+    "differential_diagnosis": "Melanocytic Nevus, Recurrent Nevus.",
+    "staging": "Per standard melanoma guidelines.",
+    "prognosis_and_prediction": "Often misdiagnosed; prognosis depends on stage.",
+    "related_figures": [
+      {
+        "id": "Slide_24",
+        "src": "_asset_library/lectures/Derm_Lecture_22_melanoma/Derm_Lecture_22_melanoma_slide_0024.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_22_melanoma/Derm_Lecture_22_melanoma_slide_0024.jpg",
+        "diagnosis": "Nevoid Melanoma",
+        "legend": "Shows overlapping nuclei, prominent nucleoli, and expansile growth despite nevus-like appearance. (Time: 926s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Acral Lentiginous Melanoma",
+    "definition": "A subtype of melanoma occurring on glabrous skin (palms, soles) and nail units.",
+    "tags": [
+      "Skin::Neoplastic::Melanocytic::Malignant::Melanoma_Acral_Lentiginous"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Pigmented patch on palms, soles, or nail unit (Hutchinson sign).",
+    "pathogenesis": "Not UV-driven. Associated with KIT mutations (in some cases) or amplification of CCND1/CDK4.",
+    "macroscopic": "Irregular pigmentation on acral sites.",
+    "microscopic": "Thick compact stratum corneum (acral skin). Confluent growth of single melanocytes and nests along the dermo-epidermal junction. Extensive and high-level pagetoid scatter (Manic pattern).",
+    "ancillary_studies": "IHC: PRAME. Molecular: KIT mutation analysis may be relevant for therapy.",
+    "differential_diagnosis": "Acral Nevus (may have some pagetoid scatter but is circumscribed and organized).",
+    "staging": "Per standard melanoma guidelines.",
+    "prognosis_and_prediction": "Often presents at advanced stage due to delay in diagnosis.",
+    "related_figures": [
+      {
+        "id": "Slide_64",
+        "src": "_asset_library/lectures/Derm_Lecture_22_melanoma/Derm_Lecture_22_melanoma_slide_0064.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_22_melanoma/Derm_Lecture_22_melanoma_slide_0064.jpg",
+        "diagnosis": "Acral Lentiginous Melanoma",
+        "legend": "Low power showing acral skin with hyperkeratosis and confluent junctional proliferation. (Time: 1870s)"
+      },
+      {
+        "id": "Slide_66",
+        "src": "_asset_library/lectures/Derm_Lecture_22_melanoma/Derm_Lecture_22_melanoma_slide_0066.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_22_melanoma/Derm_Lecture_22_melanoma_slide_0066.jpg",
+        "diagnosis": "Acral Lentiginous Melanoma",
+        "legend": "High power showing extensive high-level pagetoid scatter. (Time: 1902s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Desmoplastic Melanoma",
+    "definition": "A spindle cell melanoma subtype characterized by malignant melanocytes associated with a fibrotic/collagenous stroma, often with neurotropism.",
+    "tags": [
+      "Skin::Neoplastic::Melanocytic::Malignant::Melanoma_Desmoplastic"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Amelanotic nodule or indurated plaque on sun-damaged skin.",
+    "pathogenesis": "High cumulative sun damage. NF1 mutations common.",
+    "macroscopic": "Firm, scar-like lesion.",
+    "microscopic": "Low power: Extensive solar elastosis, lymphoid aggregates. Melanoma In Situ often present overlying. \nDermis: Invasive atypical spindle cells separated by thickened collagen fibers. Nuclear enlargement, pleomorphism, hyperchromasia. Perineural invasion is common. \nClassified as 'Pure' (>90% desmoplasia) or 'Combined' (<90% desmoplasia).",
+    "ancillary_studies": "IHC: S100 positive, SOX10 positive. Typically NEGATIVE for melanocytic differentiation markers (MART-1 negative, HMB-45 negative).",
+    "differential_diagnosis": "Desmoplastic Nevus, Scar, Neurofibroma, Dermatofibroma.",
+    "staging": "Pure desmoplastic melanoma has lower rate of sentinel lymph node metastasis compared to combined type.",
+    "prognosis_and_prediction": "Pure desmoplastic melanoma has better survival outcomes than combined type.",
+    "related_figures": [
+      {
+        "id": "Slide_69",
+        "src": "_asset_library/lectures/Derm_Lecture_22_melanoma/Derm_Lecture_22_melanoma_slide_0069.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_22_melanoma/Derm_Lecture_22_melanoma_slide_0069.jpg",
+        "diagnosis": "Desmoplastic Melanoma",
+        "legend": "Low power showing solar elastosis, lymphoid aggregates, and spindle cell proliferation. (Time: 1941s)"
+      },
+      {
+        "id": "Slide_71",
+        "src": "_asset_library/lectures/Derm_Lecture_22_melanoma/Derm_Lecture_22_melanoma_slide_0071.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_22_melanoma/Derm_Lecture_22_melanoma_slide_0071.jpg",
+        "diagnosis": "Desmoplastic Melanoma",
+        "legend": "Spindle cells with nuclear irregularity separated by thickened dermal collagen. (Time: 1989s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Desmoplastic Nevus",
+    "definition": "A benign melanocytic nevus with significant sclerosis/fibrosis, often mimicking desmoplastic melanoma.",
+    "tags": [
+      "Skin::Neoplastic::Melanocytic::Benign::Common_Acquired_Nevus_NOS"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Papule.",
+    "pathogenesis": "Benign.",
+    "macroscopic": "Skin colored or pigmented papule.",
+    "microscopic": "Smooth, regular contours at the base (wedge-shaped). Melanocytes lack significant atypia. No lymphoid aggregates. Sclerotic stroma.",
+    "ancillary_studies": "IHC: Positive for S100 and SOX10. Crucially, usually POSITIVE for MART-1 and HMB-45 (unlike desmoplastic melanoma).",
+    "differential_diagnosis": "Desmoplastic Melanoma.",
+    "staging": "None.",
+    "prognosis_and_prediction": "Benign.",
+    "related_figures": [
+      {
+        "id": "Slide_78",
+        "src": "_asset_library/lectures/Derm_Lecture_22_melanoma/Derm_Lecture_22_melanoma_slide_0078.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_22_melanoma/Derm_Lecture_22_melanoma_slide_0078.jpg",
+        "diagnosis": "Desmoplastic Nevus",
+        "legend": "Showing smooth regular contours and lack of lymphoid aggregates. (Time: 2047s)"
+      },
+      {
+        "id": "Slide_80",
+        "src": "_asset_library/lectures/Derm_Lecture_22_melanoma/Derm_Lecture_22_melanoma_slide_0080.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_22_melanoma/Derm_Lecture_22_melanoma_slide_0080.jpg",
+        "diagnosis": "Desmoplastic Nevus (IHC)",
+        "legend": "Positive staining for MART-1 and HMB-45, distinguishing it from desmoplastic melanoma. (Time: 2061s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Recurrent Nevus (Pseudomelanoma)",
+    "definition": "Regrowth of a benign nevus following incomplete removal or trauma, showing atypical features confined to the scar.",
+    "tags": [
+      "Skin::Neoplastic::Melanocytic::Benign::Recurrent_Nevus_Pseudomelanoma"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Pigmentation appearing within a scar from a prior biopsy.",
+    "pathogenesis": "Reactive proliferation of remaining melanocytes.",
+    "macroscopic": "Pigment within a scar.",
+    "microscopic": "Atypical melanocytes (large, variable) confined strictly to the area of fibrosis/scarring. Junctional melanocytes may be single or nested. Important to correlate with prior biopsy showing benign nevus.",
+    "ancillary_studies": "Review of prior biopsy is the gold standard.",
+    "differential_diagnosis": "Recurrent Melanoma, Melanoma In Situ.",
+    "staging": "None.",
+    "prognosis_and_prediction": "Benign if original lesion was benign.",
+    "related_figures": [
+      {
+        "id": "Slide_27",
+        "src": "_asset_library/lectures/Derm_Lecture_22_melanoma/Derm_Lecture_22_melanoma_slide_0027.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_22_melanoma/Derm_Lecture_22_melanoma_slide_0027.jpg",
+        "diagnosis": "Recurrent Nevus vs Melanoma In Situ",
+        "legend": "Left: Recurrent nevus with atypia confined to fibrosis. Right: Melanoma In Situ extending beyond any scar. (Time: 1084s)"
+      },
+      {
+        "id": "Slide_28",
+        "src": "_asset_library/lectures/Derm_Lecture_22_melanoma/Derm_Lecture_22_melanoma_slide_0028.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_22_melanoma/Derm_Lecture_22_melanoma_slide_0028.jpg",
+        "diagnosis": "Original Biopsy of Recurrent Nevus",
+        "legend": "Original biopsy showing a transected benign intradermal nevus. (Time: 1106s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Halo Nevus",
+    "definition": "A melanocytic nevus undergoing immune-mediated regression.",
+    "tags": [
+      "Skin::Neoplastic::Melanocytic::Benign::Halo_Nevus"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Pigmented mole surrounded by a depigmented (white) ring.",
+    "pathogenesis": "T-cell mediated immune response against melanocytes.",
+    "macroscopic": "Halo phenomenon.",
+    "microscopic": "Dense, symmetric, band-like or diffuse lymphocytic infiltrate obscuring the melanocytes. The underlying nevus cells should appear banal. Infiltrate is uniform ('smooth').",
+    "ancillary_studies": "SOX10 can highlight residual melanocytes. PRAME should be negative in the nevus cells.",
+    "differential_diagnosis": "Melanoma with regression (regression in melanoma is usually asymmetric and partial).",
+    "staging": "None.",
+    "prognosis_and_prediction": "Benign.",
+    "related_figures": [
+      {
+        "id": "Slide_35",
+        "src": "_asset_library/lectures/Derm_Lecture_22_melanoma/Derm_Lecture_22_melanoma_slide_0035.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_22_melanoma/Derm_Lecture_22_melanoma_slide_0035.jpg",
+        "diagnosis": "Halo Nevus",
+        "legend": "Showing a uniform, symmetric inflammatory infiltrate approaching a compound nevus. (Time: 1238s)"
+      }
+    ]
+  }
+]

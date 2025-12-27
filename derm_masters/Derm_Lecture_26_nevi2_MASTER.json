@@ -1,0 +1,62 @@
+[
+  {
+    "entity_name": "Dysplastic Nevus",
+    "definition": "A melanocytic neoplasm characterized by architectural disorder and cytologic atypia, historically controversial regarding its status as a melanoma precursor versus a marker of increased melanoma risk. Also known as Clark's nevus, atypical mole, or BK mole.",
+    "tags": [
+      "Skin::Neoplastic::Melanocytic::Benign::Dysplastic_Nevus"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Clinically, these lesions present with features often summarized by the 'ABCD' criteria (Asymmetry, Border irregularity, Color variability, Diameter >6mm). Historically described in 'BK Mole Syndrome' (familial melanoma) families where patients had numerous large, atypical nevi. Current data suggests they are markers of melanoma risk: one clinically dysplastic nevus confers ~2x risk; 10+ confers ~12x risk. While they can be precursors, the majority of melanomas arise de novo (only ~10-20% associated with a nevus).",
+    "pathogenesis": "The concept has evolved from a direct precursor ('thesis' by Wallace Clark) to a benign variant or 'Clark's Nevus' ('antithesis' by Ackerman), to a risk marker ('synthesis'). \n\nGenomically, they are often clonal. \n1. **Younger patients:** Predominantly **BRAF** initiated; often senescent (biologic dead end). High grade atypia here may involve **MAP2K1** mutations or gene fusions seen in Spitz tumors.\n2. **Older patients:** Predominantly **NRAS** initiated; these may be biologically different, less senescent, and potentially more prone to progression via TERT promoter mutations.",
+    "macroscopic": "Large size, indistinct or fuzzy borders (though not as poorly circumscribed as melanoma), irregular borders (notched), and variable coloration.",
+    "microscopic": "Histologically defined by 'architectural disorder' and 'cytologic atypia'.\n\n**Architectural features:**\n- **Shouldering:** Junctional component extends beyond the dermal component.\n- **Bridging:** Nesting of melanocytes connecting adjacent rete ridges.\n- **Fibroplasia:** 'Mesenchymal changes' in the papillary dermis (lamellar or concentric fibroplasia).\n- **Infiltrate:** Patchy lymphocytic infiltrate.\n\n**Cytologic features:**\n- **Random Cytologic Atypia:** Occasional cells with nuclei larger than neighbors or surrounding keratinocytes (concept of genetic instability).\n- Jumbled orientation of junctional nests.\n\n**Grading:**\n- Mild (Clark's nevus): Compound center, junctional shoulder, minimal atypia.\n- Moderate/Severe: Increased bridging, fibroplasia, and nuclear atypia. 'Severe' dysplasia is controversial and may represent NRAS-mutated lesions in older adults or Spitz-like fusions in children.",
+    "ancillary_studies": "IHC:\n- **HMB-45**: Stains junctional components avidly (often cited as overlap with melanoma, but common in active junctional nevi).\n- **Ki-67**: Higher proliferation rate compared to intradermal nevi, but largely confined to the epidermal component.\n- **p16**: Loss is variable but usually retained (unlike melanoma).\n\nGenetics:\n- **BRAF mutations**: Frequent (especially young adults).\n- **NRAS mutations**: More common in older adults/progressive lesions.\n- **MAP2K1 mutations**: Seen in some 'severely atypical' nevi (overlap with Spitz).\n- **Chromosomal Copy Number Changes**: Almost always **absent** (key differentiator from melanoma).\n- **TERT promoter mutations**: Rare in benign/dysplastic nevi; indicates progression.",
+    "differential_diagnosis": "Melanoma (in situ and invasive), Common Acquired Nevus, Spitz Nevus (especially in children/special sites), Recurrent Nevus (Pseudomelanoma), Melanoma arising in sun-damaged skin.",
+    "staging": "Not applicable (Benign/Risk Marker).",
+    "prognosis_and_prediction": "Benign course for the vast majority. Management relies on ruling out melanoma. \n\n**Re-excision criteria (Speaker recommendations):**\n1. Lesions in markedly sun-damaged skin where single melanocytes predominate (high risk for missed evolving melanoma).\n2. Pagetoid scatter not explained by irritation.\n3. Severe cytologic atypia (context-dependent; higher concern in older, NRAS-type patients).\n4. Small partial biopsies of large, atypical lesions in special sites.",
+    "related_figures": [
+      {
+        "id": "Slide_12",
+        "src": "_asset_library/lectures/Derm_Lecture_26_nevi2/Derm_Lecture_26_nevi2_slide_0012.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_26_nevi2/Derm_Lecture_26_nevi2_slide_0012.jpg",
+        "diagnosis": "Dysplastic Nevus (Clinical)",
+        "legend": "Clinical images of patients with 'BK Mole Syndrome' (Dysplastic Nevus Syndrome). Note the numerous atypical nevi on the back and a melanoma arising de novo (lower right, #6). (Time: 359s)"
+      },
+      {
+        "id": "Slide_16",
+        "src": "_asset_library/lectures/Derm_Lecture_26_nevi2/Derm_Lecture_26_nevi2_slide_0016.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_26_nevi2/Derm_Lecture_26_nevi2_slide_0016.jpg",
+        "diagnosis": "Dysplastic Nevus",
+        "legend": "Histologic criteria showing 'Random Cytologic Atypia.' Note the occasional nucleus (arrow) that is larger than the surrounding keratinocytes and melanocytes. (Time: 673s)"
+      },
+      {
+        "id": "Slide_42",
+        "src": "_asset_library/lectures/Derm_Lecture_26_nevi2/Derm_Lecture_26_nevi2_slide_0042.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_26_nevi2/Derm_Lecture_26_nevi2_slide_0042.jpg",
+        "diagnosis": "Dysplastic Nevus (Genetics)",
+        "legend": "Map kinase pathway illustrating BRAF as a common initiator in dysplastic nevi, leading to oncogene-induced senescence. (Time: 1892s)"
+      },
+      {
+        "id": "Slide_48",
+        "src": "_asset_library/lectures/Derm_Lecture_26_nevi2/Derm_Lecture_26_nevi2_slide_0048.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_26_nevi2/Derm_Lecture_26_nevi2_slide_0048.jpg",
+        "diagnosis": "Dysplastic Nevus (Mild/Clark's)",
+        "legend": "A 'mildly dysplastic' or Clark's nevus demonstrating the 'shoulder' phenomenon: a compound center with a junctional component extending peripherally. (Time: 2093s)"
+      },
+      {
+        "id": "Slide_51",
+        "src": "_asset_library/lectures/Derm_Lecture_26_nevi2/Derm_Lecture_26_nevi2_slide_0051.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_26_nevi2/Derm_Lecture_26_nevi2_slide_0051.jpg",
+        "diagnosis": "Dysplastic Nevus",
+        "legend": "Dysplastic nevus showing increased bridging of nests between rete ridges and fibroplasia in the papillary dermis. (Time: 2161s)"
+      },
+      {
+        "id": "Slide_53",
+        "src": "_asset_library/lectures/Derm_Lecture_26_nevi2/Derm_Lecture_26_nevi2_slide_0053.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_26_nevi2/Derm_Lecture_26_nevi2_slide_0053.jpg",
+        "diagnosis": "Dysplastic Nevus",
+        "legend": "Higher power view showing lymphocytic infiltrate, fibroplasia, and melanocytes with abundant pale cytoplasm and random cytologic atypia. (Time: 2189s)"
+      }
+    ]
+  }
+]

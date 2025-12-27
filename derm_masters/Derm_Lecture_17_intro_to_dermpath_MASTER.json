@@ -1,0 +1,55 @@
+[
+  {
+    "entity_name": "Dermatopathology Residency Curriculum and Diagnostic Framework",
+    "definition": "Overview of the UCSF Dermatopathology educational program, emphasizing a logical approach to diagnosis via pattern recognition (Ackerman's algorithms), structured learning resources, and residency logistics.",
+    "tags": [
+      "Skin::Normal_Histology::Overview"
+    ],
+    "html_gcs_path": null,
+    "clinical": "The curriculum is divided into two primary categories: 'Rashes' (Inflammatory) taught in the first half of the year, and 'Tumors' (Neoplastic) taught in the second half (starting December). The program includes weekly didactic lectures (Tuesdays 8-9 AM), 'Core Exam Prep' covering 241 high-yield entities (Tuesdays 7:30/8 AM), and monthly rotations. Rotations involve daily sign-outs, review of study sets (approx. 14 boxes), grossing, and site orientation.",
+    "pathogenesis": "N/A (Educational/Administrative Overview)",
+    "macroscopic": "N/A",
+    "microscopic": "The diagnostic approach for inflammatory conditions is based on 'Ackerman's Algorithms', which organize rashes into 12 patterns of inflammation. Key patterns discussed include: Superficial perivascular dermatitis, Superficial and deep perivascular dermatitis (often grouped together), Dermatitis with epidermal change, Interface dermatitis, Spongiotic dermatitis, Psoriasiform dermatitis, Nodular and diffuse dermatitis, and Vasculitis. The primary analytical step at the microscope is distinguishing between 'Rashes' and 'Tumors'.",
+    "ancillary_studies": "Direct Immunofluorescence (DIF) is a distinct component of the curriculum with dedicated lectures and rotation time. Recommended Textbooks include: 'Pathology of the Skin' (McKee - considered the standard), 'Dermatopathology' (Elston - concise/residency provided), 'Practical Dermatopathology' (Rapini), and 'Weedon\u2019s Skin Pathology' (specifically the older 'Mays' edition, noted for excellent explanation of inflammatory mechanisms). Online resources mentioned include PathPresenter.",
+    "differential_diagnosis": "N/A",
+    "staging": "N/A",
+    "prognosis_and_prediction": "N/A",
+    "related_figures": [
+      {
+        "id": "Slide_10",
+        "src": "_asset_library/lectures/Derm_Lecture_17_intro_to_dermpath/Derm_Lecture_17_intro_to_dermpath_slide_0010.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_17_intro_to_dermpath/Derm_Lecture_17_intro_to_dermpath_slide_0010.jpg",
+        "diagnosis": "Dermatopathology Faculty",
+        "legend": "Introduction of the dermatopathology faculty and staff. (Time: 294s)"
+      },
+      {
+        "id": "Slide_13",
+        "src": "_asset_library/lectures/Derm_Lecture_17_intro_to_dermpath/Derm_Lecture_17_intro_to_dermpath_slide_0013.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_17_intro_to_dermpath/Derm_Lecture_17_intro_to_dermpath_slide_0013.jpg",
+        "diagnosis": "Educational Resources",
+        "legend": "Discussion of textbooks (Elston, McKee, Weedon/Mays) and reading assignments. (Time: 728s)"
+      },
+      {
+        "id": "Slide_16",
+        "src": "_asset_library/lectures/Derm_Lecture_17_intro_to_dermpath/Derm_Lecture_17_intro_to_dermpath_slide_0016.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_17_intro_to_dermpath/Derm_Lecture_17_intro_to_dermpath_slide_0016.jpg",
+        "diagnosis": "Curriculum Schedule",
+        "legend": "The lecture schedule displaying the logical sequence of topics, starting with Rashes (Inflammatory) and moving to Tumors. (Time: 1397s)"
+      },
+      {
+        "id": "Slide_28",
+        "src": "_asset_library/lectures/Derm_Lecture_17_intro_to_dermpath/Derm_Lecture_17_intro_to_dermpath_slide_0028.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_17_intro_to_dermpath/Derm_Lecture_17_intro_to_dermpath_slide_0028.jpg",
+        "diagnosis": "Core Exam Prep Handout",
+        "legend": "The 'Core Exam Prep' handout organizing 241 high-yield entities by inflammatory patterns. (Time: 2065s)"
+      },
+      {
+        "id": "Slide_35",
+        "src": "_asset_library/lectures/Derm_Lecture_17_intro_to_dermpath/Derm_Lecture_17_intro_to_dermpath_slide_0035.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_17_intro_to_dermpath/Derm_Lecture_17_intro_to_dermpath_slide_0035.jpg",
+        "diagnosis": "Ackerman's Algorithms",
+        "legend": "Overview of the 12 patterns of inflammation (Ackerman's Algorithms) used to classify inflammatory skin diseases. (Time: 2330s)"
+      }
+    ]
+  }
+]

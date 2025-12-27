@@ -1,0 +1,570 @@
+[
+  {
+    "entity_name": "Direct Immunofluorescence (DIF) Technique Overview",
+    "definition": "Overview of the direct immunofluorescence technique used for diagnosing immunobullous diseases, connective tissue diseases, and vasculitis.",
+    "tags": [
+      "Skin::Inflammatory::Blistering::Immunobullous_Dermatosis_Overview"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Biopsy site selection is critical: perilesional (within 1cm of lesion) is preferred to avoid epidermal detachment. Avoid the blister itself. For connective tissue disease, biopsy site depends on the specific query (involved vs. uninvolved skin).",
+    "pathogenesis": "Detects in vivo deposition of immunoglobulins and complement factors in tissue.",
+    "macroscopic": null,
+    "microscopic": null,
+    "ancillary_studies": "Transport media: Michel's (ammonium sulfate) or Saline (short term). DO NOT use Formalin (fixes immunoglobulins). Standard Panel: IgG, IgA, IgM, C3, Fibrinogen.",
+    "differential_diagnosis": null,
+    "staging": null,
+    "prognosis_and_prediction": null,
+    "related_figures": [
+      {
+        "id": "Slide_7",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0007.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0007.jpg",
+        "diagnosis": "DIF Technique",
+        "legend": "Diagram illustrating perilesional biopsy technique. (Time: 175s)"
+      },
+      {
+        "id": "Slide_9",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0009.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0009.jpg",
+        "diagnosis": "DIF Technique",
+        "legend": "Standard 5-stain panel setup: IgG, IgA, IgM, C3, Fibrinogen. (Time: 245s)"
+      },
+      {
+        "id": "Slide_11",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0011.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0011.jpg",
+        "diagnosis": "DIF Technique",
+        "legend": "Comparison of tissue antigen visualization using FITC conjugated antibodies. (Time: 276s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Bullous Pemphigoid",
+    "definition": "The most common autoimmune subepidermal blistering disease affecting the elderly.",
+    "tags": [
+      "Skin::Inflammatory::Blistering::Bullous_Pemphigoid"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Elderly patients (>60). Chronic course. Pruritic, tense, deflated blisters. Often associated with urticaria. Can be drug-induced.",
+    "pathogenesis": "Autoantibodies against hemidesmosome components: BPAG1 (BP230) and BPAG2 (BP180/Type XVII Collagen).",
+    "macroscopic": "Tense blisters on normal or erythematous/urticarial skin.",
+    "microscopic": "Subepidermal blister with eosinophils.",
+    "ancillary_studies": "DIF: Linear deposition of IgG and/or C3 at the dermo-epidermal junction (BMZ).",
+    "differential_diagnosis": "Epidermolysis Bullosa Acquisita, Bullous Lupus, Pemphigoid Gestationis.",
+    "staging": null,
+    "prognosis_and_prediction": null,
+    "related_figures": [
+      {
+        "id": "Slide_17",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0017.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0017.jpg",
+        "diagnosis": "Bullous Pemphigoid",
+        "legend": "Clinical presentation showing tense, deflated blisters and urticarial plaques. (Time: 401s)"
+      },
+      {
+        "id": "Slide_19",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0019.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0019.jpg",
+        "diagnosis": "Bullous Pemphigoid",
+        "legend": "H&E showing subepidermal split with numerous eosinophils. (Time: 434s)"
+      },
+      {
+        "id": "Slide_20",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0020.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0020.jpg",
+        "diagnosis": "Bullous Pemphigoid",
+        "legend": "DIF showing linear IgG pattern at the basement membrane zone. (Time: 439s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Pemphigoid Gestationis",
+    "definition": "A variant of bullous pemphigoid occurring during pregnancy (formerly Herpes Gestationis).",
+    "tags": [
+      "Skin::Inflammatory::Blistering::Pemphigoid_Gestationis"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Pregnant women (usually late pregnancy). Abrupt onset, intensely pruritic. Urticarial plaques and bullae, often periumbilical. Spontaneous remission postpartum; recurs in future pregnancies. Risk of premature birth.",
+    "pathogenesis": "Autoantibodies against BPAG2 (BP180).",
+    "macroscopic": "Urticarial plaques and blisters on trunk/abdomen.",
+    "microscopic": "Subepidermal blister with eosinophils (similar to BP).",
+    "ancillary_studies": "DIF: Linear C3 (and often IgG) at the dermo-epidermal junction.",
+    "differential_diagnosis": "Pruritic Urticarial Papules and Plaques of Pregnancy (PUPPP), Bullous Pemphigoid.",
+    "staging": null,
+    "prognosis_and_prediction": "May affect future pregnancies.",
+    "related_figures": [
+      {
+        "id": "Slide_22",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0022.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0022.jpg",
+        "diagnosis": "Pemphigoid Gestationis",
+        "legend": "Clinical presentation in pregnancy showing urticarial and bullous lesions. (Time: 496s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Mucous Membrane Pemphigoid",
+    "definition": "A chronic, scarring autoimmune blistering disease predominantly affecting mucous membranes.",
+    "tags": [
+      "Skin::Inflammatory::Blistering::Cicatricial_Pemphigoid_Mucous_Membrane"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Affects age >60. Chronic and progressive. Sites: Scalp (Brunsting-Perry variant, scarring alopecia), Oral (lateral tongue ulcers, desquamative gingivitis), Ocular (symblepharon, risk of blindness), Genital, Esophageal.",
+    "pathogenesis": "Autoantibodies against various BMZ antigens (BP180, Laminin 332, etc.).",
+    "macroscopic": "Erosions, scarring, symblepharon (ocular).",
+    "microscopic": "Subepidermal blister.",
+    "ancillary_studies": "DIF: Linear IgG and C3 at the dermo-epidermal junction.",
+    "differential_diagnosis": "Bullous Pemphigoid, Erosive Lichen Planus, Pemphigus Vulgaris.",
+    "staging": null,
+    "prognosis_and_prediction": "High risk of blindness if ocular involvement. Often refractory to mild therapy; may require dapsone or cytotoxic agents.",
+    "related_figures": [
+      {
+        "id": "Slide_23",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0023.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0023.jpg",
+        "diagnosis": "Mucous Membrane Pemphigoid",
+        "legend": "Brunsting-Perry variant showing scarring alopecia and erosions on the scalp. (Time: 556s)"
+      },
+      {
+        "id": "Slide_24",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0024.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0024.jpg",
+        "diagnosis": "Mucous Membrane Pemphigoid",
+        "legend": "Oral involvement showing erosions on the lateral tongue. (Time: 587s)"
+      },
+      {
+        "id": "Slide_25",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0025.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0025.jpg",
+        "diagnosis": "Mucous Membrane Pemphigoid",
+        "legend": "Ocular involvement with scarring (symblepharon). (Time: 604s)"
+      },
+      {
+        "id": "Slide_93",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0093.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0093.jpg",
+        "diagnosis": "Mucous Membrane Pemphigoid",
+        "legend": "Histology showing subepidermal separation. (Time: 1906s)"
+      },
+      {
+        "id": "Slide_94",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0094.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0094.jpg",
+        "diagnosis": "Mucous Membrane Pemphigoid",
+        "legend": "DIF showing linear IgG and C3 at the basement membrane. (Time: 1914s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Anti-p200 Pemphigoid",
+    "definition": "A distinct subepidermal blistering disease often clinically resembling bullous pemphigoid or dermatitis herpetiformis.",
+    "tags": [
+      "Skin::Inflammatory::Blistering::Bullous_Pemphigoid"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Similar to Bullous Pemphigoid.",
+    "pathogenesis": "Autoantibodies against p200 antigen (Laminin gamma-1) in the lower lamina lucida.",
+    "macroscopic": "Tense blisters.",
+    "microscopic": "Subepidermal blister with Neutrophils (unlike classic BP which has eosinophils).",
+    "ancillary_studies": "DIF: Linear IgG/C3 at BMZ (looks like BP). Salt Split Skin: Maps to the Dermal side.",
+    "differential_diagnosis": "Bullous Pemphigoid, Dermatitis Herpetiformis, Linear IgA.",
+    "staging": null,
+    "prognosis_and_prediction": null,
+    "related_figures": [
+      {
+        "id": "Slide_27",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0027.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0027.jpg",
+        "diagnosis": "Anti-p200 Pemphigoid",
+        "legend": "H&E showing neutrophils in a subepidermal blister; DIF is linear. (Time: 641s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Epidermolysis Bullosa Acquisita (EBA)",
+    "definition": "A rare, chronic, mechanobullous autoimmune blistering disease targeting collagen VII.",
+    "tags": [
+      "Skin::Inflammatory::Blistering::Epidermolysis_Bullosa_Acquisita"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Trauma-induced blistering, scarring, milia. Two types: Classic (non-inflammatory, mechanobullous) and Inflammatory (mimics BP). High rate of oral/ocular involvement (30-50%).",
+    "pathogenesis": "Autoantibodies against Type VII Collagen (anchoring fibrils).",
+    "macroscopic": "Tense hemorrhagic blisters, erosions, scarring on trauma-prone sites.",
+    "microscopic": "Subepidermal blister, often hemorrhagic.",
+    "ancillary_studies": "DIF: Linear IgG/C3 at BMZ. Salt Split Skin: Localization to the Dermal floor (u-serrated pattern on direct IF is also described in literature).",
+    "differential_diagnosis": "Bullous Pemphigoid, Porphyria Cutanea Tarda.",
+    "staging": null,
+    "prognosis_and_prediction": "Refractory to treatment; associated with Crohn's disease.",
+    "related_figures": [
+      {
+        "id": "Slide_29",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0029.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0029.jpg",
+        "diagnosis": "Epidermolysis Bullosa Acquisita",
+        "legend": "Clinical presentation showing scarring and erosions on hands. (Time: 692s)"
+      },
+      {
+        "id": "Slide_30",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0030.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0030.jpg",
+        "diagnosis": "Epidermolysis Bullosa Acquisita",
+        "legend": "Hemorrhagic tense blisters indicating deep dermal separation. (Time: 720s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Bullous Lupus Erythematosus",
+    "definition": "A blistering eruption occurring in patients with established Systemic Lupus Erythematosus (SLE).",
+    "tags": [
+      "Skin::Inflammatory::Blistering::Bullous_Lupus_Erythematosus"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Patient with SLE criteria. Acute onset of tense blisters on normal or erythematous skin. Photosensitive.",
+    "pathogenesis": "Autoantibodies against Type VII Collagen (anchoring fibrils).",
+    "macroscopic": "Vesicles and bullae.",
+    "microscopic": "Subepidermal blister with neutrophils (can mimic Dermatitis Herpetiformis).",
+    "ancillary_studies": "DIF: Granular or Linear IgG/IgA/C3 at BMZ (Lupus Band). Salt Split Skin: Dermal floor (if anti-type VII Abs present).",
+    "differential_diagnosis": "Dermatitis Herpetiformis, Bullous Pemphigoid, EBA.",
+    "staging": null,
+    "prognosis_and_prediction": "Responsive to Dapsone and oral corticosteroids.",
+    "related_figures": [
+      {
+        "id": "Slide_33",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0033.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0033.jpg",
+        "diagnosis": "Bullous Lupus Erythematosus",
+        "legend": "H&E showing neutrophils at the DEJ (mimicking DH) and DIF showing granular deposition. (Time: 796s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Dermatitis Herpetiformis",
+    "definition": "A cutaneous manifestation of gluten sensitivity (Celiac disease).",
+    "tags": [
+      "Skin::Inflammatory::Blistering::Dermatitis_Herpetiformis"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Intensely pruritic grouped papulovesicles on extensor surfaces (elbows, knees, buttocks). Excoriations common. Associated with gluten-sensitive enteropathy. HLA-DQ2/DQ8 association.",
+    "pathogenesis": "IgA antibodies against Epidermal Transglutaminase (TG3).",
+    "macroscopic": "Grouped excoriations, papules, and vesicles.",
+    "microscopic": "Neutrophilic microabscesses in dermal papillae.",
+    "ancillary_studies": "DIF: Granular IgA deposition in dermal papillae.",
+    "differential_diagnosis": "Linear IgA Bullous Dermatosis, Scabies, Eczema.",
+    "staging": null,
+    "prognosis_and_prediction": "Responds to gluten-free diet and Dapsone.",
+    "related_figures": [
+      {
+        "id": "Slide_36",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0036.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0036.jpg",
+        "diagnosis": "Dermatitis Herpetiformis",
+        "legend": "Grouped papules and excoriations on the elbow. (Time: 874s)"
+      },
+      {
+        "id": "Slide_37",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0037.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0037.jpg",
+        "diagnosis": "Dermatitis Herpetiformis",
+        "legend": "H&E showing neutrophilic microabscess in the dermal papilla. (Time: 894s)"
+      },
+      {
+        "id": "Slide_38",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0038.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0038.jpg",
+        "diagnosis": "Dermatitis Herpetiformis",
+        "legend": "DIF showing granular IgA in dermal papillae. (Time: 903s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Linear IgA Bullous Dermatosis",
+    "definition": "An autoimmune subepidermal blistering disease characterized by linear IgA deposition at the basement membrane.",
+    "tags": [
+      "Skin::Inflammatory::Blistering::Linear_IgA_Bullous_Dermatosis"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Annular or polycyclic blisters ('Cluster of Jewels' sign). Affects adults and children (Chronic Bullous Disease of Childhood). Can be drug-induced (Vancomycin). Mucosal involvement common (30-50%).",
+    "pathogenesis": "Autoantibodies against LAD-1 (part of BP180).",
+    "macroscopic": "Blisters arranged in a ring (rosette) pattern.",
+    "microscopic": "Subepidermal blister with neutrophils at the dermo-epidermal junction.",
+    "ancillary_studies": "DIF: Linear IgA band at the dermo-epidermal junction.",
+    "differential_diagnosis": "Dermatitis Herpetiformis, Bullous Pemphigoid.",
+    "staging": null,
+    "prognosis_and_prediction": null,
+    "related_figures": [
+      {
+        "id": "Slide_42",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0042.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0042.jpg",
+        "diagnosis": "Linear IgA Bullous Dermatosis",
+        "legend": "Annular blistering ('Crown of Jewels') presentation. (Time: 947s)"
+      },
+      {
+        "id": "Slide_43",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0043.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0043.jpg",
+        "diagnosis": "Linear IgA Bullous Dermatosis",
+        "legend": "H&E showing neutrophils at the DEJ. (Time: 973s)"
+      },
+      {
+        "id": "Slide_44",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0044.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0044.jpg",
+        "diagnosis": "Linear IgA Bullous Dermatosis",
+        "legend": "DIF showing linear IgA band at the basement membrane. (Time: 982s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Porphyria Cutanea Tarda (PCT)",
+    "definition": "The most common porphyria, caused by a defect in uroporphyrinogen decarboxylase.",
+    "tags": [
+      "Skin::Inflammatory::Blistering::Porphyria_Cutanea_Tarda"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Photosensitivity. Tense blisters, erosions, crusts, and scarring on sun-exposed sites (hands, face). Hypertrichosis, hyperpigmentation. Associated with Hepatitis C, alcohol, estrogens, iron overload.",
+    "pathogenesis": "Uroporphyrinogen decarboxylase deficiency (inherited or acquired). Accumulation of uroporphyrins.",
+    "macroscopic": "Blisters, milia, scarring on dorsal hands.",
+    "microscopic": "Cell-poor subepidermal blister. 'Festooning' of dermal papillae.",
+    "ancillary_studies": "DIF: Linear, broad, shaggy IgG, C3, and Fibrinogen at BMZ and around dermal blood vessels. Urine/Serum Porphyrins elevated.",
+    "differential_diagnosis": "Pseudoporphyria (Drug-induced, Normal porphyrin levels), EBA.",
+    "staging": null,
+    "prognosis_and_prediction": null,
+    "related_figures": [
+      {
+        "id": "Slide_49",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0049.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0049.jpg",
+        "diagnosis": "Porphyria Cutanea Tarda",
+        "legend": "Blisters and erosions on the dorsal hands. (Time: 1045s)"
+      },
+      {
+        "id": "Slide_52",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0052.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0052.jpg",
+        "diagnosis": "Porphyria Cutanea Tarda",
+        "legend": "H&E showing cell-poor subepidermal blister with festooning. (Time: 1063s)"
+      },
+      {
+        "id": "Slide_53",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0053.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0053.jpg",
+        "diagnosis": "Porphyria Cutanea Tarda",
+        "legend": "DIF showing strong homogeneous staining of vessel walls and BMZ. (Time: 1078s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Pemphigus Vulgaris",
+    "definition": "A severe autoimmune intraepidermal blistering disease affecting skin and mucous membranes.",
+    "tags": [
+      "Skin::Inflammatory::Blistering::Pemphigus_Vulgaris"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Flaccid blisters on normal skin, painful erosions. Oral mucosa almost always involved (often presenting sign). Positive Nikolsky sign.",
+    "pathogenesis": "Autoantibodies against Desmoglein 3 (mucosal dominant) and Desmoglein 1 (mucocutaneous).",
+    "macroscopic": "Flaccid bullae, extensive erosions.",
+    "microscopic": "Suprabasilar acantholysis. 'Row of tombstones' (basal layer remains attached). Eosinophils common.",
+    "ancillary_studies": "DIF: Intercellular IgG and C3 in a 'chicken wire' or 'net-like' pattern throughout the epidermis.",
+    "differential_diagnosis": "Pemphigus Foliaceus, Hailey-Hailey Disease, Grover Disease.",
+    "staging": null,
+    "prognosis_and_prediction": "Can be fatal if untreated. Treat with systemic steroids and immunosuppressants (Rituximab).",
+    "related_figures": [
+      {
+        "id": "Slide_61",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0061.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0061.jpg",
+        "diagnosis": "Pemphigus Vulgaris",
+        "legend": "Clinical showing flaccid blisters and erosions on the trunk. (Time: 1255s)"
+      },
+      {
+        "id": "Slide_63",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0063.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0063.jpg",
+        "diagnosis": "Pemphigus Vulgaris",
+        "legend": "H&E showing suprabasilar acantholysis and 'tombstoning'. (Time: 1311s)"
+      },
+      {
+        "id": "Slide_64",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0064.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0064.jpg",
+        "diagnosis": "Pemphigus Vulgaris",
+        "legend": "DIF showing intercellular 'net-like' IgG deposition. (Time: 1326s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Pemphigus Foliaceus",
+    "definition": "A superficial form of pemphigus.",
+    "tags": [
+      "Skin::Inflammatory::Blistering::Pemphigus_Foliaceus"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Scaly, crusted erosions in seborrheic distribution (face, scalp, chest, back). No oral involvement. 'Cornflakes' appearance.",
+    "pathogenesis": "Autoantibodies against Desmoglein 1.",
+    "macroscopic": "Superficial erosions, scaling, crusting.",
+    "microscopic": "Subcorneal/Granular layer acantholysis.",
+    "ancillary_studies": "DIF: Intercellular IgG and C3, often more intense in superficial epidermis.",
+    "differential_diagnosis": "Impetigo, Seborrheic Dermatitis, Pemphigus Vulgaris.",
+    "staging": null,
+    "prognosis_and_prediction": "Generally milder than Pemphigus Vulgaris.",
+    "related_figures": [
+      {
+        "id": "Slide_66",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0066.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0066.jpg",
+        "diagnosis": "Pemphigus Foliaceus",
+        "legend": "Clinical presentation on the face (nose). (Time: 1387s)"
+      },
+      {
+        "id": "Slide_67",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0067.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0067.jpg",
+        "diagnosis": "Pemphigus Foliaceus",
+        "legend": "H&E showing superficial acantholysis in the granular layer. (Time: 1392s)"
+      },
+      {
+        "id": "Slide_68",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0068.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0068.jpg",
+        "diagnosis": "Pemphigus Foliaceus",
+        "legend": "DIF showing superficial intercellular IgG pattern. (Time: 1414s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Lupus Erythematosus (DIF Findings)",
+    "definition": "Direct immunofluorescence patterns in Lupus Erythematosus (LE), primarily the Lupus Band Test.",
+    "tags": [
+      "Skin::Inflammatory::Interface::Lupus_Erythematosus_Systemic_SLE"
+    ],
+    "html_gcs_path": null,
+    "clinical": "SLE: Malar rash, photosensitivity, systemic symptoms. DLE: Discoid plaques, scarring alopecia.",
+    "pathogenesis": "Autoimmune interface dermatitis.",
+    "macroscopic": "Erythematous plaques, atrophy, scaling.",
+    "microscopic": "Vacuolar interface dermatitis, superficial and deep perivascular/periadnexal lymphocytic infiltrate, mucin.",
+    "ancillary_studies": "DIF (Lupus Band Test): Granular IgG, IgM, and C3 along the dermo-epidermal junction. SLE: Positive in involved AND uninvolved sun-exposed skin. DLE: Positive only in involved skin.",
+    "differential_diagnosis": "Dermatomyositis, Lichen Planus.",
+    "staging": null,
+    "prognosis_and_prediction": null,
+    "related_figures": [
+      {
+        "id": "Slide_72",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0072.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0072.jpg",
+        "diagnosis": "Systemic Lupus Erythematosus",
+        "legend": "Clinical showing severe photosensitive eruption. (Time: 1486s)"
+      },
+      {
+        "id": "Slide_74",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0074.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0074.jpg",
+        "diagnosis": "Lupus Erythematosus",
+        "legend": "DIF showing granular 'Lupus Band' at the DEJ. (Time: 1512s)"
+      },
+      {
+        "id": "Slide_78",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0078.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0078.jpg",
+        "diagnosis": "Lupus Erythematosus",
+        "legend": "In vivo ANA phenomenon: Speckled nuclear fluorescence in keratinocytes (seen in MCTD or high-titer SLE). (Time: 1618s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Leukocytoclastic Vasculitis (Small Vessel)",
+    "definition": "Small vessel vasculitis mediated by immune complex deposition.",
+    "tags": [
+      "Skin::Inflammatory::Vasculitis::Leukocytoclastic_Vasculitis_LCV"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Palpable purpura, typically on lower legs.",
+    "pathogenesis": "Immune complex deposition in vessel walls.",
+    "macroscopic": "Palpable purpura.",
+    "microscopic": "Neutrophils within and around vessel walls, fibrinoid necrosis, leukocytoclasia (nuclear dust).",
+    "ancillary_studies": "DIF: Perivascular C3, IgM, or IgG deposition.",
+    "differential_diagnosis": "IgA Vasculitis (HSP), Urticarial Vasculitis.",
+    "staging": null,
+    "prognosis_and_prediction": null,
+    "related_figures": [
+      {
+        "id": "Slide_80",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0080.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0080.jpg",
+        "diagnosis": "Leukocytoclastic Vasculitis",
+        "legend": "Clinical presentation of palpable purpura on legs. (Time: 1656s)"
+      },
+      {
+        "id": "Slide_81",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0081.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0081.jpg",
+        "diagnosis": "Leukocytoclastic Vasculitis",
+        "legend": "H&E showing LCV and DIF showing perivascular C3. (Time: 1669s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "IgA Vasculitis (Henoch-Schonlein Purpura)",
+    "definition": "A subtype of leukocytoclastic vasculitis characterized by IgA deposition.",
+    "tags": [
+      "Skin::Inflammatory::Vasculitis::Henoch_Schonlein_Purpura_IgA_Vasculitis"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Palpable purpura, abdominal pain, arthralgia, renal involvement. Affects children and adults.",
+    "pathogenesis": "IgA immune complex deposition.",
+    "macroscopic": "Palpable purpura.",
+    "microscopic": "Leukocytoclastic vasculitis (indistinguishable from non-IgA LCV on H&E).",
+    "ancillary_studies": "DIF: Granular IgA deposition in vessel walls.",
+    "differential_diagnosis": "Other small vessel vasculitides.",
+    "staging": null,
+    "prognosis_and_prediction": "Risk of renal impairment.",
+    "related_figures": [
+      {
+        "id": "Slide_83",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0083.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0083.jpg",
+        "diagnosis": "IgA Vasculitis",
+        "legend": "DIF showing granular IgA in vessel walls. (Time: 1697s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Lichen Planus (Oral/Cutaneous)",
+    "definition": "An inflammatory condition of skin and mucous membranes with characteristic interface dermatitis.",
+    "tags": [
+      "Skin::Inflammatory::Interface::Lichen_Planus"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Cutaneous: Pruritic, purple, polygonal papules. Oral: Reticular (Wickham striae), erosive, or atrophic.",
+    "pathogenesis": "T-cell mediated autoimmune reaction.",
+    "macroscopic": "White reticulated streaks (oral), violaceous papules (skin).",
+    "microscopic": "Hyperkeratosis, wedge-shaped hypergranulosis, irregular acanthosis ('saw-tooth'), band-like lymphocytic infiltrate at DEJ, Civatte bodies.",
+    "ancillary_studies": "DIF: Shaggy, fibrillar Fibrinogen deposition at the dermo-epidermal junction and on Civatte bodies (Cytoid bodies).",
+    "differential_diagnosis": "Lichenoid Drug Eruption, Lupus Erythematosus, Graft vs Host Disease.",
+    "staging": null,
+    "prognosis_and_prediction": "Chronic course, particularly oral erosive form.",
+    "related_figures": [
+      {
+        "id": "Slide_87",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0087.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0087.jpg",
+        "diagnosis": "Oral Lichen Planus",
+        "legend": "H&E showing dense band-like lymphocytic infiltrate. (Time: 1768s)"
+      },
+      {
+        "id": "Slide_88",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0088.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0088.jpg",
+        "diagnosis": "Oral Lichen Planus",
+        "legend": "DIF showing shaggy Fibrinogen deposition at the basement membrane. (Time: 1785s)"
+      },
+      {
+        "id": "Slide_91",
+        "src": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0091.jpg",
+        "gcs_path": "gs://pathology-hub-0/_asset_library/lectures/Derm_Lecture_8_Direct_IF/Derm_Lecture_8_Direct_IF_slide_0091.jpg",
+        "diagnosis": "Lichen Planus",
+        "legend": "DIF of cutaneous Lichen Planus showing fibrinogen deposition. (Time: 1885s)"
+      }
+    ]
+  }
+]

@@ -1,0 +1,502 @@
+[
+  {
+    "entity_name": "Cutaneous Bacterial Infection (Achromobacter)",
+    "definition": "A bacterial infection of the skin caused by Achromobacter species, often presenting atypically in immunocompromised patients with minimal inflammatory response.",
+    "tags": [
+      "Skin::Infectious::Bacterial::Cutaneous_Bacterial_Infection_NOS"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Can present as large patches of erythema with tenderness and minimal scale. In immunocompromised patients (e.g., leukemia, neutropenia), critical laboratory values (white count) may be extremely low, altering the clinical and histologic appearance.",
+    "pathogenesis": "Opportunistic infection often seen in hospitalized or immunocompromised patients. In neutropenic patients, the lack of white blood cells results in a lack of typical inflammation.",
+    "macroscopic": "Erythematous patches or plaques, may be tender.",
+    "microscopic": "In neutropenic patients: Dermis may show edema separating collagen bundles but lacks a significant inflammatory infiltrate. Numerous organisms may be present 'peppering' the dermis but are difficult to see on H&E. \n\nConventional presentation (non-neutropenic): Pseudoepitheliomatous hyperplasia, papillary dermal edema, necrosis, and dense inflammation with debris.",
+    "ancillary_studies": "Gram stain: Highlights gram-negative rods/coccobacilli scattered throughout the dermis.\nCulture: Blood and tissue cultures for species identification (e.g., Achromobacter).",
+    "differential_diagnosis": "Other bacterial cellulitis, Ecthyma gangrenosum, Sweet syndrome (if neutrophilic), Leukemia cutis (if clinical context suggests).",
+    "staging": null,
+    "prognosis_and_prediction": "Can progress to sepsis and multi-organ failure if not treated, especially in immunocompromised hosts.",
+    "related_figures": [
+      {
+        "id": "Slide_3",
+        "src": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0003.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0003.jpg",
+        "diagnosis": "Cutaneous Bacterial Infection (Achromobacter)",
+        "legend": "Clinical presentation of erythema on the leg in a leukemic patient. (Time: 94s)"
+      },
+      {
+        "id": "Slide_5",
+        "src": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0005.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0005.jpg",
+        "diagnosis": "Cutaneous Bacterial Infection (Achromobacter)",
+        "legend": "High power H&E showing dermal edema but minimal inflammatory infiltrate due to neutropenia. (Time: 169s)"
+      },
+      {
+        "id": "Slide_7",
+        "src": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0007.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0007.jpg",
+        "diagnosis": "Cutaneous Bacterial Infection (Achromobacter)",
+        "legend": "Gram stain highlighting gram-negative rods percolating through the dermis. (Time: 205s)"
+      },
+      {
+        "id": "Slide_9",
+        "src": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0009.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0009.jpg",
+        "diagnosis": "Cutaneous Bacterial Infection (Conventional)",
+        "legend": "Comparison case showing conventional bacterial infection with pseudoepitheliomatous hyperplasia and necrosis. (Time: 268s)"
+      },
+      {
+        "id": "Slide_10",
+        "src": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0010.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0010.jpg",
+        "diagnosis": "Cutaneous Bacterial Infection (Conventional)",
+        "legend": "High power showing abundant organisms in a conventional infection with inflammation. (Time: 308s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Secondary Syphilis",
+    "definition": "A sexually transmitted infection caused by Treponema pallidum, characterized by hematogenous dissemination resulting in mucocutaneous lesions, including papulosquamous rashes and Condyloma Lata.",
+    "tags": [
+      "Skin::Infectious::Bacterial::Syphilis_Secondary_Cutaneous"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Variable presentation ('The Great Mimicker'). Common: Psoriasiform or lichenoid plaques on trunk/extremities/palms/soles. Condyloma Lata: Moist, wart-like verrucous papules/plaques in anogenital regions.",
+    "pathogenesis": "Caused by the spirochete Treponema pallidum. Secondary stage results from hematogenous dissemination of untreated primary infection.",
+    "macroscopic": "Scaly plaques, papules (often copper-colored), or vegetative verrucous nodules (Condyloma Lata).",
+    "microscopic": "Conventional: Psoriasiform or lichenoid epidermal hyperplasia, vacuolar interface change, superficial and deep perivascular lymphoplasmacytic infiltrate (plasma cells are key). Neutrophils in stratum corneum may be seen.\n\nCondyloma Lata Variant: Marked endophytic pseudoepitheliomatous hyperplasia with bulbous, downward-pushing rete ridges. Dense lichenoid lymphoplasmacytic infiltrate. Neutrophilic microabscesses in the epidermis. Swollen endothelial cells.",
+    "ancillary_studies": "Treponemal Antibody / Spirochete IHC: Highlights spiral organisms, typically at the dermo-epidermal junction and around blood vessels (Sensitivity ~70-80%).\nSerology: RPR/VDRL and specific treponemal tests.",
+    "differential_diagnosis": "Psoriasis, Lichen Planus, Pityriasis Rosea, Drug Eruption, Verrucous Carcinoma (for Condyloma Lata), Squamous Cell Carcinoma.",
+    "staging": "Secondary stage of Syphilis.",
+    "prognosis_and_prediction": "Responds well to penicillin. Can progress to tertiary syphilis if untreated.",
+    "related_figures": [
+      {
+        "id": "Slide_12",
+        "src": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0012.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0012.jpg",
+        "diagnosis": "Secondary Syphilis",
+        "legend": "Low power showing lichenoid infiltrate and irregular psoriasiform hyperplasia. (Time: 348s)"
+      },
+      {
+        "id": "Slide_14",
+        "src": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0014.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0014.jpg",
+        "diagnosis": "Secondary Syphilis",
+        "legend": "High power highlighting plasma cells within the infiltrate and vacuolar interface change. (Time: 430s)"
+      },
+      {
+        "id": "Slide_17",
+        "src": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0017.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0017.jpg",
+        "diagnosis": "Secondary Syphilis (Condyloma Lata)",
+        "legend": "Marked pseudoepitheliomatous hyperplasia mimicking verrucous carcinoma. (Time: 534s)"
+      },
+      {
+        "id": "Slide_24",
+        "src": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0024.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0024.jpg",
+        "diagnosis": "Secondary Syphilis (Condyloma Lata)",
+        "legend": "Intraepithelial neutrophilic microabscesses. (Time: 734s)"
+      },
+      {
+        "id": "Slide_26",
+        "src": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0026.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0026.jpg",
+        "diagnosis": "Secondary Syphilis",
+        "legend": "Spirochete stain showing numerous organisms at the dermal-epidermal junction. (Time: 765s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Atypical Mycobacterial Infection",
+    "definition": "Cutaneous infection caused by non-tuberculous mycobacteria (e.g., M. marinum, M. avium complex), often presenting as nodules or ulcers.",
+    "tags": [
+      "Skin::Infectious::Bacterial::Atypical_Mycobacterial_Infection"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Slowly enlarging dusky red papules, nodules, or plaques. History of water/soil exposure or immunosuppression is relevant.",
+    "pathogenesis": "Inoculation via trauma or hematogenous spread. M. marinum is common (aquariums/fish). Immunosuppression is a risk factor.",
+    "macroscopic": "Indurated, dusky red or violaceous papules/nodules, may ulcerate.",
+    "microscopic": "Diffuse or nodular infiltrate comprising lymphocytes and histiocytes. Histiocytes often appear 'foamy' or have blue-gray granular cytoplasm (globi) on H&E. Can be suppurative, granulomatous, or mixed.",
+    "ancillary_studies": "Fite Stain (Acid-Fast Bacilli): Positive (highlights red rods). Organisms may be abundant in immunosuppressed patients.",
+    "differential_diagnosis": "Deep fungal infection, foreign body granuloma, sarcoidosis, other bacterial abscesses.",
+    "staging": null,
+    "prognosis_and_prediction": "Dependent on species and immune status.",
+    "related_figures": [
+      {
+        "id": "Slide_39",
+        "src": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0039.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0039.jpg",
+        "diagnosis": "Atypical Mycobacterial Infection",
+        "legend": "Diffuse histiocytic infiltrate. (Time: 1206s)"
+      },
+      {
+        "id": "Slide_40",
+        "src": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0040.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0040.jpg",
+        "diagnosis": "Atypical Mycobacterial Infection",
+        "legend": "High power showing foamy histiocytes with blue-gray granular cytoplasm. (Time: 1246s)"
+      },
+      {
+        "id": "Slide_41",
+        "src": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0041.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0041.jpg",
+        "diagnosis": "Atypical Mycobacterial Infection",
+        "legend": "Fite stain highlighting abundant acid-fast bacilli. (Time: 1262s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Dermatophytosis (Tinea)",
+    "definition": "Superficial fungal infection of the keratinized tissues (skin, hair, nails) caused by dermatophytes.",
+    "tags": [
+      "Skin::Infectious::Fungal::Dermatophytosis_Tinea_Overview"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Scaly erythematous annular plaques (ringworm).",
+    "pathogenesis": "Infection of the stratum corneum by dermatophyte fungi.",
+    "macroscopic": "Annular scaly plaques with active borders.",
+    "microscopic": "\"Sandwich Sign\": Basket-weave orthokeratosis overlying a layer of parakeratosis and inflammatory debris/neutrophils. Spongiosis and acanthosis are common. Superficial perivascular infiltrate, often with eosinophils.",
+    "ancillary_studies": "PAS or GMS stain: Highlights fungal hyphae within the stratum corneum (often sandwiched between ortho- and parakeratosis).",
+    "differential_diagnosis": "Eczema, Psoriasis, Pityriasis Rosea, Subcorneal Pustular Dermatosis.",
+    "staging": null,
+    "prognosis_and_prediction": "Generally responsive to antifungals.",
+    "related_figures": [
+      {
+        "id": "Slide_45",
+        "src": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0045.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0045.jpg",
+        "diagnosis": "Dermatophytosis",
+        "legend": "Subcorneal neutrophils and spongiosis. (Time: 1390s)"
+      },
+      {
+        "id": "Slide_47",
+        "src": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0047.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0047.jpg",
+        "diagnosis": "Dermatophytosis",
+        "legend": "Sandwich sign: Orthokeratosis overlying parakeratosis and debris. (Time: 1447s)"
+      },
+      {
+        "id": "Slide_48",
+        "src": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0048.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0048.jpg",
+        "diagnosis": "Dermatophytosis",
+        "legend": "PAS stain highlighting hyphae in the stratum corneum. (Time: 1480s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Histoplasmosis",
+    "definition": "A fungal infection caused by Histoplasma capsulatum, endemic to the Ohio and Mississippi River valleys, often causing disseminated disease in immunocompromised hosts.",
+    "tags": [
+      "Skin::Infectious::Fungal::Histoplasmosis_Cutaneous"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Disseminated papules, hemorrhagic crusts, or ulcers in immunocompromised patients (e.g., leukemia, HIV).",
+    "pathogenesis": "Inhalation of spores (soil, bird/bat droppings) -> lung infection -> hematogenous dissemination. Organisms infect macrophages.",
+    "macroscopic": "Papules, crusted plaques, ulcers.",
+    "microscopic": "Typical: Granulomatous or histiocytic infiltrate with intracellular yeasts. \nRare Variant (Immunocompromised): Intra-epidermal distribution with tiny dot-like organisms within keratinocytes and stratum corneum, as well as in dermal histiocytes.",
+    "ancillary_studies": "GMS/PAS: Highlights small (2-4 micron) round/oval yeasts.\nGiemsa: Highlights intracellular organisms.\nImmunohistochemistry: Anti-Histoplasma antibody positive.",
+    "differential_diagnosis": "Leishmaniasis (GMS negative, CD1a variable), Toxoplasmosis (rare cutaneous), Penicilliosis, Cryptococcosis (larger, variable size).",
+    "staging": null,
+    "prognosis_and_prediction": "Serious systemic infection requiring systemic antifungals.",
+    "related_figures": [
+      {
+        "id": "Slide_54",
+        "src": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0054.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0054.jpg",
+        "diagnosis": "Histoplasmosis",
+        "legend": "Rare intra-epidermal presentation with tiny organisms within keratinocytes. (Time: 1690s)"
+      },
+      {
+        "id": "Slide_57",
+        "src": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0057.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0057.jpg",
+        "diagnosis": "Histoplasmosis",
+        "legend": "GMS stain highlighting small oval yeasts in the epidermis. (Time: 1756s)"
+      },
+      {
+        "id": "Slide_59",
+        "src": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0059.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0059.jpg",
+        "diagnosis": "Histoplasmosis",
+        "legend": "Positive immunohistochemical stain for Histoplasma. (Time: 1818s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Cryptococcosis",
+    "definition": "Infection by Cryptococcus neoformans or C. gattii, typically affecting immunocompromised individuals, characterized by encapsulated yeasts.",
+    "tags": [
+      "Skin::Infectious::Fungal::Cryptococcosis_Cutaneous"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Papules (sometimes umbilicated simulating molluscum), nodules, or ulcers. Often in patients with HIV, malignancy, or transplants.",
+    "pathogenesis": "Inhalation (pigeon droppings, soil) -> dissemination to skin/CNS.",
+    "macroscopic": "Flesh-colored or red papules, nodules.",
+    "microscopic": "Granulomatous or suppurative infiltrate. Histiocytes contain intracellular yeasts. Yeasts show striking pleomorphism (variability in size and shape) and are surrounded by a clear halo (mucinous capsule), often forming \"mucinous lacunae\".",
+    "ancillary_studies": "GMS/PAS: Positive (variable size, narrow-based budding).\nMucicarmine/Alcian Blue: Highlights the gelatinous capsule.\nFontana-Masson: Positive (melanin in cell wall).",
+    "differential_diagnosis": "Blastomycosis (uniform size, broad-based bud), Histoplasmosis (smaller, uniform), Molluscum.",
+    "staging": null,
+    "prognosis_and_prediction": "Requires systemic antifungal therapy.",
+    "related_figures": [
+      {
+        "id": "Slide_67",
+        "src": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0067.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0067.jpg",
+        "diagnosis": "Cryptococcosis",
+        "legend": "Deep dermal collection of foamy histiocytes. (Time: 2063s)"
+      },
+      {
+        "id": "Slide_68",
+        "src": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0068.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0068.jpg",
+        "diagnosis": "Cryptococcosis",
+        "legend": "High power showing pleomorphic yeasts within mucinous lacunae. (Time: 2091s)"
+      },
+      {
+        "id": "Slide_69",
+        "src": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0069.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0069.jpg",
+        "diagnosis": "Cryptococcosis",
+        "legend": "GMS stain emphasizing variation in size and shape. (Time: 2162s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Aspergillosis",
+    "definition": "Opportunistic fungal infection caused by Aspergillus species, often presenting with angioinvasion and necrosis in immunocompromised hosts.",
+    "tags": [
+      "Skin::Infectious::Fungal::Aspergillosis_Cutaneous"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Necrotic ulcers, eschars, or hemorrhagic bullae in neutropenic/diabetic patients.",
+    "pathogenesis": "Primary cutaneous inoculation or hematogenous spread. Angioinvasion leads to infarction/necrosis.",
+    "macroscopic": "Black eschar or necrotic ulcer.",
+    "microscopic": "Dermal necrosis, suppuration, and angioinvasion. Hyphae are septate with acute (45-degree) angle branching.",
+    "ancillary_studies": "GMS/PAS: Highlights hyphae.\nImmunohistochemistry: Anti-Aspergillus antibody positive; Anti-Mucor antibody negative (distinguishes from Zygomycosis).",
+    "differential_diagnosis": "Mucormycosis (broad, non-septate, 90-degree branching), Fusarium, Pseudallescheria.",
+    "staging": null,
+    "prognosis_and_prediction": "High mortality in disseminated cases; requires aggressive treatment.",
+    "related_figures": [
+      {
+        "id": "Slide_74",
+        "src": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0074.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0074.jpg",
+        "diagnosis": "Aspergillosis",
+        "legend": "Septate hyphae with 45-degree branching in necrotic tissue. (Time: 2323s)"
+      },
+      {
+        "id": "Slide_75",
+        "src": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0075.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0075.jpg",
+        "diagnosis": "Aspergillosis",
+        "legend": "GMS stain highlighting the branching pattern. (Time: 2343s)"
+      },
+      {
+        "id": "Slide_76",
+        "src": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0076.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0076.jpg",
+        "diagnosis": "Aspergillosis",
+        "legend": "Positive immunohistochemical stain for Aspergillus. (Time: 2381s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Blastomycosis",
+    "definition": "A chronic granulomatous and suppurative fungal infection caused by Blastomyces dermatitidis.",
+    "tags": [
+      "Skin::Infectious::Fungal::Blastomycosis_Cutaneous"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Verrucous plaques or ulcerated nodules, often on exposed skin. Common in Central/Southeastern US.",
+    "pathogenesis": "Inhalation -> pulmonary infection -> dissemination to skin.",
+    "macroscopic": "Verrucous, crusted plaques.",
+    "microscopic": "Marked pseudoepitheliomatous hyperplasia (PEH). Intraepidermal neutrophilic microabscesses. Mixed dermal infiltrate (suppurative and granulomatous).",
+    "ancillary_studies": "PAS/GMS: Large, thick-walled yeasts with BROAD-BASED budding.",
+    "differential_diagnosis": "Squamous cell carcinoma (due to PEH), Halogenoderma, Pemphigus vegetans, other deep fungal infections.",
+    "staging": null,
+    "prognosis_and_prediction": "Systemic antifungals required.",
+    "related_figures": [
+      {
+        "id": "Slide_79",
+        "src": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0079.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0079.jpg",
+        "diagnosis": "Blastomycosis",
+        "legend": "Marked pseudoepitheliomatous hyperplasia with overlying crust. (Time: 2470s)"
+      },
+      {
+        "id": "Slide_80",
+        "src": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0080.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0080.jpg",
+        "diagnosis": "Blastomycosis",
+        "legend": "PAS stain showing broad-based budding yeast. (Time: 2524s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Verruca Plana",
+    "definition": "Flat warts caused by HPV (typically types 3 and 10), commonly on the face or dorsal hands.",
+    "tags": [
+      "Skin::Infectious::Viral::Verruca_Plana_Flat_Wart"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Multiple flat, smooth, skin-colored or hyperpigmented papules.",
+    "pathogenesis": "HPV infection of keratinocytes.",
+    "macroscopic": "Flat-topped papules.",
+    "microscopic": "Hyperkeratosis and acanthosis with gentle, 'rolling' papillomatosis (basket-weave or orthokeratosis). Hypergranulosis. Vacuolated keratinocytes (koilocytes) with pyknotic nuclei in the upper epidermis ('bird's eye' cells).",
+    "ancillary_studies": "None usually required.",
+    "differential_diagnosis": "Seborrheic keratosis, Epidermodysplasia verruciformis.",
+    "staging": null,
+    "prognosis_and_prediction": "Benign; may spontaneously regress.",
+    "related_figures": [
+      {
+        "id": "Slide_86",
+        "src": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0086.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0086.jpg",
+        "diagnosis": "Verruca Plana",
+        "legend": "Gentle papillomatosis ('roller coaster' appearance) with hypergranulosis and vacuolar change. (Time: 2693s)"
+      },
+      {
+        "id": "Slide_85",
+        "src": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0085.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0085.jpg",
+        "diagnosis": "Verruca Plana",
+        "legend": "High power showing cells with cytoplasmic clearing and pyknotic nuclei. (Time: 2675s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Verruca Plantaris (Myrmecia Type)",
+    "definition": "Deep palmoplantar wart caused by HPV (often type 1), characterized by deep endophytic growth and large inclusion bodies.",
+    "tags": [
+      "Skin::Infectious::Viral::Verruca_Plantaris_Plantar_Wart"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Painful, deep, callus-like lesion on the sole ('Ant Hill').",
+    "pathogenesis": "HPV type 1 infection.",
+    "macroscopic": "Hyperkeratotic papule/plaque on the sole.",
+    "microscopic": "Marked hyperkeratosis and acanthosis. Endophytic growth with inward-bowing (toeing-in) of rete ridges. Abundant, large, eosinophilic intracytoplasmic inclusion bodies (Myrmecia inclusions).",
+    "ancillary_studies": "None usually required.",
+    "differential_diagnosis": "Callus/Corn (Clavus), Molluscum (different inclusions).",
+    "staging": null,
+    "prognosis_and_prediction": "Benign but can be painful and persistent.",
+    "related_figures": [
+      {
+        "id": "Slide_90",
+        "src": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0090.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0090.jpg",
+        "diagnosis": "Verruca Plantaris",
+        "legend": "Endophytic architecture with inward bowing of rete ridges. (Time: 2796s)"
+      },
+      {
+        "id": "Slide_92",
+        "src": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0092.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0092.jpg",
+        "diagnosis": "Verruca Plantaris",
+        "legend": "Large eosinophilic intracytoplasmic viral inclusions. (Time: 2820s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Verruca Vulgaris",
+    "definition": "Common wart caused by HPV (e.g., types 2, 4), characterized by marked papillomatosis and koilocytosis.",
+    "tags": [
+      "Skin::Infectious::Viral::Verruca_Vulgaris_Common_Wart"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Verrucous, hyperkeratotic papules/nodules, common on hands/fingers.",
+    "pathogenesis": "HPV infection.",
+    "macroscopic": "Rough, verrucous papule.",
+    "microscopic": "Marked papillomatosis and acanthosis. Tiers/columns of parakeratosis (often overlying the papillae). Dilated capillaries in dermal papillae (leading to punctate hemorrhage). Koilocytes (vacuolated cells) typically at the tips of the rete ridges/papillations. Inward bowing of rete ridges at the periphery.",
+    "ancillary_studies": "None usually required.",
+    "differential_diagnosis": "Verrucous carcinoma, Seborrheic keratosis.",
+    "staging": null,
+    "prognosis_and_prediction": "Benign.",
+    "related_figures": [
+      {
+        "id": "Slide_96",
+        "src": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0096.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0096.jpg",
+        "diagnosis": "Verruca Vulgaris",
+        "legend": "Marked papillomatosis with columns of parakeratosis. (Time: 2910s)"
+      },
+      {
+        "id": "Slide_97",
+        "src": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0097.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0097.jpg",
+        "diagnosis": "Verruca Vulgaris",
+        "legend": "Koilocytes and dilated vessels in dermal papillae. (Time: 2957s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Condyloma Acuminatum",
+    "definition": "Anogenital warts caused by low-risk HPV types (typically 6 and 11).",
+    "tags": [
+      "Skin::Infectious::Viral::Condyloma_Acuminatum"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Soft, cauliflower-like, pedunculated or sessile papules on genital/perianal mucosa.",
+    "pathogenesis": "Sexually transmitted HPV infection (Low risk: 6, 11).",
+    "macroscopic": "Exophytic, papillomatous lesions.",
+    "microscopic": "Exophytic, papillomatous acanthosis with a 'knuckled' architecture (rounded papillations). Viral changes (koilocytosis, hypergranulosis) are often accentuated in the 'valleys' between the knuckles. Mild perivascular inflammation.",
+    "ancillary_studies": "HPV In Situ Hybridization (ISH): Positive for low-risk types (6/11).",
+    "differential_diagnosis": "Condyloma Latum (Syphilis), Bowenoid Papulosis (High-risk HPV, atypia), Seborrheic Keratosis.",
+    "staging": null,
+    "prognosis_and_prediction": "Benign, but indicates HPV exposure. Recurrence is common.",
+    "related_figures": [
+      {
+        "id": "Slide_103",
+        "src": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0103.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0103.jpg",
+        "diagnosis": "Condyloma Acuminatum",
+        "legend": "Exophytic 'knuckled' architecture. (Time: 3060s)"
+      },
+      {
+        "id": "Slide_105",
+        "src": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0105.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0105.jpg",
+        "diagnosis": "Condyloma Acuminatum",
+        "legend": "Viral changes (koilocytosis) accentuated in the valleys between knuckles. (Time: 3089s)"
+      },
+      {
+        "id": "Slide_107",
+        "src": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0107.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0107.jpg",
+        "diagnosis": "Condyloma Acuminatum",
+        "legend": "Positive ISH for low-risk HPV. (Time: 3171s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Molluscum Contagiosum",
+    "definition": "A common viral skin infection caused by a poxvirus, characterized by umbilicated papules containing intracytoplasmic viral inclusions.",
+    "tags": [
+      "Skin::Infectious::Viral::Molluscum_Contagiosum"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Firm, dome-shaped, umbilicated papules, often in children or immunocompromised adults.",
+    "pathogenesis": "Molluscum contagiosum virus (Poxvirus). Spread by direct contact.",
+    "macroscopic": "Umbilicated pearly papules.",
+    "microscopic": "Endophytic, lobular proliferation of keratinocytes. Large, eosinophilic-to-magenta intracytoplasmic viral inclusions (Henderson-Paterson bodies) that push the nucleus to the periphery. Inclusions enlarge as cells move toward the surface.",
+    "ancillary_studies": "None usually required.",
+    "differential_diagnosis": "Cryptococcosis (in HIV patients), Verruca, Folliculitis.",
+    "staging": null,
+    "prognosis_and_prediction": "Self-limiting in immunocompetent hosts.",
+    "related_figures": [
+      {
+        "id": "Slide_113",
+        "src": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0113.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0113.jpg",
+        "diagnosis": "Molluscum Contagiosum",
+        "legend": "Endophytic lobules with large intracytoplasmic inclusions. (Time: 3294s)"
+      },
+      {
+        "id": "Slide_114",
+        "src": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0114.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_7_cutaneous_infections/Derm_Lecture_7_cutaneous_infections_slide_0114.jpg",
+        "diagnosis": "Molluscum Contagiosum",
+        "legend": "High power showing Henderson-Paterson bodies. (Time: 3322s)"
+      }
+    ]
+  }
+]

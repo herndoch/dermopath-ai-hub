@@ -1,0 +1,432 @@
+[
+  {
+    "entity_name": "Interface Dermatitis (Overview)",
+    "definition": "A pattern of inflammatory skin disease where the principal inflammatory action occurs along the dermal-epidermal junction, resulting in obscuration of the junction, vacuolar change, and/or lichenoid infiltrates.",
+    "tags": [
+      "Skin::Inflammatory::Interface::Interface_Dermatitis_Overview"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Clinical presentation varies widely depending on the specific disease entity (e.g., papules, plaques, targetoid lesions).",
+    "pathogenesis": "Lymphocytes attack keratinocytes in the basal layer, injuring or killing them. Over time, this may alter epidermal maturation (squamatization).",
+    "macroscopic": "Variable.",
+    "microscopic": "Lymphocytes on both sides of the junction obscuring the basement membrane. Presence of apoptotic/dyskeratotic keratinocytes (colloid bodies). 'Squamatization' of the basal layer (cells become flat/squamous rather than cuboidal). Can be classified into Vacuolar vs. Lichenoid, or by epidermal changes (Acute cytotoxic, Premature differentiation, Irregular hyperplasia, Psoriasiform hyperplasia, Atrophy).",
+    "ancillary_studies": "None mentioned.",
+    "differential_diagnosis": "Spongiotic dermatitis (differentiation: if spongiosis extends to upper epidermis = spongiotic; if limited to lower epidermis with necrotic keratinocytes = interface; mixed = drug eruption/DRESS).",
+    "staging": "None mentioned.",
+    "prognosis_and_prediction": "None mentioned.",
+    "related_figures": [
+      {
+        "id": "Slide_8",
+        "src": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0008.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0008.jpg",
+        "diagnosis": "Interface Dermatitis (Overview)",
+        "legend": "High power showing lymphocytes on both sides of the junction, apoptotic keratinocytes, and squamatization of the basal layer. (Time: 480s)"
+      },
+      {
+        "id": "Slide_19",
+        "src": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0019.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0019.jpg",
+        "diagnosis": "Interface Dermatitis vs. Spongiotic",
+        "legend": "Mixed pattern showing lymphocytes around the superficial plexus, focal spongiosis, and vacuolar change. (Time: 761s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS)",
+    "definition": "A severe adverse drug reaction characterized by a mixed pattern of spongiotic and interface dermatitis.",
+    "tags": [
+      "Skin::Inflammatory::Drug_Eruption::Drug_Reaction_With_Eosinophilia_And_Systemic_Symptoms_DRESS"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Systemic symptoms associated with drug eruption.",
+    "pathogenesis": "Drug hypersensitivity.",
+    "macroscopic": "Variable exanthem.",
+    "microscopic": "Mixed pattern: Well-developed spongiosis combined with interface change (vacuolar alteration and dyskeratotic cells/necrotic keratinocytes).",
+    "ancillary_studies": "None mentioned.",
+    "differential_diagnosis": "Spongiotic dermatitis, other drug eruptions.",
+    "staging": "None mentioned.",
+    "prognosis_and_prediction": "None mentioned.",
+    "related_figures": [
+      {
+        "id": "Slide_24",
+        "src": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0024.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0024.jpg",
+        "diagnosis": "DRESS Syndrome",
+        "legend": "Mixed pattern with well-developed spongiosis and vacuolar interface change. (Time: 882s)"
+      },
+      {
+        "id": "Slide_26",
+        "src": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0026.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0026.jpg",
+        "diagnosis": "DRESS Syndrome",
+        "legend": "Characteristic mixed pattern of spongiosis and interface dermatitis. (Time: 907s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Erythema Multiforme",
+    "definition": "An acute cytotoxic interface dermatitis characterized by targetoid lesions.",
+    "tags": [
+      "Skin::Inflammatory::Interface::Erythema_Multiforme"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Targetoid lesions. Smooth, non-scaly surface.",
+    "pathogenesis": "Acute cytotoxic attack by lymphocytes on basal keratinocytes; eruption often recedes before epidermal metabolism/differentiation is altered.",
+    "macroscopic": "Targetoid lesions.",
+    "microscopic": "Lymphocytes at superficial plexus (usually not a dense band). Lymphocytes ascend to junction causing vacuolar change and keratinocyte necrosis (apoptosis). Apoptotic cells may group into 'world keratinocytic processes'. Normal basket-weave orthokeratosis (acute nature). Thin granular layer retained.",
+    "ancillary_studies": "None mentioned.",
+    "differential_diagnosis": "Toxic Epidermal Necrolysis (TEN) - EM usually has more lymphocytes and less full-thickness necrosis; biopsy edge of TEN may look like EM.",
+    "staging": "None mentioned.",
+    "prognosis_and_prediction": "None mentioned.",
+    "related_figures": [
+      {
+        "id": "Slide_32",
+        "src": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0032.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0032.jpg",
+        "diagnosis": "Erythema Multiforme",
+        "legend": "Targetoid clinical lesions. (Time: 1085s)"
+      },
+      {
+        "id": "Slide_36",
+        "src": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0036.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0036.jpg",
+        "diagnosis": "Erythema Multiforme",
+        "legend": "High power showing acute process with basket-weave cornified layer, thin granular layer, and apoptotic keratinocytes. (Time: 1124s)"
+      },
+      {
+        "id": "Slide_51",
+        "src": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0051.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0051.jpg",
+        "diagnosis": "Erythema Multiforme vs TEN",
+        "legend": "Comparison of lymphocyte density; EM generally has more lymphocytes than TEN. (Time: 1454s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Toxic Epidermal Necrolysis (TEN)",
+    "definition": "A severe acute cytotoxic interface dermatitis resulting in full-thickness epidermal necrosis.",
+    "tags": [
+      "Skin::Inflammatory::Blistering::Stevens_Johnson_Syndrome_Toxic_Epidermal_Necrolysis"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Widespread detachment of epidermis. Targetoid lesions with dusky centers.",
+    "pathogenesis": "Severe acute cytotoxic injury.",
+    "macroscopic": "Epidermal sheet detachment.",
+    "microscopic": "Early: Vacuoles and dyskeratotic cells (similar to EM). Late/Established: Full-thickness epidermal necrosis. Sparse lymphocytic infiltrate (fewer lymphocytes than EM).",
+    "ancillary_studies": "None mentioned.",
+    "differential_diagnosis": "Erythema Multiforme (biopsy of the edge of a TEN lesion may resemble EM; center shows necrosis).",
+    "staging": "None mentioned.",
+    "prognosis_and_prediction": "Life-threatening.",
+    "related_figures": [
+      {
+        "id": "Slide_40",
+        "src": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0040.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0040.jpg",
+        "diagnosis": "Toxic Epidermal Necrolysis",
+        "legend": "Early changes with vacuoles and dyskeratotic cells around a vellus follicle. (Time: 1197s)"
+      },
+      {
+        "id": "Slide_41",
+        "src": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0041.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0041.jpg",
+        "diagnosis": "Toxic Epidermal Necrolysis",
+        "legend": "Comparison of sparse inflammation in TEN vs EM. (Time: 1203s)"
+      },
+      {
+        "id": "Slide_52",
+        "src": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0052.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0052.jpg",
+        "diagnosis": "Toxic Epidermal Necrolysis",
+        "legend": "Full thickness epidermal necrosis with sparse lymphocytes. (Time: 1488s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Fixed Drug Eruption",
+    "definition": "An acute cytotoxic interface dermatitis that recurs at the same site upon re-exposure to the offending drug.",
+    "tags": [
+      "Skin::Inflammatory::Drug_Eruption::Fixed_Drug_Eruption"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Round, dusky/hyperpigmented plaques.",
+    "pathogenesis": "Cytotoxic T-cell attack.",
+    "macroscopic": "Dusky, round lesions.",
+    "microscopic": "Lymphocytes at junction extending into spinous layer (higher than EM/TEN). Necrotic keratinocytes. **Eosinophils** often present. Prominent **Melanophages** (deep in dermis in recurrent lesions).",
+    "ancillary_studies": "None mentioned.",
+    "differential_diagnosis": "Erythema Multiforme (FDE has more eosinophils and melanophages).",
+    "staging": "None mentioned.",
+    "prognosis_and_prediction": "Recurrent.",
+    "related_figures": [
+      {
+        "id": "Slide_53",
+        "src": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0053.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0053.jpg",
+        "diagnosis": "Fixed Drug Eruption",
+        "legend": "Clinical appearance of a round, dusky lesion. (Time: 1490s)"
+      },
+      {
+        "id": "Slide_56",
+        "src": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0056.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0056.jpg",
+        "diagnosis": "Fixed Drug Eruption",
+        "legend": "Interface dermatitis with lymphocytes, necrotic keratinocytes, eosinophils, and melanophages. (Time: 1545s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Pityriasis Lichenoides (PLEVA)",
+    "definition": "An acute cytotoxic interface dermatitis also known as Mucha-Habermann disease.",
+    "tags": [
+      "Skin::Inflammatory::Interface::Pityriasis_Lichenoides_PLEVA_PLC"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Papules, some scaly, some ulcerated/hemorrhagic (eschar).",
+    "pathogenesis": "Acute cytotoxic injury.",
+    "macroscopic": "Variable papules with scale or crust.",
+    "microscopic": "Lymphocytes killing keratinocytes at junction and above. **Parakeratosis with neutrophils** (distinct from other acute cytotoxic entities). Extravasated erythrocytes. Involvement of the deep vascular plexus. Wedge-shaped profile.",
+    "ancillary_studies": "None mentioned.",
+    "differential_diagnosis": "Early lesions may mimic Erythema Multiforme or Drug Eruption (biopsy edge vs center).",
+    "staging": "None mentioned.",
+    "prognosis_and_prediction": "None mentioned.",
+    "related_figures": [
+      {
+        "id": "Slide_60",
+        "src": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0060.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0060.jpg",
+        "diagnosis": "Pityriasis Lichenoides Acuta",
+        "legend": "Low power showing wedge shape, scale/crust, and hemorrhage. (Time: 1691s)"
+      },
+      {
+        "id": "Slide_62",
+        "src": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0062.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0062.jpg",
+        "diagnosis": "Pityriasis Lichenoides Acuta",
+        "legend": "High power showing necrotic keratinocytes, parakeratosis with neutrophils, and extravasated RBCs. (Time: 1740s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Graft Versus Host Disease (Acute)",
+    "definition": "An acute cytotoxic interface reaction occurring post-transplant.",
+    "tags": [
+      "Skin::Inflammatory::Interface::Graft_Versus_Host_Disease_Acute"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Morbilliform eruption. Follicular papules.",
+    "pathogenesis": "Donor lymphocytes attacking host tissues.",
+    "macroscopic": "Morbilliform rash.",
+    "microscopic": "Vacuolar interface change. **Satellite cell necrosis** (lymphocytes adjacent to apoptotic keratinocytes). Follicular involvement (inflammation/necrosis around vellus follicles). Epidermal dysmaturation (atypical keratinocytes) may be present due to chemotherapy.",
+    "ancillary_studies": "None mentioned.",
+    "differential_diagnosis": "Drug eruption, Viral exanthem, Erythema Multiforme (histologically similar; follicular accentuation is a soft clue for GVHD).",
+    "staging": "None mentioned.",
+    "prognosis_and_prediction": "None mentioned.",
+    "related_figures": [
+      {
+        "id": "Slide_69",
+        "src": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0069.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0069.jpg",
+        "diagnosis": "Acute Graft Versus Host Disease",
+        "legend": "Vacuolar interface change, consistent with GVHD but non-specific. (Time: 1865s)"
+      },
+      {
+        "id": "Slide_70",
+        "src": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0070.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0070.jpg",
+        "diagnosis": "Acute Graft Versus Host Disease",
+        "legend": "Dyskeratotic cells/necrosis accentuated around a vellus follicle. (Time: 1925s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Lichen Planus",
+    "definition": "The prototype of interface dermatitis with premature differentiation.",
+    "tags": [
+      "Skin::Inflammatory::Interface::Lichen_Planus"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Scaly papules (Pruritic, Purple, Polygonal).",
+    "pathogenesis": "T-cell attack on Alpha-6 Beta-4 integrin in basal layer, signaling premature terminal differentiation to create a barrier.",
+    "macroscopic": "Flat-topped papules.",
+    "microscopic": "Interface dermatitis with 'squamatization' of the basal layer (cells become flat). Band-like lymphocytic infiltrate. Wedge-shaped **hypergranulosis**. Compact **hyperkeratosis**. 'Saw-toothed' (pointed) rete ridges. Civatte/Colloid bodies (dyskeratotic cells dropping into dermis).",
+    "ancillary_studies": "None mentioned.",
+    "differential_diagnosis": "Lichenoid Drug Eruption (LDE), Lichenoid GVHD.",
+    "staging": "None mentioned.",
+    "prognosis_and_prediction": "None mentioned.",
+    "related_figures": [
+      {
+        "id": "Slide_77",
+        "src": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0077.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0077.jpg",
+        "diagnosis": "Shave Biopsy Artifact (Simulating LP)",
+        "legend": "Demonstration of premature differentiation (hypergranulosis/compact hyperkeratosis) caused by trauma, analogous to LP mechanism. (Time: 2046s)"
+      },
+      {
+        "id": "Slide_81",
+        "src": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0081.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0081.jpg",
+        "diagnosis": "Lichen Planus",
+        "legend": "Hypergranulosis, compact hyperkeratosis, and band-like infiltrate. (Time: 2153s)"
+      },
+      {
+        "id": "Slide_82",
+        "src": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0082.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0082.jpg",
+        "diagnosis": "Lichen Planus",
+        "legend": "Squamatization of basal layer and colloid bodies. (Time: 2174s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Lichenoid Drug Eruption",
+    "definition": "A drug-induced interface dermatitis mimicking Lichen Planus but often with subtle histologic differences.",
+    "tags": [
+      "Skin::Inflammatory::Drug_Eruption::Lichenoid_Drug_Eruption"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Lichen planus-like or psoriasiform eruption.",
+    "pathogenesis": "Drug hypersensitivity.",
+    "macroscopic": "Variable.",
+    "microscopic": "Similar to Lichen Planus (band-like infiltrate, interface change) but often includes: **Eosinophils**, Plasma cells, Neutrophils. **Parakeratosis** (rare in idiopathic LP). Deep vascular plexus involvement. **Note:** Lichenoid photodermatitis looks more like true LP than generalized lichenoid drug eruption.",
+    "ancillary_studies": "None mentioned.",
+    "differential_diagnosis": "Lichen Planus (LP usually lacks eos/parakeratosis).",
+    "staging": "None mentioned.",
+    "prognosis_and_prediction": "None mentioned.",
+    "related_figures": [
+      {
+        "id": "Slide_85",
+        "src": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0085.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0085.jpg",
+        "diagnosis": "Lichenoid Drug Eruption",
+        "legend": "Lichenoid infiltrate with parakeratosis and deep plexus involvement. (Time: 2205s)"
+      },
+      {
+        "id": "Slide_87",
+        "src": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0087.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0087.jpg",
+        "diagnosis": "Lichenoid Drug Eruption",
+        "legend": "Presence of eosinophils and melanophages within the infiltrate. (Time: 2228s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Hypertrophic Lupus Erythematosus",
+    "definition": "A form of interface dermatitis characterized by irregular epidermal hyperplasia, often mimicking malignancy.",
+    "tags": [
+      "Skin::Inflammatory::Interface::Lupus_Erythematosus_Discoid_DLE"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Verrucous/Hypertrophic plaques (e.g., on legs, face).",
+    "pathogenesis": "Chronic interface inflammation.",
+    "macroscopic": "Verrucous plaques.",
+    "microscopic": "Interface dermatitis with irregular epidermal hyperplasia (thickened, papillated). Ridges are jagged/pointed. Hyperkeratosis. Deep lymphocytic infiltrate (often periadnexal). Can mimic Squamous Cell Carcinoma (pseudoepitheliomatous hyperplasia).",
+    "ancillary_studies": "None mentioned.",
+    "differential_diagnosis": "Squamous Cell Carcinoma (hypertrophic LE can be misdiagnosed as SCC; deep biopsy required to see architecture/deep infiltrate).",
+    "staging": "None mentioned.",
+    "prognosis_and_prediction": "None mentioned.",
+    "related_figures": [
+      {
+        "id": "Slide_93",
+        "src": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0093.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0093.jpg",
+        "diagnosis": "Hypertrophic Lupus Erythematosus",
+        "legend": "Thickened epidermis with irregular hyperplasia on the leg. (Time: 2323s)"
+      },
+      {
+        "id": "Slide_96",
+        "src": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0096.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0096.jpg",
+        "diagnosis": "Hypertrophic Lupus Erythematosus",
+        "legend": "Papillated, hyperkeratotic epidermis mimicking a verrucous keratosis. (Time: 2385s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Lichen Sclerosus",
+    "definition": "An interface dermatitis that presents initially with psoriasiform hyperplasia before progressing to atrophy.",
+    "tags": [
+      "Skin::Inflammatory::Dermal_Sclerosing::Lichen_Sclerosus_et_Atrophicus"
+    ],
+    "html_gcs_path": null,
+    "clinical": "White atrophic plaques (late); early lesions may differ.",
+    "pathogenesis": "Unknown.",
+    "macroscopic": "Sclerotic/Atrophic plaques.",
+    "microscopic": "Early/Edge: Interface dermatitis with **psoriasiform epidermal hyperplasia** (evenly elongated, rounded ridges). Vacuolar change. Late/Center: Epidermal atrophy, sclerosis/homogenization of papillary dermis.",
+    "ancillary_studies": "None mentioned.",
+    "differential_diagnosis": "Mycosis Fungoides (early LS&A can mimic MF due to psoriasiform hyperplasia and interface change).",
+    "staging": "None mentioned.",
+    "prognosis_and_prediction": "None mentioned.",
+    "related_figures": [
+      {
+        "id": "Slide_103",
+        "src": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0103.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0103.jpg",
+        "diagnosis": "Lichen Sclerosus",
+        "legend": "Classic pallor/sclerosis on left; psoriasiform hyperplasia at the edge on the right. (Time: 2516s)"
+      },
+      {
+        "id": "Slide_104",
+        "src": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0104.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0104.jpg",
+        "diagnosis": "Lichen Sclerosus (Early/Edge)",
+        "legend": "Smooth-based, psoriasiform ridges with vacuolar change. (Time: 2533s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Atrophic Lichen Planus",
+    "definition": "A variant of lichen planus characterized by epidermal atrophy rather than hyperplasia.",
+    "tags": [
+      "Skin::Inflammatory::Interface::Lichen_Planus"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Pigmented patches/macules (e.g., axilla). Overlap with Lichen Planus Pigmentosus.",
+    "pathogenesis": "Long-standing interface attack whittling away rete ridges.",
+    "macroscopic": "Hyperpigmented patches.",
+    "microscopic": "Interface dermatitis with epidermal atrophy (thin epidermis, loss of ridges). Vacuolar change/clefting. Prominent melanophages (pigment incontinence).",
+    "ancillary_studies": "None mentioned.",
+    "differential_diagnosis": "Lichen Planus Pigmentosus.",
+    "staging": "None mentioned.",
+    "prognosis_and_prediction": "None mentioned.",
+    "related_figures": [
+      {
+        "id": "Slide_109",
+        "src": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0109.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0109.jpg",
+        "diagnosis": "Atrophic Lichen Planus",
+        "legend": "Thin epidermis, loss of ridges, vacuolar change, and melanophages. (Time: 2581s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Dermatomyositis",
+    "definition": "A connective tissue disease showing interface dermatitis with epidermal atrophy and mucin deposition.",
+    "tags": [
+      "Skin::Inflammatory::Interface::Dermatomyositis"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Variable (e.g., Gottron's papules, heliotrope rash).",
+    "pathogenesis": "Autoimmune.",
+    "macroscopic": "Variable.",
+    "microscopic": "Interface dermatitis with epidermal atrophy (thinning, loss of ridges). Dyskeratotic cells at junction. **Mucin** deposition in the dermis.",
+    "ancillary_studies": "None mentioned.",
+    "differential_diagnosis": "Lupus Erythematosus (histologically indistinguishable in many cases; both show atrophy + mucin).",
+    "staging": "None mentioned.",
+    "prognosis_and_prediction": "None mentioned.",
+    "related_figures": [
+      {
+        "id": "Slide_113",
+        "src": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0113.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0113.jpg",
+        "diagnosis": "Dermatomyositis",
+        "legend": "Thin epidermis with loss of ridges and dermal inflammation. (Time: 2624s)"
+      },
+      {
+        "id": "Slide_114",
+        "src": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0114.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_15_interface_dermatitis/Derm_Lecture_15_interface_dermatitis_slide_0114.jpg",
+        "diagnosis": "Dermatomyositis",
+        "legend": "Dyskeratotic cells at junction and mucin in the dermis. (Time: 2642s)"
+      }
+    ]
+  }
+]

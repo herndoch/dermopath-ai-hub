@@ -1,0 +1,282 @@
+[
+  {
+    "entity_name": "Spongiotic Dermatitis (Overview, Acute, Subacute, Chronic)",
+    "definition": "A pattern of dermatitis characterized by intercellular edema (spongiosis) between keratinocytes, stretching the intercellular bridges (desmosomes). It presents clinically as eczema.",
+    "tags": [
+      "Skin::Inflammatory::Spongiotic::Spongiotic_Dermatitis_Eczema_Overview"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Manifests as eczema (atopic, contact, nummular, dyshidrotic). Acute lesions are vesicular/weeping; subacute are scaly/crusted; chronic are thickened/lichenified.",
+    "pathogenesis": "Complex immune response involving T-cells, Langerhans cells, and granulocytes releasing cytokines that cause fluid accumulation between keratinocytes.",
+    "macroscopic": "Erythematous papules, plaques, vesicles (acute), or lichenification (chronic).",
+    "microscopic": "General: Spongiosis (intercellular edema) making spines/bridges prominent. \n\nAcute: Intraepidermal vesicles, Langerhans cell microgranulomas (flask-shaped collections), minimal acanthosis, basket-weave orthokeratosis (or serum accumulation). \n\nSubacute: Parakeratosis with serum ('wet scale'), irregular epidermal hyperplasia, variable spongiosis, superficial perivascular infiltrate (lymphs, eos). \n\nChronic: Minimal spongiosis, marked epidermal hyperplasia (acanthosis), hypergranulosis, papillary dermal fibrosis (vertical collagen streaks), compact hyperkeratosis.",
+    "ancillary_studies": "IHC: S100 highlights Langerhans cells (dendritic cells, microgranulomas). \nStains: PAS-D (serum is positive, must differentiate from hyphae). \nExperimental: IL-36 (stains intermediate/low in eczema vs high in psoriasis).",
+    "differential_diagnosis": "Psoriasis (dry scale/neutrophils, regular hyperplasia, thinned suprapapillary plates), Dermatophytosis, Mycosis Fungoides (Pautrier microabscesses), Viral exanthem (reticular degeneration).",
+    "staging": "Acute, Subacute, Chronic.",
+    "prognosis_and_prediction": "Benign inflammatory condition; chronic rubbing leads to Lichen Simplex Chronicus.",
+    "related_figures": [
+      {
+        "id": "Slide_16",
+        "src": "_asset_library/lectures/Derm_Lecture_32_spongiotic_dermatitis/Derm_Lecture_32_spongiotic_dermatitis_slide_0016.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_32_spongiotic_dermatitis/Derm_Lecture_32_spongiotic_dermatitis_slide_0016.jpg",
+        "diagnosis": "Spongiotic Dermatitis",
+        "legend": "High power view showing intercellular bridges (spines) stretched by edema. (Time: 204s)"
+      },
+      {
+        "id": "Slide_18",
+        "src": "_asset_library/lectures/Derm_Lecture_32_spongiotic_dermatitis/Derm_Lecture_32_spongiotic_dermatitis_slide_0018.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_32_spongiotic_dermatitis/Derm_Lecture_32_spongiotic_dermatitis_slide_0018.jpg",
+        "diagnosis": "Acute Spongiotic Dermatitis",
+        "legend": "Development of intraepidermal vesicles due to marked spongiosis. (Time: 358s)"
+      },
+      {
+        "id": "Slide_22",
+        "src": "_asset_library/lectures/Derm_Lecture_32_spongiotic_dermatitis/Derm_Lecture_32_spongiotic_dermatitis_slide_0022.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_32_spongiotic_dermatitis/Derm_Lecture_32_spongiotic_dermatitis_slide_0022.jpg",
+        "diagnosis": "Acute Spongiotic Dermatitis",
+        "legend": "Langerhans cell microgranuloma (flask-shaped collection) within the epidermis. (Time: 496s)"
+      },
+      {
+        "id": "Slide_27",
+        "src": "_asset_library/lectures/Derm_Lecture_32_spongiotic_dermatitis/Derm_Lecture_32_spongiotic_dermatitis_slide_0027.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_32_spongiotic_dermatitis/Derm_Lecture_32_spongiotic_dermatitis_slide_0027.jpg",
+        "diagnosis": "Acute Spongiotic Dermatitis",
+        "legend": "S100 immunohistochemistry highlighting dendritic Langerhans cells. (Time: 697s)"
+      },
+      {
+        "id": "Slide_30",
+        "src": "_asset_library/lectures/Derm_Lecture_32_spongiotic_dermatitis/Derm_Lecture_32_spongiotic_dermatitis_slide_0030.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_32_spongiotic_dermatitis/Derm_Lecture_32_spongiotic_dermatitis_slide_0030.jpg",
+        "diagnosis": "Subacute Spongiotic Dermatitis",
+        "legend": "Irregular epidermal hyperplasia with serum-containing parakeratosis ('wet scale'). (Time: 967s)"
+      },
+      {
+        "id": "Slide_40",
+        "src": "_asset_library/lectures/Derm_Lecture_32_spongiotic_dermatitis/Derm_Lecture_32_spongiotic_dermatitis_slide_0040.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_32_spongiotic_dermatitis/Derm_Lecture_32_spongiotic_dermatitis_slide_0040.jpg",
+        "diagnosis": "Chronic Spongiotic Dermatitis",
+        "legend": "Minimal spongiosis, irregular hyperplasia, and early papillary dermal fibrosis. (Time: 1336s)"
+      },
+      {
+        "id": "Slide_43",
+        "src": "_asset_library/lectures/Derm_Lecture_32_spongiotic_dermatitis/Derm_Lecture_32_spongiotic_dermatitis_slide_0043.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_32_spongiotic_dermatitis/Derm_Lecture_32_spongiotic_dermatitis_slide_0043.jpg",
+        "diagnosis": "Chronic Spongiotic Dermatitis",
+        "legend": "Pagetoid dyskeratosis (reactive pale keratinocytes) within the epidermis. (Time: 1455s)"
+      },
+      {
+        "id": "Slide_52",
+        "src": "_asset_library/lectures/Derm_Lecture_32_spongiotic_dermatitis/Derm_Lecture_32_spongiotic_dermatitis_slide_0052.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_32_spongiotic_dermatitis/Derm_Lecture_32_spongiotic_dermatitis_slide_0052.jpg",
+        "diagnosis": "Vesicular Spongiotic Dermatitis",
+        "legend": "Large intraepidermal vesicle with reticular strands of exudate. (Time: 1853s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Pityriasis Rosea",
+    "definition": "A self-limiting papulosquamous eruption, often viral-associated, characterized by a herald patch and secondary eruption.",
+    "tags": [
+      "Skin::Inflammatory::Spongiotic::Pityriasis_Rosea"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Herald patch followed by 'Christmas tree' distribution of scaly plaques. Common in children/young adults.",
+    "pathogenesis": "Associated with HHV-6 and HHV-7 reactivation.",
+    "macroscopic": "Oval, salmon-colored plaques with collarette of scale.",
+    "microscopic": "Subacute spongiotic dermatitis with focal mounds of parakeratosis. Key feature: Extravasated erythrocytes in the papillary dermis and extending into the epidermis.",
+    "ancillary_studies": "None specific (diagnosis is clinical/histologic).",
+    "differential_diagnosis": "Guttate Psoriasis, Syphilis (secondary), Nummular eczema.",
+    "staging": "Self-resolving (4-6 weeks).",
+    "prognosis_and_prediction": "Excellent; spontaneous resolution.",
+    "related_figures": [
+      {
+        "id": "Slide_60",
+        "src": "_asset_library/lectures/Derm_Lecture_32_spongiotic_dermatitis/Derm_Lecture_32_spongiotic_dermatitis_slide_0060.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_32_spongiotic_dermatitis/Derm_Lecture_32_spongiotic_dermatitis_slide_0060.jpg",
+        "diagnosis": "Pityriasis Rosea",
+        "legend": "Spongiotic dermatitis with extravasated erythrocytes in the papillary dermis. (Time: 2157s)"
+      },
+      {
+        "id": "Slide_61",
+        "src": "_asset_library/lectures/Derm_Lecture_32_spongiotic_dermatitis/Derm_Lecture_32_spongiotic_dermatitis_slide_0061.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_32_spongiotic_dermatitis/Derm_Lecture_32_spongiotic_dermatitis_slide_0061.jpg",
+        "diagnosis": "Pityriasis Rosea",
+        "legend": "Extravasated red blood cells within the epidermis. (Time: 2485s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Seborrheic Dermatitis",
+    "definition": "A chronic form of spongiotic dermatitis occurring in areas rich in sebaceous glands.",
+    "tags": [
+      "Skin::Inflammatory::Spongiotic::Seborrheic_Dermatitis"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Greasy scale/erythema on scalp, eyebrows, nasolabial folds, chest.",
+    "pathogenesis": "Reaction to Malassezia yeast in sebum-rich areas.",
+    "macroscopic": "Erythematous plaques with greasy yellow scale.",
+    "microscopic": "Spongiosis often involving the follicular infundibulum (follicular spongiosis). 'Shoulder parakeratosis' (parakeratosis located at the lips of follicular ostia). Neutrophils may be present in the scale.",
+    "ancillary_studies": "PAS may show yeast (Malassezia) in stratum corneum (though often sparse).",
+    "differential_diagnosis": "Psoriasis (scalp), Atopic Dermatitis, Langerhans Cell Histiocytosis.",
+    "staging": "Chronic relapsing.",
+    "prognosis_and_prediction": "Chronic but manageable.",
+    "related_figures": [
+      {
+        "id": "Slide_63",
+        "src": "_asset_library/lectures/Derm_Lecture_32_spongiotic_dermatitis/Derm_Lecture_32_spongiotic_dermatitis_slide_0063.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_32_spongiotic_dermatitis/Derm_Lecture_32_spongiotic_dermatitis_slide_0063.jpg",
+        "diagnosis": "Seborrheic Dermatitis",
+        "legend": "Spongiosis involving the follicular infundibulum. (Time: 2527s)"
+      },
+      {
+        "id": "Slide_64",
+        "src": "_asset_library/lectures/Derm_Lecture_32_spongiotic_dermatitis/Derm_Lecture_32_spongiotic_dermatitis_slide_0064.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_32_spongiotic_dermatitis/Derm_Lecture_32_spongiotic_dermatitis_slide_0064.jpg",
+        "diagnosis": "Seborrheic Dermatitis",
+        "legend": "Shoulder parakeratosis around the follicular ostium. (Time: 2539s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Stasis Dermatitis",
+    "definition": "Inflammatory dermatosis of the lower extremities secondary to chronic venous insufficiency.",
+    "tags": [
+      "Skin::Inflammatory::Spongiotic::Stasis_Dermatitis"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Erythema, scale, hyperpigmentation, and edema on lower legs.",
+    "pathogenesis": "Venous hypertension leads to capillary proliferation and extravasation of fluid/RBCs.",
+    "macroscopic": "Varicose veins, pitting edema, brown discoloration (hemosiderin).",
+    "microscopic": "Spongiosis with hypergranulosis and compact hyperkeratosis (acral-like features). Dermal changes: Lobular neovascularization (proliferation of small vessels) in papillary dermis, fibrosis, extravasated RBCs, and siderophages.",
+    "ancillary_studies": "Perls (Iron) stain: Positive for hemosiderin (coarse golden-brown granules) in siderophages.",
+    "differential_diagnosis": "Cellulitis, Contact Dermatitis, Pigmented Purpuric Dermatosis.",
+    "staging": "Chronic.",
+    "prognosis_and_prediction": "Persists with venous insufficiency; risk of ulceration.",
+    "related_figures": [
+      {
+        "id": "Slide_66",
+        "src": "_asset_library/lectures/Derm_Lecture_32_spongiotic_dermatitis/Derm_Lecture_32_spongiotic_dermatitis_slide_0066.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_32_spongiotic_dermatitis/Derm_Lecture_32_spongiotic_dermatitis_slide_0066.jpg",
+        "diagnosis": "Stasis Dermatitis",
+        "legend": "Spongiosis with underlying neovascularization and fibrosis in the papillary dermis. (Time: 2586s)"
+      },
+      {
+        "id": "Slide_69",
+        "src": "_asset_library/lectures/Derm_Lecture_32_spongiotic_dermatitis/Derm_Lecture_32_spongiotic_dermatitis_slide_0069.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_32_spongiotic_dermatitis/Derm_Lecture_32_spongiotic_dermatitis_slide_0069.jpg",
+        "diagnosis": "Stasis Dermatitis",
+        "legend": "Perls stain highlighting hemosiderin deposition. (Time: 2662s)"
+      },
+      {
+        "id": "Slide_72",
+        "src": "_asset_library/lectures/Derm_Lecture_32_spongiotic_dermatitis/Derm_Lecture_32_spongiotic_dermatitis_slide_0072.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_32_spongiotic_dermatitis/Derm_Lecture_32_spongiotic_dermatitis_slide_0072.jpg",
+        "diagnosis": "Stasis Dermatitis",
+        "legend": "High power view of Perls stain showing coarse hemosiderin granules. (Time: 2727s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Dermatophytosis (Tinea)",
+    "definition": "Fungal infection of the keratinized tissues (skin, hair, nails).",
+    "tags": [
+      "Skin::Infectious::Fungal::Dermatophytosis_Tinea_Overview"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Annular scaly plaques (Tinea corporis), scale on feet (Tinea pedis).",
+    "pathogenesis": "Infection by dermatophytes (Trichophyton, Microsporum, etc.).",
+    "macroscopic": "Scaly erythematous border.",
+    "microscopic": "Spongiotic dermatitis. 'Sandwich sign' in stratum corneum (basket weave orthokeratosis -> parakeratosis with hyphae -> basket weave). Hyphae visible in stratum corneum.",
+    "ancillary_studies": "PAS-D (Periodic Acid-Schiff with Diastase): Highlights fungal hyphae pink/red. Note: Serum is also PAS-D positive (potential pitfall).",
+    "differential_diagnosis": "Eczema, Psoriasis, Candida.",
+    "staging": "Superficial infection.",
+    "prognosis_and_prediction": "Curable with antifungals.",
+    "related_figures": [
+      {
+        "id": "Slide_36",
+        "src": "_asset_library/lectures/Derm_Lecture_32_spongiotic_dermatitis/Derm_Lecture_32_spongiotic_dermatitis_slide_0036.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_32_spongiotic_dermatitis/Derm_Lecture_32_spongiotic_dermatitis_slide_0036.jpg",
+        "diagnosis": "Dermatophytosis",
+        "legend": "Sandwich sign in stratum corneum: alternating basket weave and parakeratosis. (Time: 1263s)"
+      },
+      {
+        "id": "Slide_37",
+        "src": "_asset_library/lectures/Derm_Lecture_32_spongiotic_dermatitis/Derm_Lecture_32_spongiotic_dermatitis_slide_0037.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_32_spongiotic_dermatitis/Derm_Lecture_32_spongiotic_dermatitis_slide_0037.jpg",
+        "diagnosis": "Dermatophytosis",
+        "legend": "PAS-D stain showing fungal hyphae within the stratum corneum. (Time: 1284s)"
+      },
+      {
+        "id": "Slide_35",
+        "src": "_asset_library/lectures/Derm_Lecture_32_spongiotic_dermatitis/Derm_Lecture_32_spongiotic_dermatitis_slide_0035.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_32_spongiotic_dermatitis/Derm_Lecture_32_spongiotic_dermatitis_slide_0035.jpg",
+        "diagnosis": "Spongiotic Dermatitis (Pitfall)",
+        "legend": "PAS-D positive serum collection (not fungus) - a potential diagnostic pitfall. (Time: 1229s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Bullous Pemphigoid (Urticarial/Spongiotic Phase)",
+    "definition": "The pre-bullous or urticarial phase of bullous pemphigoid, presenting as eosinophilic spongiosis before frank blistering.",
+    "tags": [
+      "Skin::Inflammatory::Blistering::Bullous_Pemphigoid"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Pruritic urticarial plaques, often in elderly, preceding blister formation.",
+    "pathogenesis": "Autoantibodies against BP180/BP230 hemidesmosomal proteins.",
+    "macroscopic": "Urticarial plaques.",
+    "microscopic": "Eosinophilic spongiosis (spongiosis with numerous eosinophils). Eosinophils lining up at the dermo-epidermal junction (DEJ) without frank subepidermal clefting yet.",
+    "ancillary_studies": "Direct Immunofluorescence (DIF): Linear IgG and C3 along the basement membrane zone.",
+    "differential_diagnosis": "Arthropod bite, Drug eruption, Incontinentia Pigmenti, Allergic Contact Dermatitis.",
+    "staging": "Prodromal/Urticarial phase.",
+    "prognosis_and_prediction": "Progresses to bullous phase if untreated.",
+    "related_figures": [
+      {
+        "id": "Slide_83",
+        "src": "_asset_library/lectures/Derm_Lecture_32_spongiotic_dermatitis/Derm_Lecture_32_spongiotic_dermatitis_slide_0083.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_32_spongiotic_dermatitis/Derm_Lecture_32_spongiotic_dermatitis_slide_0083.jpg",
+        "diagnosis": "Pre-bullous Pemphigoid",
+        "legend": "Spongiosis overlying a dense eosinophilic infiltrate. (Time: 2878s)"
+      },
+      {
+        "id": "Slide_84",
+        "src": "_asset_library/lectures/Derm_Lecture_32_spongiotic_dermatitis/Derm_Lecture_32_spongiotic_dermatitis_slide_0084.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_32_spongiotic_dermatitis/Derm_Lecture_32_spongiotic_dermatitis_slide_0084.jpg",
+        "diagnosis": "Pre-bullous Pemphigoid",
+        "legend": "Eosinophils lining up at the dermo-epidermal junction. (Time: 2886s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Acute Generalized Exanthematous Pustulosis (AGEP)",
+    "definition": "A severe cutaneous adverse reaction characterized by sterile pustules on an erythematous background.",
+    "tags": [
+      "Skin::Inflammatory::Drug_Eruption::Acute_Generalized_Exanthematous_Pustulosis_AGEP"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Rapid onset of widespread non-follicular pustules, fever, leukocytosis.",
+    "pathogenesis": "Drug reaction (T-cell mediated neutrophilic response).",
+    "macroscopic": "Pustules on erythema.",
+    "microscopic": "Spongiform pustules (neutrophils within spongiotic epidermis). Intraepidermal or subcorneal pustules. Edema in papillary dermis. Mixed infiltrate with neutrophils and eosinophils.",
+    "ancillary_studies": "Culture (negative/sterile).",
+    "differential_diagnosis": "Pustular Psoriasis (less spongiosis, more acanthosis), Infection.",
+    "staging": "Acute.",
+    "prognosis_and_prediction": "Resolves rapidly upon drug withdrawal.",
+    "related_figures": [
+      {
+        "id": "Slide_80",
+        "src": "_asset_library/lectures/Derm_Lecture_32_spongiotic_dermatitis/Derm_Lecture_32_spongiotic_dermatitis_slide_0080.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_32_spongiotic_dermatitis/Derm_Lecture_32_spongiotic_dermatitis_slide_0080.jpg",
+        "diagnosis": "Acute Generalized Exanthematous Pustulosis",
+        "legend": "Spongiotic reaction with vesicle formation containing neutrophils. (Time: 2862s)"
+      },
+      {
+        "id": "Slide_81",
+        "src": "_asset_library/lectures/Derm_Lecture_32_spongiotic_dermatitis/Derm_Lecture_32_spongiotic_dermatitis_slide_0081.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_32_spongiotic_dermatitis/Derm_Lecture_32_spongiotic_dermatitis_slide_0081.jpg",
+        "diagnosis": "Acute Generalized Exanthematous Pustulosis",
+        "legend": "Intraepidermal collection of neutrophils within a spongiotic vesicle. (Time: 2864s)"
+      }
+    ]
+  }
+]

@@ -1,0 +1,268 @@
+[
+  {
+    "entity_name": "Normal Epidermis",
+    "definition": "Stratified squamous cornifying epithelium derived from ectoderm that functions as a mechanical barrier and regulates homeostasis.",
+    "tags": [
+      "Skin::Normal_Histology::Epidermis"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Functions include mechanical barrier, temperature regulation, UV protection, immune regulation, and sensation. Regional variation exists (e.g., mucuous membranes lack cornification; palms/soles have thick cornified/granular layers).",
+    "pathogenesis": "Cornification (keratinization) is the process of cellular differentiation where cells lose nuclei (become anucleate) and organelles to form the barrier. Transit time is approximately 26 days (13 days from basal to granular, 13 days to desquamate). Accelerated in psoriasis.",
+    "macroscopic": "Varies by body site; presence of fur/pigmentation patterns in nature.",
+    "microscopic": "Consists of four distinct layers of keratinocytes:\n1. **Basal Layer:** Columnar cells with long axis vertical to skin surface. Contains stem cells.\n2. **Spinous Layer:** Polygonal cells with long axis horizontal to surface. Prominent intercellular bridges (desmosomes/spines).\n3. **Granular Layer:** Diamond-shaped cells containing coarse basophilic keratohyalin granules (filaggrin, loricrin). Also contains Odland bodies (lipids/enzymes).\n4. **Stratum Corneum:** Anucleate, flattened, cornified cells.\n\n**Desmosomes:** Appear as 'spines' or rungs on a ladder between keratinocytes; critical for adhesion (target in pemphigus).",
+    "ancillary_studies": "Not typically applicable for H&E identification of keratinocytes.",
+    "differential_diagnosis": "Squamatization of the basal layer (chronic interface dermatitis like Lichen Planus); Parakeratosis (retention of nuclei, e.g., Psoriasis).",
+    "staging": null,
+    "prognosis_and_prediction": null,
+    "related_figures": [
+      {
+        "id": "Slide_7",
+        "src": "_asset_library/lectures/Derm_Lecture_18_normal_skin/Derm_Lecture_18_normal_skin_slide_0007.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_18_normal_skin/Derm_Lecture_18_normal_skin_slide_0007.jpg",
+        "diagnosis": "Normal Epidermis",
+        "legend": "Schematic of epidermal layers showing vertical orientation of basal cells and horizontal orientation of spinous cells. (Time: 402s)"
+      },
+      {
+        "id": "Slide_8",
+        "src": "_asset_library/lectures/Derm_Lecture_18_normal_skin/Derm_Lecture_18_normal_skin_slide_0008.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_18_normal_skin/Derm_Lecture_18_normal_skin_slide_0008.jpg",
+        "diagnosis": "Normal Epidermis",
+        "legend": "Histology showing basal, spinous, granular, and cornified layers. (Time: 681s)"
+      },
+      {
+        "id": "Slide_10",
+        "src": "_asset_library/lectures/Derm_Lecture_18_normal_skin/Derm_Lecture_18_normal_skin_slide_0010.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_18_normal_skin/Derm_Lecture_18_normal_skin_slide_0010.jpg",
+        "diagnosis": "Normal Epidermis",
+        "legend": "High magnification of desmosomes appearing as 'spines' between keratinocytes. (Time: 856s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Normal Melanocyte",
+    "definition": "Neural crest-derived dendritic pigment-synthesizing cell residing in the basal layer of the epidermis.",
+    "tags": [
+      "Skin::Normal_Histology::Melanocyte"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Synthesizes melanin packaged in melanosomes for UV protection. Migrates during embryogenesis to epidermis, follicles, dermis, leptomeninges, inner ear, and uveal tract. Failure to migrate fully can result in Dermal Melanocytosis (Mongolian spot, Nevus of Ota).",
+    "pathogenesis": "Melanosomes are transferred to keratinocytes via apocopation. Hair color is determined by melanocyte activity/pigment type.",
+    "macroscopic": "Determines skin pigmentation.",
+    "microscopic": "Located in the basal layer. Ratio of melanocytes to keratinocytes is 1:10 (can increase to 1:4 in sun-damaged skin). Histologically appears as a cell with a clear space (retraction artifact) *surrounding* the entire nucleus and cytoplasm (halo), unlike the paranuclear cleft of Langerhans cells or keratinocytes.",
+    "ancillary_studies": "IHC: SOX10, S100, Melan-A, MART-1.",
+    "differential_diagnosis": "Langerhans cell (mid-spinous, paranuclear cleft); Toker cell (clear cell in nipple/genital skin).",
+    "staging": null,
+    "prognosis_and_prediction": null,
+    "related_figures": [
+      {
+        "id": "Slide_19",
+        "src": "_asset_library/lectures/Derm_Lecture_18_normal_skin/Derm_Lecture_18_normal_skin_slide_0019.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_18_normal_skin/Derm_Lecture_18_normal_skin_slide_0019.jpg",
+        "diagnosis": "Normal Melanocyte",
+        "legend": "Melanocyte in basal layer exhibiting retraction artifact around the nucleus and cytoplasm. (Time: 1239s)"
+      },
+      {
+        "id": "Slide_20",
+        "src": "_asset_library/lectures/Derm_Lecture_18_normal_skin/Derm_Lecture_18_normal_skin_slide_0020.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_18_normal_skin/Derm_Lecture_18_normal_skin_slide_0020.jpg",
+        "diagnosis": "Normal Melanocyte",
+        "legend": "High power view of a basal melanocyte. (Time: 1471s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Epidermal Non-Keratinocytes (Langerhans, Merkel, Toker)",
+    "definition": "Specialized non-keratinocyte cells residing within the epidermis.",
+    "tags": [
+      "Skin::Normal_Histology::Epidermis"
+    ],
+    "html_gcs_path": null,
+    "clinical": "**Langerhans Cells:** Bone marrow-derived antigen-presenting cells.\n**Merkel Cells:** Neuroendocrine/mechanoreceptors implicated in touch.\n**Toker Cells:** Found in nipple and genital skin (origin of mammary/extramammary Paget disease).",
+    "pathogenesis": "Merkel cells likely derived from epidermis/keratinocytes.",
+    "macroscopic": null,
+    "microscopic": "**Langerhans Cells:** Mid-spinous layer. Separated from keratinocytes by a cleft (often between nucleus and cytoplasm).\n**Merkel Cells:** Not visible on routine H&E. Found in clusters with nerve fibers.\n**Toker Cells:** Clear cells in nipple/genital epidermis.",
+    "ancillary_studies": "**Langerhans:** CD1a+, S100+, Langerin+. EM shows Birbeck granules.\n**Merkel:** CK20+, Neurofilament+. EM shows electron-dense granules and perinuclear keratin filaments.",
+    "differential_diagnosis": "Melanocytes; Clear cells of Toker vs Paget disease.",
+    "staging": null,
+    "prognosis_and_prediction": null,
+    "related_figures": [
+      {
+        "id": "Slide_25",
+        "src": "_asset_library/lectures/Derm_Lecture_18_normal_skin/Derm_Lecture_18_normal_skin_slide_0025.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_18_normal_skin/Derm_Lecture_18_normal_skin_slide_0025.jpg",
+        "diagnosis": "Langerhans Cell",
+        "legend": "Langerhans cell in the spinous layer with a characteristic cleft. (Time: 1708s)"
+      },
+      {
+        "id": "Slide_28",
+        "src": "_asset_library/lectures/Derm_Lecture_18_normal_skin/Derm_Lecture_18_normal_skin_slide_0028.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_18_normal_skin/Derm_Lecture_18_normal_skin_slide_0028.jpg",
+        "diagnosis": "Merkel Cell Carcinoma",
+        "legend": "Merkel Cell Carcinoma (tumor of Merkel cells) showing small round blue cells. (Time: 1798s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Normal Hair Follicle (Pilosebaceous Apocrine Unit)",
+    "definition": "Adnexal structure comprised of the hair follicle, sebaceous gland, and apocrine gland (where present), originating from the follicular germinative cells.",
+    "tags": [
+      "Skin::Normal_Histology::Hair"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Produces Vellus (fine, shallow) or Terminal (coarse, deep) hairs. Cycle: Anagen (3-10 yrs), Catagen (3-4 weeks), Telogen (3-4 months).",
+    "pathogenesis": "Embryology involves interaction between ectodermal germinative cells (forming a palisade) and the mesoderm-derived Papillary Mesenchymal Body. This relationship is recapitulated in Trichoblastoma/Trichoepithelioma.",
+    "macroscopic": null,
+    "microscopic": "**Segments:**\n1. **Bulb:** Matrical cells (high mitotic activity), melanocytes, follicular papilla.\n2. **Stem:** From Adamson's fringe (end of nucleation) to isthmus. Contains Inner Root Sheath (IRS) and Outer Root Sheath (ORS).\n   - *IRS:* Layers include Henle (outer), Huxley (inner), Cuticle. Trichohyalin granules (bright pink/magenta) present. Cornification sequence: Henle loses granules first, then Huxley ('Hens are cute to hug').\n   - *ORS:* Clear cells (glycogen), thickened basement membrane (recapitulated in Trichilemmoma).\n3. **Isthmus:** From Adamson's fringe to sebaceous duct. IRS desquamates. Trichilemmal keratinization (no granules, corrugated surface, dense pink keratin). Recapitulated in Pilar Cysts.\n4. **Infundibulum:** Upper portion. Epidermal keratinization (granular layer present). Recapitulated in Epidermoid Cysts.\n\n**Sebaceous Gland:** Lobules of vacuolated lipid-filled cells (holocrine secretion) opening into the follicle (or surface in steatocystoma).\n**Apocrine Gland:** Decapitation secretion; deep dermis/subcutis location.",
+    "ancillary_studies": "Palomatricoma (Matrix differentiation) shows high mitosis.",
+    "differential_diagnosis": "Basal Cell Carcinoma (lacks papillary mesenchymal body); Trichoblastoma (maintains papillary mesenchymal body).",
+    "staging": null,
+    "prognosis_and_prediction": null,
+    "related_figures": [
+      {
+        "id": "Slide_34",
+        "src": "_asset_library/lectures/Derm_Lecture_18_normal_skin/Derm_Lecture_18_normal_skin_slide_0034.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_18_normal_skin/Derm_Lecture_18_normal_skin_slide_0034.jpg",
+        "diagnosis": "Hair Follicle Embryology",
+        "legend": "Developing hair germ showing palisading basaloid cells and papillary mesenchymal body. (Time: 1943s)"
+      },
+      {
+        "id": "Slide_40",
+        "src": "_asset_library/lectures/Derm_Lecture_18_normal_skin/Derm_Lecture_18_normal_skin_slide_0040.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_18_normal_skin/Derm_Lecture_18_normal_skin_slide_0040.jpg",
+        "diagnosis": "Normal Hair Follicle",
+        "legend": "Longitudinal section showing Bulb, Stem, Isthmus, and Infundibulum. (Time: 2218s)"
+      },
+      {
+        "id": "Slide_47",
+        "src": "_asset_library/lectures/Derm_Lecture_18_normal_skin/Derm_Lecture_18_normal_skin_slide_0047.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_18_normal_skin/Derm_Lecture_18_normal_skin_slide_0047.jpg",
+        "diagnosis": "Inner Root Sheath",
+        "legend": "IRS showing trichohyalin granules; Henle's layer cornifies before Huxley's layer. (Time: 2465s)"
+      },
+      {
+        "id": "Slide_56",
+        "src": "_asset_library/lectures/Derm_Lecture_18_normal_skin/Derm_Lecture_18_normal_skin_slide_0056.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_18_normal_skin/Derm_Lecture_18_normal_skin_slide_0056.jpg",
+        "diagnosis": "Trichilemmoma",
+        "legend": "Neoplasm recapitulating Outer Root Sheath (clear cells, thick basement membrane). (Time: 2783s)"
+      },
+      {
+        "id": "Slide_63",
+        "src": "_asset_library/lectures/Derm_Lecture_18_normal_skin/Derm_Lecture_18_normal_skin_slide_0063.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_18_normal_skin/Derm_Lecture_18_normal_skin_slide_0063.jpg",
+        "diagnosis": "Isthmus",
+        "legend": "Isthmus showing trichilemmal keratinization with corrugated surface and no granules. (Time: 2908s)"
+      },
+      {
+        "id": "Slide_73",
+        "src": "_asset_library/lectures/Derm_Lecture_18_normal_skin/Derm_Lecture_18_normal_skin_slide_0073.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_18_normal_skin/Derm_Lecture_18_normal_skin_slide_0073.jpg",
+        "diagnosis": "Sebaceous Gland",
+        "legend": "Sebaceous lobule entering the hair follicle. (Time: 3077s)"
+      },
+      {
+        "id": "Slide_77",
+        "src": "_asset_library/lectures/Derm_Lecture_18_normal_skin/Derm_Lecture_18_normal_skin_slide_0077.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_18_normal_skin/Derm_Lecture_18_normal_skin_slide_0077.jpg",
+        "diagnosis": "Apocrine Gland",
+        "legend": "Apocrine glands showing decapitation secretion. (Time: 3124s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Normal Eccrine Gland",
+    "definition": "True sweat glands derived from ectodermal downgrowth, distinct from the pilosebaceous unit.",
+    "tags": [
+      "Skin::Normal_Histology::Overview"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Present on most body sites (except some mucosa); abundant on palms/soles. Thermoregulation.",
+    "pathogenesis": null,
+    "macroscopic": null,
+    "microscopic": "Composed of a secretory coil (deep dermis) and a duct. The intra-epidermal portion of the duct is the **acrosyringium**. Unlike apocrine glands, they do not show decapitation secretion and are smaller.",
+    "ancillary_studies": null,
+    "differential_diagnosis": null,
+    "staging": null,
+    "prognosis_and_prediction": null,
+    "related_figures": [
+      {
+        "id": "Slide_78",
+        "src": "_asset_library/lectures/Derm_Lecture_18_normal_skin/Derm_Lecture_18_normal_skin_slide_0078.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_18_normal_skin/Derm_Lecture_18_normal_skin_slide_0078.jpg",
+        "diagnosis": "Eccrine Gland",
+        "legend": "Eccrine glands and ducts. (Time: 3139s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Normal Nail Unit",
+    "definition": "Specialized cornified structure on the distal digits.",
+    "tags": [
+      "Skin::Normal_Histology::Nail"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Protective function.",
+    "pathogenesis": null,
+    "macroscopic": null,
+    "microscopic": "Nail plate is generated by the nail matrix. The nail bed and matrix epithelium generally lack a granular layer. No hair follicles are present in the nail unit.",
+    "ancillary_studies": null,
+    "differential_diagnosis": null,
+    "staging": null,
+    "prognosis_and_prediction": null,
+    "related_figures": [
+      {
+        "id": "Slide_81",
+        "src": "_asset_library/lectures/Derm_Lecture_18_normal_skin/Derm_Lecture_18_normal_skin_slide_0081.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_18_normal_skin/Derm_Lecture_18_normal_skin_slide_0081.jpg",
+        "diagnosis": "Normal Nail",
+        "legend": "Developing nail plate from the nail matrix. (Time: 3191s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Normal Dermis and Subcutis",
+    "definition": "Connective tissue layers supporting the epidermis and adnexa.",
+    "tags": [
+      "Skin::Normal_Histology::Dermis"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Dermis provides tensile strength and nutrition. Subcutis provides insulation and cushioning.",
+    "pathogenesis": null,
+    "macroscopic": null,
+    "microscopic": "**Dermis:** Mesenchymal origin. Contains fibroblasts, collagen, elastic fibers, histiocytes, mast cells, vessels, and nerves. Organized with superficial and deep vascular plexuses.\n**Subcutis:** Adipose tissue organized into lobules separated by fibrous septae (containing vessels/nerves). Septal vs. Lobular architecture is critical for classifying panniculitis.\n**Nerves:**\n- *Meissner Corpuscles:* Light touch, located in dermal papillae (tips), concentrated in acral skin. Look like tapered/spiraled structures.\n- *Pacinian Corpuscles:* Vibration/pressure, located deep in dermis/subcutis. Large, concentric 'onion-skin' appearance.",
+    "ancillary_studies": null,
+    "differential_diagnosis": null,
+    "staging": null,
+    "prognosis_and_prediction": null,
+    "related_figures": [
+      {
+        "id": "Slide_84",
+        "src": "_asset_library/lectures/Derm_Lecture_18_normal_skin/Derm_Lecture_18_normal_skin_slide_0084.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_18_normal_skin/Derm_Lecture_18_normal_skin_slide_0084.jpg",
+        "diagnosis": "Normal Dermis",
+        "legend": "Collagen bundles and fibroblasts in the dermis. (Time: 3250s)"
+      },
+      {
+        "id": "Slide_85",
+        "src": "_asset_library/lectures/Derm_Lecture_18_normal_skin/Derm_Lecture_18_normal_skin_slide_0085.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_18_normal_skin/Derm_Lecture_18_normal_skin_slide_0085.jpg",
+        "diagnosis": "Normal Subcutis",
+        "legend": "Subcutaneous fat organized into lobules and septae. (Time: 3271s)"
+      },
+      {
+        "id": "Slide_90",
+        "src": "_asset_library/lectures/Derm_Lecture_18_normal_skin/Derm_Lecture_18_normal_skin_slide_0090.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_18_normal_skin/Derm_Lecture_18_normal_skin_slide_0090.jpg",
+        "diagnosis": "Meissner Corpuscle",
+        "legend": "Meissner corpuscle in the dermal papilla of acral skin. (Time: 3376s)"
+      },
+      {
+        "id": "Slide_94",
+        "src": "_asset_library/lectures/Derm_Lecture_18_normal_skin/Derm_Lecture_18_normal_skin_slide_0094.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_18_normal_skin/Derm_Lecture_18_normal_skin_slide_0094.jpg",
+        "diagnosis": "Pacinian Corpuscle",
+        "legend": "Pacinian corpuscle in the deep dermis/subcutis showing concentric lamellae. (Time: 3421s)"
+      }
+    ]
+  }
+]

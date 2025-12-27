@@ -1,0 +1,449 @@
+[
+  {
+    "entity_name": "Normal Histology: Langerhans Cell",
+    "definition": "Dendritic antigen-presenting cells residing in the mid-spinous layer of the epidermis, derived from CD34+ stem cells.",
+    "tags": [
+      "Skin::Normal_Histology::Epidermis"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Historical context: Discovered by medical student Paul Langerhans using gold chloride. Function: Antigen presentation. Connected to unmyelinated nerve fibers (neuro-immune axis).",
+    "pathogenesis": "Derived from CD34+ bone marrow stem cells. Migrate to skin.",
+    "macroscopic": "Not visible clinically.",
+    "microscopic": "Located in the mid-spinous layer (suprabasal), maintaining a 'toehold' at the dermal-epidermal junction. Difficult to see on H&E (incognito). Dendritic morphology.",
+    "ancillary_studies": "Stains: S100 positive, CD1a positive, Langerin (CD207) positive. Electron Microscopy: Birbeck granules (tennis/squash racket shape with trilaminar handle).",
+    "differential_diagnosis": "Indeterminate cells (Langerin negative), Melanocytes (basal layer), Merkel cells.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "N/A",
+    "related_figures": [
+      {
+        "id": "Slide_12",
+        "src": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0012.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0012.jpg",
+        "diagnosis": "Normal Histology: Langerhans Cell",
+        "legend": "Summary of Langerhans cell markers: Gold chloride (historical), S100, CD1a, and Langerin (CD207). (Time: 459s)"
+      },
+      {
+        "id": "Slide_15",
+        "src": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0015.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0015.jpg",
+        "diagnosis": "Normal Histology: Langerhans Cell",
+        "legend": "H&E stain showing Langerhans cells in the mid-spinous layer. (Time: 621s)"
+      },
+      {
+        "id": "Slide_18",
+        "src": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0018.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0018.jpg",
+        "diagnosis": "Normal Histology: Langerhans Cell",
+        "legend": "Electron microscopy showing Birbeck granules (squash racket shape). (Time: 762s)"
+      },
+      {
+        "id": "Slide_19",
+        "src": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0019.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0019.jpg",
+        "diagnosis": "Normal Histology: Langerhans Cell",
+        "legend": "Connection between unmyelinated nerve fiber and Langerhans cell. (Time: 777s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Normal Histology: Dermal Dendrocytes",
+    "definition": "Populations of dendritic cells residing in the dermis, distinct from Langerhans cells.",
+    "tags": [
+      "Skin::Normal_Histology::Dermis"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Role in stabilizing fibrin monomers to polymers (Factor XIIIa+ cells) to stop bleeding.",
+    "pathogenesis": "CD34+ cells in the dermis may differentiate into Factor XIIIa+ cells and vice versa.",
+    "macroscopic": "N/A",
+    "microscopic": "Factor XIIIa+ dendrocytes: Reticular dermis and around superficial plexus. CD34+ dendrocytes: Mid and deep reticular dermis.",
+    "ancillary_studies": "Factor XIIIa positive (associated with Dermatofibroma). CD34 positive (associated with DFSP).",
+    "differential_diagnosis": "N/A",
+    "staging": "N/A",
+    "prognosis_and_prediction": "N/A",
+    "related_figures": [
+      {
+        "id": "Slide_23",
+        "src": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0023.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0023.jpg",
+        "diagnosis": "Normal Histology: Dermal Dendrocytes",
+        "legend": "Dermal dendrocytes stained with enzymatic method. (Time: 837s)"
+      },
+      {
+        "id": "Slide_26",
+        "src": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0026.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0026.jpg",
+        "diagnosis": "Normal Histology: Dermal Dendrocytes",
+        "legend": "Factor XIIIa stain showing dendritic cells around small vessels and interstitially. (Time: 889s)"
+      },
+      {
+        "id": "Slide_30",
+        "src": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0030.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0030.jpg",
+        "diagnosis": "Normal Histology: Dermal Dendrocytes",
+        "legend": "CD34 stain showing dermal dendritic cells. (Time: 944s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Langerhans Cell Histiocytosis (LCH)",
+    "definition": "A clonal neoplasm of Langerhans cells, formerly known as Histiocytosis X.",
+    "tags": [
+      "Skin::Neoplastic::Hematolymphoid::Langerhans_Cell_Histiocytosis"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Presentations: 1. Acute disseminated (Letterer-Siwe): Seborrheic dermatitis-like scale on scalp, pink papules (groin/axilla), nail unit involvement, lung nodules. 2. Chronic multifocal (Hand-Schuller-Christian). 3. Eosinophilic Granuloma (focal bone/skin nodule).",
+    "pathogenesis": "Clonal neoplasm (confirmed by X-inactivation). Mutations: BRAF V600E (associated with more extensive disease) or MAP2K1 mutations (mutually exclusive).",
+    "macroscopic": "Yellow flaky scale (scalp), pink papules, erosions.",
+    "microscopic": "Superficial form: Band-like infiltrate in papillary dermis, edema (major clue vs MF), psoriasiform hyperplasia, erosions. Nodular form: Sheets of cells in dermis. Cells: Large, abundant cytoplasm, reniform (kidney-bean) or coffee-bean nuclei with longitudinal grooves. Background: Eosinophils (variable, often abundant).",
+    "ancillary_studies": "IHC: CD1a (+), S100 (+), Langerin/CD207 (+) (Distinguishes from Indeterminate Cell Histiocytosis). MAP kinase markers: BRAF V600E (+), Phospho-ERK (+).",
+    "differential_diagnosis": "Scabies (clinical mimic, nodules can have dendritic cells), Spongiotic Dermatitis/Eczema (Langerhans cell microgranulomas are CD1a+, but cells are dendritic, not round/oval), Mycosis Fungoides (cells smaller, less cytoplasm, no papillary dermal edema).",
+    "staging": "Varies from single system (skin/bone) to multisystem risk organ involvement.",
+    "prognosis_and_prediction": "Depends on systemic involvement. BRAF mutations may correlate with extensive disease.",
+    "related_figures": [
+      {
+        "id": "Slide_39",
+        "src": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0039.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0039.jpg",
+        "diagnosis": "Langerhans Cell Histiocytosis",
+        "legend": "Seborrheic dermatitis-like presentation with yellow flaky scale on scalp. (Time: 1178s)"
+      },
+      {
+        "id": "Slide_47",
+        "src": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0047.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0047.jpg",
+        "diagnosis": "Langerhans Cell Histiocytosis",
+        "legend": "Band-like infiltrate in papillary dermis mimicking Mycosis Fungoides. (Time: 1289s)"
+      },
+      {
+        "id": "Slide_51",
+        "src": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0051.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0051.jpg",
+        "diagnosis": "Langerhans Cell Histiocytosis",
+        "legend": "Strong CD1a positivity in the dermal infiltrate. (Time: 1344s)"
+      },
+      {
+        "id": "Slide_54",
+        "src": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0054.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0054.jpg",
+        "diagnosis": "Langerhans Cell Histiocytosis",
+        "legend": "High power showing cells with reniform and grooved (coffee-bean) nuclei. (Time: 1528s)"
+      },
+      {
+        "id": "Slide_62",
+        "src": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0062.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0062.jpg",
+        "diagnosis": "Spongiotic Dermatitis (Differential Diagnosis)",
+        "legend": "Langerhans cell microgranuloma in eczema (Pitfall: CD1a+ but reactive). (Time: 1656s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Congenital Self-Healing Reticulohistiocytosis",
+    "definition": "A self-limiting variant of LCH presenting at birth (Hashimoto-Pritzker).",
+    "tags": [
+      "Skin::Neoplastic::Hematolymphoid::Congenital_Self_Healing_Reticulohistiocytosis"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Papules/nodules present at or shortly after birth. Lesions ulcerate/break down and spontaneously regress. Some cases may persist as conventional LCH.",
+    "pathogenesis": "Variant of LCH.",
+    "macroscopic": "Nodules that undergo central necrosis/crusting.",
+    "microscopic": "Large, pale Langerhans cells (S100+, CD1a+) with areas of massive apoptosis ('desolate' areas).",
+    "ancillary_studies": "S100 (+), CD1a (+), Langerin (+).",
+    "differential_diagnosis": "Langerhans Cell Histiocytosis (persistent forms), Lymphomatoid Papulosis.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Excellent (self-healing), though surveillance recommended as some persist.",
+    "related_figures": [
+      {
+        "id": "Slide_67",
+        "src": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0067.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0067.jpg",
+        "diagnosis": "Congenital Self-Healing Reticulohistiocytosis",
+        "legend": "Band of pale cells surrounding a central area of massive apoptosis. (Time: 1825s)"
+      },
+      {
+        "id": "Slide_69",
+        "src": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0069.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0069.jpg",
+        "diagnosis": "Congenital Self-Healing Reticulohistiocytosis",
+        "legend": "S100 stain highlighting the histiocytes. (Time: 1845s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Indeterminate Cell Histiocytosis",
+    "definition": "A proliferation of dendritic cells that phenotypically mimic Langerhans cells (CD1a+) but lack Birbeck granules and Langerin expression.",
+    "tags": [
+      "Skin::Neoplastic::Hematolymphoid::Indeterminate_Cell_Histiocytosis"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Solitary papule or multiple lesions. More common in adults than children (unlike LCH).",
+    "pathogenesis": "Recurrent translocations: ETV3-NCOA2 gene fusions.",
+    "macroscopic": "Pink to red papules.",
+    "microscopic": "Dermal infiltrate of histiocytes with morphology similar to LCH (abundant cytoplasm, some grooves) but often less epidermotropism/edema.",
+    "ancillary_studies": "CD1a (+), S100 (+). CRITICAL: Langerin (CD207) NEGATIVE. Electron Microscopy: No Birbeck granules.",
+    "differential_diagnosis": "Langerhans Cell Histiocytosis (Langerin+, Birbeck granules+), Rosai-Dorfman Disease (S100+, CD1a-).",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Generally indolent.",
+    "related_figures": [
+      {
+        "id": "Slide_71",
+        "src": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0071.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0071.jpg",
+        "diagnosis": "Indeterminate Cell Histiocytosis",
+        "legend": "Diagram of the ETV3-NCOA2 gene fusion. (Time: 1902s)"
+      },
+      {
+        "id": "Slide_75",
+        "src": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0075.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0075.jpg",
+        "diagnosis": "Indeterminate Cell Histiocytosis",
+        "legend": "CD1a stain showing strong positivity. (Time: 1987s)"
+      },
+      {
+        "id": "Slide_76",
+        "src": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0076.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0076.jpg",
+        "diagnosis": "Indeterminate Cell Histiocytosis",
+        "legend": "Langerin (CD207) stain: Negative in tumor cells (positive internal control in normal epidermis). (Time: 1995s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Eruptive Xanthoma",
+    "definition": "A form of xanthoma associated with severe hypertriglyceridemia, presenting as crops of small yellow papules.",
+    "tags": [
+      "Skin::Depositional_Metabolic::Xanthoma::Eruptive_Xanthoma"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Crops of yellow papules, often on buttocks/extensors. Associated with high triglycerides.",
+    "pathogenesis": "Leakage of lipid from vasculature exceeding macrophage phagocytic capacity.",
+    "macroscopic": "Yellow-orange papules, may be umbilicated.",
+    "microscopic": "Foamy histiocytes. Extracellular lipid appears as 'feathery' material in the dermis (resembling gout crystals slightly but feathery).",
+    "ancillary_studies": "N/A",
+    "differential_diagnosis": "Granuloma Annulare (umbilicated papules), Gout.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Resolves with lipid lowering; indicates risk of pancreatitis.",
+    "related_figures": [
+      {
+        "id": "Slide_78",
+        "src": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0078.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0078.jpg",
+        "diagnosis": "Eruptive Xanthoma",
+        "legend": "Clinical presentation of multiple papules. (Time: 2057s)"
+      },
+      {
+        "id": "Slide_82",
+        "src": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0082.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0082.jpg",
+        "diagnosis": "Eruptive Xanthoma",
+        "legend": "Feathery extracellular lipid material in the dermis. (Time: 2094s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Tuberous Xanthoma",
+    "definition": "Nodular lipid deposits in the skin associated with hyperlipidemia.",
+    "tags": [
+      "Skin::Depositional_Metabolic::Xanthoma::Tuberous_Xanthoma"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Firm nodules, often on extensor surfaces (knees, elbows).",
+    "pathogenesis": "Hyperlipidemia.",
+    "macroscopic": "Yellow-orange nodules.",
+    "microscopic": "Foamy histiocytes and fibrosis (laminated fibrosis).",
+    "ancillary_studies": "N/A",
+    "differential_diagnosis": "Erythema Elevatum Diutinum (early), Rheumatoid Nodule.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Requires lipid management.",
+    "related_figures": [
+      {
+        "id": "Slide_85",
+        "src": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0085.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0085.jpg",
+        "diagnosis": "Tuberous Xanthoma",
+        "legend": "Laminated fibrosis with foamy histiocytes. (Time: 2125s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Tendinous Xanthoma",
+    "definition": "Lipid deposits within tendons, commonly the Achilles or extensor tendons of hands.",
+    "tags": [
+      "Skin::Depositional_Metabolic::Xanthoma::Tendinous_Xanthoma"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Nodular swellings of tendons.",
+    "pathogenesis": "Familial Hypercholesterolemia.",
+    "macroscopic": "Tendon expansion.",
+    "microscopic": "Foamy histiocytes expanding the tendon fascicles.",
+    "ancillary_studies": "N/A",
+    "differential_diagnosis": "Giant Cell Tumor of Tendon Sheath.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "N/A",
+    "related_figures": [
+      {
+        "id": "Slide_86",
+        "src": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0086.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0086.jpg",
+        "diagnosis": "Tendinous Xanthoma",
+        "legend": "Tendon expanded by foamy histiocytes. (Time: 2135s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Xanthelasma",
+    "definition": "The most common form of xanthoma, occurring on the eyelids.",
+    "tags": [
+      "Skin::Depositional_Metabolic::Xanthoma::Xanthelasma"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Yellow soft plaques on eyelids (medial canthus).",
+    "pathogenesis": "May or may not be associated with hyperlipidemia.",
+    "macroscopic": "Yellow plaques.",
+    "microscopic": "Clusters of foamy histiocytes in the superficial dermis. Often visually subtle on H&E compared to clinical appearance.",
+    "ancillary_studies": "N/A",
+    "differential_diagnosis": "N/A",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Benign.",
+    "related_figures": [
+      {
+        "id": "Slide_90",
+        "src": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0090.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0090.jpg",
+        "diagnosis": "Xanthelasma",
+        "legend": "Yellow plaque on the eyelid. (Time: 2169s)"
+      },
+      {
+        "id": "Slide_91",
+        "src": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0091.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0091.jpg",
+        "diagnosis": "Xanthelasma",
+        "legend": "Clusters of foamy histiocytes in the dermis. (Time: 2177s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Xanthoma Disseminatum",
+    "definition": "A rare non-Langerhans cell histiocytosis mainly affecting children and young adults, involving skin and mucosa.",
+    "tags": [
+      "Skin::Depositional_Metabolic::Xanthoma::Xanthoma_Disseminatum"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Cutaneous papules/nodules (flexural/axilla/eyelids). Mucosal involvement. Pituitary involvement (Diabetes Insipidus ~40%).",
+    "pathogenesis": "Unknown molecular cause. Associated with plasma cell dyscrasias/monoclonal gammopathy.",
+    "macroscopic": "Red-brown to yellow papules coalescing into plaques.",
+    "microscopic": "Sheets of foamy histiocytes, scalloped histiocytes, Touton giant cells. Resembles JXG but distinct distribution.",
+    "ancillary_studies": "N/A",
+    "differential_diagnosis": "Juvenile Xanthogranuloma, Eruptive Xanthoma.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Chronic course.",
+    "related_figures": [
+      {
+        "id": "Slide_92",
+        "src": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0092.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0092.jpg",
+        "diagnosis": "Xanthoma Disseminatum",
+        "legend": "Clinical presentation involving the axilla. (Time: 2188s)"
+      },
+      {
+        "id": "Slide_94",
+        "src": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0094.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0094.jpg",
+        "diagnosis": "Xanthoma Disseminatum",
+        "legend": "H&E showing foamy histiocytes and lymphocytes. (Time: 2241s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Necrobiotic Xanthogranuloma (NXG)",
+    "definition": "A granulomatous non-Langerhans cell histiocytosis strongly associated with paraproteinemia.",
+    "tags": [
+      "Skin::Inflammatory::Granulomatous::Necrobiotic_Xanthogranuloma"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Indurated yellow-red plaques, typically periorbital ('raccoon eyes'). Orbital pseudotumor (proptosis).",
+    "pathogenesis": "Strong association with paraproteinemia (IgG) and hyperlipidemia.",
+    "macroscopic": "Ulcerated plaques, periorbital edema.",
+    "microscopic": "Palisaded granulomas (mimicking Necrobiosis Lipoidica). Cholesterol clefts within granulomas ('Cholesterol Granulomas'). Bizarre giant cells with numerous (20-30) nuclei arranged in wreath or totem-pole shapes.",
+    "ancillary_studies": "Serum protein electrophoresis (Paraprotein detection).",
+    "differential_diagnosis": "Necrobiosis Lipoidica (typically legs, no cholesterol clefts, fewer giant cells), Granuloma Annulare.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Chronic, requires monitoring for hematologic malignancy (myeloma).",
+    "related_figures": [
+      {
+        "id": "Slide_96",
+        "src": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0096.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0096.jpg",
+        "diagnosis": "Necrobiotic Xanthogranuloma",
+        "legend": "Periorbital 'raccoon eye' presentation. (Time: 2345s)"
+      },
+      {
+        "id": "Slide_99",
+        "src": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0099.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0099.jpg",
+        "diagnosis": "Necrobiotic Xanthogranuloma",
+        "legend": "Palisaded granulomas similar to NLD. (Time: 2418s)"
+      },
+      {
+        "id": "Slide_101",
+        "src": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0101.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0101.jpg",
+        "diagnosis": "Necrobiotic Xanthogranuloma",
+        "legend": "Cholesterol clefts forming 'Cholesterol Granulomas'. (Time: 2435s)"
+      },
+      {
+        "id": "Slide_102",
+        "src": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0102.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0102.jpg",
+        "diagnosis": "Necrobiotic Xanthogranuloma",
+        "legend": "Bizarre giant cell with numerous nuclei. (Time: 2449s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Juvenile and Adult Type Xanthogranuloma (JXG)",
+    "definition": "A benign non-Langerhans cell histiocytosis occurring in children and adults (term 'Xanthogranuloma' preferred).",
+    "tags": [
+      "Skin::Depositional_Metabolic::Xanthoma::Juvenile_and_Adult_Type_Xanthogranuloma"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Solitary (most common) or multiple yellow-orange to red-brown papules/nodules. Common sites: Head/neck (scalp, nose). Rare disseminated forms affect liver, kidney, pericardium.",
+    "pathogenesis": "Gene fusions: NTRK1 fusions (approx 50% solitary), ALK fusions.",
+    "macroscopic": "Yellow-orange papule.",
+    "microscopic": "Dense sheet-like infiltrate of mononuclear histiocytes (pale/lipidized cytoplasm). Touton Giant Cells (ring of nuclei, homogeneous eosinophilic center, foamy periphery).",
+    "ancillary_studies": "Factor XIIIa (+), CD68 (+), CD163 (+). CD34 (-).",
+    "differential_diagnosis": "Dermatofibroma (Factor XIIIa+ but spindle cells, no Touton giant cells), Langerhans Cell Histiocytosis (S100+, CD1a+).",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Benign, often spontaneously regresses. Disseminated forms require MAPK pathway inhibition.",
+    "related_figures": [
+      {
+        "id": "Slide_105",
+        "src": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0105.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0105.jpg",
+        "diagnosis": "Juvenile Xanthogranuloma",
+        "legend": "Large nodule on the nose of a child. (Time: 2503s)"
+      },
+      {
+        "id": "Slide_109",
+        "src": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0109.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0109.jpg",
+        "diagnosis": "Juvenile Xanthogranuloma",
+        "legend": "Low power showing nodular infiltrate of histiocytes. (Time: 2591s)"
+      },
+      {
+        "id": "Slide_111",
+        "src": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0111.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0111.jpg",
+        "diagnosis": "Juvenile Xanthogranuloma",
+        "legend": "High power showing characteristic Touton giant cell with ring of nuclei and foamy periphery. (Time: 2614s)"
+      },
+      {
+        "id": "Slide_114",
+        "src": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0114.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_12_Histiocytoses/Derm_Lecture_12_Histiocytoses_slide_0114.jpg",
+        "diagnosis": "Juvenile Xanthogranuloma",
+        "legend": "Autopsy specimen (kidney) from rare disseminated case. (Time: 2667s)"
+      }
+    ]
+  }
+]

@@ -1,0 +1,393 @@
+[
+  {
+    "entity_name": "Melanocytic Nevus (Common Acquired)",
+    "definition": "A benign neoplasm (hamartoma) composed of melanocytes. They represent proliferations of normal melanocytic cells in an abnormal distribution, typically forming nests.",
+    "tags": [
+      "Skin::Neoplastic::Melanocytic::Benign::Common_Acquired_Nevus_NOS"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Commonly presents as small (<5-6mm), symmetric, pigmented macules or papules. Uniform pigmentation.",
+    "pathogenesis": "Derived from melanocytes (neural crest origin). Most common acquired nevi harbor BRAF V600E mutations. Evolution often described as: Junctional -> Compound -> Intradermal -> Neurotized/Senescent.",
+    "macroscopic": "Symmetric, sharp circumscription, regular borders, homogeneous color.",
+    "microscopic": "Key benign criteria: Symmetry, circumscription (clear beginning and end with nests), cohesiveness of nests, and maturation (cells get smaller and less nested with descent into the dermis). \n\nSubtypes based on location:\n- **Junctional:** Nests limited to the dermo-epidermal junction. Regular spacing.\n- **Compound:** Nests in both epidermis and dermis. \n- **Intradermal:** Nests confined to the dermis. Often shows neurotization (resemblance to neural structures/Wagner-Meissner bodies) and multinucleated 'ancient' melanocytes (hypernesting).",
+    "ancillary_studies": "IHC: S100+, SOX10+, Melan-A+. PRAME usually negative (caution: false positives occur).",
+    "differential_diagnosis": "Melanoma (asymmetry, poor circumscription, lack of maturation, pagetoid spread, mitoses), Dysplastic Nevus, Spitz Nevus.",
+    "staging": "Benign.",
+    "prognosis_and_prediction": "Benign. Excellent prognosis.",
+    "related_figures": [
+      {
+        "id": "Slide_19",
+        "src": "_asset_library/lectures/Derm_Lecture_27_nevi1/Derm_Lecture_27_nevi1_slide_0019.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_27_nevi1/Derm_Lecture_27_nevi1_slide_0019.jpg",
+        "diagnosis": "Melanocytic Nevus",
+        "legend": "Compound nevus demonstrating maturation. Superficial nests are larger and pigmented; deeper cells are smaller, less nested, and lack pigment. (Time: 580s)"
+      },
+      {
+        "id": "Slide_20",
+        "src": "_asset_library/lectures/Derm_Lecture_27_nevi1/Derm_Lecture_27_nevi1_slide_0020.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_27_nevi1/Derm_Lecture_27_nevi1_slide_0020.jpg",
+        "diagnosis": "Junctional Melanocytic Nevus",
+        "legend": "Nests limited to the junction, relatively uniform in size and evenly spaced. (Time: 697s)"
+      },
+      {
+        "id": "Slide_50",
+        "src": "_asset_library/lectures/Derm_Lecture_27_nevi1/Derm_Lecture_27_nevi1_slide_0050.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_27_nevi1/Derm_Lecture_27_nevi1_slide_0050.jpg",
+        "diagnosis": "Compound Melanocytic Nevus",
+        "legend": "Scanning power showing symmetry. The dermal component has a flat bottom ('superficial congenital pattern') where all nests mature to the same level. (Time: 1882s)"
+      },
+      {
+        "id": "Slide_54",
+        "src": "_asset_library/lectures/Derm_Lecture_27_nevi1/Derm_Lecture_27_nevi1_slide_0054.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_27_nevi1/Derm_Lecture_27_nevi1_slide_0054.jpg",
+        "diagnosis": "Intradermal Melanocytic Nevus (Miescher type)",
+        "legend": "Mostly intradermal proliferation, wedge-shaped, growing around adnexal structures without displacing them. Typical of facial nevi. (Time: 2058s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Melanotic Macule",
+    "definition": "A benign mucosal or cutaneous lesion characterized by increased melanin production by a normal number of melanocytes.",
+    "tags": [
+      "Skin::Neoplastic::Melanocytic::Benign::Melanotic_Macule_Labial_Oral"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Flat, pigmented macule on the lip (labial lentigo), oral mucosa, genital mucosa, or nail unit. No palpable component.",
+    "pathogenesis": "Hyper-proliferation of melanin pigment by native melanocytes. No increase in melanocyte density.",
+    "macroscopic": "Uniform dark macule.",
+    "microscopic": "Basal layer hyperpigmentation. The melanocytes are present in normal numbers (approx. 1:10 ratio with keratinocytes) and are not nested. Prominent pigment incontinence (melanophages) in the superficial dermis is common.",
+    "ancillary_studies": "IHC: Melan-A/SOX10 highlights normal density of melanocytes.",
+    "differential_diagnosis": "Lentigo simplex (mild increase in melanocytes), Post-inflammatory hyperpigmentation, Melanoma in situ (would show increased density/atypia).",
+    "staging": "Benign.",
+    "prognosis_and_prediction": "Benign. No malignant potential.",
+    "related_figures": [
+      {
+        "id": "Slide_27",
+        "src": "_asset_library/lectures/Derm_Lecture_27_nevi1/Derm_Lecture_27_nevi1_slide_0027.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_27_nevi1/Derm_Lecture_27_nevi1_slide_0027.jpg",
+        "diagnosis": "Melanotic Macule",
+        "legend": "Mucosal skin showing a crisp line of basal pigmentation. (Time: 1181s)"
+      },
+      {
+        "id": "Slide_29",
+        "src": "_asset_library/lectures/Derm_Lecture_27_nevi1/Derm_Lecture_27_nevi1_slide_0029.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_27_nevi1/Derm_Lecture_27_nevi1_slide_0029.jpg",
+        "diagnosis": "Melanotic Macule",
+        "legend": "High power showing basal keratinocytes stuffed with melanin. Melanocytes are present but not increased in number. (Time: 1219s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Lentigo Simplex",
+    "definition": "A benign melanocytic proliferation characterized by a mild increase in single melanocytes along the dermo-epidermal junction.",
+    "tags": [
+      "Skin::Neoplastic::Melanocytic::Benign::Lentigo_Simplex"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Small, dark, circumscribed macule. Can appear in childhood.",
+    "pathogenesis": "Proliferation of melanocytes. Considered the precursor lesion to a junctional nevus ('Jentigo').",
+    "macroscopic": "Small, deeply pigmented macule.",
+    "microscopic": "Increased number of single melanocytes along the basal layer. Melanocytes are small and may hang down like 'raindrops' or 'toes' from the rete ridges. Minimal to no nesting (if nesting is prominent, it classifies as a junctional nevus). Heavy pigmentation common.",
+    "ancillary_studies": "IHC: Melanocytic markers highlight increased single cells confined to the basal layer.",
+    "differential_diagnosis": "Junctional nevus, Solar lentigo, Melanoma in situ (Lentigo simplex lacks atypia and pagetoid spread).",
+    "staging": "Benign.",
+    "prognosis_and_prediction": "Benign.",
+    "related_figures": [
+      {
+        "id": "Slide_37",
+        "src": "_asset_library/lectures/Derm_Lecture_27_nevi1/Derm_Lecture_27_nevi1_slide_0037.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_27_nevi1/Derm_Lecture_27_nevi1_slide_0037.jpg",
+        "diagnosis": "Lentigo Simplex",
+        "legend": "Elongated rete ridges with tiny melanocytes along the junction, some showing halos. (Time: 1401s)"
+      },
+      {
+        "id": "Slide_38",
+        "src": "_asset_library/lectures/Derm_Lecture_27_nevi1/Derm_Lecture_27_nevi1_slide_0038.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_27_nevi1/Derm_Lecture_27_nevi1_slide_0038.jpg",
+        "diagnosis": "Lentigo Simplex",
+        "legend": "Melanocytes appear as small 'raindrops' at the tips and sides of rete ridges. No pagetoid scatter. (Time: 1472s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Solar Lentigo",
+    "definition": "A benign proliferation of keratinocytes secondary to UV damage. Not a primary melanocytic neoplasm.",
+    "tags": [
+      "Skin::Neoplastic::Melanocytic::Benign::Solar_Lentigo"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Multiple hyperpigmented macules on sun-exposed skin (face, hands, shoulders) in older adults.",
+    "pathogenesis": "Cumulative UV exposure inducing keratinocytic proliferation and melanin retention.",
+    "macroscopic": "Tan to brown macules, often with irregular borders ('ink spot').",
+    "microscopic": "Elongated, club-shaped rete ridges (dirty fingers/hockey sticks), often with anastomosing retes. Basal hyperpigmentation. Solar elastosis in the dermis. Melanocyte density is normal (though may appear crowded due to rete collapse).",
+    "ancillary_studies": "Melanocytic markers (SOX10, Melan-A) show normal density of melanocytes restricted to the basal layer.",
+    "differential_diagnosis": "Lentigo maligna (Melanoma in situ) - distinction can be difficult on sun-damaged skin; look for atypia and confluence in LM.",
+    "staging": "Benign.",
+    "prognosis_and_prediction": "Benign marker of photoaging.",
+    "related_figures": [
+      {
+        "id": "Slide_41",
+        "src": "_asset_library/lectures/Derm_Lecture_27_nevi1/Derm_Lecture_27_nevi1_slide_0041.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_27_nevi1/Derm_Lecture_27_nevi1_slide_0041.jpg",
+        "diagnosis": "Solar Lentigo",
+        "legend": "Club-shaped rete ridges ('dirty fingers') on a background of solar elastosis. (Time: 1585s)"
+      },
+      {
+        "id": "Slide_42",
+        "src": "_asset_library/lectures/Derm_Lecture_27_nevi1/Derm_Lecture_27_nevi1_slide_0042.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_27_nevi1/Derm_Lecture_27_nevi1_slide_0042.jpg",
+        "diagnosis": "Solar Lentigo",
+        "legend": "Basal layer view showing regularly spaced melanocytes, despite the architectural changes. (Time: 1628s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Unna Nevus",
+    "definition": "A distinctive variant of intradermal nevus, typically soft and polypoid.",
+    "tags": [
+      "Skin::Neoplastic::Melanocytic::Benign::Unna_Nevus"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Soft, fleshy, polypoid papule, often on the trunk or neck.",
+    "pathogenesis": "Benign melanocytic proliferation.",
+    "macroscopic": "Papillomatous/polypoid lesion, often pedunculated.",
+    "microscopic": "Exophytic, polypoid architecture. The melanocytes are intradermal and arranged in a 'fractal' or 'fan coral' pattern. Usually lacks junctional activity. May show dilated lymphatic channels and edema.",
+    "ancillary_studies": "None typical.",
+    "differential_diagnosis": "Neurofibroma, Acrochordon (skin tag), Seborrheic Keratosis.",
+    "staging": "Benign.",
+    "prognosis_and_prediction": "Benign.",
+    "related_figures": [
+      {
+        "id": "Slide_63",
+        "src": "_asset_library/lectures/Derm_Lecture_27_nevi1/Derm_Lecture_27_nevi1_slide_0063.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_27_nevi1/Derm_Lecture_27_nevi1_slide_0063.jpg",
+        "diagnosis": "Unna Nevus",
+        "legend": "Polypoid shape with a 'fan coral' growth pattern of melanocytes. Note the dilated lymphatic channel. (Time: 2296s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Congenital Melanocytic Nevus",
+    "definition": "A melanocytic nevus present at birth or arising in early infancy.",
+    "tags": [
+      "Skin::Neoplastic::Melanocytic::Benign::Congenital_Nevus"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Variable size (Small <1.5cm, Medium 1.5-20cm, Giant >20cm). Often hairy.",
+    "pathogenesis": "NRAS or BRAF mutations. Arises during embryogenesis.",
+    "macroscopic": "Pigmented plaque, often with hypertrichosis.",
+    "microscopic": "**Congenital Pattern:** Deep extension of melanocytes into the reticular dermis and subcutis. Angiocentric and adnexocentric growth (encircling vessels, follicles, and glands). 'Sifting' of single melanocytes between collagen bundles.",
+    "ancillary_studies": "Genetics: Large congenital nevi often NRAS mutated.",
+    "differential_diagnosis": "Common acquired nevus (lacks deep/adnexocentric pattern), Melanoma (congenital nevi can have nodules, requiring careful evaluation).",
+    "staging": "Benign.",
+    "prognosis_and_prediction": "Benign. Risk of melanoma transformation increases with size (Giant Congenital Nevi).",
+    "related_figures": [
+      {
+        "id": "Slide_67",
+        "src": "_asset_library/lectures/Derm_Lecture_27_nevi1/Derm_Lecture_27_nevi1_slide_0067.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_27_nevi1/Derm_Lecture_27_nevi1_slide_0067.jpg",
+        "diagnosis": "Congenital Melanocytic Nevus",
+        "legend": "Adnexocentric growth: melanocytes encircling a hair follicle and sweat glands. (Time: 2462s)"
+      },
+      {
+        "id": "Slide_69",
+        "src": "_asset_library/lectures/Derm_Lecture_27_nevi1/Derm_Lecture_27_nevi1_slide_0069.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_27_nevi1/Derm_Lecture_27_nevi1_slide_0069.jpg",
+        "diagnosis": "Congenital Melanocytic Nevus",
+        "legend": "Deep dermal infiltration around neurovascular bundles. (Time: 2478s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Blue Nevus (Common)",
+    "definition": "A benign dermal melanocytic proliferation composed of dendritic melanocytes.",
+    "tags": [
+      "Skin::Neoplastic::Melanocytic::Benign::Blue_Nevus_Common"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Blue-gray to black macule or papule. Tyndall effect creates blue color.",
+    "pathogenesis": "GNAQ or GNA11 mutations. Arrested migration of neural crest melanocytes.",
+    "macroscopic": "Wedge-shaped or football-shaped dermal pigment.",
+    "microscopic": "Elongated, dendritic, heavily pigmented melanocytes in the dermis. Sclerotic/fibrotic stroma. No nesting. No maturation. Often associated with abundant melanophages.",
+    "ancillary_studies": "IHC: HMB45+, S100+.",
+    "differential_diagnosis": "Dermatofibroma (can be pigmented), Metastatic Melanoma (blue nevus lacks atypia/mitoses), Tattoo.",
+    "staging": "Benign.",
+    "prognosis_and_prediction": "Benign.",
+    "related_figures": [
+      {
+        "id": "Slide_80",
+        "src": "_asset_library/lectures/Derm_Lecture_27_nevi1/Derm_Lecture_27_nevi1_slide_0080.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_27_nevi1/Derm_Lecture_27_nevi1_slide_0080.jpg",
+        "diagnosis": "Common Blue Nevus",
+        "legend": "Wedge-shaped dermal proliferation of heavily pigmented, dendritic melanocytes. No junctional component. (Time: 2650s)"
+      },
+      {
+        "id": "Slide_82",
+        "src": "_asset_library/lectures/Derm_Lecture_27_nevi1/Derm_Lecture_27_nevi1_slide_0082.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_27_nevi1/Derm_Lecture_27_nevi1_slide_0082.jpg",
+        "diagnosis": "Common Blue Nevus",
+        "legend": "High power showing dendritic melanocytes mixed with melanophages (coarser pigment, obscured nuclei). (Time: 2685s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Cellular Blue Nevus",
+    "definition": "A variant of blue nevus with high cellularity, often larger and located on the buttock/scalp.",
+    "tags": [
+      "Skin::Neoplastic::Melanocytic::Benign::Blue_Nevus_Cellular"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Large, firm, blue-black nodule or plaque. Buttock is a classic site.",
+    "pathogenesis": "GNAQ/GNA11 mutations. Typically lacks BRAF/BAP1 mutations.",
+    "macroscopic": "Dumbbell-shaped architecture.",
+    "microscopic": "Highly cellular fascicles of ovoid/spindle melanocytes. Often 'dumbbell' shaped with deep extension. Focal cystic degeneration. Minimal maturation. Rare mitoses may be seen but should be few.",
+    "ancillary_studies": "IHC: HMB45+. Molecular: Lack of chromosomal aberrations common in melanoma.",
+    "differential_diagnosis": "Malignant Blue Nevus/Melanoma (necrosis, significant pleomorphism, frequent mitoses).",
+    "staging": "Benign (recurrence possible if incompletely excised).",
+    "prognosis_and_prediction": "Benign.",
+    "related_figures": [
+      {
+        "id": "Slide_83",
+        "src": "_asset_library/lectures/Derm_Lecture_27_nevi1/Derm_Lecture_27_nevi1_slide_0083.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_27_nevi1/Derm_Lecture_27_nevi1_slide_0083.jpg",
+        "diagnosis": "Cellular Blue Nevus",
+        "legend": "Scanning power showing a large, 'dumbbell' shaped dermal proliferation. (Time: 2727s)"
+      },
+      {
+        "id": "Slide_84",
+        "src": "_asset_library/lectures/Derm_Lecture_27_nevi1/Derm_Lecture_27_nevi1_slide_0084.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_27_nevi1/Derm_Lecture_27_nevi1_slide_0084.jpg",
+        "diagnosis": "Cellular Blue Nevus",
+        "legend": "Fascicles of ovoid melanocytes. High cellularity compared to common blue nevus. (Time: 2744s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Deep Penetrating Nevus (Plexiform Spindle Cell Nevus)",
+    "definition": "A distinct melanocytic neoplasm, now often classified under 'Melanocytoma' due to specific genetic drivers. Historically considered a variant of blue/combined nevus.",
+    "tags": [
+      "Skin::Neoplastic::Melanocytic::Benign::Deep_Penetrating_Nevus"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Dark papule/nodule, often on the face or upper trunk of young patients.",
+    "pathogenesis": "**Double Hit:** MAP-kinase pathway activation (usually BRAF V600E) PLUS Beta-catenin (CTNNB1) pathway activation.",
+    "macroscopic": "Wedge or inverted triangle shape.",
+    "microscopic": "Deep, wedge-shaped proliferation. Large, fascicular nests tracking down neurovascular bundles or vertically oriented. Cytology: Large, slightly atypia cells with 'smudgy' chromatin and abundant cytoplasm. Mixture of spindled and epithelioid cells. Heavy pigmentation and numerous melanophages. Low mitotic rate.",
+    "ancillary_studies": "IHC: Nuclear Beta-Catenin positive (diagnostic). LEF1 positive. PRAME usually negative.",
+    "differential_diagnosis": "Nodular Melanoma, Blue Nevus, Spitzod Melanoma.",
+    "staging": "Intermediate (Melanocytoma) - generally benign behavior but sentinel node positivity can occur without distant metastasis.",
+    "prognosis_and_prediction": "Indolent/Benign.",
+    "related_figures": [
+      {
+        "id": "Slide_93",
+        "src": "_asset_library/lectures/Derm_Lecture_27_nevi1/Derm_Lecture_27_nevi1_slide_0093.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_27_nevi1/Derm_Lecture_27_nevi1_slide_0093.jpg",
+        "diagnosis": "Deep Penetrating Nevus",
+        "legend": "Deep, wedge-shaped dermal proliferation. (Time: 2857s)"
+      },
+      {
+        "id": "Slide_107",
+        "src": "_asset_library/lectures/Derm_Lecture_27_nevi1/Derm_Lecture_27_nevi1_slide_0107.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_27_nevi1/Derm_Lecture_27_nevi1_slide_0107.jpg",
+        "diagnosis": "Combined Nevus (Common + DPN)",
+        "legend": "A common nevus (left) adjacent to a deep penetrating nevus component (right), illustrating tumor progression/second hit. (Time: 3071s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Acral Nevus",
+    "definition": "A melanocytic nevus occurring on volar skin (palms/soles).",
+    "tags": [
+      "Skin::Neoplastic::Melanocytic::Benign::Acral_Nevus"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Pigmented macule on palm or sole, often following dermatoglyphics (furrows/ridges).",
+    "pathogenesis": "Benign proliferation.",
+    "macroscopic": "Small, symmetric.",
+    "microscopic": "Columns of pigment in the stratum corneum. **MANIAC** features (Melanocytic Acral Nevus with Intraepidermal Ascent of Cells): Limited central pagetoid spread is permissible and considered benign in this location. Nests are often vertically oriented.",
+    "ancillary_studies": "None typical.",
+    "differential_diagnosis": "Acral Lentiginous Melanoma (broad, asymmetric, widespread pagetoid scatter to periphery).",
+    "staging": "Benign.",
+    "prognosis_and_prediction": "Benign.",
+    "related_figures": [
+      {
+        "id": "Slide_111",
+        "src": "_asset_library/lectures/Derm_Lecture_27_nevi1/Derm_Lecture_27_nevi1_slide_0111.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_27_nevi1/Derm_Lecture_27_nevi1_slide_0111.jpg",
+        "diagnosis": "Acral Nevus",
+        "legend": "Pigment columns in the stratum corneum. Clear beginning and end. (Time: 3151s)"
+      },
+      {
+        "id": "Slide_115",
+        "src": "_asset_library/lectures/Derm_Lecture_27_nevi1/Derm_Lecture_27_nevi1_slide_0115.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_27_nevi1/Derm_Lecture_27_nevi1_slide_0115.jpg",
+        "diagnosis": "Acral Nevus",
+        "legend": "Focal pagetoid scatter (MANIAC) seen centrally, which is acceptable in acral nevi. (Time: 3172s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Recurrent Nevus (Pseudomelanoma)",
+    "definition": "Recurrence of a previously incompletely excised benign nevus.",
+    "tags": [
+      "Skin::Neoplastic::Melanocytic::Benign::Recurrent_Nevus_Pseudomelanoma"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Pigmentation appearing within a surgical scar of a prior nevus biopsy.",
+    "pathogenesis": "Proliferation of residual melanocytes from the adnexa/wound edges.",
+    "macroscopic": "Hyperpigmentation confined to the scar.",
+    "microscopic": "Junctional melanocytic proliferation confined strictly *above* the dermal scar. Cells may be atypical, large, and show pagetoid spread (mimicking melanoma). The key is the limitation to the scar area. Deep dermal component (if present) is usually the benign remnant of the original nevus.",
+    "ancillary_studies": "Review of prior biopsy is critical.",
+    "differential_diagnosis": "Recurrent Melanoma (extension beyond the scar, severe atypia).",
+    "staging": "Benign.",
+    "prognosis_and_prediction": "Benign.",
+    "related_figures": [
+      {
+        "id": "Slide_120",
+        "src": "_asset_library/lectures/Derm_Lecture_27_nevi1/Derm_Lecture_27_nevi1_slide_0120.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_27_nevi1/Derm_Lecture_27_nevi1_slide_0120.jpg",
+        "diagnosis": "Recurrent Nevus",
+        "legend": "Scar tissue in the dermis with a junctional proliferation directly above it. (Time: 3253s)"
+      },
+      {
+        "id": "Slide_123",
+        "src": "_asset_library/lectures/Derm_Lecture_27_nevi1/Derm_Lecture_27_nevi1_slide_0123.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_27_nevi1/Derm_Lecture_27_nevi1_slide_0123.jpg",
+        "diagnosis": "Recurrent Nevus",
+        "legend": "Atypical features (pagetoid spread, enlarged cells) strictly confined to the epidermis over the scar. (Time: 3269s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Special Site Nevus",
+    "definition": "Nevi occurring in specific anatomical locations (Breast, Axilla, Genital, Umbilicus/Milk Line) that display histologic features mimicking dysplastic nevi or melanoma.",
+    "tags": [
+      "Skin::Neoplastic::Melanocytic::Benign::Special_Site_Nevus"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Nevi in flexural or milk-line areas.",
+    "pathogenesis": "Site-specific growth patterns.",
+    "macroscopic": "Often larger with irregular borders.",
+    "microscopic": "Features of 'dysplastic' nevi: Shoulder phenomenon, bridging of nests, fibroplasia. Distinctive cytology: 'Pulverocytes' (cells with fine, dusty melanin). Large nests. Despite architectural atypia, they are biologically benign.",
+    "ancillary_studies": "None usually required if site is known.",
+    "differential_diagnosis": "Dysplastic Nevus, Melanoma.",
+    "staging": "Benign.",
+    "prognosis_and_prediction": "Benign. Awareness of site is crucial to avoid overdiagnosis.",
+    "related_figures": [
+      {
+        "id": "Slide_126",
+        "src": "_asset_library/lectures/Derm_Lecture_27_nevi1/Derm_Lecture_27_nevi1_slide_0126.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_27_nevi1/Derm_Lecture_27_nevi1_slide_0126.jpg",
+        "diagnosis": "Special Site Nevus",
+        "legend": "Broad, flat morphology with 'shouldering' and bridging nests, typical of breast/axilla nevi. (Time: 3345s)"
+      },
+      {
+        "id": "Slide_127",
+        "src": "_asset_library/lectures/Derm_Lecture_27_nevi1/Derm_Lecture_27_nevi1_slide_0127.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_27_nevi1/Derm_Lecture_27_nevi1_slide_0127.jpg",
+        "diagnosis": "Special Site Nevus",
+        "legend": "Large nests with 'pulverocytes' (dusty cytoplasm). (Time: 3412s)"
+      }
+    ]
+  }
+]

@@ -28,3 +28,24 @@ dist-ssr
 *.zip
 tunnel.log
 .env.local
+
+# Intermediate data and exports
+*unclassified*.json
+entities_tagged.json
+tag-mapping.txt
+allowed_tags.txt
+SKIN.json
+*.bak.json
+*.deb
+
+# Helper/Temporary scripts
+analyze_lectures.py
+diagnose_dedup.py
+export_unclassified.py
+verify_slides.py
+knowledge_pipeline_v4_0.py
+inspect_unclassified.cjs
+extract_unclassified.cjs
+find_fibromatosis.cjs
+fix_fibromatosis.cjs
+dedup_and_merge_who.cjs

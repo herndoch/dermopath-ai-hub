@@ -1,0 +1,647 @@
+[
+  {
+    "entity_name": "Normal Melanocyte Histology",
+    "definition": "Normal histological appearance and function of melanocytes within the epidermis.",
+    "tags": [
+      "Skin::Normal_Histology::Melanocyte"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Melanocytes migrate from the neural crest to the basal layer of the epidermis.",
+    "pathogenesis": "Melanocytes originate from the neural crest. They produce melanin in melanosomes and donate them to surrounding keratinocytes (1 melanocyte per 4-10 keratinocytes).",
+    "macroscopic": "N/A",
+    "microscopic": "Melanocytes reside at the basal layer. They have amphophilic (bluish/clear) cytoplasm and are distinguishable from keratinocytes. Ratio of 1 melanocyte to 4-10 keratinocytes. Melanosomes appear as cigar-shaped dark structures with striations (zebra-like) on electron microscopy.",
+    "ancillary_studies": "IHC: Melan-A (cytoplasmic), SOX10 (nuclear), MITF. S100 and SOX10 can also stain neural cells. HMB-45 is normally negative in resting melanocytes but positive in activated ones.",
+    "differential_diagnosis": "Lentigo (increased frequency of melanocytes), Solar Lentigo (increased pigment but not necessarily melanocytic process).",
+    "staging": "N/A",
+    "prognosis_and_prediction": "N/A",
+    "related_figures": [
+      {
+        "id": "Slide_5",
+        "src": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0005.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0005.jpg",
+        "diagnosis": "Normal Melanocyte Histology",
+        "legend": "Normal H&E showing melanocytes at the basal layer with amphophilic cytoplasm. (Time: 436s)"
+      },
+      {
+        "id": "Slide_3",
+        "src": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0003.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0003.jpg",
+        "diagnosis": "Normal Melanocyte Histology",
+        "legend": "Electron microscopy showing melanosomes with striations. (Time: 350s)"
+      },
+      {
+        "id": "Slide_6",
+        "src": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0006.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0006.jpg",
+        "diagnosis": "Normal Melanocyte Histology",
+        "legend": "High power view of normal melanocytes. (Time: 497s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Vitiligo",
+    "definition": "An acquired autoimmune depigmenting disorder characterized by the destruction of melanocytes.",
+    "tags": [
+      "Skin::Disorders_of_Pigmentation::Hypopigmentation::Vitiligo"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Well-demarcated amelanotic (white) patches. Poliosis (white hair) indicates destruction of follicular melanocytes.",
+    "pathogenesis": "Autoimmune destruction of melanocytes by NK cells and cytotoxic CD8+ T cells via apoptosis.",
+    "macroscopic": "Chalk-white macules and patches.",
+    "microscopic": "Complete absence of melanocytes at the basal layer. 'Inflammatory Vitiligo' (active phase) may show a lichenoid lymphocytic infiltrate in close proximity to the epidermis and melanophages in the dermis. Long-standing lesions show no inflammation and complete loss of pigment.",
+    "ancillary_studies": "Fontana-Masson: Negative for melanin. Melan-A/SOX10: Negative (confirms absence of melanocytes).",
+    "differential_diagnosis": "Normal skin (requires careful exam), Post-inflammatory hypopigmentation, Nevus depigmentosus, Hypopigmented MF.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Chronic course; repigmentation relies on follicular melanocyte reservoir.",
+    "related_figures": [
+      {
+        "id": "Slide_10",
+        "src": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0010.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0010.jpg",
+        "diagnosis": "Vitiligo",
+        "legend": "H&E showing complete absence of melanocytes at the basal layer. (Time: 656s)"
+      },
+      {
+        "id": "Slide_11",
+        "src": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0011.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0011.jpg",
+        "diagnosis": "Vitiligo",
+        "legend": "Fontana-Masson stain showing complete lack of melanin. (Time: 714s)"
+      },
+      {
+        "id": "Slide_15",
+        "src": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0015.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0015.jpg",
+        "diagnosis": "Inflammatory Vitiligo",
+        "legend": "Active border showing inflammatory infiltrate and melanophages. (Time: 894s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Post-Inflammatory Pigment Alteration",
+    "definition": "Acquired hyper- or hypopigmentation following cutaneous inflammation.",
+    "tags": [
+      "Skin::Disorders_of_Pigmentation::Postinflammatory_Pigment_Alteration"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Macules or patches of pigment alteration corresponding to prior inflammation.",
+    "pathogenesis": "Inflammation causes keratinocyte/melanocyte damage, leading to pigment incontinence (dropping of melanin into dermis). Melanocytes are preserved.",
+    "macroscopic": "Hyperpigmented (brown/grey) or hypopigmented areas.",
+    "microscopic": "Normal number of melanocytes. Prominent melanophages (pigment incontinence) in the superficial dermis/papillary dermis. Mild residual inflammation may be present.",
+    "ancillary_studies": "Melan-A: Shows normal frequency of melanocytes (differentiating from Vitiligo).",
+    "differential_diagnosis": "Vitiligo (absent melanocytes), Drug-induced pigmentation (deep dermal pigment).",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Often resolves slowly over time.",
+    "related_figures": [
+      {
+        "id": "Slide_18",
+        "src": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0018.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0018.jpg",
+        "diagnosis": "Post-Inflammatory Pigment Alteration",
+        "legend": "Dermal melanophages indicating pigment incontinence; melanocytes are preserved. (Time: 1053s)"
+      },
+      {
+        "id": "Slide_20",
+        "src": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0020.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0020.jpg",
+        "diagnosis": "Post-Inflammatory Pigment Alteration",
+        "legend": "Melan-A stain demonstrating normal melanocyte density. (Time: 1133s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Pityriasis Alba",
+    "definition": "A low-grade eczematous dermatosis, often considered a minor feature of atopic dermatitis, presenting with hypopigmentation.",
+    "tags": [
+      "Skin::Disorders_of_Pigmentation::Pityriasis_Alba"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Ill-defined hypopigmented patches with fine scale, typically on the face of children.",
+    "pathogenesis": "Low-grade inflammation disrupts melanosome transfer from melanocytes to keratinocytes.",
+    "macroscopic": "Hypopigmented scaling patches.",
+    "microscopic": "Often nonspecific. Mild spongiosis, lymphocytic exocytosis, focal parakeratosis. Reduced melanin in keratinocytes. Melanocytes are present.",
+    "ancillary_studies": "N/A",
+    "differential_diagnosis": "Vitiligo, Psoriasis, Seborrheic dermatitis.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Self-limiting.",
+    "related_figures": [
+      {
+        "id": "Slide_23",
+        "src": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0023.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0023.jpg",
+        "diagnosis": "Pityriasis Alba",
+        "legend": "Nonspecific findings with mild spongiosis and pigmentary incontinence. (Time: 1249s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Progressive Macular Hypomelanosis",
+    "definition": "A hypopigmentation disorder typically affecting the trunk of young women with darker skin types.",
+    "tags": [
+      "Skin::Disorders_of_Pigmentation::Hypopigmentation::Progressive_Macular_Hypomelanosis"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Multiple coalescing hypopigmented macules on the trunk.",
+    "pathogenesis": "Linked to *Cutibacterium acnes* (P. acnes) overgrowth. Shift from Stage IV to Stage III melanosomes (reduced melanin saturation).",
+    "macroscopic": "Hypopigmented macules on trunk.",
+    "microscopic": "Normal number of melanocytes. Decreased melanin content in keratinocytes and melanocytes (melanosomes are less pigmented).",
+    "ancillary_studies": "Fontana-Masson: Demonstrates reduced melanin in affected areas compared to normal skin.",
+    "differential_diagnosis": "Pityriasis versicolor, Vitiligo.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Responds to antibacterial treatment targeting P. acnes.",
+    "related_figures": [
+      {
+        "id": "Slide_25",
+        "src": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0025.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0025.jpg",
+        "diagnosis": "Progressive Macular Hypomelanosis",
+        "legend": "Contrast between normal pigment and hypopigmented area with reduced melanin but preserved melanocytes. (Time: 1297s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Nevus Depigmentosus",
+    "definition": "A congenital, stable, well-circumscribed hypopigmented macule or patch.",
+    "tags": [
+      "Skin::Congenital_Structural::Genodermatosis::Genodermatosis_Overview_NOS"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Well-demarcated hypopigmented patch present at birth or early childhood.",
+    "pathogenesis": "Functional defect in melanocytes; reduced DOPA activity leading to decreased melanin production.",
+    "macroscopic": "Stable hypopigmentation.",
+    "microscopic": "Normal number of melanocytes. Reduced melanin in melanocytes and keratinocytes.",
+    "ancillary_studies": "Fontana-Masson: Decreased melanin. Melan-A: Normal number of melanocytes.",
+    "differential_diagnosis": "Vitiligo (melanocytes absent), Nevus anemicus.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Stable, does not progress.",
+    "related_figures": [
+      {
+        "id": "Slide_28",
+        "src": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0028.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0028.jpg",
+        "diagnosis": "Nevus Depigmentosus",
+        "legend": "Melan-A showing normal melanocyte density contrasting with clinical hypopigmentation. (Time: 1389s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Incontinentia Pigmenti Achromians",
+    "definition": "Also known as Hypomelanosis of Ito; a neurocutaneous disorder characterized by hypopigmentation along Lines of Blaschko.",
+    "tags": [
+      "Skin::Congenital_Structural::Genodermatosis::Incontinentia_Pigmenti_Achromians"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Whorled, linear streaks of hypopigmentation (tiger-stripe pattern) following Blaschko lines. Associated with neuro/musculoskeletal abnormalities.",
+    "pathogenesis": "Chromosomal mosaicism.",
+    "macroscopic": "Linear/whorled hypopigmentation.",
+    "microscopic": "Can show reduced number of melanocytes or normal numbers. Vacuolization of basal keratinocytes may be seen. Melanosomes are fewer, rounder, and grayish (structurally abnormal).",
+    "ancillary_studies": "Fontana-Masson: Markedly reduced melanin.",
+    "differential_diagnosis": "Nevus depigmentosus, Incontinentia Pigmenti (Stage IV).",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Associated with systemic anomalies.",
+    "related_figures": [
+      {
+        "id": "Slide_30",
+        "src": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0030.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0030.jpg",
+        "diagnosis": "Incontinentia Pigmenti Achromians",
+        "legend": "Clinical appearance of whorled hypopigmentation. (Time: 1611s)"
+      },
+      {
+        "id": "Slide_32",
+        "src": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0032.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0032.jpg",
+        "diagnosis": "Incontinentia Pigmenti Achromians",
+        "legend": "Electron microscopy showing round, grayish, abnormal melanosomes. (Time: 1655s)"
+      },
+      {
+        "id": "Slide_33",
+        "src": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0033.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0033.jpg",
+        "diagnosis": "Incontinentia Pigmenti Achromians",
+        "legend": "Fontana-Masson showing reduced melanin. (Time: 1701s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Idiopathic Guttate Hypomelanosis",
+    "definition": "Common acquired hypopigmentation characterized by small porcelain-white macules on sun-exposed skin.",
+    "tags": [
+      "Skin::Disorders_of_Pigmentation::Hypopigmentation::Idiopathic_Guttate_Hypomelanosis"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Small (2-5mm) white macules on shins and forearms.",
+    "pathogenesis": "Abnormal keratinocyte phagocytosis and reduced melanin transfer.",
+    "macroscopic": "Multiple small white macules.",
+    "microscopic": "Flattened epidermis (loss of rete ridges). Thickened 'basket-weave' stratum corneum (hyperkeratosis). Reduced melanin in basal layer.",
+    "ancillary_studies": "Fontana-Masson: Reduced pigment.",
+    "differential_diagnosis": "Vitiligo, Lichen sclerosus.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Benign, persistent.",
+    "related_figures": [
+      {
+        "id": "Slide_35",
+        "src": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0035.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0035.jpg",
+        "diagnosis": "Idiopathic Guttate Hypomelanosis",
+        "legend": "Flattened epidermis with hyperkeratosis and reduced basal pigment. (Time: 1783s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Hypopigmented Mycosis Fungoides",
+    "definition": "A variant of cutaneous T-cell lymphoma presenting with hypopigmented patches, common in children and darker skin types.",
+    "tags": [
+      "Skin::Neoplastic::Hematolymphoid::Hypopigmented_Mycosis_Fungoides"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Hypopigmented patches in non-sun-exposed distribution.",
+    "pathogenesis": "Cytotoxic T-cell mediated destruction of melanocytes (often CD8+ phenotype).",
+    "macroscopic": "Hypopigmented patches.",
+    "microscopic": "Epidermotropism of atypical lymphocytes (can be haloed) without significant spongiosis. Lymphocytes line up along the basal layer ('tagging'). Little to no melanin.",
+    "ancillary_studies": "IHC: CD3+, CD8+ (often positive in this variant), CD4- (variable). CD7 loss.",
+    "differential_diagnosis": "Vitiligo, Pityriasis alba.",
+    "staging": "TNM staging for MF.",
+    "prognosis_and_prediction": "Generally indolent course.",
+    "related_figures": [
+      {
+        "id": "Slide_39",
+        "src": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0039.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0039.jpg",
+        "diagnosis": "Hypopigmented Mycosis Fungoides",
+        "legend": "Atypical lymphocytes with halos in the epidermis without spongiosis. (Time: 1989s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Pityriasis Versicolor",
+    "definition": "Superficial fungal infection caused by Malassezia species presenting with pigmentary changes.",
+    "tags": [
+      "Skin::Infectious::Fungal::Pityriasis_Tinea_Versicolor"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Hyper- or hypopigmented scaly macules on the trunk/shoulders.",
+    "pathogenesis": "*Malassezia globosa/furfur* (dimorphic fungus). Hypopigmentation caused by azelaic acid production (inhibits tyrosinase).",
+    "macroscopic": "Fine branny scale.",
+    "microscopic": "Fungal spores and short hyphae ('spaghetti and meatballs') visible in the stratum corneum. Minimal to no inflammation.",
+    "ancillary_studies": "PAS or GMS stain: Highlights fungal elements.",
+    "differential_diagnosis": "Vitiligo, Pityriasis alba, Confluent and Reticulated Papillomatosis.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Curable with antifungals.",
+    "related_figures": [
+      {
+        "id": "Slide_41",
+        "src": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0041.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0041.jpg",
+        "diagnosis": "Pityriasis Versicolor",
+        "legend": "Spores and hyphae in stratum corneum ('spaghetti and meatballs'). (Time: 2106s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Melanotic Macule",
+    "definition": "Benign hyperpigmented macule commonly found on the lips or genitalia.",
+    "tags": [
+      "Skin::Neoplastic::Melanocytic::Benign::Melanotic_Macule_Labial_Oral"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Brown to black macule on lip (labial) or genital mucosa.",
+    "pathogenesis": "Focal increase in melanin production.",
+    "macroscopic": "Uniform pigment.",
+    "microscopic": "Hyperpigmentation of the basal layer. Normal number of melanocytes. No solar elastosis (unlike solar lentigo).",
+    "ancillary_studies": "N/A",
+    "differential_diagnosis": "Lentigo simplex, Solar lentigo, Melanoma.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Benign.",
+    "related_figures": [
+      {
+        "id": "Slide_44",
+        "src": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0044.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0044.jpg",
+        "diagnosis": "Melanotic Macule",
+        "legend": "Basal layer hyperpigmentation without melanocytic hyperplasia. (Time: 2159s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Incontinentia Pigmenti",
+    "definition": "X-linked dominant genodermatosis affecting skin, teeth, eyes, and CNS, lethal in males.",
+    "tags": [
+      "Skin::Congenital_Structural::Genodermatosis::Incontinentia_Pigmenti"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Four stages: 1. Vesicular (Blaschkoid), 2. Verrucous, 3. Hyperpigmented (whorled), 4. Hypopigmented/Atrophic.",
+    "pathogenesis": "Mutation in *IKBKG* (NEMO) gene. Chromosomal instability.",
+    "macroscopic": "Blisters -> Warts -> Swirls of pigment -> Atrophy.",
+    "microscopic": "Stage 1: Eosinophilic spongiosis, intraepidermal vesicles with eosinophils. Stage 2: Acanthosis, dyskeratotic keratinocytes. Stage 3: Prominent pigment incontinence (melanophages). Stage 4: Atrophic epidermis, loss of appendages.",
+    "ancillary_studies": "N/A",
+    "differential_diagnosis": "Stage 1: Eosinophilic spongiosis differentials (Pemphigus, BP, Arthropod, Drug).",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Depends on systemic involvement.",
+    "related_figures": [
+      {
+        "id": "Slide_48",
+        "src": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0048.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0048.jpg",
+        "diagnosis": "Incontinentia Pigmenti (Stage 1)",
+        "legend": "Vesicular stage with prominent eosinophilic spongiosis. (Time: 2315s)"
+      },
+      {
+        "id": "Slide_51",
+        "src": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0051.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0051.jpg",
+        "diagnosis": "Incontinentia Pigmenti (Stage 2)",
+        "legend": "Verrucous stage with dyskeratotic keratinocytes. (Time: 2436s)"
+      },
+      {
+        "id": "Slide_52",
+        "src": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0052.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0052.jpg",
+        "diagnosis": "Incontinentia Pigmenti (Stage 3)",
+        "legend": "Hyperpigmented stage with dermal melanophages. (Time: 2483s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Melasma",
+    "definition": "Acquired hypermelanosis of sun-exposed areas, typically on the face.",
+    "tags": [
+      "Skin::Disorders_of_Pigmentation::Hyperpigmentation::Melasma"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Symmetric brown patches on the face (malar, centrofacial). Associated with pregnancy ('mask of pregnancy') and OCPs.",
+    "pathogenesis": "Hormonal influence and UV radiation stimulate melanocytes.",
+    "macroscopic": "Reticulated brown patches.",
+    "microscopic": "Increased melanin in basal and suprabasal epidermis. Melanocytes may appear larger with prominent dendrites but are not increased in number. Dermal melanophages (pigment incontinence) often present.",
+    "ancillary_studies": "Fontana-Masson: Highlights increased epidermal melanin.",
+    "differential_diagnosis": "Post-inflammatory hyperpigmentation, Solar lentigo.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Recalcitrant; worsens with sun exposure.",
+    "related_figures": [
+      {
+        "id": "Slide_56",
+        "src": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0056.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0056.jpg",
+        "diagnosis": "Melasma",
+        "legend": "Melan-A showing hyperactive dendritic melanocytes. (Time: 2542s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Becker Nevus",
+    "definition": "Acquired cutaneous hamartoma presenting as a hyperpigmented patch with hypertrichosis.",
+    "tags": [
+      "Skin::Disorders_of_Pigmentation::Becker_Nevus"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Large brown patch on shoulder/chest/back, often developing coarse hair in adolescence. Androgen sensitive.",
+    "pathogenesis": "Androgen sensitivity.",
+    "macroscopic": "Hyperpigmented patch with hypertrichosis.",
+    "microscopic": "Epidermal acanthosis with basal layer hyperpigmentation. Smooth muscle hamartoma (thickened bundles of smooth muscle) in the dermis (requires punch biopsy/depth to see). Normal number of melanocytes.",
+    "ancillary_studies": "N/A",
+    "differential_diagnosis": "Congenital melanocytic nevus, Smooth muscle hamartoma.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Benign.",
+    "related_figures": [
+      {
+        "id": "Slide_59",
+        "src": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0059.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0059.jpg",
+        "diagnosis": "Becker Nevus",
+        "legend": "Basal hyperpigmentation accompanied by dermal smooth muscle hyperplasia. (Time: 2656s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Dowling-Degos Disease",
+    "definition": "Autosomal dominant genodermatosis characterized by reticulated hyperpigmentation of flexural areas.",
+    "tags": [
+      "Skin::Disorders_of_Pigmentation::Dowling_Degos_Disease"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Reticulated pigment in axilla/groin. Comedo-like lesions.",
+    "pathogenesis": "Germline mutation in *KRT5*. (Variant: Galli-Galli disease). Acropigmentation of Kitamura (ADAM10 mutation).",
+    "macroscopic": "Reticulated pigment, pitted scars.",
+    "microscopic": "Filiform, antler-like downgrowths of rete ridges with hyperpigmentation. Dilated follicular infundibula (comedo-like). Galli-Galli variant shows focal acantholysis.",
+    "ancillary_studies": "N/A",
+    "differential_diagnosis": "Seborrheic keratosis (reticulated), Acanthosis nigricans.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Benign.",
+    "related_figures": [
+      {
+        "id": "Slide_62",
+        "src": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0062.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0062.jpg",
+        "diagnosis": "Dowling-Degos Disease",
+        "legend": "Filiform rete ridge elongation with basal hyperpigmentation. (Time: 2780s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Hemochromatosis (Cutaneous)",
+    "definition": "Cutaneous hyperpigmentation resulting from iron overload.",
+    "tags": [
+      "Skin::Depositional_Metabolic::Pigment::Monsel_Reaction"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Bronze or grayish hyperpigmentation in sun-exposed areas.",
+    "pathogenesis": "Systemic iron overload. Iron deposition in dermis stimulates melanocytes to produce melanin.",
+    "macroscopic": "Metallic grey/bronze discoloration.",
+    "microscopic": "Iron deposits in dermis (around eccrine glands and vessels). Concomitant basal layer hyperpigmentation (melanin).",
+    "ancillary_studies": "Perls (Prussian Blue): Positive for iron (blue). Fontana-Masson: Positive for basal melanin.",
+    "differential_diagnosis": "Drug-induced pigmentation, Argyria.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Systemic management required.",
+    "related_figures": [
+      {
+        "id": "Slide_66",
+        "src": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0066.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0066.jpg",
+        "diagnosis": "Hemochromatosis",
+        "legend": "Perls stain showing blue iron deposits around eccrine glands. (Time: 2919s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Drug-Induced Hyperpigmentation",
+    "definition": "Cutaneous pigmentation caused by deposition of drug complexes or induction of melanin.",
+    "tags": [
+      "Skin::Depositional_Metabolic::Pigment::Drug_Induced_Pigmentation"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Photodistributed gray-blue discoloration. Common culprits: Minocycline, Amiodarone, Imipramine.",
+    "pathogenesis": "Drug-melanin complexes or iron deposition.",
+    "macroscopic": "Blue-grey pigmentation.",
+    "microscopic": "Pigmented macrophages (histiocytes) in the dermis, often extending full thickness. Pigment appears brownish-black.",
+    "ancillary_studies": "Fontana-Masson: Positive (stains melanin-drug complex). Perls (Iron): Positive (stains iron/drug complex).",
+    "differential_diagnosis": "Post-inflammatory pigment alteration (usually superficial), Hemochromatosis.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "May persist after discontinuation.",
+    "related_figures": [
+      {
+        "id": "Slide_68",
+        "src": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0068.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0068.jpg",
+        "diagnosis": "Drug-Induced Hyperpigmentation",
+        "legend": "Deep dermal pigmented macrophages. (Time: 2960s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Tinea Nigra",
+    "definition": "Superficial fungal infection of acral skin.",
+    "tags": [
+      "Skin::Infectious::Fungal::Tinea_Nigra"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Brown-black macule on palms or soles.",
+    "pathogenesis": "Caused by *Hortaea werneckii* (formerly *Exophiala werneckii*), a dematiaceous (pigment-producing) fungus.",
+    "macroscopic": "Pigmented macule.",
+    "microscopic": "Pigmented (yellow-brown) hyphae in the stratum corneum.",
+    "ancillary_studies": "N/A",
+    "differential_diagnosis": "Acral nevus, Melanoma.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Benign.",
+    "related_figures": [
+      {
+        "id": "Slide_71",
+        "src": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0071.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0071.jpg",
+        "diagnosis": "Tinea Nigra",
+        "legend": "Pigmented fungal hyphae within the stratum corneum. (Time: 3073s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Ochronosis",
+    "definition": "Deposition of polymerized homogentisic acid in connective tissue.",
+    "tags": [
+      "Skin::Depositional_Metabolic::Pigment::Ochronosis_Exogenous_Endogenous"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Blue-black discoloration, often on face (exogenous) or ears/sclera (endogenous).",
+    "pathogenesis": "Endogenous: Alkaptonuria (Homogentisic acid oxidase deficiency). Exogenous: Hydroquinone use (local inhibition of homogentisic acid oxidase -> polymerization).",
+    "macroscopic": "Blue-black pigmentation.",
+    "microscopic": "Yellow-brown, banana-shaped or curvilinear coarse fibers in the dermis (modified collagen/elastin).",
+    "ancillary_studies": "N/A",
+    "differential_diagnosis": "Solar elastosis.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Permanent dermal change.",
+    "related_figures": [
+      {
+        "id": "Slide_74",
+        "src": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0074.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0074.jpg",
+        "diagnosis": "Ochronosis",
+        "legend": "Yellow-brown banana-shaped fibers in the dermis. (Time: 3179s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Talon Noir",
+    "definition": "Traumatic intracorneal hemorrhage mimicking a melanocytic lesion.",
+    "tags": [
+      "Skin::Traumatic::Talon_Noir"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Black macule on heel (Black Heel).",
+    "pathogenesis": "Trauma/shear force causing hemorrhage.",
+    "macroscopic": "Black punctate macule.",
+    "microscopic": "Collections of red blood cells (or old blood) within the stratum corneum/stratum spinosum. No melanocytes involved.",
+    "ancillary_studies": "N/A",
+    "differential_diagnosis": "Melanoma, Acral nevus, Verruca.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Resolution with desquamation.",
+    "related_figures": [
+      {
+        "id": "Slide_75",
+        "src": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0075.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0075.jpg",
+        "diagnosis": "Talon Noir",
+        "legend": "Intracorneal hemorrhage; red blood cells in stratum corneum. (Time: 3218s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Tattoo Reaction",
+    "definition": "Histological response to exogenous tattoo pigment.",
+    "tags": [
+      "Skin::Depositional_Metabolic::Pigment::Tattoo_Reaction"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Varies; can be allergic, granulomatous, or pseudolymphomatous.",
+    "pathogenesis": "Foreign body reaction or hypersensitivity (Red ink/Cinnabar frequent cause).",
+    "macroscopic": "Pigmented skin.",
+    "microscopic": "Extracellular and intracellular pigment. Black pigment is opaque. Patterns: Lichenoid, Granulomatous (Sarcoidal), Pseudolymphomatous. Pigment often visible in lymph nodes.",
+    "ancillary_studies": "N/A",
+    "differential_diagnosis": "Melanoma (if black pigment), Sarcoidosis (if granulomatous).",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Depends on reaction type.",
+    "related_figures": [
+      {
+        "id": "Slide_78",
+        "src": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0078.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0078.jpg",
+        "diagnosis": "Tattoo Reaction",
+        "legend": "Pseudolymphomatous reaction to tattoo pigment. (Time: 3276s)"
+      },
+      {
+        "id": "Slide_80",
+        "src": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0080.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0080.jpg",
+        "diagnosis": "Tattoo Reaction",
+        "legend": "Granulomatous reaction mimicking sarcoidosis. (Time: 3310s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Fixed Drug Eruption",
+    "definition": "A distinctive drug reaction recurring at the same site.",
+    "tags": [
+      "Skin::Inflammatory::Drug_Eruption::Fixed_Drug_Eruption"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Round, dusky erythematous or violaceous patch, recur at same site.",
+    "pathogenesis": "CD8+ T-cell mediated.",
+    "macroscopic": "Hyperpigmented patch (chronic).",
+    "microscopic": "Interface dermatitis with necrotic keratinocytes. Prominent pigment incontinence (melanophages) in dermis. Eosinophils and neutrophils often present.",
+    "ancillary_studies": "N/A",
+    "differential_diagnosis": "Erythema multiforme, Lichen planus.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Resolves with hyperpigmentation.",
+    "related_figures": [
+      {
+        "id": "Slide_81",
+        "src": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0081.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0081.jpg",
+        "diagnosis": "Fixed Drug Eruption",
+        "legend": "Interface dermatitis with prominent deep pigment incontinence. (Time: 3322s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Amalgam Tattoo",
+    "definition": "Oral mucosal pigmentation caused by implantation of dental amalgam.",
+    "tags": [
+      "Skin::Depositional_Metabolic::Pigment::Amalgam_Tattoo"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Blue-grey macule on gingiva or mucosa.",
+    "pathogenesis": "Implantation of silver/mercury amalgam.",
+    "macroscopic": "Blue-black macule.",
+    "microscopic": "Dark, fine granules coating collagen and elastic fibers (silver affinity for fibers). Little inflammation.",
+    "ancillary_studies": "N/A",
+    "differential_diagnosis": "Melanoma, Melanotic macule.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Benign.",
+    "related_figures": [
+      {
+        "id": "Slide_86",
+        "src": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0086.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_13_pigment_disorders/Derm_Lecture_13_pigment_disorders_slide_0086.jpg",
+        "diagnosis": "Amalgam Tattoo",
+        "legend": "Dark pigment granules coating collagen fibers. (Time: 3388s)"
+      }
+    ]
+  }
+]

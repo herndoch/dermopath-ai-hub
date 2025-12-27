@@ -3,6 +3,7 @@ import { Search, Info, ArrowRight, Database, Microscope, PlayCircle, Play, Spark
 // diseaseData import removed to prevent bundling
 import { DiseaseEntity, MediaItem } from './types';
 import EntityDetail from './components/EntityDetail';
+import ImageModal from './components/ImageModal';
 import ErrorBoundary from './components/ErrorBoundary';
 import { Sidebar } from './components/Sidebar';
 import { getImageUrl } from './utils/media';
@@ -23,12 +24,13 @@ function App() {
   const [isAISearching, setIsAISearching] = useState(false);
   const [aiAnswer, setAiAnswer] = useState<string | null>(null);
   const [aiMedia, setAiMedia] = useState<MediaItem[]>([]);
+  const [selectedAiMedia, setSelectedAiMedia] = useState<MediaItem | null>(null);
   const [aiAnalysis, setAiAnalysis] = useState<{ target_entity_name: string | null; keywords: string[]; target_section: string | null } | null>(null);
 
   React.useEffect(() => {
     console.log("DermPath Hub v3.3 - Production Build (Dynamic Data Fetching)");
 
-    fetch('Skin_Global_Leaf_Optimized.json')
+    fetch('GLOBAL_KNOWLEDGE_BASE.json')
       .then(res => {
         if (!res.ok) throw new Error("Failed to load data");
         return res.json();
@@ -242,19 +244,20 @@ function App() {
       }
 
       // Aggregate Media
-      const allAggregatedMedia: MediaItem[] = [];
+      const allAggregatedMedia: (MediaItem & { entityName?: string })[] = [];
       const sourcesToUse = matchingEntities.length > 0 ? matchingEntities : (targetEntity ? [targetEntity] : []);
 
       sourcesToUse.forEach(e => {
         if (e.related_figures) {
           e.related_figures.forEach(f => {
             allAggregatedMedia.push({
-              type: f.isWSI ? 'wsi' : (f.timestamp ? 'lecture_slide' : 'figure'),
+              type: f.isWSI ? 'wsi' : ((f.timestamp !== null && f.timestamp !== undefined) ? 'lecture_slide' : 'figure'),
               path: f.gcs_path?.replace('gs://pathology-hub-0/', '') || undefined,
               url: f.wsi_link || undefined,
               legend: f.legend || e.entity_name,
-              timestamp: f.timestamp
-            } as MediaItem);
+              timestamp: f.timestamp,
+              entityName: e.entity_name
+            });
           });
         }
       });
@@ -300,20 +303,8 @@ function App() {
   console.log('App rendering with filtered data count:', filteredData.length);
 
   const handleAIMediaClick = (item: MediaItem) => {
-    // Find the entity it belongs to (a bit hacky, but sufficient for this context since we just have the item)
-    // Actually, simplest is to just open it in a basic view or rely on user navigating to entity.
-    // But for better UX, let's just open the image in a new tab for now, or ideally trigger the modal.
-    // Since EntityDetail isn't mounted, we can't easily trigger its modal. 
-    // Let's just let the user click the entity to see full details.
     if (selectedEntity) return;
-    // We can set the selected entity to the targetEntity found in search if we tracked it in state, 
-    // but 'handleAISearch' scope is closed. 
-    // Improving this: We will just display the image clearly.
-    if (item.url) window.open(item.url, '_blank');
-    else if (item.path) {
-      const url = getImageUrl(item.path);
-      if (url) window.open(url, '_blank');
-    }
+    setSelectedAiMedia(item);
   };
 
 
@@ -461,7 +452,7 @@ function App() {
                       timestamp: m.timestamp ?? (m as any).t
                     })),
                     ...(item.related_figures || []).map(fig => ({
-                      type: fig.isWSI ? 'wsi' : (fig.timestamp !== null ? 'lecture_slide' : 'figure') as any,
+                      type: fig.isWSI ? 'wsi' : ((fig.timestamp !== null && fig.timestamp !== undefined) ? 'lecture_slide' : 'figure') as any,
                       path: fig.gcs_path?.replace('gs://pathology-hub-0/', '') || undefined,
                       url: fig.wsi_link || undefined,
                       legend: fig.legend || undefined,
@@ -614,6 +605,11 @@ function App() {
           <p>&copy; {new Date().getFullYear()} DermoPath AI. Educational use only.</p>
         </footer>
       </div>
+      <ImageModal
+        media={selectedAiMedia}
+        onClose={() => setSelectedAiMedia(null)}
+        title={(selectedAiMedia as any)?.entityName}
+      />
     </div>
   );
 }

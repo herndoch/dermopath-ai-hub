@@ -1,0 +1,408 @@
+[
+  {
+    "entity_name": "Hemosiderin Deposition (Iron)",
+    "definition": "Dermal accumulation of hemosiderin pigment, often secondary to stasis, hemorrhage, or inflammation.",
+    "tags": [
+      "Skin::Disorders_of_Pigmentation::Postinflammatory_Pigment_Alteration"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Pigmented lesions, often on the lower legs (stasis).",
+    "pathogenesis": "Breakdown of red blood cells leading to iron accumulation in macrophages (siderophages).",
+    "macroscopic": "Brown or golden-brown pigmentation.",
+    "microscopic": "Coarse, refractive yellow-brown granules in the dermis, typically within siderophages or extracellular.",
+    "ancillary_studies": "Perls (Prussian Blue) stain: Positive (granular blue staining). Fontana-Masson: Negative.",
+    "differential_diagnosis": "Melanin pigmentation (Fontana-Masson positive), Tattoo pigment, Drug-induced pigmentation.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Benign; persistence depends on underlying cause.",
+    "related_figures": [
+      {
+        "id": "Slide_4",
+        "src": "_asset_library/lectures/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION_slide_0004.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION_slide_0004.jpg",
+        "diagnosis": "Hemosiderin Deposition",
+        "legend": "Perls stain showing numerous cells in the dermis picking up the blue granular stain (siderophages). (Time: 130s)"
+      },
+      {
+        "id": "Slide_13",
+        "src": "_asset_library/lectures/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION_slide_0013.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION_slide_0013.jpg",
+        "diagnosis": "Hemosiderin Deposition",
+        "legend": "Perls stain highlighting hemosiderin blue, distinguishing it from melanin. (Time: 244s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Melanin Pigmentation (Seborrheic Keratosis)",
+    "definition": "Accumulation of melanin pigment within keratinocytes or melanophages.",
+    "tags": [
+      "Skin::Neoplastic::Epidermal::Benign::Seborrheic_Keratosis_NOS"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Tan to black stuck-on papules or plaques.",
+    "pathogenesis": "Benign proliferation of keratinocytes with increased melanin transfer.",
+    "macroscopic": "Verrucous, pigmented lesions.",
+    "microscopic": "Acanthosis, papillomatosis, horn cysts, and hyperpigmentation of basal keratinocytes.",
+    "ancillary_studies": "Fontana-Masson: Positive (Black). Schmorl stain: Positive (Green). Perls stain: Negative.",
+    "differential_diagnosis": "Hemosiderin (Perls+), Drug-induced pigmentation (may be Fontana+ and Perls+).",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Benign.",
+    "related_figures": [
+      {
+        "id": "Slide_14",
+        "src": "_asset_library/lectures/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION_slide_0014.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION_slide_0014.jpg",
+        "diagnosis": "Seborrheic Keratosis",
+        "legend": "Fontana-Masson stain turning melanin pigment black within the lesion. (Time: 310s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Solar Elastosis",
+    "definition": "Degenerative changes in dermal elastic tissue induced by chronic ultraviolet radiation exposure.",
+    "tags": [
+      "Skin::Inflammatory::Degenerative::Solar_Elastosis"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Thickened, yellowed, leathery skin (actinic damage).",
+    "pathogenesis": "UV-induced upregulation of elastases and degradation of elastic fibers.",
+    "macroscopic": "Yellowish discoloration (solar elastosis).",
+    "microscopic": "Accumulation of basophilic, amorphous, or thickened elastic fibers in the upper dermis. Normal elastic fibers are distinct bundles; solar elastosis appears jumbled.",
+    "ancillary_studies": "Verhoeff-Van Gieson (VVG/EVG): Stains elastic fibers black/gray. Highlights the jumbled accumulation in solar elastosis vs. fine oxytalan fibers in normal papillary dermis.",
+    "differential_diagnosis": "Normal skin (orderly elastic fibers), Pseudoxanthoma Elasticum (calcified elastic fibers).",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Indicator of cumulative sun damage.",
+    "related_figures": [
+      {
+        "id": "Slide_22",
+        "src": "_asset_library/lectures/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION_slide_0022.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION_slide_0022.jpg",
+        "diagnosis": "Normal Skin (Elastin)",
+        "legend": "Elastic tissue stain showing normal large black elastin bundles in the reticular dermis. (Time: 435s)"
+      },
+      {
+        "id": "Slide_25",
+        "src": "_asset_library/lectures/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION_slide_0025.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION_slide_0025.jpg",
+        "diagnosis": "Solar Elastosis",
+        "legend": "Elastic tissue stain showing breakdown and jumbled accumulation of elastin fibers characteristic of solar elastosis. (Time: 546s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Cutaneous Mucinosis",
+    "definition": "Abnormal accumulation of mucin (glycosaminoglycans) in the dermis.",
+    "tags": [
+      "Skin::Depositional_Metabolic::Mucinosis::Focal_Cutaneous_Mucinosis"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Dependent on subtype (e.g., papules, plaques, diffuse induration).",
+    "pathogenesis": "Overproduction of hyaluronic acid by fibroblasts.",
+    "macroscopic": "Often normal or edematous.",
+    "microscopic": "Amorphous, basophilic (pale blue) material in the dermis separating collagen bundles.",
+    "ancillary_studies": "Colloidal Iron: Positive (Blue). Alcian Blue: Positive (Blue). PAS: Negative (usually).",
+    "differential_diagnosis": "Myxoid cysts, Lupus erythematosus, Dermatomyositis.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Variable.",
+    "related_figures": [
+      {
+        "id": "Slide_39",
+        "src": "_asset_library/lectures/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION_slide_0039.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION_slide_0039.jpg",
+        "diagnosis": "Mucin Deposition (Umbilical Cord Control)",
+        "legend": "Colloidal iron stain showing abundant blue mucin material. (Time: 678s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Cutaneous Fungal Infection (PAS Demonstration)",
+    "definition": "Infection of the skin by fungal organisms (dermatophytes, yeast, or molds).",
+    "tags": [
+      "Skin::Infectious::Fungal::Cutaneous_Fungal_Infection_NOS"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Scaly plaques, pustules, or nodules.",
+    "pathogenesis": "Invasion of stratum corneum or dermis by fungal elements.",
+    "macroscopic": "Variable.",
+    "microscopic": "Hyphae, pseudohyphae, or spores within the stratum corneum or dermis.",
+    "ancillary_studies": "PAS (Periodic Acid-Schiff): Stains fungal cell walls red/pink. PAS-D (PAS with Diastase): Digests glycogen (removing background red) but leaves fungus and basement membrane red. GMS (Grocott Methenamine Silver): Stains fungus black.",
+    "differential_diagnosis": "Clear cell acanthoma (PAS+ glycogen removed by diastase), Paget disease.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Treatable with antifungals.",
+    "related_figures": [
+      {
+        "id": "Slide_47",
+        "src": "_asset_library/lectures/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION_slide_0047.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION_slide_0047.jpg",
+        "diagnosis": "PAS Stain",
+        "legend": "PAS stain highlighting the basement membrane and structures in red. (Time: 760s)"
+      },
+      {
+        "id": "Slide_49",
+        "src": "_asset_library/lectures/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION_slide_0049.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION_slide_0049.jpg",
+        "diagnosis": "PAS-D Stain",
+        "legend": "PAS with Diastase (PAS-D) showing removal of glycogen, highlighting resistant structures (fungus, BMZ). (Time: 802s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Mycobacterial Infection (Tuberculosis/Leprosy)",
+    "definition": "Infection by Mycobacterium species (M. tuberculosis, M. leprae, or atypical mycobacteria).",
+    "tags": [
+      "Skin::Infectious::Bacterial::Tuberculosis"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Plaques, nodules, ulcers.",
+    "pathogenesis": "Intracellular infection by acid-fast bacilli.",
+    "macroscopic": "Granulomatous inflammation.",
+    "microscopic": "Granulomas (caseating or non-caseating). Organisms are slender red rods.",
+    "ancillary_studies": "Fite Stain: Positive (Red/Pink rods/snappers). Preferred over AFB/Kinyoun for M. leprae and atypical mycobacteria due to gentler decolorization.",
+    "differential_diagnosis": "Sarcoidosis, Foreign body granuloma.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Dependent on species and immune status.",
+    "related_figures": [
+      {
+        "id": "Slide_55",
+        "src": "_asset_library/lectures/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION_slide_0055.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION_slide_0055.jpg",
+        "diagnosis": "Tuberculosis (Lung Control)",
+        "legend": "Fite stain showing small red bacilli (Mycobacteria) within the tissue. (Time: 1007s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Cutaneous Bacterial Infection (Gram Positive)",
+    "definition": "Skin infection by bacteria, commonly Staphylococcus or Streptococcus.",
+    "tags": [
+      "Skin::Infectious::Bacterial::Cutaneous_Bacterial_Infection_NOS"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Abscess, cellulitis, impetigo.",
+    "pathogenesis": "Bacterial proliferation and neutrophilic response.",
+    "macroscopic": "Purulent, erythematous.",
+    "microscopic": "Neutrophilic infiltrate (suppurative). Bacteria appear as small clusters or chains of cocci.",
+    "ancillary_studies": "Gram Stain: Gram-positive organisms stain blue/purple. Brown-Brenn: Modified Gram stain. Microorganisms are significantly smaller than host cell nuclei.",
+    "differential_diagnosis": "Fungal infection (yeast are size of nuclei, bacteria are smaller).",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Antibiotic responsive.",
+    "related_figures": [
+      {
+        "id": "Slide_57",
+        "src": "_asset_library/lectures/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION_slide_0057.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION_slide_0057.jpg",
+        "diagnosis": "Bacterial Infection",
+        "legend": "Gram stain showing clusters (tetrads) of blue/purple Gram-positive cocci. (Time: 1202s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Lichen Amyloidosis",
+    "definition": "A form of primary cutaneous amyloidosis characterized by keratin-derived amyloid deposition in the papillary dermis, associated with chronic friction.",
+    "tags": [
+      "Skin::Depositional_Metabolic::Amyloidosis::Amyloidosis_Lichen"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Pruritic, hyperkeratotic papules, often on shins.",
+    "pathogenesis": "Chronic scratching leads to keratinocyte necrosis; filamentous degeneration of keratin forms amyloid (Keratin-derived).",
+    "macroscopic": "Lichenified plaques/papules.",
+    "microscopic": "Amorphous eosinophilic globules in the papillary dermis. Acanthosis, hyperkeratosis. May show syringofibroadenomatous hyperplasia in extreme cases.",
+    "ancillary_studies": "Congo Red: Positive (Green birefringence). Keratin stains (CK5/6, HMWK): Positive. Light chains: Negative.",
+    "differential_diagnosis": "Lichen simplex chronicus, Macular amyloidosis, Colloid milium.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Persistent, itch-scratch cycle driven.",
+    "related_figures": [
+      {
+        "id": "Slide_60",
+        "src": "_asset_library/lectures/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION_slide_0060.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION_slide_0060.jpg",
+        "diagnosis": "Lichen Amyloidosis (Extreme)",
+        "legend": "Large collection of amorphous purple substance in the dermis. (Time: 1460s)"
+      },
+      {
+        "id": "Slide_80",
+        "src": "_asset_library/lectures/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION_slide_0080.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION_slide_0080.jpg",
+        "diagnosis": "Lichen Amyloidosis with Syringofibroadenoma",
+        "legend": "Extreme Lichen Amyloidosis showing elongated, intertwining eccrine ducts (syringofibroadenomatosis). (Time: 1704s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Nodular Amyloidosis",
+    "definition": "Primary cutaneous amyloidosis characterized by immunoglobulin light chain deposition (AL amyloid).",
+    "tags": [
+      "Skin::Depositional_Metabolic::Amyloidosis::Amyloidosis_Nodular"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Waxy nodules, plaques, purpura.",
+    "pathogenesis": "Local plasma cell proliferation producing light chains (AL amyloid). Can be associated with systemic amyloidosis (rarely) or injection sites.",
+    "macroscopic": "Large nodules.",
+    "microscopic": "Large, diffuse masses of amorphous eosinophilic fissured material extending deep into the dermis and subcutis. Numerous plasma cells often present.",
+    "ancillary_studies": "Congo Red: Positive. Kappa/Lambda: Monotypic restriction common. Keratin stains: Negative.",
+    "differential_diagnosis": "Lichen amyloidosis (superficial only), Colloid milium, Lipoid proteinosis.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Low risk of progression to systemic disease, but workup recommended.",
+    "related_figures": [
+      {
+        "id": "Slide_143",
+        "src": "_asset_library/lectures/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION_slide_0143.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION_slide_0143.jpg",
+        "diagnosis": "Nodular Amyloidosis",
+        "legend": "Deep dermal nodules of amyloid, not limited to the papillary dermis. (Time: 2859s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Calciphylaxis",
+    "definition": "Calcific uremic arteriolopathy characterized by vascular calcification and thrombosis leading to ischemia.",
+    "tags": [
+      "Skin::Depositional_Metabolic::Calcification::Calciphylaxis"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Violaceous, painful, indurated plaques progressing to necrosis/ulceration.",
+    "pathogenesis": "Calcium deposition in small vessel walls, thrombosis, and ischemia. Often in ESRD.",
+    "macroscopic": "Subcutaneous calcification.",
+    "microscopic": "Calcification of small vessel walls (capillaries/arterioles) in the subcutaneous fat. Extravascular calcium in fat lobules. Thrombotic vasculopathy. Epidermal necrosis (late).",
+    "ancillary_studies": "Von Kossa (Black) or Alizarin Red (Red) for calcium.",
+    "differential_diagnosis": "Monckeberg medial calcific sclerosis (larger vessels, no thrombosis), Dystrophic calcinosis, Metastatic calcinosis.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "High mortality rate.",
+    "related_figures": [
+      {
+        "id": "Slide_84",
+        "src": "_asset_library/lectures/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION_slide_0084.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION_slide_0084.jpg",
+        "diagnosis": "Calciphylaxis",
+        "legend": "Purple wispy calcium deposition in the subcutaneous fat. (Time: 1879s)"
+      },
+      {
+        "id": "Slide_88",
+        "src": "_asset_library/lectures/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION_slide_0088.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION_slide_0088.jpg",
+        "diagnosis": "Calciphylaxis",
+        "legend": "Calcification of the blood vessel wall within the subcutaneous fat. (Time: 1934s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Tattoo Reaction",
+    "definition": "Cutaneous reaction to exogenous tattoo pigment.",
+    "tags": [
+      "Skin::Depositional_Metabolic::Pigment::Tattoo_Reaction"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Induration, erythema, or nodules within a tattoo.",
+    "pathogenesis": "Foreign body reaction or hypersensitivity (common with red ink).",
+    "macroscopic": "Pigmented dermis.",
+    "microscopic": "Exogenous pigment granules (uniform size) in the dermis, intracellular (macrophages) and extracellular. Red ink often elicits lymphoplasmacytic or pseudolymphomatous infiltrates.",
+    "ancillary_studies": "None usually required. Pigment is refractile but not birefringent like foreign material.",
+    "differential_diagnosis": "Blue nevus, Melanoma (biologic pigment varies in size/shape).",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Benign; may require removal or steroid treatment.",
+    "related_figures": [
+      {
+        "id": "Slide_105",
+        "src": "_asset_library/lectures/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION_slide_0105.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION_slide_0105.jpg",
+        "diagnosis": "Tattoo Reaction",
+        "legend": "Fine, granular exogenous pigment in the dermis (Red ink). (Time: 2178s)"
+      },
+      {
+        "id": "Slide_114",
+        "src": "_asset_library/lectures/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION_slide_0114.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION_slide_0114.jpg",
+        "diagnosis": "Tattoo Reaction",
+        "legend": "Inflammatory reaction (pseudolymphomatous) to red tattoo ink. (Time: 2275s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Macular Amyloidosis",
+    "definition": "A form of primary cutaneous amyloidosis with subtle amyloid deposition in the papillary dermis.",
+    "tags": [
+      "Skin::Depositional_Metabolic::Amyloidosis::Amyloidosis_Macular"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Hyperpigmented patches, often with a rippled pattern (e.g., interscapular). Associated with Notalgia Paresthetica.",
+    "pathogenesis": "Friction/scratching -> keratinocyte necrosis -> amyloid formation.",
+    "macroscopic": "Hyperpigmentation.",
+    "microscopic": "Subtle, small eosinophilic globules in the papillary dermis. Melanophages present. Occasional necrotic/dyskeratotic keratinocytes in basal layer.",
+    "ancillary_studies": "Congo Red: Positive. CK5/6 or HMWK: Positive (keratin origin).",
+    "differential_diagnosis": "Post-inflammatory hyperpigmentation, Civatte bodies (Lichen Planus).",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Chronic course.",
+    "related_figures": [
+      {
+        "id": "Slide_130",
+        "src": "_asset_library/lectures/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION_slide_0130.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION_slide_0130.jpg",
+        "diagnosis": "Macular Amyloidosis",
+        "legend": "Subtle amyloid in papillary dermis with melanophages and occasional dyskeratotic keratinocytes. (Time: 2396s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Argyria",
+    "definition": "Cutaneous deposition of silver granules.",
+    "tags": [
+      "Skin::Depositional_Metabolic::Pigment::Argyria"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Slate-gray or blue discoloration of sun-exposed skin.",
+    "pathogenesis": "Ingestion of colloidal silver or local implantation.",
+    "macroscopic": "Gray/Blue skin.",
+    "microscopic": "Tiny, uniform black granules depositing preferentially on elastic fibers and the basement membrane of eccrine glands.",
+    "ancillary_studies": "Darkfield microscopy: Granules appear bright white (\"stars in the sky\").",
+    "differential_diagnosis": "Chrysiasis (Gold - larger granules), Mercury, Ochronosis (larger yellow-brown banana bodies).",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Permanent discoloration.",
+    "related_figures": [
+      {
+        "id": "Slide_138",
+        "src": "_asset_library/lectures/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION_slide_0138.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION_slide_0138.jpg",
+        "diagnosis": "Argyria",
+        "legend": "Fine granules depositing on elastin fibers. (Time: 2576s)"
+      },
+      {
+        "id": "Slide_140",
+        "src": "_asset_library/lectures/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION_slide_0140.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION_slide_0140.jpg",
+        "diagnosis": "Argyria",
+        "legend": "Granules depositing around the basement membrane of eccrine glands (diagnostic feature). (Time: 2641s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Gout (Gouty Tophus)",
+    "definition": "Deposition of monosodium urate crystals in the dermis or subcutis.",
+    "tags": [
+      "Skin::Depositional_Metabolic::Crystal::Gout_Urate_Crystal"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Firm, painful nodules (tophi), often on the ear helix or digits.",
+    "pathogenesis": "Hyperuricemia leading to crystal precipitation.",
+    "macroscopic": "Chalky white material.",
+    "microscopic": "Pale pink, amorphous material in the dermis composed of feathery/needle-like crystal shadows (dissolved by formalin). Surrounded by palisaded granulomas (histiocytes/giant cells).",
+    "ancillary_studies": "Alcohol fixation (preserves crystals). Fresh tissue: Negatively birefringent needle-shaped crystals. CD68: Highlights surrounding histiocytes.",
+    "differential_diagnosis": "Pseudogout (calcium pyrophosphate - rhomboid, weakly positive birefringence), Rheumatoid nodule.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Managed with urate-lowering therapy.",
+    "related_figures": [
+      {
+        "id": "Slide_159",
+        "src": "_asset_library/lectures/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION_slide_0159.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION_slide_0159.jpg",
+        "diagnosis": "Gout",
+        "legend": "Pale pink material with a feathery, organized appearance (crystal shadows). (Time: 3094s)"
+      },
+      {
+        "id": "Slide_166",
+        "src": "_asset_library/lectures/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION_slide_0166.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION/Derm_Lecture_5_IHC_Deposits._SLIDE_SESSION_slide_0166.jpg",
+        "diagnosis": "Gout",
+        "legend": "Pseudoepitheliomatous hyperplasia overlying the gouty tophus. (Time: 3382s)"
+      }
+    ]
+  }
+]

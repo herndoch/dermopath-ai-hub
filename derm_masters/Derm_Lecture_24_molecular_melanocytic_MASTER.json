@@ -1,0 +1,158 @@
+[
+  {
+    "entity_name": "Melanoma (WHO Classification Pathways)",
+    "definition": "A classification system categorizing melanomas into nine distinct pathways based on cumulative sun damage (CSD), cell of origin, and molecular alterations.",
+    "tags": [
+      "Skin::Neoplastic::Melanocytic::Malignant::Melanoma_Invasive_Overview_NOS"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Varies by pathway. Includes tumors on intermittently sun-damaged skin (low CSD), heavily sun-damaged skin (high CSD), acral sites, mucosal sites, and congenital nevi.",
+    "pathogenesis": "Categorized into 9 pathways:\n1. Low CSD (superficial spreading, BRAF V600E).\n2. High CSD (lentigo maligna, NRAS/BRAF non-V600E/NF1).\n3. Desmoplastic Melanoma (High CSD, specific molecular signature).\n4. Spitz Melanoma (HRAS, kinase fusions).\n5. Acral Melanoma (Amplifications/deletions, not UV-associated).\n6. Mucosal Melanoma (Amplifications/deletions, not UV-associated).\n7. Melanoma arising in Congenital Nevus (NRAS).\n8. Melanoma arising in Blue Nevus (GNAQ/GNA11).\n9. Uveal Melanoma (GNAQ/GNA11).",
+    "macroscopic": "Variable depending on pathway (e.g., lentiginous patches on sun-damaged skin vs. acral lesions).",
+    "microscopic": "Histopathology does not always perfectly correspond to the pathway (e.g., melanomas on sun-damaged skin may still arise from a nevus).",
+    "ancillary_studies": "Molecular testing (NGS, CGH) used to classify pathways.",
+    "differential_diagnosis": "Melanocytic nevi, Spitz tumors, Melanocytomas.",
+    "staging": "TNM Staging.",
+    "prognosis_and_prediction": "Dependent on stage and molecular pathway. High mutation burden (High CSD) often associated with better response to immune checkpoint blockade. BRAF V600E tumors may respond to BRAF/MEK inhibitors.",
+    "related_figures": [
+      {
+        "id": "Slide_8",
+        "src": "_asset_library/lectures/Derm_Lecture_24_molecular_melanocytic/Derm_Lecture_24_molecular_melanocytic_slide_0008.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_24_molecular_melanocytic/Derm_Lecture_24_molecular_melanocytic_slide_0008.jpg",
+        "diagnosis": "Melanoma",
+        "legend": "Diagram of the WHO pathways to melanoma. (Time: 340s)"
+      },
+      {
+        "id": "Slide_9",
+        "src": "_asset_library/lectures/Derm_Lecture_24_molecular_melanocytic/Derm_Lecture_24_molecular_melanocytic_slide_0009.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_24_molecular_melanocytic/Derm_Lecture_24_molecular_melanocytic_slide_0009.jpg",
+        "diagnosis": "Melanoma",
+        "legend": "Progression model from normal melanocyte to nevus to melanoma. (Time: 518s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Blue Nevus",
+    "definition": "A benign melanocytic neoplasm consisting of dendritic melanocytes located in the dermis, driven by G-protein signaling mutations.",
+    "tags": [
+      "Skin::Neoplastic::Melanocytic::Benign::Blue_Nevus_Common"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Typically presents as a blue to gray papule or nodule.",
+    "pathogenesis": "Activated by mutations in the G-alpha-q signaling pathway. \nMutations (mutually exclusive): GNAQ (most common), GNA11, PLCB4, CYSLTR2.",
+    "macroscopic": "Blue, gray, or black pigmentation.",
+    "microscopic": "Conventional: Dendritic melanocytes and melanophages in the dermis, typically without a junctional component. \nCYSLTR2-mutated variant: Intradermal, spindled melanocytes, distinct morphology different from conventional blue nevus.",
+    "ancillary_studies": "Genetics: GNAQ, GNA11, PLCB4, CYSLTR2 mutations. BAP1 expression is retained (loss suggests malignancy in this context).",
+    "differential_diagnosis": "Malignant Blue Nevus (Melanoma arising in Blue Nevus) - characterized by BAP1 loss.",
+    "staging": "Benign.",
+    "prognosis_and_prediction": "Benign. However, melanoma arising in blue nevus (GNAQ+ with BAP1 loss) is aggressive.",
+    "related_figures": [
+      {
+        "id": "Slide_10",
+        "src": "_asset_library/lectures/Derm_Lecture_24_molecular_melanocytic/Derm_Lecture_24_molecular_melanocytic_slide_0010.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_24_molecular_melanocytic/Derm_Lecture_24_molecular_melanocytic_slide_0010.jpg",
+        "diagnosis": "Blue Nevus",
+        "legend": "Conventional blue nevus with dendritic melanocytes. (Time: 586s)"
+      },
+      {
+        "id": "Slide_14",
+        "src": "_asset_library/lectures/Derm_Lecture_24_molecular_melanocytic/Derm_Lecture_24_molecular_melanocytic_slide_0014.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_24_molecular_melanocytic/Derm_Lecture_24_molecular_melanocytic_slide_0014.jpg",
+        "diagnosis": "Blue Nevus",
+        "legend": "CYSLTR2 mutated blue nevus showing distinct spindled morphology. (Time: 820s)"
+      },
+      {
+        "id": "Slide_69",
+        "src": "_asset_library/lectures/Derm_Lecture_24_molecular_melanocytic/Derm_Lecture_24_molecular_melanocytic_slide_0069.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_24_molecular_melanocytic/Derm_Lecture_24_molecular_melanocytic_slide_0069.jpg",
+        "diagnosis": "Melanoma arising in Blue Nevus",
+        "legend": "Example of malignant progression: GNAQ mutated tumor with BAP1 loss. (Time: 3238s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Spitz Nevus",
+    "definition": "A benign or intermediate melanocytic neoplasm characterized by large epithelioid and/or spindled melanocytes, driven by kinase fusions or HRAS mutations.",
+    "tags": [
+      "Skin::Neoplastic::Melanocytic::Benign::Spitz_Nevus"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Pink to red papule or nodule. Can present with nodal deposits (nodal nevi), which are benign.",
+    "pathogenesis": "Initiating alterations:\n1. HRAS mutations (<25%).\n2. Kinase Fusions (ALK, ROS1, NTRK1, NTRK3, RET, BRAF, MET). \nFusions lead to constitutive activation of the kinase domain.",
+    "macroscopic": "Often dome-shaped, pink or red (vascular).",
+    "microscopic": "General: Large nests, junctional component, clefting around nests, Kamino bodies. \nHRAS-mutated (Desmoplastic): Thickened collagen bundles, predominantly intradermal, fascicles of melanocytes, 'school of fish' pattern, may have dermal mitoses. \nALK-fused: Plexiform, fascicular, 'raining down' pattern, broad and percolating. \nBRAF-fused: Can show large nests, fibrosis, and inflammation; may mimic melanoma.",
+    "ancillary_studies": "IHC: ALK (positive in ALK fusions), ROS1 (positive in ROS1 fusions), NTRK1 (requires titration). \nCGH: Gain of 11p (HRAS), Gain of 7p (BRAF). \nNGS: Detection of fusions (requires tiling introns).",
+    "differential_diagnosis": "Melanoma (Spitzoid), BAP1-inactivated melanocytoma.",
+    "staging": "Benign to Intermediate (Spitz Tumor).",
+    "prognosis_and_prediction": "Generally benign. Nodal deposits can occur (nodal nevi) and do not represent metastasis. BRAF fusions may be a therapeutic target if malignant transformation occurs.",
+    "related_figures": [
+      {
+        "id": "Slide_37",
+        "src": "_asset_library/lectures/Derm_Lecture_24_molecular_melanocytic/Derm_Lecture_24_molecular_melanocytic_slide_0037.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_24_molecular_melanocytic/Derm_Lecture_24_molecular_melanocytic_slide_0037.jpg",
+        "diagnosis": "Spitz Nevus (HRAS)",
+        "legend": "HRAS mutated Spitz nevus with junctional component and inflammation. (Time: 1810s)"
+      },
+      {
+        "id": "Slide_40",
+        "src": "_asset_library/lectures/Derm_Lecture_24_molecular_melanocytic/Derm_Lecture_24_molecular_melanocytic_slide_0040.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_24_molecular_melanocytic/Derm_Lecture_24_molecular_melanocytic_slide_0040.jpg",
+        "diagnosis": "Spitz Nevus (HRAS)",
+        "legend": "Desmoplastic Spitz nevus showing fascicles and trapped collagen. (Time: 1852s)"
+      },
+      {
+        "id": "Slide_48",
+        "src": "_asset_library/lectures/Derm_Lecture_24_molecular_melanocytic/Derm_Lecture_24_molecular_melanocytic_slide_0048.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_24_molecular_melanocytic/Derm_Lecture_24_molecular_melanocytic_slide_0048.jpg",
+        "diagnosis": "Spitz Nevus (ALK)",
+        "legend": "ALK-fused Spitz tumor with plexiform, raining-down fascicles. (Time: 2530s)"
+      },
+      {
+        "id": "Slide_21",
+        "src": "_asset_library/lectures/Derm_Lecture_24_molecular_melanocytic/Derm_Lecture_24_molecular_melanocytic_slide_0021.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_24_molecular_melanocytic/Derm_Lecture_24_molecular_melanocytic_slide_0021.jpg",
+        "diagnosis": "Nodal Nevus",
+        "legend": "Nodal deposit of Spitz nevus (HRAS mutated) initially concerned for metastasis. (Time: 1292s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "BAP1-Inactivated Melanocytoma",
+    "definition": "An intermediate melanocytic tumor (melanocytoma) defined by the loss of BAP1 expression, often arising within a common nevus.",
+    "tags": [
+      "Skin::Neoplastic::Melanocytic::InterMedia::BAPoma_BAP1_Inactivated_Nevus"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Enlarging black papule or orange-ish/brown elevated papule arising within a nevus. Can be sporadic or associated with BAP1 Tumor Predisposition Syndrome (increased risk of uveal melanoma, mesothelioma, RCC).",
+    "pathogenesis": "Two-hit mechanism:\n1. Initiating mutation: BRAF V600E (common) or NRAS Q61.\n2. Inactivation of BAP1: Loss of function mutation + deletion of 2nd allele (e.g., loss of chromosome 3).",
+    "macroscopic": "Exophytic, dome-shaped, distinct color change from background nevus.",
+    "microscopic": "Biphasic population: \n1. Conventional nevus component: Small cells, scant cytoplasm.\n2. BAP1-inactivated component: Large epithelioid melanocytes, abundant cytoplasm, eccentric nuclei (plasmacytoid/rhabdoid), distinct cellular outlines. Scattered lymphocytes often present.",
+    "ancillary_studies": "IHC: BAP1 (nuclear loss in large epithelioid cells). \nGenetics: BRAF V600E positive (typically). CGH shows loss of chromosome 3 (BAP1 locus).",
+    "differential_diagnosis": "Atypical Spitz Tumor (historically categorized as such), Melanoma, Halo Nevus.",
+    "staging": "Intermediate (Melanocytoma).",
+    "prognosis_and_prediction": "Intermediate biological potential, though generally indolent. Patients with germline mutations require screening for other malignancies (eye, kidney, lung).",
+    "related_figures": [
+      {
+        "id": "Slide_57",
+        "src": "_asset_library/lectures/Derm_Lecture_24_molecular_melanocytic/Derm_Lecture_24_molecular_melanocytic_slide_0057.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_24_molecular_melanocytic/Derm_Lecture_24_molecular_melanocytic_slide_0057.jpg",
+        "diagnosis": "BAP1-Inactivated Melanocytoma",
+        "legend": "Epithelioid melanocytes with abundant cytoplasm and eccentric nuclei. (Time: 2756s)"
+      },
+      {
+        "id": "Slide_58",
+        "src": "_asset_library/lectures/Derm_Lecture_24_molecular_melanocytic/Derm_Lecture_24_molecular_melanocytic_slide_0058.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_24_molecular_melanocytic/Derm_Lecture_24_molecular_melanocytic_slide_0058.jpg",
+        "diagnosis": "BAP1-Inactivated Melanocytoma",
+        "legend": "Biphasic population: Large epithelioid cells vs small common nevus cells. (Time: 2784s)"
+      },
+      {
+        "id": "Slide_67",
+        "src": "_asset_library/lectures/Derm_Lecture_24_molecular_melanocytic/Derm_Lecture_24_molecular_melanocytic_slide_0067.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_24_molecular_melanocytic/Derm_Lecture_24_molecular_melanocytic_slide_0067.jpg",
+        "diagnosis": "BAP1-Inactivated Melanocytoma",
+        "legend": "IHC showing nuclear loss of BAP1 in the large melanocytes. (Time: 3130s)"
+      }
+    ]
+  }
+]

@@ -1,0 +1,604 @@
+[
+  {
+    "entity_name": "Normal Cutaneous Vasculature",
+    "definition": "The normal anatomical structure and organization of blood and lymphatic vessels within the skin.",
+    "tags": [
+      "Skin::Normal_Histology::Dermis"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Arteries carry blood at high pressure and appear round. Veins carry blood back to the heart, are capacious/collapsible, and have valves to prevent backflow. Lymphatics scavenge interstitial fluid and are delicate.",
+    "pathogenesis": "Vessels are plastic and critical for wound healing (granulation tissue) and fluid management.",
+    "macroscopic": "N/A",
+    "microscopic": "Arteries: Round lumen, distinct internal elastic lamina. Veins: Thinner walls that intercalate with surrounding tissue, often collapsed or irregular shapes, contain valves. Lymphatics: Extremely delicate thin walls, contain valves, no red blood cells.",
+    "ancillary_studies": "ERG (nuclear), CD31 (cytoplasmic), CD34, D2-40 (lymphatics). Internal elastic lamina highlighted by EVG stain.",
+    "differential_diagnosis": "N/A",
+    "staging": "N/A",
+    "prognosis_and_prediction": "N/A",
+    "related_figures": [
+      {
+        "id": "Slide_5",
+        "src": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0005.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0005.jpg",
+        "diagnosis": "Normal Cutaneous Vasculature",
+        "legend": "Artery showing the internal elastic lamina. (Time: 210s)"
+      },
+      {
+        "id": "Slide_6",
+        "src": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0006.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0006.jpg",
+        "diagnosis": "Normal Cutaneous Vasculature",
+        "legend": "Lymphatic vessel, showing delicate walls and valve structure. (Time: 247s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Vascular Malformation",
+    "definition": "A developmental error in vessel formation resulting in abnormal distribution and structure of vessels.",
+    "tags": [
+      "Skin::Neoplastic::Soft_Tissue::Vascular::Vascular_Malformations"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Examples include Port-Wine stains. Represents a developmental defect rather than a true neoplasm.",
+    "pathogenesis": "Error in embryology or problems with nervous system innervation of vessel walls.",
+    "macroscopic": "Various appearances depending on type (capillary, venous, arterial).",
+    "microscopic": "Vessels in abnormal distribution. Walls are of uneven thickness (malformed muscular wall). Distinct from uniform muscular walls of normal vessels.",
+    "ancillary_studies": "ERG, CD31, CD34.",
+    "differential_diagnosis": "Hemangioma, vascular neoplasm.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Benign.",
+    "related_figures": [
+      {
+        "id": "Slide_11",
+        "src": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0011.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0011.jpg",
+        "diagnosis": "Vascular Malformation",
+        "legend": "Vascular malformation showing vessels with uneven wall thickness. (Time: 480s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Lymphangioma (Lymphatic Malformation)",
+    "definition": "A benign malformation of lymphatic channels.",
+    "tags": [
+      "Skin::Neoplastic::Soft_Tissue::Vascular::Lymphangioma_and_Superficial_Lymphangioma"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Lymphangioma circumscriptum appears as 'frog's eggs' (small clear vesicles) on the surface. Deep forms (e.g., Cystic Hygroma/Macrocystic) occur in deep tissues/subcutis, often in children (e.g., Turner or Down syndrome associations).",
+    "pathogenesis": "Malformation of normal lymphatic channels.",
+    "macroscopic": "Clusters of clear/translucent vesicles or deep soft tissue masses.",
+    "microscopic": "Dilated, thin-walled vessels located in the superficial dermis (circumscriptum) or deep dermis/subcutis. Lumens contain eosinophilic protein-rich fluid and lymphocytes. Usually lack red blood cells unless traumatized.",
+    "ancillary_studies": "D2-40 (Podoplanin) positive.",
+    "differential_diagnosis": "Hemangioma, lymphangiectasis.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Benign.",
+    "related_figures": [
+      {
+        "id": "Slide_14",
+        "src": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0014.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0014.jpg",
+        "diagnosis": "Lymphangioma Circumscriptum",
+        "legend": "Clinical appearance resembling 'frog's eggs'. (Time: 569s)"
+      },
+      {
+        "id": "Slide_15",
+        "src": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0015.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0015.jpg",
+        "diagnosis": "Lymphangioma",
+        "legend": "Histology showing elevated collection of dilated lymphatic vessels filled with proteinaceous fluid. (Time: 578s)"
+      },
+      {
+        "id": "Slide_19",
+        "src": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0019.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0019.jpg",
+        "diagnosis": "Deep Lymphatic Malformation",
+        "legend": "Large lymphatic channels located in the deep dermis and subcutaneous tissue. (Time: 665s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Venous Lake",
+    "definition": "A common acquired vascular ectasia typically occurring on sun-damaged skin.",
+    "tags": [
+      "Skin::Neoplastic::Soft_Tissue::Vascular::Venous_Lake"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Blue-purple papule, classically on the vermilion border of the lip or ears. Often in older adults with sun damage.",
+    "pathogenesis": "Dilation of vessels (vascular ectasia) in the setting of solar elastosis/sun damage.",
+    "macroscopic": "Dark blue to purple compressible papule.",
+    "microscopic": "Very dilated, large caliber vessel (capillary/venule) with a simple wall, located superficially. Lumen typically filled with red blood cells.",
+    "ancillary_studies": "N/A",
+    "differential_diagnosis": "Melanoma (clinical mimic), Hemangioma.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Benign.",
+    "related_figures": [
+      {
+        "id": "Slide_21",
+        "src": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0021.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0021.jpg",
+        "diagnosis": "Venous Lake",
+        "legend": "Dilated capillary in the surface of the lip. (Time: 716s)"
+      },
+      {
+        "id": "Slide_23",
+        "src": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0023.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0023.jpg",
+        "diagnosis": "Venous Lake",
+        "legend": "Histology showing simple lumen with blood in the center. (Time: 768s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Papillary Endothelial Hyperplasia (Masson's Tumor)",
+    "definition": "A benign, reactive intravascular proliferation of endothelial cells representing an organizing thrombus.",
+    "tags": [
+      "Skin::Neoplastic::Soft_Tissue::Vascular::Papillary_Endothelial_Hyperplasia_Masson"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Firm nodule, often within a vascular lesion (like a venous lake or hemorrhoid).",
+    "pathogenesis": "Organizing thrombus. Recanalization of a clot.",
+    "macroscopic": "N/A",
+    "microscopic": "Intravascular process. Papillary projections lined by endothelial cells. Presence of 'Lines of Zahn' (alternating fibrin and red cells) indicating thrombus. As the thrombus organizes, it can appear jagged and infiltrating, mimicking angiosarcoma, but is confined to the vessel lumen. Hemosiderin often present.",
+    "ancillary_studies": "ERG+, CD31+, CD34+.",
+    "differential_diagnosis": "Angiosarcoma (Masson's is circumscribed/intravascular and lacks atypia).",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Benign.",
+    "related_figures": [
+      {
+        "id": "Slide_26",
+        "src": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0026.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0026.jpg",
+        "diagnosis": "Papillary Endothelial Hyperplasia",
+        "legend": "Organizing thrombus with Lines of Zahn; jagged appearance can mimic malignancy. (Time: 809s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Telangiectasia",
+    "definition": "Permanent dilation of small blood vessels.",
+    "tags": [
+      "Skin::Neoplastic::Soft_Tissue::Vascular::Unilateral_Nevoid_Telangiectasia"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Visible dilated vessels on skin surface. Can be secondary to sun damage, rosacea, or part of syndromes (e.g., Unilateral Nevoid Telangiectasia, Hereditary Hemorrhagic Telangiectasia/Osler-Weber-Rendu).",
+    "pathogenesis": "Loss of supportive connective tissue (solar elastosis) or genetic/developmental defects.",
+    "macroscopic": "Linear red vessels.",
+    "microscopic": "Dilated blood vessels in the superficial dermis. Walls are delicate/thin with little smooth muscle. Caliber is much larger than a normal capillary at that level.",
+    "ancillary_studies": "N/A",
+    "differential_diagnosis": "N/A",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Benign.",
+    "related_figures": [
+      {
+        "id": "Slide_30",
+        "src": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0030.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0030.jpg",
+        "diagnosis": "Telangiectasia",
+        "legend": "Dilated blood vessels at the surface of the epidermis. (Time: 989s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Angiokeratoma",
+    "definition": "A benign vascular lesion characterized by superficial vascular ectasia and overlying epidermal changes.",
+    "tags": [
+      "Skin::Neoplastic::Soft_Tissue::Vascular::Angiokeratoma"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Solitary lesions or multiple (e.g., Angiokeratoma of Fordyce, Mibelli). Diffuse corporis type associated with Fabry disease. Can be thrombosed and black (melanoma mimic).",
+    "pathogenesis": "Vascular ectasia with reactive epidermal growth. Fabry disease involves alpha-galactosidase A deficiency.",
+    "macroscopic": "Red to black keratotic papules.",
+    "microscopic": "Large, dilated/ectatic vessels located in the papillary dermis, immediately abutting the dermo-epidermal junction. Overlying epidermal hyperplasia (acanthosis) and hyperkeratosis. Epidermis often forms a 'collarette' around the vessels. Thrombosis is common.",
+    "ancillary_studies": "Electron microscopy for Fabry disease: Lamellar bodies (zebra bodies) in endothelial cells/fibroblasts.",
+    "differential_diagnosis": "Melanoma (if thrombosed), Verruca.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Benign. Fabry disease has systemic implications.",
+    "related_figures": [
+      {
+        "id": "Slide_34",
+        "src": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0034.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0034.jpg",
+        "diagnosis": "Angiokeratoma",
+        "legend": "Cystically ectatic blood vessels abutting the epidermis with epidermal collarette. (Time: 1122s)"
+      },
+      {
+        "id": "Slide_35",
+        "src": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0035.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0035.jpg",
+        "diagnosis": "Angiokeratoma",
+        "legend": "Vessels abutting the dermo-epidermal junction. (Time: 1167s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Targetoid Hemosiderotic Hemangioma (Hobnail Hemangioma)",
+    "definition": "A benign vascular neoplasm, likely representing a reactive/reparative process following trauma to a pre-existing hemangioma.",
+    "tags": [
+      "Skin::Neoplastic::Soft_Tissue::Vascular::Hobnail_Hemangioma"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Targetoid appearance (red center, pale ring, ecchymotic halo). Often in young people.",
+    "pathogenesis": "Thought to be reactive/reparative (recanalization) of a traumatized angiokeratoma or lymphangioma.",
+    "macroscopic": "Target-like lesion.",
+    "microscopic": "Biphasic architecture: Superficial dilated vessels (like angiokeratoma) and deeper, jagged, infiltrating angulated vessels dissecting through collagen. Lined by plump 'hobnail' endothelial cells. Prominent hemosiderin deposition. May show papillary endothelial hyperplasia.",
+    "ancillary_studies": "D2-40 can be positive.",
+    "differential_diagnosis": "Kaposi Sarcoma, Angiosarcoma (due to jagged deeper vessels).",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Benign.",
+    "related_figures": [
+      {
+        "id": "Slide_39",
+        "src": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0039.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0039.jpg",
+        "diagnosis": "Targetoid Hemosiderotic Hemangioma",
+        "legend": "Dilated superficial vessels with deeper jagged, infiltrating vessels. (Time: 1287s)"
+      },
+      {
+        "id": "Slide_40",
+        "src": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0040.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0040.jpg",
+        "diagnosis": "Targetoid Hemosiderotic Hemangioma",
+        "legend": "Plump 'hobnail' endothelial cells protruding into the lumen. (Time: 1299s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Angiolymphoid Hyperplasia with Eosinophilia (ALHE)",
+    "definition": "A benign vascular proliferation with a prominent inflammatory component.",
+    "tags": [
+      "Skin::Neoplastic::Soft_Tissue::Vascular::Angiolymphoid_Hyperplasia_With_Eosinophilia"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Papules/nodules, typically on the head and neck (especially around the ear).",
+    "pathogenesis": "Unknown; possibly reactive or neoplastic.",
+    "macroscopic": "Red to brown nodules.",
+    "microscopic": "Proliferation of thick-walled, muscular blood vessels. Endothelial cells are very plump/epithelioid and may protrude into the lumen. Presence of intracytoplasmic vacuoles/lumina ('blister cells'). Background infiltrate rich in lymphocytes and eosinophils.",
+    "ancillary_studies": "N/A",
+    "differential_diagnosis": "Kimura Disease, Epithelioid Hemangioendothelioma (also has blister cells).",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Benign but can recur.",
+    "related_figures": [
+      {
+        "id": "Slide_44",
+        "src": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0044.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0044.jpg",
+        "diagnosis": "Angiolymphoid Hyperplasia with Eosinophilia",
+        "legend": "Large, rounded, stout blood vessels. (Time: 1454s)"
+      },
+      {
+        "id": "Slide_45",
+        "src": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0045.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0045.jpg",
+        "diagnosis": "Angiolymphoid Hyperplasia with Eosinophilia",
+        "legend": "Plump endothelial cells with intracytoplasmic lumina ('blister cells'). (Time: 1467s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Pyogenic Granuloma (Lobular Capillary Hemangioma)",
+    "definition": "A common, rapidly growing, benign vascular tumor often occurring at sites of trauma.",
+    "tags": [
+      "Skin::Neoplastic::Soft_Tissue::Vascular::Lobular_Capillary_Hemangioma_Pyogenic_Granuloma"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Rapidly growing, friable, red nodule that bleeds easily. Common in children and pregnant women (gingiva).",
+    "pathogenesis": "Reactive neovascularization, possibly related to trauma or hormonal factors (pregnancy).",
+    "macroscopic": "Polypoid, ulcerated red lesion.",
+    "microscopic": "Lobular arrangement of proliferating capillaries separated by fibrous septae. A central 'feeder' vessel is often present. Surface is frequently ulcerated with a collarette of epidermis at the base. Older lesions become fibrotic.",
+    "ancillary_studies": "N/A",
+    "differential_diagnosis": "Amelanotic Melanoma, Bacillary Angiomatosis, Kaposi Sarcoma.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Benign.",
+    "related_figures": [
+      {
+        "id": "Slide_48",
+        "src": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0048.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0048.jpg",
+        "diagnosis": "Pyogenic Granuloma",
+        "legend": "Central feeder vessel branching into lobules of capillaries. (Time: 1609s)"
+      },
+      {
+        "id": "Slide_49",
+        "src": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0049.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0049.jpg",
+        "diagnosis": "Pyogenic Granuloma",
+        "legend": "Lobules of capillaries separated by fibrous septae. (Time: 1638s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Bacillary Angiomatosis",
+    "definition": "A vascular proliferation caused by Bartonella infection, typically in immunocompromised hosts.",
+    "tags": [
+      "Skin::Infectious::Bacterial::Bacillary_Angiomatosis_Bartonella"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Red-purple papules/nodules. Occurs in HIV/AIDS or transplant patients. History of cat exposure (Bartonella henselae).",
+    "pathogenesis": "Bartonella henselae or Bartonella quintana infection driving vascular proliferation.",
+    "macroscopic": "Resembles pyogenic granuloma.",
+    "microscopic": "Vascular proliferation resembling pyogenic granuloma but with neutrophils in the infiltrate. Presence of granular amphophilic/basophilic material ('purple/lavender haze') in the stroma, which represents colonies of bacteria.",
+    "ancillary_studies": "Warthin-Starry silver stain positive (highlights bacteria). PCR for Bartonella.",
+    "differential_diagnosis": "Pyogenic Granuloma, Kaposi Sarcoma, Verruga Peruana.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Treatable with antibiotics.",
+    "related_figures": [
+      {
+        "id": "Slide_56",
+        "src": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0056.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0056.jpg",
+        "diagnosis": "Bacillary Angiomatosis",
+        "legend": "Purple/Lavender haze representing bacterial colonies with neutrophils. (Time: 1804s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Infantile Hemangioma",
+    "definition": "The most common benign vascular tumor of infancy.",
+    "tags": [
+      "Skin::Neoplastic::Soft_Tissue::Vascular::Infantile_Juvenile_Hemangioma"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Appears shortly after birth, rapid proliferation phase followed by slow involution. Premature infants, females.",
+    "pathogenesis": "Placental theory of origin.",
+    "macroscopic": "Strawberry-like red plaque or nodule.",
+    "microscopic": "Highly cellular proliferation of packed capillaries and endothelial cells. Lobular architecture.",
+    "ancillary_studies": "GLUT-1 positive (Sine qua non). Internal control: Red blood cells.",
+    "differential_diagnosis": "Congenital hemangioma (GLUT-1 negative), Vascular malformation.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Most involute spontaneously. Treated with beta-blockers (propranolol).",
+    "related_figures": [
+      {
+        "id": "Slide_60",
+        "src": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0060.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0060.jpg",
+        "diagnosis": "Infantile Hemangioma",
+        "legend": "Cellular lesion with packed capillaries. (Time: 1929s)"
+      },
+      {
+        "id": "Slide_62",
+        "src": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0062.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0062.jpg",
+        "diagnosis": "Infantile Hemangioma",
+        "legend": "GLUT-1 positivity in endothelial cells (RBCs as internal control). (Time: 1944s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Cherry Hemangioma",
+    "definition": "Very common benign acquired vascular proliferation, increasing in frequency with age.",
+    "tags": [
+      "Skin::Neoplastic::Soft_Tissue::Vascular::Cherry_Hemangioma"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Small bright red papules on the trunk/extremities. 'Senile hemangioma'.",
+    "pathogenesis": "Unknown; associated with aging.",
+    "macroscopic": "Cherry-red papule.",
+    "microscopic": "Polypoid lesion with lobules of dilated, ectatic capillaries in the superficial dermis. Often congested with blood.",
+    "ancillary_studies": "N/A",
+    "differential_diagnosis": "N/A",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Benign.",
+    "related_figures": [
+      {
+        "id": "Slide_65",
+        "src": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0065.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0065.jpg",
+        "diagnosis": "Cherry Hemangioma",
+        "legend": "Ectatic vessels in the dermis. (Time: 2114s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Microvenular Hemangioma",
+    "definition": "A rare acquired benign vascular tumor.",
+    "tags": [
+      "Skin::Neoplastic::Soft_Tissue::Vascular::Microvenular_Hemangioma"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Red to purple nodule/plaque.",
+    "pathogenesis": "Unknown.",
+    "macroscopic": "Circumscribed lesion.",
+    "microscopic": "Small, rounded vessels/venules that dissect between collagen bundles. Despite dissecting pattern, the overall lesion is circumscribed.",
+    "ancillary_studies": "N/A",
+    "differential_diagnosis": "Kaposi Sarcoma (but vessels are rounded, not slit-like).",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Benign.",
+    "related_figures": [
+      {
+        "id": "Slide_69",
+        "src": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0069.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0069.jpg",
+        "diagnosis": "Microvenular Hemangioma",
+        "legend": "Small rounded vessels dissecting between collagen. (Time: 2270s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Acquired Elastotic Hemangioma",
+    "definition": "A clinicopathologic variant of hemangioma arising in sun-damaged skin.",
+    "tags": [
+      "Skin::Neoplastic::Soft_Tissue::Vascular::Acquired_Elastotic_Hemangioma"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Erythematous plaque, typically on the sun-exposed forearms of women.",
+    "pathogenesis": "Related to solar damage.",
+    "macroscopic": "N/A",
+    "microscopic": "Band-like proliferation of delicate capillary vessels located in the superficial dermis parallel to the epidermis, set within significant solar elastosis.",
+    "ancillary_studies": "N/A",
+    "differential_diagnosis": "Basal cell carcinoma, erythematous patch.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Benign.",
+    "related_figures": [
+      {
+        "id": "Slide_73",
+        "src": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0073.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0073.jpg",
+        "diagnosis": "Acquired Elastotic Hemangioma",
+        "legend": "Delicate vascular growth admixed with solar elastosis. (Time: 2355s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Sinusoidal Hemangioma",
+    "definition": "A rare variant of cavernous hemangioma.",
+    "tags": [
+      "Skin::Neoplastic::Soft_Tissue::Vascular::Sinusoidal_Hemangioma"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Deep-seated nodule.",
+    "pathogenesis": "Unknown.",
+    "macroscopic": "Large 'nugget' like lesion.",
+    "microscopic": "Large, lobular, deep dermal/subcutaneous lesion. Central dilated vessels with a characteristic peripheral rim of interconnecting 'sinusoidal' vascular channels. May show papillary architecture.",
+    "ancillary_studies": "N/A",
+    "differential_diagnosis": "N/A",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Benign.",
+    "related_figures": [
+      {
+        "id": "Slide_76",
+        "src": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0076.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0076.jpg",
+        "diagnosis": "Sinusoidal Hemangioma",
+        "legend": "Peripheral sinusoidal spaces. (Time: 2388s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Tufted Hemangioma",
+    "definition": "A rare vascular neoplasm of infancy and childhood.",
+    "tags": [
+      "Skin::Neoplastic::Soft_Tissue::Vascular::Tufted_Hemangioma"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Indurated red plaque/nodule. Associated with Kasabach-Merritt syndrome (platelet trapping/consumptive coagulopathy).",
+    "pathogenesis": "Neoplastic.",
+    "macroscopic": "N/A",
+    "microscopic": "Multiple discrete lobules ('cannonballs') of tightly packed capillaries scattered throughout the dermis. Characteristic 'semilunar' dilated lymphatic-like space often surrounds the tufts.",
+    "ancillary_studies": "N/A",
+    "differential_diagnosis": "Kaposiform Hemangioendothelioma.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Can be associated with Kasabach-Merritt syndrome.",
+    "related_figures": [
+      {
+        "id": "Slide_80",
+        "src": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0080.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0080.jpg",
+        "diagnosis": "Tufted Hemangioma",
+        "legend": "Cannonball tufts of capillaries with surrounding semilunar spaces. (Time: 2457s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Glomeruloid Hemangioma",
+    "definition": "A specific cutaneous marker for POEMS syndrome.",
+    "tags": [
+      "Skin::Neoplastic::Soft_Tissue::Vascular::Glomeruloid_Hemangioma"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Multiple red-purple papules. Associated with POEMS syndrome (Polyneuropathy, Organomegaly, Endocrinopathy, Monoclonal gammopathy, Skin changes).",
+    "pathogenesis": "Deposition of immunoglobulins/cryoproteins.",
+    "macroscopic": "N/A",
+    "microscopic": "Ectatic vascular spaces containing aggregates of capillaries resembling renal glomeruli. Deposition of eosinophilic material (immunoglobulins/cryoproteins) within endothelial cells. Plasma cells containing Russell bodies often present.",
+    "ancillary_studies": "N/A",
+    "differential_diagnosis": "N/A",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Marker for systemic POEMS syndrome.",
+    "related_figures": [
+      {
+        "id": "Slide_84",
+        "src": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0084.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0084.jpg",
+        "diagnosis": "Glomeruloid Hemangioma",
+        "legend": "Hemangioma architecture resembling a renal glomerulus. (Time: 2584s)"
+      },
+      {
+        "id": "Slide_86",
+        "src": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0086.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0086.jpg",
+        "diagnosis": "Glomeruloid Hemangioma",
+        "legend": "Deposition of cryoproteins and presence of Russell bodies. (Time: 2635s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Kaposiform Hemangioendothelioma",
+    "definition": "A rare, locally aggressive vascular neoplasm of childhood.",
+    "tags": [
+      "Skin::Neoplastic::Soft_Tissue::Vascular::Kaposiform_Hemangioendothelioma"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Rare. Associated with Kasabach-Merritt syndrome (consumptive coagulopathy).",
+    "pathogenesis": "N/A",
+    "macroscopic": "N/A",
+    "microscopic": "Features overlap between Kaposi Sarcoma and capillary hemangioma. Fascicles of spindle cells with slit-like vascular spaces admixed with larger dilated vessels. May contain platelet thrombi.",
+    "ancillary_studies": "N/A",
+    "differential_diagnosis": "Kaposi Sarcoma, Tufted Hemangioma.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Locally aggressive, risk of coagulopathy.",
+    "related_figures": [
+      {
+        "id": "Slide_90",
+        "src": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0090.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0090.jpg",
+        "diagnosis": "Kaposiform Hemangioendothelioma",
+        "legend": "Slit-like spaces resembling KS mixed with hemangioma-like areas. (Time: 2704s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Glomus Tumor",
+    "definition": "A benign neoplasm arising from the glomus body (neuromyoarterial receptor involved in thermoregulation).",
+    "tags": [
+      "Skin::Neoplastic::Soft_Tissue::Vascular::Glomus_Tumor"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Painful (paroxysmal pain), cold sensitive. Classic location is subungual (acral sites).",
+    "pathogenesis": "Proliferation of modified smooth muscle cells (glomus cells).",
+    "macroscopic": "Small blue-red nodule.",
+    "microscopic": "Solid aggregates or sheets of uniform cells surrounding vascular channels. Cells have punched-out round nuclei and pale pink cytoplasm. Variant: Glomangioma (more vascular ectasia).",
+    "ancillary_studies": "SMA positive.",
+    "differential_diagnosis": "N/A",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Benign. Malignant glomus tumors (Glomangiosarcoma) are rare.",
+    "related_figures": [
+      {
+        "id": "Slide_94",
+        "src": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0094.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0094.jpg",
+        "diagnosis": "Glomus Tumor",
+        "legend": "Cells with round nuclei and pink cytoplasm resembling modified smooth muscle. (Time: 2788s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Angiofibroma (Fibrous Papule)",
+    "definition": "A benign hamartomatous proliferation of fibrous tissue and blood vessels.",
+    "tags": [
+      "Skin::Neoplastic::Soft_Tissue::Fibrous::Angiofibroma_Fibrous_Papule"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Solitary skin-colored papule on the nose (Fibrous Papule of the Face). Multiple lesions on the face ('Adenoma Sebaceum') seen in Tuberous Sclerosis. Also Koenen tumors (periungual) and Shagreen patch.",
+    "pathogenesis": "Hamartomatous growth. Tuberous Sclerosis (TSC1/TSC2 mutations).",
+    "macroscopic": "Dome-shaped papule.",
+    "microscopic": "Dome-shaped lesion with increased numbers of dilated capillaries and a fibrous stroma with 'onion-skin' collagen arrangement. Presence of stellate (star-shaped) fibroblasts.",
+    "ancillary_studies": "Factor XIIIa positive (dendritic cells).",
+    "differential_diagnosis": "Basal Cell Carcinoma (clinical), Nevus.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Benign.",
+    "related_figures": [
+      {
+        "id": "Slide_96",
+        "src": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0096.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0096.jpg",
+        "diagnosis": "Angiofibroma",
+        "legend": "Increased vessels and onion-skin stroma. (Time: 2860s)"
+      },
+      {
+        "id": "Slide_97",
+        "src": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0097.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_37_vascular1/Derm_Lecture_37_vascular1_slide_0097.jpg",
+        "diagnosis": "Angiofibroma",
+        "legend": "Stellate fibroblasts. (Time: 2898s)"
+      }
+    ]
+  }
+]

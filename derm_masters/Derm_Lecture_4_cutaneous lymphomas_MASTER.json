@@ -1,0 +1,343 @@
+[
+  {
+    "entity_name": "Subcutaneous Panniculitis-like T-Cell Lymphoma (SPTCL)",
+    "definition": "A cytotoxic T-cell lymphoma, usually of alpha/beta lineage, preferentially involving the subcutaneous tissue in a lobular pattern.",
+    "tags": [
+      "Skin::Neoplastic::Hematolymphoid::Subcutaneous_Panniculitis_Like_T_Cell_Lymphoma"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Presents with indurated erythematous plaques or nodules, typically without ulceration. Clinically mimics panniculitis or medium-to-large vessel vasculitis.",
+    "pathogenesis": "Derived from cytotoxic T-cells targeting the subcutaneous fat.",
+    "macroscopic": "Deep indurated plaques/nodules; usually lacks surface changes (no scale or ulceration initially).",
+    "microscopic": "The infiltrate is concentrated in the subcutaneous lobules (lobular panniculitis pattern). The epidermis and dermis are typically spared. The infiltrate consists of lymphocytes of varying sizes (small to large) rimming adipocytes (rimming of fat vacuoles). Necrosis and nuclear dust (karyorrhexis) are often present. Occasional mitotic figures.",
+    "ancillary_studies": "IHC: CD3+, CD8+, Beta F1+ (Alpha/Beta phenotype), TIA-1+ (cytotoxic), Granzyme B+, CD4- (usually), CD56 negative, EBER (EBV) negative. Ki-67 shows a high proliferation rate in lymphocytes rimming adipocytes.",
+    "differential_diagnosis": "Lupus Panniculitis (Lupus Profundus) - distinguished by low Ki-67 rate in rimming cells, presence of lymphoid follicles, plasma cells, and CD123+ clusters (though lecture notes Ki-67 is the most reliable discriminator). Gamma-Delta T-Cell Lymphoma (TCR-delta+). Extranodal NK/T-cell lymphoma.",
+    "staging": "Usually confined to subcutis.",
+    "prognosis_and_prediction": "Generally indolent compared to Gamma-Delta TCL. 5-year survival is generally good. Hemophagocytic syndrome is a potential complication.",
+    "related_figures": [
+      {
+        "id": "Slide_6",
+        "src": "_asset_library/lectures/Derm_Lecture_4_cutaneous lymphomas/Derm_Lecture_4_cutaneous lymphomas_slide_0006.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_4_cutaneous lymphomas/Derm_Lecture_4_cutaneous lymphomas_slide_0006.jpg",
+        "diagnosis": "Subcutaneous Panniculitis-like T-Cell Lymphoma",
+        "legend": "Low power view showing dense infiltrate in the subcutus with sparing of the overlying epidermis and dermis. (Time: 157s)"
+      },
+      {
+        "id": "Slide_9",
+        "src": "_asset_library/lectures/Derm_Lecture_4_cutaneous lymphomas/Derm_Lecture_4_cutaneous lymphomas_slide_0009.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_4_cutaneous lymphomas/Derm_Lecture_4_cutaneous lymphomas_slide_0009.jpg",
+        "diagnosis": "Subcutaneous Panniculitis-like T-Cell Lymphoma",
+        "legend": "Lobular infiltration of lymphocytes within the subcutaneous fat. (Time: 216s)"
+      },
+      {
+        "id": "Slide_15",
+        "src": "_asset_library/lectures/Derm_Lecture_4_cutaneous lymphomas/Derm_Lecture_4_cutaneous lymphomas_slide_0015.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_4_cutaneous lymphomas/Derm_Lecture_4_cutaneous lymphomas_slide_0015.jpg",
+        "diagnosis": "Subcutaneous Panniculitis-like T-Cell Lymphoma",
+        "legend": "Ki-67 stain showing a high proliferation rate of lymphocytes rimming individual adipocytes. (Time: 295s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Extranodal NK/T-Cell Lymphoma, Nasal Type",
+    "definition": "An aggressive lymphoma, usually of NK-cell lineage (rarely cytotoxic T-cell), strongly associated with Epstein-Barr Virus (EBV).",
+    "tags": [
+      "Skin::Neoplastic::Hematolymphoid::Extranodal_NK_T_Cell_Lymphoma_Nasal_Type"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Classic presentation involves destruction of central facial structures (midline granuloma). Can present as ulcerated plaques or tumors elsewhere. May be misdiagnosed as infection (e.g., Staph) due to extensive necrosis/crusting.",
+    "pathogenesis": "EBV-driven proliferation of NK or cytotoxic T cells.",
+    "macroscopic": "Ulcerated, necrotic lesions, often with significant tissue destruction.",
+    "microscopic": "Diffuse infiltrate involving dermis and/or subcutus. Epidermotropism may be present. Angiocentricity and angiodestruction are characteristic. Infiltrate comprises small, medium, and large atypical lymphocytes with coagulative necrosis.",
+    "ancillary_studies": "IHC: CD56+, Cytoplasmic CD3 epsilon+, Surface CD3- (usually), TIA-1+, Granzyme B+. EBER (EBV ISH) positive (essential for diagnosis).",
+    "differential_diagnosis": "Infectious etiologies (deep fungal, atypical mycobacterial), Wegener's (GPA), Gamma-Delta T-Cell Lymphoma.",
+    "staging": "Systemic staging required.",
+    "prognosis_and_prediction": "Aggressive clinical course.",
+    "related_figures": [
+      {
+        "id": "Slide_28",
+        "src": "_asset_library/lectures/Derm_Lecture_4_cutaneous lymphomas/Derm_Lecture_4_cutaneous lymphomas_slide_0028.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_4_cutaneous lymphomas/Derm_Lecture_4_cutaneous lymphomas_slide_0028.jpg",
+        "diagnosis": "Extranodal NK/T-Cell Lymphoma, Nasal Type",
+        "legend": "Clinical presentation showing severe destruction and ulceration of the central face. (Time: 685s)"
+      },
+      {
+        "id": "Slide_34",
+        "src": "_asset_library/lectures/Derm_Lecture_4_cutaneous lymphomas/Derm_Lecture_4_cutaneous lymphomas_slide_0034.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_4_cutaneous lymphomas/Derm_Lecture_4_cutaneous lymphomas_slide_0034.jpg",
+        "diagnosis": "Extranodal NK/T-Cell Lymphoma, Nasal Type",
+        "legend": "CD56 immunostain highlighting the neoplastic cells. (Time: 952s)"
+      },
+      {
+        "id": "Slide_35",
+        "src": "_asset_library/lectures/Derm_Lecture_4_cutaneous lymphomas/Derm_Lecture_4_cutaneous lymphomas_slide_0035.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_4_cutaneous lymphomas/Derm_Lecture_4_cutaneous lymphomas_slide_0035.jpg",
+        "diagnosis": "Extranodal NK/T-Cell Lymphoma, Nasal Type",
+        "legend": "EBER (EBV) in situ hybridization positivity confirming the diagnosis. (Time: 995s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Primary Cutaneous Aggressive Epidermotropic CD8+ T-Cell Lymphoma",
+    "definition": "A rare, aggressive variant of Cutaneous T-Cell Lymphoma characterized by proliferation of CD8+ cytotoxic T-cells with marked epidermotropism.",
+    "tags": [
+      "Skin::Neoplastic::Hematolymphoid::Aggressive_Epidermotropic_CD8_Positive_T_Cell_Lymphoma"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Sudden onset of generalized plaques and nodules, often ulcerated. Notably lacks preceding patch/plaque phase (unlike Mycosis Fungoides).",
+    "pathogenesis": "Neoplastic proliferation of CD8+ cytotoxic T-cells.",
+    "macroscopic": "Erythematous plaques and nodules, frequently with ulceration.",
+    "microscopic": "Diffuse dermal infiltrate with marked, florid epidermotropism (pagetoid spread). Necrotic keratinocytes are common. Cells show variable size and pleomorphism (small, medium, large).",
+    "ancillary_studies": "IHC: CD3+, CD8+, CD4-, Beta F1+, TIA-1+, Granzyme B+. Negative for: CD56, EBER (EBV), and TCR-delta (Gamma-Delta).",
+    "differential_diagnosis": "Mycosis Fungoides (CD4+ usually), Extranodal NK/T-Cell Lymphoma (CD56+, EBER+), Gamma-Delta T-Cell Lymphoma (TCR-delta+).",
+    "staging": "Aggressive behavior.",
+    "prognosis_and_prediction": "Poor prognosis with rapid progression.",
+    "related_figures": [
+      {
+        "id": "Slide_39",
+        "src": "_asset_library/lectures/Derm_Lecture_4_cutaneous lymphomas/Derm_Lecture_4_cutaneous lymphomas_slide_0039.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_4_cutaneous lymphomas/Derm_Lecture_4_cutaneous lymphomas_slide_0039.jpg",
+        "diagnosis": "Primary Cutaneous Aggressive Epidermotropic CD8+ T-Cell Lymphoma",
+        "legend": "Histopathology showing marked epidermotropism of lymphocytes. (Time: 1094s)"
+      },
+      {
+        "id": "Slide_42",
+        "src": "_asset_library/lectures/Derm_Lecture_4_cutaneous lymphomas/Derm_Lecture_4_cutaneous lymphomas_slide_0042.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_4_cutaneous lymphomas/Derm_Lecture_4_cutaneous lymphomas_slide_0042.jpg",
+        "diagnosis": "Primary Cutaneous Aggressive Epidermotropic CD8+ T-Cell Lymphoma",
+        "legend": "CD8 immunostain labeling the epidermotropic lymphocytes. (Time: 1130s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Primary Cutaneous Gamma-Delta T-Cell Lymphoma",
+    "definition": "A lymphoma derived from T-cells expressing the Gamma/Delta T-cell receptor, typically involving multiple tissue compartments (epidermis, dermis, subcutus).",
+    "tags": [
+      "Skin::Neoplastic::Hematolymphoid::Cutaneous_Gamma_Delta_T_Cell_Lymphoma"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Presents with ulcerated nodules, plaques, or deep indurated lesions. Can have scaly patches.",
+    "pathogenesis": "Neoplastic proliferation of Gamma-Delta T-cells.",
+    "macroscopic": "Ulcerated nodules, indurated plaques.",
+    "microscopic": "Involvement of all three layers: Epidermis (necrotic keratinocytes), Dermis, and Subcutus (rimming of adipocytes). Infiltrate is usually dense and pleomorphic.",
+    "ancillary_studies": "IHC: TCR-delta+ (or TCR-gamma+), Beta F1 negative. CD3+, CD2+, CD5-, CD4-, CD8+/- (often positive), CD56+/-. EBER negative. High Ki-67 proliferation rate.",
+    "differential_diagnosis": "Subcutaneous Panniculitis-like T-Cell Lymphoma (Alpha/Beta phenotype, Beta F1+), Extranodal NK/T-Cell Lymphoma (EBER+), Mycosis Fungoides with Gamma-Delta phenotype.",
+    "staging": "Often aggressive.",
+    "prognosis_and_prediction": "Historically considered very poor/aggressive, though recent data suggests a broader spectrum including some indolent cases.",
+    "related_figures": [
+      {
+        "id": "Slide_46",
+        "src": "_asset_library/lectures/Derm_Lecture_4_cutaneous lymphomas/Derm_Lecture_4_cutaneous lymphomas_slide_0046.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_4_cutaneous lymphomas/Derm_Lecture_4_cutaneous lymphomas_slide_0046.jpg",
+        "diagnosis": "Primary Cutaneous Gamma-Delta T-Cell Lymphoma",
+        "legend": "Histopathology showing involvement of epidermis, dermis, and subcutus. (Time: 1208s)"
+      },
+      {
+        "id": "Slide_54",
+        "src": "_asset_library/lectures/Derm_Lecture_4_cutaneous lymphomas/Derm_Lecture_4_cutaneous lymphomas_slide_0054.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_4_cutaneous lymphomas/Derm_Lecture_4_cutaneous lymphomas_slide_0054.jpg",
+        "diagnosis": "Primary Cutaneous Gamma-Delta T-Cell Lymphoma",
+        "legend": "Positive staining for TCR-delta (Delta chain) confirms the diagnosis. (Time: 1307s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Primary Cutaneous CD4+ Small/Medium T-Cell Lymphoproliferative Disorder",
+    "definition": "An indolent provisional entity characterized by a solitary cutaneous nodule or plaque composed of small-to-medium CD4+ T-cells, often with a Follicular Helper T-cell phenotype.",
+    "tags": [
+      "Skin::Neoplastic::Hematolymphoid::Primary_Cutaneous_CD4_Positive_Small_Medium_T_Cell_Lymphoproliferative_Disorder"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Solitary papule, nodule, or plaque, typically on the face, neck, or upper trunk. If multifocal or large lesions (>5cm) are present, diagnosis of Tumor Stage Mycosis Fungoides or unspecified PTCL should be considered instead.",
+    "pathogenesis": "Likely a reactive or indolent clonal proliferation of Follicular Helper T-cells.",
+    "macroscopic": "Solitary erythematous nodule or plaque.",
+    "microscopic": "Dense, nodular to diffuse dermal infiltrate extending to subcutus. Minimal to no epidermotropism. Predominance of small-to-medium pleomorphic T-cells (<30% large cells). Admixed reactive cells (B-cells, histiocytes, plasma cells).",
+    "ancillary_studies": "IHC: CD3+, CD4+, CD8-, CD30- (mostly). Markers of Follicular Helper T-cells: PD-1 (CD279), CXCL13, BCL6, CD10. PD-1 often highlights \"rosettes\" of T-cells surrounding scattered B-cells.",
+    "differential_diagnosis": "Tumor Stage Mycosis Fungoides (clinical correlation required; MF usually multifocal/history of patches), Pseudolymphoma, Peripheral T-Cell Lymphoma NOS.",
+    "staging": "Indolent.",
+    "prognosis_and_prediction": "Excellent prognosis (~100% survival). Downgraded from 'Lymphoma' to 'Lymphoproliferative Disorder' due to benign course.",
+    "related_figures": [
+      {
+        "id": "Slide_63",
+        "src": "_asset_library/lectures/Derm_Lecture_4_cutaneous lymphomas/Derm_Lecture_4_cutaneous lymphomas_slide_0063.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_4_cutaneous lymphomas/Derm_Lecture_4_cutaneous lymphomas_slide_0063.jpg",
+        "diagnosis": "Primary Cutaneous CD4+ Small/Medium T-Cell LPD",
+        "legend": "Dense dermal infiltrate of small to medium lymphocytes. (Time: 1641s)"
+      },
+      {
+        "id": "Slide_67",
+        "src": "_asset_library/lectures/Derm_Lecture_4_cutaneous lymphomas/Derm_Lecture_4_cutaneous lymphomas_slide_0067.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_4_cutaneous lymphomas/Derm_Lecture_4_cutaneous lymphomas_slide_0067.jpg",
+        "diagnosis": "Primary Cutaneous CD4+ Small/Medium T-Cell LPD",
+        "legend": "PD-1 staining showing characteristic rosetting around B-cells. (Time: 1676s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Primary Cutaneous Follicle Center Lymphoma",
+    "definition": "An indolent B-cell lymphoma composed of follicle center cells (centrocytes and centroblasts), typically presenting on the head or trunk.",
+    "tags": [
+      "Skin::Neoplastic::Hematolymphoid::Primary_Cutaneous_Follicle_Center_Lymphoma"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Older adults. Solitary or grouped erythematous papules, plaques, or nodules (sometimes \"Croissant\" configuration) on the head, neck, or upper trunk. Excellent prognosis.",
+    "pathogenesis": "Neoplastic proliferation of germinal center B-cells.",
+    "macroscopic": "Erythematous, smooth-surfaced nodules or plaques.",
+    "microscopic": "Nodular or diffuse dermal infiltrate. Neoplastic follicles show: Reduced or absent mantle zones, no tingible body macrophages, lack of polarization (no dark/light zones), and relatively monomorphous cytology (centrocytes/centroblasts).",
+    "ancillary_studies": "IHC: CD20+, CD79a+, BCL6+, CD10+ (variable/follicle restricted). BCL2 is typically negative or weak (distinct from systemic follicular lymphoma which is BCL2 strongly positive). CD21 highlights disrupted/expanded follicular dendritic cell networks. Ki-67 is low within neoplastic follicles (vs. high/polarized in reactive follicles).",
+    "differential_diagnosis": "Reactive Lymphoid Hyperplasia (Pseudolymphoma) - has polarized follicles, tingible body macrophages, high Ki-67, BCL2 negative. Systemic Follicular Lymphoma - BCL2 strongly positive, t(14;18). Diffuse Large B-Cell Lymphoma (Leg Type).",
+    "staging": "Indolent, rarely disseminates.",
+    "prognosis_and_prediction": "Excellent prognosis (>95% survival).",
+    "related_figures": [
+      {
+        "id": "Slide_108",
+        "src": "_asset_library/lectures/Derm_Lecture_4_cutaneous lymphomas/Derm_Lecture_4_cutaneous lymphomas_slide_0108.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_4_cutaneous lymphomas/Derm_Lecture_4_cutaneous lymphomas_slide_0108.jpg",
+        "diagnosis": "Primary Cutaneous Follicle Center Lymphoma",
+        "legend": "Dermal nodules of lymphocytes lacking tangible body macrophages and polarization. (Time: 2629s)"
+      },
+      {
+        "id": "Slide_114",
+        "src": "_asset_library/lectures/Derm_Lecture_4_cutaneous lymphomas/Derm_Lecture_4_cutaneous lymphomas_slide_0114.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_4_cutaneous lymphomas/Derm_Lecture_4_cutaneous lymphomas_slide_0114.jpg",
+        "diagnosis": "Primary Cutaneous Follicle Center Lymphoma",
+        "legend": "Ki-67 stain showing a low proliferation rate within the follicle, distinguishing it from a reactive germinal center. (Time: 2963s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Primary Cutaneous Marginal Zone Lymphoma",
+    "definition": "An indolent B-cell lymphoma derived from post-germinal center marginal zone B-cells. (Note: Recently downgraded to Lymphoproliferative Disorder in some classifications due to benign course).",
+    "tags": [
+      "Skin::Neoplastic::Hematolymphoid::Primary_Cutaneous_Marginal_Zone_Lymphoma"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Red to violaceous papules, plaques, or nodules, typically on the trunk or extremities. Associated with Borrelia infection in some European cases.",
+    "pathogenesis": "Clonal proliferation of marginal zone B-cells. May be antigen-driven.",
+    "macroscopic": "Solitary or multiple red/violaceous nodules.",
+    "microscopic": "Nodular to diffuse dermal infiltrate. Composed of small lymphocytes, lymphoplasmacytoid cells, and plasma cells (often at periphery). Dutcher bodies (intranuclear inclusions) may be seen. Reactive germinal centers may be colonized.",
+    "ancillary_studies": "IHC: CD20+, CD79a+, BCL2+, BCL6-, CD10-. Plasma cells show Immunoglobulin Light Chain Restriction (Kappa or Lambda monotypicity, disrupting the normal 2:1 ratio).",
+    "differential_diagnosis": "Cutaneous Lymphoid Hyperplasia (Pseudolymphoma) - polytypic light chains. Follicle Center Lymphoma.",
+    "staging": "Indolent.",
+    "prognosis_and_prediction": "Excellent prognosis.",
+    "related_figures": [
+      {
+        "id": "Slide_123",
+        "src": "_asset_library/lectures/Derm_Lecture_4_cutaneous lymphomas/Derm_Lecture_4_cutaneous lymphomas_slide_0123.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_4_cutaneous lymphomas/Derm_Lecture_4_cutaneous lymphomas_slide_0123.jpg",
+        "diagnosis": "Primary Cutaneous Marginal Zone Lymphoma",
+        "legend": "Dermal infiltrate with plasma cells present at the periphery. (Time: 3075s)"
+      },
+      {
+        "id": "Slide_125",
+        "src": "_asset_library/lectures/Derm_Lecture_4_cutaneous lymphomas/Derm_Lecture_4_cutaneous lymphomas_slide_0125.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_4_cutaneous lymphomas/Derm_Lecture_4_cutaneous lymphomas_slide_0125.jpg",
+        "diagnosis": "Primary Cutaneous Marginal Zone Lymphoma",
+        "legend": "In situ hybridization showing Lambda light chain restriction (predominance). (Time: 3095s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Primary Cutaneous Diffuse Large B-Cell Lymphoma, Leg Type",
+    "definition": "An aggressive primary cutaneous B-cell lymphoma composed of large transformed B-cells, typically occurring on the lower legs of elderly women.",
+    "tags": [
+      "Skin::Neoplastic::Hematolymphoid::Diffuse_Large_B_Cell_Lymphoma_Leg_Type"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Rapidly growing, ulcerated red-blue tumors on the lower legs (though can occur elsewhere). Elderly patients (female predominance).",
+    "pathogenesis": "Aggressive B-cell proliferation.",
+    "macroscopic": "Large, ulcerated, necrotic tumors.",
+    "microscopic": "Diffuse, non-epidermotropic sheets of large atypical B-cells (immunoblasts/centroblasts). High mitotic rate. Destructive growth.",
+    "ancillary_studies": "IHC: CD20+, CD79a+, BCL2+ (strong), MUM1+ (IRF4), IgM+ (cytoplasmic). BCL6+/-, CD10-.",
+    "differential_diagnosis": "Primary Cutaneous Follicle Center Lymphoma (diffuse variant) - usually IgM negative, MUM1 negative, BCL2 weak/negative, better prognosis.",
+    "staging": "Aggressive.",
+    "prognosis_and_prediction": "Poor prognosis compared to other cutaneous B-cell lymphomas (approx 50% 5-year survival).",
+    "related_figures": [
+      {
+        "id": "Slide_129",
+        "src": "_asset_library/lectures/Derm_Lecture_4_cutaneous lymphomas/Derm_Lecture_4_cutaneous lymphomas_slide_0129.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_4_cutaneous lymphomas/Derm_Lecture_4_cutaneous lymphomas_slide_0129.jpg",
+        "diagnosis": "Diffuse Large B-Cell Lymphoma, Leg Type",
+        "legend": "Clinical presentation of ulcerated nodules on the leg. (Time: 3166s)"
+      },
+      {
+        "id": "Slide_136",
+        "src": "_asset_library/lectures/Derm_Lecture_4_cutaneous lymphomas/Derm_Lecture_4_cutaneous lymphomas_slide_0136.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_4_cutaneous lymphomas/Derm_Lecture_4_cutaneous lymphomas_slide_0136.jpg",
+        "diagnosis": "Diffuse Large B-Cell Lymphoma, Leg Type",
+        "legend": "Diffuse sheets of large, atypical lymphoid cells. (Time: 3236s)"
+      },
+      {
+        "id": "Slide_138",
+        "src": "_asset_library/lectures/Derm_Lecture_4_cutaneous lymphomas/Derm_Lecture_4_cutaneous lymphomas_slide_0138.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_4_cutaneous lymphomas/Derm_Lecture_4_cutaneous lymphomas_slide_0138.jpg",
+        "diagnosis": "Diffuse Large B-Cell Lymphoma, Leg Type",
+        "legend": "IgM positivity, a useful marker for Leg Type lymphoma. (Time: 3251s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Intravascular Large B-Cell Lymphoma",
+    "definition": "A rare subtype of large B-cell lymphoma where neoplastic cells reside almost exclusively within the lumen of blood vessels.",
+    "tags": [
+      "Skin::Neoplastic::Hematolymphoid::Intravascular_Large_B_Cell_Lymphoma"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Can present with non-specific skin findings (plaques, telangiectasias) or systemic symptoms (fever of unknown origin).",
+    "pathogenesis": "Loss of surface adhesion molecules preventing extravasation.",
+    "macroscopic": "Indurated plaques or patches, sometimes subtle.",
+    "microscopic": "Large atypical lymphoid cells confined within vascular spaces (capillaries, venules).",
+    "ancillary_studies": "IHC: CD20+.",
+    "differential_diagnosis": "Intravascular Histiocytosis, Metastatic Carcinoma.",
+    "staging": "Systemic disease.",
+    "prognosis_and_prediction": "Poor prognosis, often delayed diagnosis.",
+    "related_figures": [
+      {
+        "id": "Slide_141",
+        "src": "_asset_library/lectures/Derm_Lecture_4_cutaneous lymphomas/Derm_Lecture_4_cutaneous lymphomas_slide_0141.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_4_cutaneous lymphomas/Derm_Lecture_4_cutaneous lymphomas_slide_0141.jpg",
+        "diagnosis": "Intravascular Large B-Cell Lymphoma",
+        "legend": "Blood vessels filled with atypical lymphoid cells. (Time: 3283s)"
+      },
+      {
+        "id": "Slide_143",
+        "src": "_asset_library/lectures/Derm_Lecture_4_cutaneous lymphomas/Derm_Lecture_4_cutaneous lymphomas_slide_0143.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_4_cutaneous lymphomas/Derm_Lecture_4_cutaneous lymphomas_slide_0143.jpg",
+        "diagnosis": "Intravascular Large B-Cell Lymphoma",
+        "legend": "CD20 stain highlighting the intravascular B-cells. (Time: 3302s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Cutaneous Lymphoid Hyperplasia (Pseudolymphoma)",
+    "definition": "A benign, reactive proliferation of lymphocytes in the skin that mimics lymphoma clinically and/or histologically.",
+    "tags": [
+      "Skin::Neoplastic::Hematolymphoid::Pseudolymphoma_Cutaneous_Lymphoid_Hyperplasia"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Solitary or multiple papules/nodules. Can be caused by drugs, bug bites, tattoos, or idiopathic.",
+    "pathogenesis": "Reactive immune response.",
+    "macroscopic": "Erythematous papule or nodule.",
+    "microscopic": "Dense lymphoid infiltrate, often with germinal centers. Reactive follicles show: Polarization (dark and light zones), Tingible body macrophages, Intact mantle zones.",
+    "ancillary_studies": "IHC: BCL6 confined to germinal centers, BCL2 negative in germinal centers (positive in mantle zone). Ki-67 high and polarized within germinal centers. Polytypic light chains (Kappa and Lambda present in normal ratio).",
+    "differential_diagnosis": "Primary Cutaneous Follicle Center Lymphoma (Bcl2+, no tingible body macrophages, low Ki-67), Marginal Zone Lymphoma (light chain restriction).",
+    "staging": "Benign.",
+    "prognosis_and_prediction": "Benign course.",
+    "related_figures": [
+      {
+        "id": "Slide_149",
+        "src": "_asset_library/lectures/Derm_Lecture_4_cutaneous lymphomas/Derm_Lecture_4_cutaneous lymphomas_slide_0149.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_4_cutaneous lymphomas/Derm_Lecture_4_cutaneous lymphomas_slide_0149.jpg",
+        "diagnosis": "Cutaneous Lymphoid Hyperplasia",
+        "legend": "Reactive follicle showing high mitotic rate/proliferation. (Time: 3348s)"
+      },
+      {
+        "id": "Slide_150",
+        "src": "_asset_library/lectures/Derm_Lecture_4_cutaneous lymphomas/Derm_Lecture_4_cutaneous lymphomas_slide_0150.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_4_cutaneous lymphomas/Derm_Lecture_4_cutaneous lymphomas_slide_0150.jpg",
+        "diagnosis": "Cutaneous Lymphoid Hyperplasia",
+        "legend": "Ki-67 stain showing high proliferation rate restricted to the germinal center. (Time: 3355s)"
+      }
+    ]
+  }
+]

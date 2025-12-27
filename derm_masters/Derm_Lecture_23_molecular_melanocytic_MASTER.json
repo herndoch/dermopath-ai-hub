@@ -1,0 +1,158 @@
+[
+  {
+    "entity_name": "Melanoma (Invasive and In Situ)",
+    "definition": "A malignant neoplasm derived from melanocytes, characterized by a stepwise accumulation of pathogenic mutations and chromosomal copy number alterations.",
+    "tags": [
+      "Skin::Neoplastic::Melanocytic::Malignant::Melanoma_Invasive_Overview_NOS"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Melanomas often arise through stepwise progression from precursor lesions (nevi) or de novo (nodular melanoma). High tumor mutation burden (TMB) correlates with UV exposure (sun-damaged skin) but does not inherently distinguish benign from malignant lesions (benign nevi also have high TMB).",
+    "pathogenesis": "Follows a stepwise tumor progression model: \n1. **Initiation:** Gain-of-function mutation (e.g., BRAF V600E) drives proliferation (nevus formation) but triggers oncogene-induced senescence (p16/CDKN2A mediated).\n2. **Progression:** Second hit disrupts senescence barriers (e.g., CDKN2A loss/9p21 deletion), allowing clonal expansion (intermediate lesion/melanoma in situ).\n3. **Transformation:** Additional mutations (e.g., TERT promoter) and chromosomal instability lead to invasive melanoma.\n4. **Copy Number Alterations (CNA):** As tumors evolve, they acquire non-random gains/losses (e.g., gain of 6p, loss of 6q/9p).",
+    "macroscopic": "Variable presentation; often pigmented, asymmetric lesions. 'Amelanotic' variants exist (often associated with specific dedifferentiation pathways like BAP1 loss).",
+    "microscopic": "Atypical melanocytes with nuclear enlargement, hyperchromasia, and loss of maturation. Intra-tumor heterogeneity is common, with different subclones present in different areas of the tumor (sampling bias risk).",
+    "ancillary_studies": "Molecular Genetics (NGS/UCSF 500 Panel):\n- **Drivers (MAPK):** BRAF (V600E most common), NRAS, NF1, KIT.\n- **Tumor Suppressors:** CDKN2A (9p21 homozygous deletion), PTEN (truncating mutations/deletions), TP53.\n- **Other:** TERT promoter mutations (immortality), RAC1, PPP6C, ARID2.\n- **Copy Number (CNV/FISH):** \n  - Gains: 6p, 11q (CCND1), 7 (containing BRAF).\n  - Losses: 9p (CDKN2A), 6q, 10q (PTEN).\n\n**IHC/Stains:**\n- **pERK:** Indicates MAPK pathway activation.\n- **P16:** Loss correlates with CDKN2A deletion.\n\n**FISH Panels:** Probes for 6p, 6q, 11q (CCND1), and 9p (CDKN2A).",
+    "differential_diagnosis": "Benign Nevi (Common, Dysplastic, Spitz), BAP1-inactivated melanocytoma, Cellular Blue Nevus, Deep Penetrating Nevus.",
+    "staging": "Molecular staging involves assessing mutational burden (TMB) and copy number profile (CNV). 'Flat' CNV profiles suggest benign; 'noisy' profiles with multiple gains/losses suggest malignancy.",
+    "prognosis_and_prediction": "High TMB indicates high neoantigen load (potential immunotherapy response). Specific drivers (BRAF) predict response to targeted inhibitors. 9p21 (CDKN2A) loss is a significant prognostic marker.",
+    "related_figures": [
+      {
+        "id": "Slide_2",
+        "src": "_asset_library/lectures/Derm_Lecture_23_molecular_melanocytic/Derm_Lecture_23_molecular_melanocytic_slide_0002.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_23_molecular_melanocytic/Derm_Lecture_23_molecular_melanocytic_slide_0002.jpg",
+        "diagnosis": "Melanoma (Invasive and In Situ)",
+        "legend": "Diagram illustrating stepwise tumor progression: Mutation 1 (Senescence) -> Mutation 2 (Escape/Expansion) -> Mutation 3 (Transformation). (Time: 17s)"
+      },
+      {
+        "id": "Slide_5",
+        "src": "_asset_library/lectures/Derm_Lecture_23_molecular_melanocytic/Derm_Lecture_23_molecular_melanocytic_slide_0005.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_23_molecular_melanocytic/Derm_Lecture_23_molecular_melanocytic_slide_0005.jpg",
+        "diagnosis": "Melanoma (Invasive and In Situ)",
+        "legend": "Cartoon of melanocyte signaling pathways involved in pathogenesis: MAPK (KIT, RAS, BRAF, MEK, ERK), PI3K/AKT (PTEN), Wnt/Beta-catenin, and Cell Cycle (CDKN2A/p16). (Time: 271s)"
+      },
+      {
+        "id": "Slide_18",
+        "src": "_asset_library/lectures/Derm_Lecture_23_molecular_melanocytic/Derm_Lecture_23_molecular_melanocytic_slide_0018.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_23_molecular_melanocytic/Derm_Lecture_23_molecular_melanocytic_slide_0018.jpg",
+        "diagnosis": "Melanoma (Invasive and In Situ)",
+        "legend": "Lollipop plot of BRAF mutations showing the V600E hotspot, indicative of an oncogene driven by selection. (Time: 1632s)"
+      },
+      {
+        "id": "Slide_20",
+        "src": "_asset_library/lectures/Derm_Lecture_23_molecular_melanocytic/Derm_Lecture_23_molecular_melanocytic_slide_0020.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_23_molecular_melanocytic/Derm_Lecture_23_molecular_melanocytic_slide_0020.jpg",
+        "diagnosis": "Melanoma (Invasive and In Situ)",
+        "legend": "Lollipop plot of PTEN mutations showing scattered truncating/damaging mutations, characteristic of a tumor suppressor gene. (Time: 1775s)"
+      },
+      {
+        "id": "Slide_41",
+        "src": "_asset_library/lectures/Derm_Lecture_23_molecular_melanocytic/Derm_Lecture_23_molecular_melanocytic_slide_0041.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_23_molecular_melanocytic/Derm_Lecture_23_molecular_melanocytic_slide_0041.jpg",
+        "diagnosis": "Melanoma (Invasive and In Situ)",
+        "legend": "Heatmap of copy number alterations (CNAs) in melanoma progression, showing frequent losses of 9p and 10, and gains of 6p and 7. (Time: 2525s)"
+      },
+      {
+        "id": "Slide_43",
+        "src": "_asset_library/lectures/Derm_Lecture_23_molecular_melanocytic/Derm_Lecture_23_molecular_melanocytic_slide_0043.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_23_molecular_melanocytic/Derm_Lecture_23_molecular_melanocytic_slide_0043.jpg",
+        "diagnosis": "Melanoma (Invasive and In Situ)",
+        "legend": "FISH analysis demonstrating amplification of RREB1 (6p) and CCND1 (11q) alongside deletion of MYB (6q) and CDKN2A (9p) in melanoma. (Time: 2670s)"
+      },
+      {
+        "id": "Slide_58",
+        "src": "_asset_library/lectures/Derm_Lecture_23_molecular_melanocytic/Derm_Lecture_23_molecular_melanocytic_slide_0058.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_23_molecular_melanocytic/Derm_Lecture_23_molecular_melanocytic_slide_0058.jpg",
+        "diagnosis": "Melanoma (Invasive and In Situ)",
+        "legend": "Illustration of intratumoral heterogeneity and sampling bias; different areas of the tumor may harbor distinct genetic subpopulations (e.g., nevic precursor vs. transformed epithelioid cells). (Time: 3256s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "BAP1-Inactivated Melanocytic Tumor (BAPoma)",
+    "definition": "A distinct melanocytic neoplasm, often arising within a conventional nevus, characterized by the biallelic loss of the BAP1 tumor suppressor gene.",
+    "tags": [
+      "Skin::Neoplastic::Melanocytic::InterMedia::BAPoma_BAP1_Inactivated_Nevus"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Often presents as a phenotypically distinct nodule arising within a pre-existing conventional nevus (combined nevus).",
+    "pathogenesis": "Stepwise evolution:\n1. **Initiation:** BRAF V600E mutation leads to a conventional nevus (senescence).\n2. **Progression:** Biallelic inactivation of BAP1 allows escape from senescence.\n3. **Phenotype:** Loss of BAP1 results in dedifferentiation, loss of pigment, and acquisition of epithelioid morphology.",
+    "macroscopic": "Typically amelanotic (loss of pigment) compared to the associated conventional nevus.",
+    "microscopic": "Large, epithelioid melanocytes with abundant cytoplasm and distinct nuclei. Cells are notably larger than the background nevus cells and lack pigment.",
+    "ancillary_studies": "Genetics (NGS):\n- **BRAF V600E** (typically present).\n- **BAP1:** Biallelic inactivating mutations/deletions.\n\nIHC:\n- **BAP1:** Nuclear loss of expression (negative).",
+    "differential_diagnosis": "Spitz Nevus, Melanoma (nevoid or amelanotic), Epithelioid Blue Nevus.",
+    "staging": "Considered an intermediate/low-malignant potential lesion, though can progress to BAP1-mutant melanoma.",
+    "prognosis_and_prediction": "Generally indolent but represents a distinct pathway of progression; requires identification to distinguish from high-grade melanoma.",
+    "related_figures": [
+      {
+        "id": "Slide_2",
+        "src": "_asset_library/lectures/Derm_Lecture_23_molecular_melanocytic/Derm_Lecture_23_molecular_melanocytic_slide_0002.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_23_molecular_melanocytic/Derm_Lecture_23_molecular_melanocytic_slide_0002.jpg",
+        "diagnosis": "BAP1-Inactivated Melanocytic Tumor (BAPoma)",
+        "legend": "Contextual discussion of stepwise progression: A conventional nevus (BRAF+) arrests, then escapes via BAP1 inactivation to form a distinct epithelioid population. (Time: 17s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Spitz Nevus (and Atypical Spitz Tumors)",
+    "definition": "A spectrum of melanocytic neoplasms characterized by large epithelioid and/or spindled melanocytes, frequently driven by kinase fusions rather than point mutations.",
+    "tags": [
+      "Skin::Neoplastic::Melanocytic::Benign::Spitz_Nevus"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Often presents in younger patients. Can be difficult to distinguish from melanoma histologically.",
+    "pathogenesis": "Driven by **Gene Fusions** involving kinase genes. These fusions typically occur in introns and result in chimeric proteins with constitutively active kinase domains.\n- **Common Fusions:** ALK, ROS1, NTRK1/3, BRAF, RET, MET.\n- **Mechanism:** Structural rearrangements (translocations, inversions, deletions) place the kinase under a new promoter.",
+    "macroscopic": "Dome-shaped, pink to pigmented papules or nodules.",
+    "microscopic": "Large epithelioid or spindled melanocytes. Unlike conventional nevi, these often lack BRAF V600E point mutations.",
+    "ancillary_studies": "Immunohistochemistry (IHC):\n- **ALK:** Strongly positive (granular/cytoplasmic) in ALK-fused tumors.\n- **NTRK:** Positive in NTRK-fused tumors (though normal melanocytes have background expression).\n- **pERK:** Positive (MAPK activation).\n\nGenetics (NGS/RNA-Seq/FISH):\n- **BRAF Fusions:** e.g., AGK-BRAF (arising via paracentric inversion of chromosome 7).\n- **ALK/ROS1/NTRK Fusions.**\n- **HRAS** mutations or **BAP1** loss (in specific subsets).",
+    "differential_diagnosis": "Spitzoid Melanoma, Malignant Spitz Tumor, Reed Nevus.",
+    "staging": "Spectrum ranges from benign Spitz nevus to Atypical Spitz Tumor to Malignant Spitz Tumor.",
+    "prognosis_and_prediction": "Benign Spitz nevi have excellent prognosis. Kinase fusions are diagnostic markers; ALK/NTRK inhibitors may be relevant for malignant counterparts.",
+    "related_figures": [
+      {
+        "id": "Slide_32",
+        "src": "_asset_library/lectures/Derm_Lecture_23_molecular_melanocytic/Derm_Lecture_23_molecular_melanocytic_slide_0032.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_23_molecular_melanocytic/Derm_Lecture_23_molecular_melanocytic_slide_0032.jpg",
+        "diagnosis": "Spitz Nevus (and Atypical Spitz Tumors)",
+        "legend": "Schematic of an AGK-BRAF gene fusion arising via inversion, a mechanism seen in Spitzoid neoplasms. (Time: 2125s)"
+      },
+      {
+        "id": "Slide_33",
+        "src": "_asset_library/lectures/Derm_Lecture_23_molecular_melanocytic/Derm_Lecture_23_molecular_melanocytic_slide_0033.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_23_molecular_melanocytic/Derm_Lecture_23_molecular_melanocytic_slide_0033.jpg",
+        "diagnosis": "Spitz Nevus (and Atypical Spitz Tumors)",
+        "legend": "NGS pile-up showing reads mapping to introns of BRAF, indicative of a structural rearrangement/fusion. (Time: 2186s)"
+      },
+      {
+        "id": "Slide_38",
+        "src": "_asset_library/lectures/Derm_Lecture_23_molecular_melanocytic/Derm_Lecture_23_molecular_melanocytic_slide_0038.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_23_molecular_melanocytic/Derm_Lecture_23_molecular_melanocytic_slide_0038.jpg",
+        "diagnosis": "Spitz Nevus (and Atypical Spitz Tumors)",
+        "legend": "ALK immunohistochemistry showing strong cytoplasmic staining in a Spitz tumor with ALK fusion, alongside ALK break-apart FISH. (Time: 2360s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Deep Penetrating Nevus",
+    "definition": "A distinct melanocytic nevus variant characterized by activation of the Wnt/Beta-catenin pathway.",
+    "tags": [
+      "Skin::Neoplastic::Melanocytic::Benign::Deep_Penetrating_Nevus"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Pigmented nodule.",
+    "pathogenesis": "Combination of MAPK pathway activation (e.g., BRAF/MAP2K1) plus activation of the **Wnt/Beta-catenin** pathway.",
+    "macroscopic": "Darkly pigmented.",
+    "microscopic": "Plexiform or fascicular growth of pigmented spindled to epithelioid cells extending into the deep reticular dermis/subcutis.",
+    "ancillary_studies": "Genetics:\n- **CTNNB1** (Beta-catenin) mutations (exon 3).\n- **MAPK** driver (BRAF or MAP2K1).\n\nIHC:\n- **Beta-catenin:** Nuclear and cytoplasmic accumulation.",
+    "differential_diagnosis": "Blue Nevus, Cellular Blue Nevus, Melanoma.",
+    "staging": "Benign, though atypical variants exist.",
+    "prognosis_and_prediction": "Benign.",
+    "related_figures": [
+      {
+        "id": "Slide_5",
+        "src": "_asset_library/lectures/Derm_Lecture_23_molecular_melanocytic/Derm_Lecture_23_molecular_melanocytic_slide_0005.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_23_molecular_melanocytic/Derm_Lecture_23_molecular_melanocytic_slide_0005.jpg",
+        "diagnosis": "Deep Penetrating Nevus",
+        "legend": "Diagram of signaling pathways, highlighting the Beta-catenin/Wnt signaling pathway characteristic of Deep Penetrating Nevi. (Time: 271s)"
+      }
+    ]
+  }
+]

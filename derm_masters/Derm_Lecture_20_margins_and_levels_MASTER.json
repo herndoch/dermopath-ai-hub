@@ -1,0 +1,83 @@
+[
+  {
+    "entity_name": "Dermatopathology Specimen Processing and Margin Evaluation",
+    "definition": "The systematic chain of procedures involved in converting cutaneous tissue samples into histologic slides for diagnostic evaluation. This includes clinical biopsy technique, accessioning, gross examination, tissue processing (fixation, dehydration, infiltration), embedding, microtomy, and staining. A critical component is the assessment of surgical margins, distinguishing between clinical margins and histologic clearance.",
+    "tags": [
+      "Skin::Normal_Histology::Overview"
+    ],
+    "html_gcs_path": null,
+    "clinical": "The quality of the diagnosis is dependent on the input 'supply chain': accurate patient identification, correct site labeling, and informative clinical history. Biopsy types include: \n1. Shave Biopsy: For superficial lesions. Specimens >3mm are typically bisected. Thin shaves are inadequate for inflammatory conditions (cannot visualize deep dermis/subcutis).\n2. Punch Biopsy: Used for inflammatory dermatoses (to view all compartments) or pigmented lesions. Punches >4mm are bisected; <3mm are usually processed whole to avoid tissue loss.\n3. Excision: Complete removal extending into fat. Requires orientation (sutures) for margin mapping.\n4. Curettage: Produces fragmented tissue; suitable for diagnosis but inadequate for margin assessment.\n5. Snip Excision: Used for pedunculated lesions (e.g., skin tags).",
+    "pathogenesis": "The 'Assembly Line' of Histopathology:\n1. Fixation: Formalin fixes tissue.\n2. Accessioning: Assigning a tracking number.\n3. Grossing: Measuring, describing, and cutting tissue (e.g., bread-loafing, bisecting). Crucial for representative sampling.\n4. Tissue Processing: Dehydration through graded alcohols, clearing, and infiltration with paraffin wax.\n5. Embedding: Orienting tissue in wax blocks. Misorientation can lead to false positives/negatives (e.g., tangential cuts).\n6. Microtomy: Cutting 3-4 micron thick sections from the block.\n7. Staining: Automated H&E staining.",
+    "macroscopic": "Margin Assessment Concepts:\n- Clinical Margins: The visual clearance measured by the surgeon (e.g., 5mm for Melanoma In Situ, 4mm for NMSC).\n- Histologic Margins: Due to tissue shrinkage and sampling limits, pathologists view a fraction of the clinical margin. 'Negative' implies no tumor at the inked edge. 'Close' typically denotes tumor within <1mm of the margin.\n- 'Excised in planes of section': Tumor is not seen at the cut edge, but unvisualized tissue remains in the block.\n- 'Completely excised': Can technically only be confirmed if the block is exhausted (stepped through) entirely.\n\nGrossing Techniques for Margins:\n- Bread-loafing: Transverse sections (standard).\n- Tips: Can be processed as 'Standard' (cross-section) or 'Split' (bisected and embedded cut-side down). Positive standard tips require stepping through the block.\n- En Face (Mohs-like): The entire peripheral margin is embedded flat. Difficult to embed perfectly due to tissue curvature.",
+    "microscopic": "Glass slides represent a 2D cross-section (3-4 microns thick) of a 3D object. \nArtifacts:\n- Floaters: Extraneous tissue from dirty water baths adhering to the slide (e.g., spirochetes from a previous Lyme case, mycobacteria, or unrelated tumor fragments).\n- Tangential cuts: Can mimic architectural abnormalities.\n\nMargin Evaluation:\n- Standard Evaluation: Assessing the presence of tumor cells at the inked peripheral and deep borders of the representative sections.",
+    "ancillary_studies": "Stains:\n- H&E (Hematoxylin and Eosin): Standard of care (1880s technology).\n- PASD (mentioned in context of amylase contamination).\n\nProcess Levels vs. Steps:\n- Levels: Deeper cuts into the block at small intervals (e.g., 30 microns). Used when the initial section shows normal tissue but a lesion is suspected (e.g., finding a small BCC or cyst).\n- Steps: Cuts at larger intervals to exhaust the block. Used to clear positive tips or confirm complete removal of a lesion.",
+    "differential_diagnosis": "N/A (Procedural entity)",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Accuracy of diagnosis and margin assessment correlates with biopsy quality and grossing precision. 'Supply chain' errors (wrong patient, wrong site, inadequate sampling) compromise outcomes.",
+    "related_figures": [
+      {
+        "id": "Slide_2",
+        "src": "_asset_library/lectures/Derm_Lecture_20_margins_and_levels/Derm_Lecture_20_margins_and_levels_slide_0002.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_20_margins_and_levels/Derm_Lecture_20_margins_and_levels_slide_0002.jpg",
+        "diagnosis": "Dermatopathology Specimen Processing and Margin Evaluation",
+        "legend": "Introduction to margins and levels: The nuts and bolts of pathology practice. (Time: 14s)"
+      },
+      {
+        "id": "Slide_6",
+        "src": "_asset_library/lectures/Derm_Lecture_20_margins_and_levels/Derm_Lecture_20_margins_and_levels_slide_0006.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_20_margins_and_levels/Derm_Lecture_20_margins_and_levels_slide_0006.jpg",
+        "diagnosis": "Dermatopathology Specimen Processing and Margin Evaluation",
+        "legend": "The 'Assembly Line' concept: Errors at any stage (biopsy, accession, grossing) affect the final report. (Time: 218s)"
+      },
+      {
+        "id": "Slide_12",
+        "src": "_asset_library/lectures/Derm_Lecture_20_margins_and_levels/Derm_Lecture_20_margins_and_levels_slide_0012.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_20_margins_and_levels/Derm_Lecture_20_margins_and_levels_slide_0012.jpg",
+        "diagnosis": "Dermatopathology Specimen Processing and Margin Evaluation",
+        "legend": "Microtomy: A ribbon of paraffin-embedded tissue is cut and floated on a water bath before being placed on a glass slide. (Time: 639s)"
+      },
+      {
+        "id": "Slide_18",
+        "src": "_asset_library/lectures/Derm_Lecture_20_margins_and_levels/Derm_Lecture_20_margins_and_levels_slide_0018.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_20_margins_and_levels/Derm_Lecture_20_margins_and_levels_slide_0018.jpg",
+        "diagnosis": "Dermatopathology Specimen Processing and Margin Evaluation",
+        "legend": "Curettage specimen: Fragmented tissue, adequate for diagnosis but suboptimal for margin assessment. (Time: 1569s)"
+      },
+      {
+        "id": "Slide_19",
+        "src": "_asset_library/lectures/Derm_Lecture_20_margins_and_levels/Derm_Lecture_20_margins_and_levels_slide_0019.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_20_margins_and_levels/Derm_Lecture_20_margins_and_levels_slide_0019.jpg",
+        "diagnosis": "Dermatopathology Specimen Processing and Margin Evaluation",
+        "legend": "Shave biopsy schema: Demonstrating 'excised in planes of section' vs. unvisualized tissue (Z-plane). (Time: 1622s)"
+      },
+      {
+        "id": "Slide_21",
+        "src": "_asset_library/lectures/Derm_Lecture_20_margins_and_levels/Derm_Lecture_20_margins_and_levels_slide_0021.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_20_margins_and_levels/Derm_Lecture_20_margins_and_levels_slide_0021.jpg",
+        "diagnosis": "Dermatopathology Specimen Processing and Margin Evaluation",
+        "legend": "Bread-loafing of an excision: Gross sectioning technique to evaluate margins in cross-section. (Time: 1979s)"
+      },
+      {
+        "id": "Slide_22",
+        "src": "_asset_library/lectures/Derm_Lecture_20_margins_and_levels/Derm_Lecture_20_margins_and_levels_slide_0022.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_20_margins_and_levels/Derm_Lecture_20_margins_and_levels_slide_0022.jpg",
+        "diagnosis": "Dermatopathology Specimen Processing and Margin Evaluation",
+        "legend": "Handling of Excision Tips: Standard tips (requires stepping if positive) vs. Split tips. (Time: 2092s)"
+      },
+      {
+        "id": "Slide_23",
+        "src": "_asset_library/lectures/Derm_Lecture_20_margins_and_levels/Derm_Lecture_20_margins_and_levels_slide_0023.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_20_margins_and_levels/Derm_Lecture_20_margins_and_levels_slide_0023.jpg",
+        "diagnosis": "Dermatopathology Specimen Processing and Margin Evaluation",
+        "legend": "En Face / Mohs-like margins: Embedding the peripheral margin flat to visualize the entire edge (technically difficult). (Time: 2206s)"
+      },
+      {
+        "id": "Slide_26",
+        "src": "_asset_library/lectures/Derm_Lecture_20_margins_and_levels/Derm_Lecture_20_margins_and_levels_slide_0026.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_20_margins_and_levels/Derm_Lecture_20_margins_and_levels_slide_0026.jpg",
+        "diagnosis": "Dermatopathology Specimen Processing and Margin Evaluation",
+        "legend": "Levels vs. Steps: Levels are small increments to find a lesion; Steps are large increments to clear a margin or exhaust a block. (Time: 2498s)"
+      }
+    ]
+  }
+]

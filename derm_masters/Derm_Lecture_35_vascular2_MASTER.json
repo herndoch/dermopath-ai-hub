@@ -1,0 +1,250 @@
+[
+  {
+    "entity_name": "Kaposi Sarcoma",
+    "definition": "A malignant vascular neoplasm caused by Human Herpes Virus 8 (HHV-8) infection, presenting in four clinical subtypes: Classic, Endemic (African), Iatrogenic (Immunosuppression-related), and Epidemic (AIDS-associated).",
+    "tags": [
+      "Skin::Neoplastic::Soft_Tissue::Vascular::Kaposi_Sarcoma"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Four variants: 1) Classic: Elderly men of Mediterranean descent, lower extremities. 2) Endemic: Africa. 3) Iatrogenic: Transplant/immunosuppressed patients. 4) Epidemic (HIV/AIDS): 'Pityriasis rosea-like' or Christmas tree distribution; often purplish patches, plaques, or nodules. Can involve internal organs (GI tract, lungs) but rarely the brain.",
+    "pathogenesis": "Caused by Human Herpes Virus 8 (HHV-8) infection. The virus produces the LANA protein (Latency-Associated Nuclear Antigen).",
+    "macroscopic": "Progresses through patch, plaque, and nodular stages. Lesions are typically violaceous or erythematous.",
+    "microscopic": "Key features include infiltration of the dermis by jagged, slit-like vascular channels separating collagen bundles. \n\n**Patch/Plaque Stage:** Subtle proliferation of jagged, irregular vessels lined by thin endothelial cells surrounding pre-existing structures (vessels/adnexa), known as the **Promontory Sign**. Lymphoplasmacytic infiltrate is common.\n\n**Nodular Stage:** Fascicles of spindled endothelial cells, slit-like vascular spaces containing erythrocytes. Presence of **'Dorf balls'** (eosinophilic, protein-rich globules of degenerated erythrocytes) within the cytoplasm or stroma.",
+    "ancillary_studies": "IHC: HHV-8 (LANA-1) positive (nuclear stain, often stippled/fickle), CD31 positive, CD34 positive, D2-40 positive.\nSpecial Stains: PAS positive (highlights 'Dorf balls').",
+    "differential_diagnosis": "Pyogenic granuloma (can be a clinical mimic), Angiosarcoma (more atypia, HHV-8 negative), Targetoid Hemosiderotic Hemangioma (Hobnail Hemangioma), Spindle cell hemangioma.",
+    "staging": "Histologic progression: Patch -> Plaque -> Nodular.",
+    "prognosis_and_prediction": "Dependent on immune status. HIV-associated cases often regress with HAART. Iatrogenic cases may regress with reduction of immunosuppression. Advanced/visceral disease may require chemotherapy (e.g., vincristine, vinblastine).",
+    "related_figures": [
+      {
+        "id": "Slide_9",
+        "src": "_asset_library/lectures/Derm_Lecture_35_vascular2/Derm_Lecture_35_vascular2_slide_0009.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_35_vascular2/Derm_Lecture_35_vascular2_slide_0009.jpg",
+        "diagnosis": "Kaposi Sarcoma",
+        "legend": "Low power view showing 'busy dermis' with infiltration through interstitial collagen. (Time: 471s)"
+      },
+      {
+        "id": "Slide_11",
+        "src": "_asset_library/lectures/Derm_Lecture_35_vascular2/Derm_Lecture_35_vascular2_slide_0011.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_35_vascular2/Derm_Lecture_35_vascular2_slide_0011.jpg",
+        "diagnosis": "Kaposi Sarcoma",
+        "legend": "Jagged, infiltrative blood vessels rather than rounded ones. (Time: 560s)"
+      },
+      {
+        "id": "Slide_14",
+        "src": "_asset_library/lectures/Derm_Lecture_35_vascular2/Derm_Lecture_35_vascular2_slide_0014.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_35_vascular2/Derm_Lecture_35_vascular2_slide_0014.jpg",
+        "diagnosis": "Kaposi Sarcoma",
+        "legend": "The 'Promontory Sign': A new, jagged vascular channel forming around a pre-existing native vessel. (Time: 644s)"
+      },
+      {
+        "id": "Slide_17",
+        "src": "_asset_library/lectures/Derm_Lecture_35_vascular2/Derm_Lecture_35_vascular2_slide_0017.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_35_vascular2/Derm_Lecture_35_vascular2_slide_0017.jpg",
+        "diagnosis": "Kaposi Sarcoma",
+        "legend": "Nodular stage showing a ball of spindled cells. (Time: 696s)"
+      },
+      {
+        "id": "Slide_19",
+        "src": "_asset_library/lectures/Derm_Lecture_35_vascular2/Derm_Lecture_35_vascular2_slide_0019.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_35_vascular2/Derm_Lecture_35_vascular2_slide_0019.jpg",
+        "diagnosis": "Kaposi Sarcoma",
+        "legend": "High power showing 'Dorf balls' (pink intra- or extracellular globules of degenerated red blood cells). (Time: 722s)"
+      },
+      {
+        "id": "Slide_23",
+        "src": "_asset_library/lectures/Derm_Lecture_35_vascular2/Derm_Lecture_35_vascular2_slide_0023.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_35_vascular2/Derm_Lecture_35_vascular2_slide_0023.jpg",
+        "diagnosis": "Kaposi Sarcoma",
+        "legend": "HHV-8 immunostain showing nuclear positivity (LANA protein). (Time: 829s)"
+      },
+      {
+        "id": "Slide_26",
+        "src": "_asset_library/lectures/Derm_Lecture_35_vascular2/Derm_Lecture_35_vascular2_slide_0026.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_35_vascular2/Derm_Lecture_35_vascular2_slide_0026.jpg",
+        "diagnosis": "Kaposi Sarcoma",
+        "legend": "Angiomatoid variant of KS, which can appear more circumscribed. (Time: 968s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Angiosarcoma",
+    "definition": "A malignant, aggressive neoplasm of endothelial differentiation. Can be cutaneous (idiopathic), associated with chronic lymphedema (Stewart-Treves syndrome), or post-radiation.",
+    "tags": [
+      "Skin::Neoplastic::Soft_Tissue::Vascular::Angiosarcoma_Cutaneous"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Typically affects the head and neck of elderly patients (idiopathic). Also occurs in settings of chronic lymphedema (e.g., post-mastectomy) or within radiation fields (post-radiation angiosarcoma). Presents as bruise-like patches, plaques, or nodules spreading beyond apparent margins.",
+    "pathogenesis": "Can be spontaneous, radiation-induced, or lymphedema-associated. Radiation-associated cases often show **MYC** amplification. Historical associations with Thorotrast and vinyl chloride (liver).",
+    "macroscopic": "Ill-defined, bruise-like, violaceous areas, often multifocal or extensive.",
+    "microscopic": "Highly infiltrative growth of atypical endothelial cells dissecting through collagen ('dissection of collagen'). Vessels are irregular, jagged, and communicating. \n\nKey features include:\n- **Heaping up** (multilayering) of endothelial cells.\n- **Papillary projections** into lumens.\n- **Hobnail** endothelial cells.\n- Cytologic atypia (hyperchromasia, pleomorphism).\n- **Epithelioid variant:** Large, rounded cells with abundant cytoplasm, sometimes with intracytoplasmic vacuoles (can mimic carcinoma).",
+    "ancillary_studies": "IHC: CD31 positive, CD34 positive, D2-40 positive (lymphatic differentiation), ERG positive.\nGenetics: **MYC** amplification (detected by IHC or FISH) is characteristic of post-radiation angiosarcoma (and primary breast angiosarcoma), helping distinguish it from atypical vascular lesions (AVL).",
+    "differential_diagnosis": "Atypical Vascular Lesion (AVL), Kaposi Sarcoma, Epithelioid Hemangioendothelioma, Poorly differentiated carcinoma (for epithelioid variant), Melanoma.",
+    "staging": "Not explicitly detailed in lecture, but noted as having poor margins and deep infiltration.",
+    "prognosis_and_prediction": "Poor prognosis. Highly aggressive with high mortality. Difficult to obtain clear surgical margins due to extensive microscopic spread ('invisible dermatosis').",
+    "related_figures": [
+      {
+        "id": "Slide_32",
+        "src": "_asset_library/lectures/Derm_Lecture_35_vascular2/Derm_Lecture_35_vascular2_slide_0032.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_35_vascular2/Derm_Lecture_35_vascular2_slide_0032.jpg",
+        "diagnosis": "Angiosarcoma",
+        "legend": "Infiltrative growth with jagged, slit-like spaces and dissecting collagen. (Time: 1328s)"
+      },
+      {
+        "id": "Slide_34",
+        "src": "_asset_library/lectures/Derm_Lecture_35_vascular2/Derm_Lecture_35_vascular2_slide_0034.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_35_vascular2/Derm_Lecture_35_vascular2_slide_0034.jpg",
+        "diagnosis": "Angiosarcoma",
+        "legend": "Heaping up of endothelial cells and papillary projections. (Time: 1407s)"
+      },
+      {
+        "id": "Slide_37",
+        "src": "_asset_library/lectures/Derm_Lecture_35_vascular2/Derm_Lecture_35_vascular2_slide_0037.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_35_vascular2/Derm_Lecture_35_vascular2_slide_0037.jpg",
+        "diagnosis": "Angiosarcoma",
+        "legend": "Promontory signs and hobnailing of endothelial cells. (Time: 1518s)"
+      },
+      {
+        "id": "Slide_45",
+        "src": "_asset_library/lectures/Derm_Lecture_35_vascular2/Derm_Lecture_35_vascular2_slide_0045.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_35_vascular2/Derm_Lecture_35_vascular2_slide_0045.jpg",
+        "diagnosis": "Angiosarcoma",
+        "legend": "c-MYC immunostain showing nuclear positivity (indicates amplification in post-radiation setting). (Time: 1817s)"
+      },
+      {
+        "id": "Slide_49",
+        "src": "_asset_library/lectures/Derm_Lecture_35_vascular2/Derm_Lecture_35_vascular2_slide_0049.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_35_vascular2/Derm_Lecture_35_vascular2_slide_0049.jpg",
+        "diagnosis": "Epithelioid Angiosarcoma",
+        "legend": "Epithelioid variant with large, plump cells mimicking carcinoma. (Time: 1933s)"
+      },
+      {
+        "id": "Slide_52",
+        "src": "_asset_library/lectures/Derm_Lecture_35_vascular2/Derm_Lecture_35_vascular2_slide_0052.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_35_vascular2/Derm_Lecture_35_vascular2_slide_0052.jpg",
+        "diagnosis": "Epithelioid Angiosarcoma",
+        "legend": "High power showing intracytoplasmic vacuoles (primitive lumina) in epithelioid cells. (Time: 2069s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Atypical Vascular Lesion",
+    "definition": "A vascular proliferation of uncertain malignant potential or intermediate behavior, typically arising in irradiated skin (e.g., breast conservation therapy).",
+    "tags": [
+      "Skin::Neoplastic::Soft_Tissue::Vascular::Atypical_Vascular_Lesion"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Occurs in previously irradiated fields (e.g., breast). Often small, well-circumscribed papules.",
+    "pathogenesis": "Radiation-induced but lacks the MYC amplification seen in frank angiosarcoma.",
+    "macroscopic": "Small, flesh-colored to erythematous papules.",
+    "microscopic": "Dilated, irregular vascular channels with some architectural atypia but lacking significant cytologic atypia, multilayering, or destructive infiltration seen in angiosarcoma.",
+    "ancillary_studies": "IHC: **MYC negative** (crucial for distinguishing from radiation-associated angiosarcoma).",
+    "differential_diagnosis": "Post-radiation Angiosarcoma (MYC positive), Lymphangioma, Hemangioma.",
+    "staging": "Intermediate/Uncertain potential.",
+    "prognosis_and_prediction": "Benign course if completely excised, though can be a marker for field instability. Distinguished from angiosarcoma by lack of MYC amplification.",
+    "related_figures": [
+      {
+        "id": "Slide_43",
+        "src": "_asset_library/lectures/Derm_Lecture_35_vascular2/Derm_Lecture_35_vascular2_slide_0043.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_35_vascular2/Derm_Lecture_35_vascular2_slide_0043.jpg",
+        "diagnosis": "Atypical Vascular Lesion vs Angiosarcoma",
+        "legend": "A vascular proliferation in irradiated breast; distinction requires MYC staining. (Time: 1775s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Epithelioid Hemangioendothelioma",
+    "definition": "A vascular tumor of intermediate malignancy (borderline), rarely occurring in the skin (more common in liver/deep soft tissue).",
+    "tags": [
+      "Skin::Neoplastic::Soft_Tissue::Vascular::Epithelioid_Hemangioendothelioma"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Rare in skin; can present as a nodule.",
+    "pathogenesis": "Associated with *WWTR1-CAMTA1* fusion.",
+    "macroscopic": "Nodule or mass.",
+    "microscopic": "Cords, strands, or nests of epithelioid endothelial cells within a myxoid or hyaline stroma. \n\nKey Feature: **'Blister cells'** (endothelial cells with intracytoplasmic vacuoles containing red blood cells). Mild pleomorphism; relatively circumscribed compared to angiosarcoma.",
+    "ancillary_studies": "IHC: CD31 positive, CD34 positive, **CAMTA1 positive** (specific marker).",
+    "differential_diagnosis": "Epithelioid Angiosarcoma (more atypia, infiltrative, MYC+ if rads), Epithelioid Sarcoma, Metastatic Carcinoma.",
+    "staging": "Intermediate malignancy; has metastatic potential.",
+    "prognosis_and_prediction": "Intermediate behavior; requires wide local excision.",
+    "related_figures": [
+      {
+        "id": "Slide_56",
+        "src": "_asset_library/lectures/Derm_Lecture_35_vascular2/Derm_Lecture_35_vascular2_slide_0056.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_35_vascular2/Derm_Lecture_35_vascular2_slide_0056.jpg",
+        "diagnosis": "Epithelioid Hemangioendothelioma",
+        "legend": "Epithelioid cells with intracytoplasmic vacuoles in a myxoid stroma. (Time: 2223s)"
+      },
+      {
+        "id": "Slide_59",
+        "src": "_asset_library/lectures/Derm_Lecture_35_vascular2/Derm_Lecture_35_vascular2_slide_0059.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_35_vascular2/Derm_Lecture_35_vascular2_slide_0059.jpg",
+        "diagnosis": "Epithelioid Hemangioendothelioma",
+        "legend": "High power of 'Blister cells' (vacuoles containing RBCs). (Time: 2295s)"
+      },
+      {
+        "id": "Slide_64",
+        "src": "_asset_library/lectures/Derm_Lecture_35_vascular2/Derm_Lecture_35_vascular2_slide_0064.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_35_vascular2/Derm_Lecture_35_vascular2_slide_0064.jpg",
+        "diagnosis": "Epithelioid Hemangioendothelioma",
+        "legend": "Additional view of blister cells. (Time: 2365s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Retiform Hemangioendothelioma",
+    "definition": "A rare low-grade angiosarcoma or intermediate grade vascular tumor, typically affecting the distal extremities of young adults.",
+    "tags": [
+      "Skin::Neoplastic::Soft_Tissue::Vascular::Retiform_Hemangioendothelioma"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Slow-growing plaque or nodule, typically on the legs/extremities.",
+    "pathogenesis": "Unknown.",
+    "macroscopic": "Plaque-like or nodular.",
+    "microscopic": "Arborizing, elongated vascular channels resembling the **Rete Testis**. Vessels lined by hobnail endothelial cells (described as 'matchstick' or 'tooth-like' appearance).",
+    "ancillary_studies": "IHC: CD31 positive, CD34 positive.",
+    "differential_diagnosis": "Angiosarcoma, Dabska Tumor (Papillary Intralymphatic Angioendothelioma).",
+    "staging": "Intermediate malignancy.",
+    "prognosis_and_prediction": "Low metastatic potential but high rate of local recurrence. Treated surgically.",
+    "related_figures": [
+      {
+        "id": "Slide_66",
+        "src": "_asset_library/lectures/Derm_Lecture_35_vascular2/Derm_Lecture_35_vascular2_slide_0066.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_35_vascular2/Derm_Lecture_35_vascular2_slide_0066.jpg",
+        "diagnosis": "Retiform Hemangioendothelioma",
+        "legend": "Vascular channels resembling the rete testis structure. (Time: 2386s)"
+      },
+      {
+        "id": "Slide_67",
+        "src": "_asset_library/lectures/Derm_Lecture_35_vascular2/Derm_Lecture_35_vascular2_slide_0067.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_35_vascular2/Derm_Lecture_35_vascular2_slide_0067.jpg",
+        "diagnosis": "Retiform Hemangioendothelioma",
+        "legend": "Comparison of tumor architecture (right) to normal rete testis (left). (Time: 2415s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Malignant Glomus Tumor",
+    "definition": "The malignant counterpart to a glomus tumor (glomangiosarcoma), arising from glomus bodies (neuromyoarterial receptors).",
+    "tags": [
+      "Skin::Neoplastic::Soft_Tissue::Vascular::Malignant_Glomus_Tumor"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Deep location.",
+    "pathogenesis": "Can arise de novo or from a benign glomus tumor.",
+    "macroscopic": "Large deep mass.",
+    "microscopic": "Diagnostic criteria (requires fulfillment of criteria such as): Size > 2 cm, Deep location, Atypical mitotic figures. Shows sheets of atypical cells with significant nuclear atypia and mitotic activity.",
+    "ancillary_studies": "IHC: **SMA (Smooth Muscle Actin) positive**, CD34 variable/negative.",
+    "differential_diagnosis": "Benign Glomus Tumor, Glomus Tumor of Uncertain Malignant Potential (GLUMP).",
+    "staging": "Malignant.",
+    "prognosis_and_prediction": "Potential for metastasis.",
+    "related_figures": [
+      {
+        "id": "Slide_71",
+        "src": "_asset_library/lectures/Derm_Lecture_35_vascular2/Derm_Lecture_35_vascular2_slide_0071.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_35_vascular2/Derm_Lecture_35_vascular2_slide_0071.jpg",
+        "diagnosis": "Malignant Glomus Tumor",
+        "legend": "Large, deep mass showing sheets of atypical cells. (Time: 2487s)"
+      }
+    ]
+  }
+]

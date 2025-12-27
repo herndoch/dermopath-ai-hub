@@ -1,0 +1,342 @@
+[
+  {
+    "entity_name": "Mycosis Fungoides",
+    "definition": "The most common type of cutaneous T-cell lymphoma (50% of all primary CTCL), characterized by a proliferation of skin-homing malignant T-cells. It typically progresses through patch, plaque, and tumor stages over years to decades.",
+    "tags": [
+      "Skin::Neoplastic::Hematolymphoid::Mycosis_Fungoides"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Occurs mostly in older adults but can affect children. Mean duration to diagnosis is 4-6 years. Presents in photoprotected sites (buttocks, groin, abdomen, axilla). \n- Patch Stage: Large, round, well-demarcated erythematous patches with scale (variable size).\n- Plaque Stage: Thicker, palpable indurated lesions.\n- Tumor Stage: Exophytic nodules, often with ulceration.\nOften misdiagnosed initially as psoriasis or spongiotic dermatitis.",
+    "pathogenesis": "Malignant proliferation of skin-homing T-cells. Historical context: First described by Alibert Bazin (1806) who coined 'Mycosis Fungoides' due to mushroom-like tumors.",
+    "macroscopic": "Large, round, well-demarcated patches or plaques in 'bathing trunk' distribution. Advanced disease presents with tumors/nodules.",
+    "microscopic": "Histology varies by stage:\n- Patch Stage: Patchy, band-like (lichenoid) lymphocytic infiltrate in the papillary dermis. Fibrosis of papillary dermis. Epidermotropism (lymphocytes in epidermis) is the hallmark, seen as haloed lymphocytes, lining up at the DEJ, or Pautrier microabscesses (collections of lymphocytes). Note: Pautrier microabscesses are seen in <20% of early patch stage; classic features often absent. Lymphocytes are often small/medium and cytologically bland (not cerebriform).\n- Plaque Stage: Infiltrate extends deeper into reticular dermis (beyond superficial plexus). Denser infiltrate, more developed epidermotropism.\n- Tumor Stage: Diffuse sheets of atypical cells throughout the dermis. Marked cytologic atypia. Epidermotropism often lost. May resemble high-grade lymphoma or sarcoma.",
+    "ancillary_studies": "IHC: CD4+ (predominantly), loss of pan-T cell antigens (CD2, CD5, CD7) - though CD7 loss is not specific (seen in benign inflammatory conditions). \nClonality: T-cell receptor (TCR) gene rearrangement (PCR). Identification of an identical T-cell clone in two separate biopsy sites significantly increases sensitivity and specificity.",
+    "differential_diagnosis": "Psoriasis, spongiotic dermatitis (eczema), drug eruptions. In early stages, histology may be non-diagnostic (descriptive report issued: 'atypical lymphoid infiltrate').",
+    "staging": "Progresses from patches to plaques to tumors. Evaluation includes full body skin exam and potential lymph node/blood assessment.",
+    "prognosis_and_prediction": "Indolent course for patch/plaque stage. Tumor stage indicates more advanced disease. 50% of all primary cutaneous lymphomas.",
+    "related_figures": [
+      {
+        "id": "Slide_4",
+        "src": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0004.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0004.jpg",
+        "diagnosis": "Mycosis Fungoides",
+        "legend": "Historical illustration of tumor stage MF (Alibert Bazin). (Time: 214s)"
+      },
+      {
+        "id": "Slide_13",
+        "src": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0013.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0013.jpg",
+        "diagnosis": "Mycosis Fungoides",
+        "legend": "Clinical presentation of patches: large, round, well-demarcated lesions. (Time: 819s)"
+      },
+      {
+        "id": "Slide_17",
+        "src": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0017.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0017.jpg",
+        "diagnosis": "Mycosis Fungoides",
+        "legend": "Patch stage histology: Patchy band-like infiltrate with epidermotropism. (Time: 919s)"
+      },
+      {
+        "id": "Slide_18",
+        "src": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0018.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0018.jpg",
+        "diagnosis": "Mycosis Fungoides",
+        "legend": "Epidermotropism: Lymphocytes aligned along the dermal-epidermal junction. (Time: 1006s)"
+      },
+      {
+        "id": "Slide_20",
+        "src": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0020.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0020.jpg",
+        "diagnosis": "Mycosis Fungoides",
+        "legend": "Pautrier microabscess: Collection of lymphocytes within the epidermis. (Time: 1037s)"
+      },
+      {
+        "id": "Slide_41",
+        "src": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0041.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0041.jpg",
+        "diagnosis": "Mycosis Fungoides",
+        "legend": "Plaque stage: Dense infiltrate extending into reticular dermis. (Time: 1895s)"
+      },
+      {
+        "id": "Slide_44",
+        "src": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0044.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0044.jpg",
+        "diagnosis": "Mycosis Fungoides",
+        "legend": "Tumor stage: Diffuse dermal infiltrate of atypical cells, loss of epidermotropism. (Time: 1983s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Folliculotropic Mycosis Fungoides",
+    "definition": "A variant of mycosis fungoides where the neoplastic T-cells show a predilection for hair follicles rather than the epidermis.",
+    "tags": [
+      "Skin::Neoplastic::Hematolymphoid::Mycosis_Fungoides_Folliculotropic"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Distinct distribution from conventional MF: affects Head and Neck (Face). \nMorphology: Acneiform lesions, rosacea-like, comedonal, or follicular-based papules/plaques. Can present as erythematous plaques with follicular prominence.",
+    "pathogenesis": "Lymphocytic tropism for follicular epithelium.",
+    "macroscopic": "Acne-like or comedonal lesions on the face/scalp; follicular papules on trunk.",
+    "microscopic": "Folliculotropism: Lymphocytes infiltrating the follicular epithelium. \nFollicular Mucinosis: Mucin deposition within the follicular epithelium (dissociation of keratinocytes). \nInfiltrate: Usually small to medium-sized lymphocytes. Admixed eosinophils and plasma cells are common.",
+    "ancillary_studies": "Similar to conventional MF. Mucin stains (Alcian blue) may highlight follicular mucin.",
+    "differential_diagnosis": "Acne vulgaris, rosacea, follicular eczema.",
+    "staging": "Considered a distinct variant with potentially different prognostic implications compared to patch/plaque MF.",
+    "prognosis_and_prediction": "Often more resistant to skin-directed therapies due to depth of infiltrate.",
+    "related_figures": [
+      {
+        "id": "Slide_48",
+        "src": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0048.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0048.jpg",
+        "diagnosis": "Folliculotropic Mycosis Fungoides",
+        "legend": "Clinical presentation on the face: Acneiform and erythematous plaques. (Time: 2134s)"
+      },
+      {
+        "id": "Slide_51",
+        "src": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0051.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0051.jpg",
+        "diagnosis": "Folliculotropic Mycosis Fungoides",
+        "legend": "Histology: Low power showing lymphocytes surrounding and infiltrating hair follicles. (Time: 2256s)"
+      },
+      {
+        "id": "Slide_52",
+        "src": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0052.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0052.jpg",
+        "diagnosis": "Folliculotropic Mycosis Fungoides",
+        "legend": "Follicular mucinosis: Mucin deposition within the follicle epithelium. (Time: 2269s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Pagetoid Reticulosis",
+    "definition": "A rare variant of mycosis fungoides (Woringer-Kolopp disease) characterized by localized disease and marked epidermotropism.",
+    "tags": [
+      "Skin::Neoplastic::Hematolymphoid::Pagetoid_Reticulosis"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Solitary patch or plaque (hyperkeratotic/verrucous). Exclusively acral distribution (extremities). Localized disease; no reports of dissemination or disease-related death.",
+    "pathogenesis": "Indolent course.",
+    "macroscopic": "Solitary, well-demarcated, scaly or verrucous plaque on the extremities.",
+    "microscopic": "Marked epidermotropism ('Pagetoid scatter') of atypical lymphocytes. The epidermis is heavily infiltrated by single cells or nests. Underlying dermal infiltrate is often band-like.",
+    "ancillary_studies": "IHC: Often CD8+ positive (unlike conventional MF which is usually CD4+). CD30+ cells may be present.",
+    "differential_diagnosis": "Conventional MF, superficial spreading melanoma (due to pagetoid scatter), Paget's disease.",
+    "staging": "Localized.",
+    "prognosis_and_prediction": "Excellent prognosis; indolent.",
+    "related_figures": [
+      {
+        "id": "Slide_54",
+        "src": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0054.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0054.jpg",
+        "diagnosis": "Pagetoid Reticulosis",
+        "legend": "Clinical: Solitary plaques on the extremities. (Time: 2310s)"
+      },
+      {
+        "id": "Slide_55",
+        "src": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0055.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0055.jpg",
+        "diagnosis": "Pagetoid Reticulosis",
+        "legend": "Histology: Dramatic epidermotropism (pagetoid scatter) of lymphocytes. (Time: 2319s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Granulomatous Slack Skin",
+    "definition": "A rare subtype of cutaneous T-cell lymphoma characterized by the development of folds of lax skin.",
+    "tags": [
+      "Skin::Neoplastic::Hematolymphoid::Granulomatous_Slack_Skin"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Development of pendulous, loose skin folds, particularly in intertriginous areas (axilla, groin).",
+    "pathogenesis": "Elastolysis leads to the clinical appearance of slack skin.",
+    "macroscopic": "Redundant, hanging folds of skin.",
+    "microscopic": "Granulomatous infiltrate throughout the dermis. Presence of multinucleated giant cells containing engulfed elastic fibers (elastophagocytosis). Significant loss of elastic tissue. Atypical lymphocytes admixed with the granulomas.",
+    "ancillary_studies": "Elastic tissue stains (Verhoeff-Van Gieson) demonstrate loss of elastic fibers.",
+    "differential_diagnosis": "Granulomatous MF, sarcoidosis.",
+    "staging": "Indolent but disfiguring.",
+    "prognosis_and_prediction": "Chronic indolent course.",
+    "related_figures": [
+      {
+        "id": "Slide_56",
+        "src": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0056.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0056.jpg",
+        "diagnosis": "Granulomatous Slack Skin",
+        "legend": "Clinical: Redundant skin folds in the axilla. (Time: 2348s)"
+      },
+      {
+        "id": "Slide_57",
+        "src": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0057.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0057.jpg",
+        "diagnosis": "Granulomatous Slack Skin",
+        "legend": "Histology: Granulomatous infiltrate in the dermis. (Time: 2376s)"
+      },
+      {
+        "id": "Slide_58",
+        "src": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0058.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0058.jpg",
+        "diagnosis": "Granulomatous Slack Skin",
+        "legend": "Multinucleated histiocytes associated with the infiltrate. (Time: 2385s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Hypopigmented Mycosis Fungoides",
+    "definition": "A variant of MF presenting as hypopigmented macules/patches, most commonly seen in children and darker skin types.",
+    "tags": [
+      "Skin::Neoplastic::Hematolymphoid::Hypopigmented_Mycosis_Fungoides"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Hypopigmented (light) spots or patches. Often in children. Not infiltrated.",
+    "pathogenesis": "Cytotoxic T-cell response against melanocytes or defect in melanosome transfer.",
+    "macroscopic": "Multiple hypopigmented macules.",
+    "microscopic": "Features can be very subtle. Minimal spongiosis. Sparse band-like or perivascular lymphocytic infiltrate. Subtle epidermotropism (single lymphocytes in epidermis, often near the basal layer).",
+    "ancillary_studies": "IHC: Predominantly CD8+ T-cell phenotype is common in this variant.",
+    "differential_diagnosis": "Pityriasis alba, vitiligo, post-inflammatory hypopigmentation, leprosy.",
+    "staging": "Similar to patch stage MF.",
+    "prognosis_and_prediction": "Indolent course, responds well to phototherapy.",
+    "related_figures": [
+      {
+        "id": "Slide_62",
+        "src": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0062.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0062.jpg",
+        "diagnosis": "Hypopigmented Mycosis Fungoides",
+        "legend": "Clinical: Child with hypopigmented patches. (Time: 2404s)"
+      },
+      {
+        "id": "Slide_65",
+        "src": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0065.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0065.jpg",
+        "diagnosis": "Hypopigmented Mycosis Fungoides",
+        "legend": "Histology: Very subtle epidermotropism; lymphocytes lining up at the DEJ. (Time: 2435s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Sezary Syndrome",
+    "definition": "The leukemic phase of cutaneous T-cell lymphoma, defined by the triad of erythroderma, generalized lymphadenopathy, and presence of neoplastic T-cells (Sezary cells) in the skin, lymph nodes, and peripheral blood.",
+    "tags": [
+      "Skin::Neoplastic::Hematolymphoid::Sezary_Syndrome"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Erythroderma (diffuse redness and scaling >80-90% BSA). Palmoplantar hyperkeratosis/fissuring. Lymphadenopathy.",
+    "pathogenesis": "Aggressive leukemic form of CTCL.",
+    "macroscopic": "Generalized red skin (erythroderma).",
+    "microscopic": "Skin biopsy can show features of MF (band-like infiltrate, epidermotropism) but is often non-diagnostic (40% of cases) and may resemble spongiotic dermatitis or psoriasis.",
+    "ancillary_studies": "Peripheral Blood: Sezary cells (large mononuclear cells with cerebriform/serpentine nuclei on EM). \nFlow Cytometry: Expanded CD4+ population, CD4:CD8 ratio >10, loss of CD7 or CD26. \nT-cell Clonality: Identical clone in skin and blood.",
+    "differential_diagnosis": "Erythrodermic psoriasis, atopic dermatitis, drug eruption, pityriasis rubra pilaris.",
+    "staging": "Defined by blood involvement (B1/B2 classification).",
+    "prognosis_and_prediction": "Poor prognosis compared to MF. Aggressive disease.",
+    "related_figures": [
+      {
+        "id": "Slide_67",
+        "src": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0067.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0067.jpg",
+        "diagnosis": "Sezary Syndrome",
+        "legend": "Clinical: Patient with generalized erythroderma. (Time: 2447s)"
+      },
+      {
+        "id": "Slide_7",
+        "src": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0007.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0007.jpg",
+        "diagnosis": "Sezary Syndrome",
+        "legend": "Electron microscopy of a Sezary cell showing cerebriform nucleus. (Time: 362s)"
+      },
+      {
+        "id": "Slide_68",
+        "src": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0068.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0068.jpg",
+        "diagnosis": "Sezary Syndrome",
+        "legend": "Histology: Dense band-like infiltrate with some epidermotropism. (Time: 2502s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Lymphomatoid Papulosis",
+    "definition": "A chronic, recurrent, self-healing papulonecrotic skin eruption. It is part of the spectrum of CD30+ lymphoproliferative disorders.",
+    "tags": [
+      "Skin::Neoplastic::Hematolymphoid::Lymphomatoid_Papulosis"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Recurrent crops of small papules/nodules that may ulcerate and spontaneously regress (self-resolve) over weeks. Often mistaken for bug bites. No systemic symptoms.",
+    "pathogenesis": "CD30+ lymphoproliferative disorder. Can be associated with other lymphomas (MF, ALCL, Hodgkin).",
+    "macroscopic": "Small erythematous papules, nodules, or necrotic crusts.",
+    "microscopic": "Five histologic subtypes (A-E) with shared clinical behavior:\n- Type A (Most Common): Wedge-shaped dermal infiltrate. Scattered large atypical CD30+ cells admixed with neutrophils, eosinophils, and histiocytes.\n- Type B (Rare): Band-like infiltrate with epidermotropism (resembles MF). CD4+.\n- Type C: Sheets of large atypical CD30+ cells with few admixed inflammatory cells (resembles ALCL).\n- Type D: Epidermotropic infiltrate of CD8+ CD30+ cells.\n- Type E: Angioinvasive/angiocentric infiltrate. Large necrotic lesions clinically.",
+    "ancillary_studies": "IHC: CD30+ (pattern depends on type). Type B is CD4+. Type D is CD8+.",
+    "differential_diagnosis": "Arthropod bite, pityriasis lichenoides, primary cutaneous ALCL (does not self-resolve), Hodgkin lymphoma.",
+    "staging": "Cutaneous only.",
+    "prognosis_and_prediction": "Excellent long-term prognosis, despite malignant histology ('paradoxical' disease). Low risk of progression to systemic lymphoma.",
+    "related_figures": [
+      {
+        "id": "Slide_74",
+        "src": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0074.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0074.jpg",
+        "diagnosis": "Lymphomatoid Papulosis",
+        "legend": "Clinical: Crops of small papules/nodules. (Time: 2618s)"
+      },
+      {
+        "id": "Slide_75",
+        "src": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0075.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0075.jpg",
+        "diagnosis": "Lymphomatoid Papulosis Type A",
+        "legend": "Histology: Wedge-shaped infiltrate with scattered large cells. (Time: 2661s)"
+      },
+      {
+        "id": "Slide_77",
+        "src": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0077.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0077.jpg",
+        "diagnosis": "Lymphomatoid Papulosis Type A",
+        "legend": "High power: Large atypical lymphocytes admixed with small lymphocytes and neutrophils. (Time: 2725s)"
+      },
+      {
+        "id": "Slide_83",
+        "src": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0083.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0083.jpg",
+        "diagnosis": "Lymphomatoid Papulosis Type B",
+        "legend": "Histology: Band-like infiltrate resembling MF. (Time: 2782s)"
+      },
+      {
+        "id": "Slide_84",
+        "src": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0084.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0084.jpg",
+        "diagnosis": "Lymphomatoid Papulosis Type C",
+        "legend": "Histology: Sheets of atypical lymphocytes (resembles ALCL). (Time: 2798s)"
+      },
+      {
+        "id": "Slide_91",
+        "src": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0091.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0091.jpg",
+        "diagnosis": "Lymphomatoid Papulosis Type E",
+        "legend": "Clinical: Larger ulcerated lesion (angiocentric type). (Time: 2893s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Primary Cutaneous Anaplastic Large Cell Lymphoma",
+    "definition": "A primary cutaneous CD30+ T-cell lymphoma composed of large atypical lymphocytes.",
+    "tags": [
+      "Skin::Neoplastic::Hematolymphoid::Primary_Cutaneous_Anaplastic_Large_Cell_Lymphoma"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Solitary or localized nodules or tumors, often ulcerated. Unlike LyP, lesions persist and do not self-resolve.",
+    "pathogenesis": "Primary cutaneous CD30+ LPD. Must be distinguished from systemic ALCL involving the skin.",
+    "macroscopic": "Large, rapidly growing, ulcerated reddish-brown nodule or tumor.",
+    "microscopic": "Diffuse, cohesive sheets of large atypical cells (anaplastic morphology) filling the dermis. High mitotic rate. Ulceration common.",
+    "ancillary_studies": "IHC: CD30+ (>75% of tumor cells). Usually CD4+. CD3 may be negative. \nGenetics: Usually ALK negative (Systemic ALCL is often ALK+, though ALK- systemic exists).",
+    "differential_diagnosis": "Lymphomatoid Papulosis Type C (clinical distinction required), Systemic ALCL (requires staging), Transformation of MF.",
+    "staging": "Requires full body imaging and bone marrow biopsy to rule out systemic disease.",
+    "prognosis_and_prediction": "Favorable prognosis (better than systemic ALCL), though recurrence is common. 5-year survival >90%.",
+    "related_figures": [
+      {
+        "id": "Slide_94",
+        "src": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0094.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0094.jpg",
+        "diagnosis": "Primary Cutaneous ALCL",
+        "legend": "Histology: Diffuse sheets of large atypical lymphocytes. (Time: 2960s)"
+      },
+      {
+        "id": "Slide_97",
+        "src": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0097.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_3_Cutaneous lymphomas/Derm_Lecture_3_Cutaneous lymphomas_slide_0097.jpg",
+        "diagnosis": "Primary Cutaneous ALCL",
+        "legend": "Discussion of ALK staining (usually negative in primary cutaneous forms). (Time: 3047s)"
+      }
+    ]
+  }
+]

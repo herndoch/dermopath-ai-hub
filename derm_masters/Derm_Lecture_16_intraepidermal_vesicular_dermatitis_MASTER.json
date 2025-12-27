@@ -1,0 +1,353 @@
+[
+  {
+    "entity_name": "Herpes Simplex / Varicella Zoster Virus Infection",
+    "definition": "A viral infection characterized by intraepidermal vesiculation driven by ballooning degeneration and reticular degeneration, which may progress to full-thickness epidermal necrosis.",
+    "tags": [
+      "Skin::Infectious::Viral::Herpes_Simplex_Virus_HSV1_HSV2"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Intraepidermal blisters which are often fragile and may present as erosions. Clinically difficult to distinguish HSV from VZV without history or ancillary testing.",
+    "pathogenesis": "Viral infection targets epidermal keratinocytes causing cell lysis (ballooning) and separation. The virus spreads to infect all levels of the epidermis.",
+    "macroscopic": null,
+    "microscopic": "Key features include ballooning degeneration (keratinocytes become large and round) and reticular degeneration (thread-like breakdown products/septae within the blister). Acantholysis is often present secondary to ballooning. Specific viral cytopathic effects include: \n1. Steel-gray nuclei (gun-metal gray) with peripheral margination of chromatin (basophilic DNA pushed to the nuclear rim).\n2. Multinucleated giant cells.\n3. Cowdry A bodies (eosinophilic intranuclear inclusions).\n4. Necrotic keratinocytes.\nInvolvement of hair follicles is possible (historically favored VZV but seen in both).",
+    "ancillary_studies": "Immunostains (HSV-1, HSV-2, VZV) can distinguish specific viral type. DIF may show non-specific inflammation or vasculitis.",
+    "differential_diagnosis": "Other causes of ballooning (Orf, Vaccinia, Hand-Foot-Mouth disease), Pemphigus (acantholysis without ballooning), Bullous Impetigo.",
+    "staging": null,
+    "prognosis_and_prediction": null,
+    "related_figures": [
+      {
+        "id": "Slide_10",
+        "src": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0010.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0010.jpg",
+        "diagnosis": "Herpes Simplex / Varicella Zoster Virus Infection",
+        "legend": "Ballooning degeneration mechanism overview. (Time: 386s)"
+      },
+      {
+        "id": "Slide_11",
+        "src": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0011.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0011.jpg",
+        "diagnosis": "Herpes Simplex / Varicella Zoster Virus Infection",
+        "legend": "Ballooning and reticular degeneration showing keratinocytes 5x normal size. (Time: 452s)"
+      },
+      {
+        "id": "Slide_22",
+        "src": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0022.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0022.jpg",
+        "diagnosis": "Herpes Simplex / Varicella Zoster Virus Infection",
+        "legend": "Herpetic infection showing progression to subepidermal vesicle due to full thickness necrosis. (Time: 895s)"
+      },
+      {
+        "id": "Slide_24",
+        "src": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0024.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0024.jpg",
+        "diagnosis": "Herpes Simplex / Varicella Zoster Virus Infection",
+        "legend": "High magnification of viral cytopathic effects: gray nuclei with marginated chromatin and eosinophilic Cowdry A inclusions. (Time: 1001s)"
+      },
+      {
+        "id": "Slide_117",
+        "src": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0117.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0117.jpg",
+        "diagnosis": "Herpes Simplex / Varicella Zoster Virus Infection",
+        "legend": "Unknown Case: Intraepidermal vesiculation with necrotic keratinocytes. (Time: 3105s)"
+      },
+      {
+        "id": "Slide_122",
+        "src": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0122.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0122.jpg",
+        "diagnosis": "Herpes Simplex / Varicella Zoster Virus Infection",
+        "legend": "Combination of ballooning, reticular degeneration, and acantholysis. (Time: 3206s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Spongiotic Dermatitis (Allergic Contact Dermatitis)",
+    "definition": "An inflammatory condition characterized by intercellular edema (spongiosis) between keratinocytes, leading to intraepidermal vesiculation when desmosomal attachments are stretched to the breaking point.",
+    "tags": [
+      "Skin::Inflammatory::Spongiotic::Allergic_Contact_Dermatitis"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Clinically presents with blisters, weeping, and crusting (e.g., reaction to glue, poison ivy).",
+    "pathogenesis": "Physics of edema: Accumulation of fluid between keratinocytes stretches desmosomes until they rupture, forming a vesicle.",
+    "macroscopic": null,
+    "microscopic": "Marked intercellular edema (spongiosis) with vesicle formation. The vesicles often have a 'flask-like' shape (round at base, opening upwards to cornified layer). Langerhans cells are frequently found congregating at the top of the vesicle. Eosinophils are typically present in the infiltrate and within the vesicle (especially in allergic contact dermatitis).",
+    "ancillary_studies": null,
+    "differential_diagnosis": "Dyshidrotic eczema (Pompholyx), Nummular dermatitis, Id reaction, Polymorphous light eruption, Miliaria, Arthropod bite reactions.",
+    "staging": null,
+    "prognosis_and_prediction": null,
+    "related_figures": [
+      {
+        "id": "Slide_12",
+        "src": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0012.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0012.jpg",
+        "diagnosis": "Spongiotic Dermatitis",
+        "legend": "Overview of spongiotic mechanism showing stretched desmosomes. (Time: 511s)"
+      },
+      {
+        "id": "Slide_13",
+        "src": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0013.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0013.jpg",
+        "diagnosis": "Spongiotic Dermatitis",
+        "legend": "Spongiosis approaching the breakage point of desmosomes. (Time: 603s)"
+      },
+      {
+        "id": "Slide_26",
+        "src": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0026.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0026.jpg",
+        "diagnosis": "Allergic Contact Dermatitis",
+        "legend": "Intraepidermal vesicle with a flask-like shape opening to the surface. (Time: 1098s)"
+      },
+      {
+        "id": "Slide_29",
+        "src": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0029.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0029.jpg",
+        "diagnosis": "Allergic Contact Dermatitis",
+        "legend": "Collections of Langerhans cells within the top of the spongiotic vesicle. (Time: 1174s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Pemphigus Foliaceus",
+    "definition": "An autoimmune blistering disease characterized by superficial (subcorneal) acantholysis due to autoantibodies against Desmoglein 1.",
+    "tags": [
+      "Skin::Inflammatory::Blistering::Pemphigus_Foliaceus"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Erythematous plaques with crusts ('cornflakes'), superficial blisters that rupture easily. Often subtle clinically.",
+    "pathogenesis": "Autoantibodies target Desmoglein 1 (enriched in upper epidermis), leading to loss of cell adhesion in the superficial layers.",
+    "macroscopic": null,
+    "microscopic": "Acantholysis centered in the upper epidermis/subcorneal space. Blister roof is thin (stratnum corneum/granulosum). \nSpecific Pattern: 'Acantholytic Hypergranulosis' - keratinocytes break apart but retain keratohyalin granules and do not fully round up (appear fusiform/spindled) due to partial cornification/skeleton formation. \nFollicular Involvement: Contrary to older dogma, Pemphigus Foliaceus often involves hair follicles, frequently with the acantholytic hypergranulosis pattern. Inflammation is variable (may be eosinophilic or neutrophilic/pustular).",
+    "ancillary_studies": "Direct Immunofluorescence (DIF): Intercellular IgG and/or Complement (C3) favoring upper epidermis. Serology: Positive for Anti-Desmoglein 1 antibodies (Negative for Dsg3).",
+    "differential_diagnosis": "Bullous Impetigo (contains bacteria), Staphylococcal Scalded Skin Syndrome (looks identical but usually pauci-inflammatory and no bacteria in bulla), Pemphigus Vulgaris (suprabasilar).",
+    "staging": null,
+    "prognosis_and_prediction": null,
+    "related_figures": [
+      {
+        "id": "Slide_31",
+        "src": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0031.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0031.jpg",
+        "diagnosis": "Pemphigus Foliaceus",
+        "legend": "Superficial acantholysis in the subcorneal space. (Time: 1214s)"
+      },
+      {
+        "id": "Slide_36",
+        "src": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0036.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0036.jpg",
+        "diagnosis": "Pemphigus Foliaceus",
+        "legend": "Follicular involvement with striking hypergranulosis. (Time: 1468s)"
+      },
+      {
+        "id": "Slide_43",
+        "src": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0043.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0043.jpg",
+        "diagnosis": "Pemphigus Foliaceus",
+        "legend": "Acantholytic Hypergranulosis: Spindled/fusiform cells with keratohyalin granules. (Time: 1618s)"
+      },
+      {
+        "id": "Slide_51",
+        "src": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0051.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0051.jpg",
+        "diagnosis": "Pemphigus Foliaceus",
+        "legend": "Keratinocytes with hypergranulosis falling apart (acantholytic hypergranulosis). (Time: 1793s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Pemphigus Vulgaris",
+    "definition": "A severe autoimmune blistering disease characterized by diffuse suprabasilar acantholysis involving skin and mucous membranes.",
+    "tags": [
+      "Skin::Inflammatory::Blistering::Pemphigus_Vulgaris"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Flaccid blisters, erosions, oral/mucosal involvement common.",
+    "pathogenesis": "Autoantibodies against Desmoglein 3 (and often Desmoglein 1). Desmoglein 3 is enriched in the lower epidermis.",
+    "macroscopic": null,
+    "microscopic": "Diffuse suprabasilar acantholysis. Basal keratinocytes remain attached to the basement membrane ('row of tombstones'). The upper epidermis typically remains intact and lifts off. \nKey Feature: Prominent involvement of adnexal structures (hair follicles, eccrine ducts) with acantholysis tracking down the follicle ('follicular sliding'). Inflammation varies (eosinophils/neutrophils or pauci-inflammatory).",
+    "ancillary_studies": "Direct Immunofluorescence (DIF): Intercellular IgG and/or C3 throughout epidermis. Serology: Positive Anti-Desmoglein 3 (+/- Anti-Desmoglein 1).",
+    "differential_diagnosis": "Hailey-Hailey Disease (also suprabasilar, but minimal adnexal involvement), Grover Disease/Darier Disease (focal).",
+    "staging": null,
+    "prognosis_and_prediction": null,
+    "related_figures": [
+      {
+        "id": "Slide_45",
+        "src": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0045.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0045.jpg",
+        "diagnosis": "Pemphigus Vulgaris",
+        "legend": "Extensive follicular involvement with sebaceous gland fragments extruding. (Time: 1716s)"
+      },
+      {
+        "id": "Slide_60",
+        "src": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0060.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0060.jpg",
+        "diagnosis": "Pemphigus Vulgaris",
+        "legend": "Diffuse suprabasilar acantholysis with cells floating in vesicle. (Time: 1985s)"
+      },
+      {
+        "id": "Slide_61",
+        "src": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0061.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0061.jpg",
+        "diagnosis": "Pemphigus Vulgaris",
+        "legend": "'Row of tombstones' - basal keratinocytes remaining attached. (Time: 2002s)"
+      },
+      {
+        "id": "Slide_80",
+        "src": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0080.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0080.jpg",
+        "diagnosis": "Pemphigus Vulgaris",
+        "legend": "Unknown Case: Intraepidermal blister with rounded acantholytic cells. (Time: 2626s)"
+      },
+      {
+        "id": "Slide_95",
+        "src": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0095.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0095.jpg",
+        "diagnosis": "Pemphigus Vulgaris",
+        "legend": "Unknown Case: Involvement of follicular sebaceous unit with splitting. (Time: 2843s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Hailey-Hailey Disease (Familial Benign Pemphigus)",
+    "definition": "An inherited genodermatosis characterized by diffuse suprabasilar acantholysis due to a defect in calcium metabolism.",
+    "tags": [
+      "Skin::Congenital_Structural::Genodermatosis::Hailey_Hailey_Disease_Familial_Pemphigus"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Erosions and maceration in intertriginous areas (axilla, groin).",
+    "pathogenesis": "Genetic defect in calcium pumps (ATP2C1) affects calcium homeostasis required for desmosomal adhesion.",
+    "macroscopic": null,
+    "microscopic": "Diffuse suprabasilar or mid-spinous acantholysis resembling a 'dilapidated brick wall' (widespread breakdown of keratinocyte adhesion). Unlike Pemphigus Vulgaris, there is typically minimal to no involvement of hair follicles or eccrine ducts. Dyskeratotic cells (premature cornification) are often seen in the spinous zone due to calcium dysregulation.",
+    "ancillary_studies": "Direct Immunofluorescence (DIF): Negative (distinguishes from Pemphigus).",
+    "differential_diagnosis": "Pemphigus Vulgaris (DIF positive, follicular involvement), Darier Disease (focal).",
+    "staging": null,
+    "prognosis_and_prediction": null,
+    "related_figures": [
+      {
+        "id": "Slide_65",
+        "src": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0065.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0065.jpg",
+        "diagnosis": "Hailey-Hailey Disease",
+        "legend": "Suprabasilar acantholysis with subtle breaking apart of spinous keratinocytes. (Time: 2120s)"
+      },
+      {
+        "id": "Slide_66",
+        "src": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0066.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0066.jpg",
+        "diagnosis": "Hailey-Hailey Disease",
+        "legend": "'Dilapidated brick wall' appearance with extensive acantholysis. (Time: 2138s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Darier Disease (Keratosis Follicularis)",
+    "definition": "A genodermatosis characterized by focal suprabasilar acantholysis and dyskeratosis.",
+    "tags": [
+      "Skin::Congenital_Structural::Genodermatosis::Darier_Disease_Keratosis_Follicularis"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Keratotic papules in seborrheic distribution.",
+    "pathogenesis": null,
+    "macroscopic": null,
+    "microscopic": "Pattern of 'Focal Acantholytic Dyskeratosis'. \n1. Suprabasilar acantholysis is focal (not diffuse). \n2. Presence of 'Corps Ronds' (rounded dyskeratotic cells in upper epidermis) and 'Corps Grains' (small parakeratotic-like cells in stratum corneum).",
+    "ancillary_studies": null,
+    "differential_diagnosis": "Grover Disease (transient acantholytic dermatosis) - histologically identical, distinguished by clinical history. Acantholytic Acanthoma. Warty Dyskeratoma (follicular).",
+    "staging": null,
+    "prognosis_and_prediction": null,
+    "related_figures": [
+      {
+        "id": "Slide_54",
+        "src": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0054.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0054.jpg",
+        "diagnosis": "Darier Disease",
+        "legend": "Focal suprabasilar acantholysis. (Time: 1819s)"
+      },
+      {
+        "id": "Slide_56",
+        "src": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0056.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0056.jpg",
+        "diagnosis": "Darier Disease",
+        "legend": "Focal Acantholytic Dyskeratosis showing Corps Ronds and Corps Grains. (Time: 1862s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Pustular Psoriasis",
+    "definition": "A variant of psoriasis characterized by the formation of sterile pustules within the epidermis.",
+    "tags": [
+      "Skin::Inflammatory::Psoriasiform::Psoriasis_Pustular"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Diffuse erythema with pustules of varying size, sometimes coalescing.",
+    "pathogenesis": null,
+    "macroscopic": null,
+    "microscopic": "Intracornial or subcorneal pustules (neutrophils). Psoriasiform hyperplasia may be present but less regular than plaque psoriasis. Increased mitotic activity. Variable spongiosis and eosinophils (though presence of many eos suggests AGEP).",
+    "ancillary_studies": "Special stains for organisms (Gram, PAS, GMS) should be negative.",
+    "differential_diagnosis": "Acute Generalized Exanthematous Pustulosis (AGEP - more spongiosis/eosinophils), Subcorneal Pustular Dermatosis (Sneddon-Wilkinson), Bullous Impetigo (bacteria present).",
+    "staging": null,
+    "prognosis_and_prediction": null,
+    "related_figures": [
+      {
+        "id": "Slide_71",
+        "src": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0071.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0071.jpg",
+        "diagnosis": "Pustular Psoriasis",
+        "legend": "Clinical appearance showing diffuse erythema and pustules. (Time: 2327s)"
+      },
+      {
+        "id": "Slide_72",
+        "src": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0072.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0072.jpg",
+        "diagnosis": "Pustular Psoriasis",
+        "legend": "Biopsy showing variably sized subcorneal pustules. (Time: 2349s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Bullous Impetigo",
+    "definition": "A superficial bacterial infection causing subcorneal blistering.",
+    "tags": [
+      "Skin::Infectious::Bacterial::Bullous_Impetigo"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Honey-colored crusts, flaccid bullae.",
+    "pathogenesis": "Staphylococcus aureus produces exfoliative toxin which cleaves Desmoglein 1 (same target as Pemphigus Foliaceus).",
+    "macroscopic": null,
+    "microscopic": "Subcorneal vesicle/pustule containing neutrophils and bacteria (cocci). Acantholytic cells may be present (secondary to toxin). Unlike Pemphigus Foliaceus, neutrophils are invariably present.",
+    "ancillary_studies": "Gram stain highlights cocci.",
+    "differential_diagnosis": "Pemphigus Foliaceus (no bacteria), Staphylococcal Scalded Skin Syndrome (SSSS - toxin mediated from distant site, so no bacteria in the blister).",
+    "staging": null,
+    "prognosis_and_prediction": null,
+    "related_figures": [
+      {
+        "id": "Slide_75",
+        "src": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0075.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0075.jpg",
+        "diagnosis": "Bullous Impetigo",
+        "legend": "Subcorneal pustule containing bacteria and neutrophils. (Time: 2417s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Friction Blister",
+    "definition": "A mechanical blister caused by shearing forces.",
+    "tags": [
+      "Skin::Inflammatory::Blistering::Friction_Blister"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Tense blister at sites of friction.",
+    "pathogenesis": "Mechanical separation/cleaving of the epidermis.",
+    "macroscopic": null,
+    "microscopic": "Intraepidermal split (often mid-spinous or granular) with a 'clean' cleavage plane. Distinct lack of inflammation, acantholysis, or spongiosis.",
+    "ancillary_studies": null,
+    "differential_diagnosis": "Epidermolysis Bullosa Simplex (cleaving disorders), but friction blister is acute/traumatic.",
+    "staging": null,
+    "prognosis_and_prediction": null,
+    "related_figures": [
+      {
+        "id": "Slide_17",
+        "src": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0017.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_16_intraepidermal_vesicular_dermatitis/Derm_Lecture_16_intraepidermal_vesicular_dermatitis_slide_0017.jpg",
+        "diagnosis": "Friction Blister",
+        "legend": "Mid-spinous cleavage with lack of inflammation or acantholysis. (Time: 781s)"
+      }
+    ]
+  }
+]

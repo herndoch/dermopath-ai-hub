@@ -1,0 +1,340 @@
+[
+  {
+    "entity_name": "Normal Nail Unit Anatomy",
+    "definition": "The specialized cutaneous structure consisting of the nail plate, nail matrix, nail bed, and surrounding tissue folds, functioning to protect the distal digit and assist in fine manipulation.",
+    "tags": [
+      "Skin::Normal_Histology::Adnexa::Nail_Unit"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Comprises the proximal nail fold, cuticle (false cuticle), eponychium (true cuticle), lunula (distal matrix), nail plate, and hyponychium. The proximal matrix lies close to the extensor tendon; the unit rests directly on the phalanx bone without subcutaneous fat.",
+    "pathogenesis": "The matrix generates the nail plate. The dorsal/proximal matrix forms the dorsal nail plate surface; the distal matrix forms the ventral/lower two-thirds of the plate. Disruption in specific matrix areas results in specific plate defects (e.g., proximal matrix damage causes surface pitting).",
+    "macroscopic": "Longitudinally oriented structure. The lunula represents the visible distal matrix.",
+    "microscopic": "Eponychium: Has a granular layer. Matrix: Basaloid epithelium with 'mammolons' (undulating rete), no granular layer, and a keratogenous zone (eosinophilic band of pro-keratinization). Nail Bed: Eosinophilic epithelium, no granular layer, longitudinal ridges (no rete ridges), rich vascular network. Hyponychium: Acral skin appearance with a granular layer.",
+    "ancillary_studies": null,
+    "differential_diagnosis": "Nail unit neoplasms, inflammatory dermatoses.",
+    "staging": null,
+    "prognosis_and_prediction": null,
+    "related_figures": [
+      {
+        "id": "Slide_10",
+        "src": "_asset_library/lectures/Derm_Lecture_25_nail/Derm_Lecture_25_nail_slide_0010.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_25_nail/Derm_Lecture_25_nail_slide_0010.jpg",
+        "diagnosis": "Normal Nail Unit Anatomy",
+        "legend": "Diagram illustrating functional anatomy: Proximal matrix forms the dorsal plate; distal matrix forms the ventral plate. (Time: 276s)"
+      },
+      {
+        "id": "Slide_12",
+        "src": "_asset_library/lectures/Derm_Lecture_25_nail/Derm_Lecture_25_nail_slide_0012.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_25_nail/Derm_Lecture_25_nail_slide_0012.jpg",
+        "diagnosis": "Normal Nail Unit Anatomy",
+        "legend": "Histology of the nail matrix showing basaloid mammalons and the keratogenous zone. (Time: 445s)"
+      },
+      {
+        "id": "Slide_20",
+        "src": "_asset_library/lectures/Derm_Lecture_25_nail/Derm_Lecture_25_nail_slide_0020.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_25_nail/Derm_Lecture_25_nail_slide_0020.jpg",
+        "diagnosis": "Normal Nail Unit Anatomy",
+        "legend": "Transverse section showing the longitudinal ridges of the nail bed and lateral grooves. (Time: 550s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Onychomycosis",
+    "definition": "Fungal infection of the nail unit caused by dermatophytes, yeasts (Candida), or non-dermatophyte molds.",
+    "tags": [
+      "Skin::Infectious::Fungal::Onychomycosis"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Subungual hyperkeratosis, onycholysis, discoloration (white, yellow, black). Dermatophytoma presents as a longitudinal streak (biofilm/walled-off fungal abscess) resistant to therapy.",
+    "pathogenesis": "Fungal invasion of the nail plate and bed. Dermatophytes tend to respect keratinocyte boundaries ('go with the flow'), while molds may invade irregularly.",
+    "macroscopic": "Thickened, dystrophic nail plate with subungual debris.",
+    "microscopic": "Nail plate/subungual debris containing hyphae and spores. Dermatophytes: Hyphae often parallel to plate surface. Molds (e.g., Fusarium, Aspergillus): May show perpendicular/irregular hyphae, 'chubby' hyphae, or fruiting bodies. Candida: Clusters of spores/yeasts and pseudohyphae, often on the undersurface.",
+    "ancillary_studies": "PAS (Periodic Acid-Schiff) stain: Highlights fungal cell walls (magenta). GMS (Grocott Methenamine Silver). Culture/PCR for speciation.",
+    "differential_diagnosis": "Psoriasis (can mimic closely), Trauma, Lichen Planus.",
+    "staging": null,
+    "prognosis_and_prediction": "Dermatophytomas are often resistant to standard treatments due to biofilm formation.",
+    "related_figures": [
+      {
+        "id": "Slide_42",
+        "src": "_asset_library/lectures/Derm_Lecture_25_nail/Derm_Lecture_25_nail_slide_0042.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_25_nail/Derm_Lecture_25_nail_slide_0042.jpg",
+        "diagnosis": "Onychomycosis",
+        "legend": "PAS stain showing fungal hyphae 'going with the flow' within the nail plate. (Time: 1156s)"
+      },
+      {
+        "id": "Slide_52",
+        "src": "_asset_library/lectures/Derm_Lecture_25_nail/Derm_Lecture_25_nail_slide_0052.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_25_nail/Derm_Lecture_25_nail_slide_0052.jpg",
+        "diagnosis": "Onychomycosis (Mold)",
+        "legend": "Fusarium/Mold infection showing perpendicular, 'disrespectful' hyphae invading the plate. (Time: 1326s)"
+      },
+      {
+        "id": "Slide_61",
+        "src": "_asset_library/lectures/Derm_Lecture_25_nail/Derm_Lecture_25_nail_slide_0061.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_25_nail/Derm_Lecture_25_nail_slide_0061.jpg",
+        "diagnosis": "Dermatophytoma",
+        "legend": "Histology of a dermatophytoma showing a large loculation (biofilm) of fungal elements. (Time: 1519s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Pseudomonas Nail Infection",
+    "definition": "Bacterial colonization of the nail plate, often secondary to onycholysis or chronic moisture, characterized by green discoloration.",
+    "tags": [
+      "Skin::Infectious::Bacterial::Cutaneous_Bacterial_Infection_NOS"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Green nail syndrome (Chloronychia). Common in wet work or under artificial nails.",
+    "pathogenesis": "Pseudomonas aeruginosa produces pyocyanin or fluorescein (diffusible pigments) that stain the plate green.",
+    "macroscopic": "Green discoloration of the nail plate.",
+    "microscopic": "The nail plate appears distinctively yellow or greenish-yellow in H&E sections. Bacteria are generally not visible on Gram stain or H&E due to the pigment being diffusible rather than a dense bacterial aggregation.",
+    "ancillary_studies": "Gram stain (often negative/non-contributory). Diagnosis is primarily histologic color change and clinical correlation.",
+    "differential_diagnosis": "Subungual hemorrhage, fungal melanonychia.",
+    "staging": null,
+    "prognosis_and_prediction": "Benign; responds to keeping the area dry and topical treatments.",
+    "related_figures": [
+      {
+        "id": "Slide_56",
+        "src": "_asset_library/lectures/Derm_Lecture_25_nail/Derm_Lecture_25_nail_slide_0056.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_25_nail/Derm_Lecture_25_nail_slide_0056.jpg",
+        "diagnosis": "Pseudomonas Nail Infection",
+        "legend": "Microscopic appearance showing the characteristic yellow discoloration of the nail plate sections. (Time: 1434s)"
+      },
+      {
+        "id": "Slide_61",
+        "src": "_asset_library/lectures/Derm_Lecture_25_nail/Derm_Lecture_25_nail_slide_0061.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_25_nail/Derm_Lecture_25_nail_slide_0061.jpg",
+        "diagnosis": "Pseudomonas Nail Infection",
+        "legend": "Green discoloration visible in a case of concomitant dermatophytoma. (Time: 1519s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Nail Psoriasis",
+    "definition": "Inflammatory dermatosis affecting the nail matrix and bed, resulting in specific dystrophic changes.",
+    "tags": [
+      "Skin::Inflammatory::Psoriasiform::Psoriasis_Vulgaris_Plaque"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Matrix disease: Pits (proximal matrix), Leukonychia (distal matrix), crumbling. Nail Bed disease: Onycholysis, Splinter hemorrhages, Oil spots (salmon patches), Subungual hyperkeratosis.",
+    "pathogenesis": "Immune-mediated keratinization defect. Proximal matrix parakeratosis leads to pits; Bed inflammation leads to onycholysis and accumulation of parakeratosis/serum.",
+    "macroscopic": "Pitting, oil spots, onycholysis.",
+    "microscopic": "Nail Bed/Hyponychium: Hyperkeratosis, parakeratosis with neutrophils (Munro's microabscess equivalent), serous exudate. Loss of granular layer is typical in skin, but nail bed (normally agranular) may develop hypergranulosis as a reaction. Ectatic capillaries in bed ridges (source of splinter hemorrhages).",
+    "ancillary_studies": "PAS stain (to exclude onychomycosis).",
+    "differential_diagnosis": "Onychomycosis (major mimic), Lichen Planus.",
+    "staging": null,
+    "prognosis_and_prediction": "Chronic course; correlates with psoriatic arthritis.",
+    "related_figures": [
+      {
+        "id": "Slide_64",
+        "src": "_asset_library/lectures/Derm_Lecture_25_nail/Derm_Lecture_25_nail_slide_0064.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_25_nail/Derm_Lecture_25_nail_slide_0064.jpg",
+        "diagnosis": "Nail Psoriasis",
+        "legend": "Nail clipping showing pits and subungual hyperkeratosis with neutrophils. (Time: 1574s)"
+      },
+      {
+        "id": "Slide_86",
+        "src": "_asset_library/lectures/Derm_Lecture_25_nail/Derm_Lecture_25_nail_slide_0086.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_25_nail/Derm_Lecture_25_nail_slide_0086.jpg",
+        "diagnosis": "Nail Psoriasis",
+        "legend": "Histology showing parakeratosis with neutrophils and dilated vessels in the nail bed. (Time: 2061s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Subungual Hemorrhage",
+    "definition": "Accumulation of blood under the nail plate or within the plate, typically due to trauma.",
+    "tags": [
+      "Skin::Traumatic::Talon_Noir"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Red-black pigmentation, often with a proximal border that moves distally with growth. Dermoscopy: Homogeneous or globular spots, peripheral sparing, streaks.",
+    "pathogenesis": "Trauma to the delicate nail bed vessels (longitudinal ridges) causes extravasation of blood into the potential space or plate.",
+    "macroscopic": "Red-black discoloration.",
+    "microscopic": "Collections of erythrocytes or hemoglobin within the nail plate or subungual space. Entrapped blood in the plate (hemoglobin) is often not hemosiderin.",
+    "ancillary_studies": "Prussian Blue/Iron stain (often NEGATIVE as it detects hemosiderin, not hemoglobin in the plate). Benzidine stain (Positive for hemoglobin).",
+    "differential_diagnosis": "Melanoma (acral lentiginous), Pseudomonas (green/black), Fungal melanonychia.",
+    "staging": null,
+    "prognosis_and_prediction": "Resolves with nail growth.",
+    "related_figures": [
+      {
+        "id": "Slide_67",
+        "src": "_asset_library/lectures/Derm_Lecture_25_nail/Derm_Lecture_25_nail_slide_0067.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_25_nail/Derm_Lecture_25_nail_slide_0067.jpg",
+        "diagnosis": "Subungual Hemorrhage",
+        "legend": "Histology showing blood under the plate and Benzidine stain positivity. (Time: 1713s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Lichen Planus of the Nail",
+    "definition": "Inflammatory condition affecting the nail matrix and bed, leading to thinning, ridging, and potential permanent loss of the nail (anonychia).",
+    "tags": [
+      "Skin::Inflammatory::Interface::Lichen_Planus"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Longitudinal ridging (onychorrhexis), thinning, dorsal pterygium (fusion of proximal fold to bed), anonychia (total loss). Can be a 'nail emergency'.",
+    "pathogenesis": "T-cell mediated autoimmune attack on the nail matrix.",
+    "macroscopic": "Atrophic, ridged nails, pterygium.",
+    "microscopic": "Band-like lymphocytic infiltrate obscuring the dermo-epidermal junction in the matrix or bed. Hypergranulosis (in matrix/bed where it is usually absent). Onychorrhexis (fragmentation of the plate).",
+    "ancillary_studies": null,
+    "differential_diagnosis": "Psoriasis, Trachyonychia, Onychomycosis.",
+    "staging": null,
+    "prognosis_and_prediction": "Risk of permanent scarring and anonychia if not treated aggressively.",
+    "related_figures": [
+      {
+        "id": "Slide_92",
+        "src": "_asset_library/lectures/Derm_Lecture_25_nail/Derm_Lecture_25_nail_slide_0092.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_25_nail/Derm_Lecture_25_nail_slide_0092.jpg",
+        "diagnosis": "Lichen Planus of the Nail",
+        "legend": "Longitudinal excision showing band-like infiltrate and onychorrhexis. (Time: 2182s)"
+      },
+      {
+        "id": "Slide_94",
+        "src": "_asset_library/lectures/Derm_Lecture_25_nail/Derm_Lecture_25_nail_slide_0094.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_25_nail/Derm_Lecture_25_nail_slide_0094.jpg",
+        "diagnosis": "Lichen Planus of the Nail",
+        "legend": "Histology showing patchy inflammation affecting multiple nail compartments. (Time: 2237s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Trachyonychia",
+    "definition": "A reaction pattern characterized by rough, sandpaper-like nails (20-nail dystrophy), often associated with alopecia areata, lichen planus, or psoriasis.",
+    "tags": [
+      "Skin::Inflammatory::Alopecia::Alopecia_Areata"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Rough, opalescent nails with longitudinal ridging. Can affect one or all 20 nails.",
+    "pathogenesis": "Inflammatory insult to the matrix. In children, often associated with Alopecia Areata.",
+    "macroscopic": "Sandpaper texture.",
+    "microscopic": "Spongiotic dermatitis (Alopecia Areata type), Lichenoid interface dermatitis (Lichen Planus type), or Psoriasiform changes. Diagnosis often nonspecific 'spongiotic pattern'.",
+    "ancillary_studies": null,
+    "differential_diagnosis": "Lichen Planus, Psoriasis.",
+    "staging": null,
+    "prognosis_and_prediction": "Often self-limited in children.",
+    "related_figures": [
+      {
+        "id": "Slide_96",
+        "src": "_asset_library/lectures/Derm_Lecture_25_nail/Derm_Lecture_25_nail_slide_0096.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_25_nail/Derm_Lecture_25_nail_slide_0096.jpg",
+        "diagnosis": "Trachyonychia",
+        "legend": "Clinical appearance of rough, opalescent 'sandpaper' nails. (Time: 2273s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Functional Melanonychia (Melanocytic Activation)",
+    "definition": "Benign increased pigmentation of the nail plate due to melanocytic activation without melanocytic proliferation (hyperplasia).",
+    "tags": [
+      "Skin::Disorders_of_Pigmentation::Postinflammatory_Pigment_Alteration"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Longitudinal melanonychia (tan to gray band), often multiple bands in patients of color (racial melanonychia), or drug-induced/traumatic.",
+    "pathogenesis": "Increased melanin synthesis by matrix melanocytes without an increase in cell number.",
+    "macroscopic": "Longitudinal pigmented band.",
+    "microscopic": "Increased melanin in the nail plate (Fontana-Masson positive) and sometimes in matrix keratinocytes/dendrites. Normal density of melanocytes (confirmed by SOX10/Melan-A/MITF). No nests.",
+    "ancillary_studies": "Fontana-Masson (confirms melanin). Nuclear markers (SOX10, MITF) preferred to count density; Melan-A (cytoplasmic) can be difficult to interpret due to dendritic processes.",
+    "differential_diagnosis": "Nail Lentigo, Nail Nevus, Subungual Hemorrhage, Melanoma.",
+    "staging": null,
+    "prognosis_and_prediction": "Benign.",
+    "related_figures": [
+      {
+        "id": "Slide_107",
+        "src": "_asset_library/lectures/Derm_Lecture_25_nail/Derm_Lecture_25_nail_slide_0107.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_25_nail/Derm_Lecture_25_nail_slide_0107.jpg",
+        "diagnosis": "Functional Melanonychia",
+        "legend": "Fontana-Masson stain highlighting melanin granules in the absence of melanocytic hyperplasia. (Time: 2654s)"
+      },
+      {
+        "id": "Slide_109",
+        "src": "_asset_library/lectures/Derm_Lecture_25_nail/Derm_Lecture_25_nail_slide_0109.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_25_nail/Derm_Lecture_25_nail_slide_0109.jpg",
+        "diagnosis": "Functional Melanonychia",
+        "legend": "SOX10 stain demonstrating normal melanocyte density. (Time: 2667s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Nail Matrix Lentigo",
+    "definition": "Benign melanocytic proliferation characterized by a slight increase in single melanocytes in the nail matrix.",
+    "tags": [
+      "Skin::Neoplastic::Melanocytic::Benign::Lentigo_Simplex"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Longitudinal melanonychia (tan to brown/black band), usually narrow.",
+    "pathogenesis": "Benign hyperplasia of melanocytes.",
+    "macroscopic": "Pigmented band.",
+    "microscopic": "Mild increase in single melanocytes in the matrix. No nests. Dendrites may be present.",
+    "ancillary_studies": "SOX10/MITF to evaluate density. Counts overlap significantly with early melanoma in situ, requiring careful clinicopathologic correlation.",
+    "differential_diagnosis": "Functional Melanonychia, Melanoma in situ.",
+    "staging": null,
+    "prognosis_and_prediction": "Benign, but can be difficult to distinguish from early melanoma.",
+    "related_figures": [
+      {
+        "id": "Slide_111",
+        "src": "_asset_library/lectures/Derm_Lecture_25_nail/Derm_Lecture_25_nail_slide_0111.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_25_nail/Derm_Lecture_25_nail_slide_0111.jpg",
+        "diagnosis": "Nail Lentigo",
+        "legend": "Histology showing increased single melanocytes without nesting. (Time: 2700s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Nail Matrix Nevus",
+    "definition": "Benign melanocytic neoplasm (nevus) arising in the nail matrix.",
+    "tags": [
+      "Skin::Neoplastic::Melanocytic::Benign::Special_Site_Nevus"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Longitudinal melanonychia, often in children. Can show 'Pseudo-Hutchinson sign' (pigment visible through transparent cuticle). Can evolve/enlarge/fade in children.",
+    "pathogenesis": "Benign proliferation of melanocytes with nest formation.",
+    "macroscopic": "Pigmented band, regular borders (usually).",
+    "microscopic": "Nests of melanocytes in the distal matrix (some single cells allowed). 'Sloppy' distribution is common (not perfectly orderly). Pigment corresponds to the lower portion of the nail plate. No high-grade atypia or extensive pagetoid spread.",
+    "ancillary_studies": "HMB-45, SOX10, Melan-A.",
+    "differential_diagnosis": "Melanoma (especially in children where nevi can mimic melanoma features).",
+    "staging": null,
+    "prognosis_and_prediction": "Benign. High threshold for diagnosing nail melanoma in children.",
+    "related_figures": [
+      {
+        "id": "Slide_116",
+        "src": "_asset_library/lectures/Derm_Lecture_25_nail/Derm_Lecture_25_nail_slide_0116.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_25_nail/Derm_Lecture_25_nail_slide_0116.jpg",
+        "diagnosis": "Nail Matrix Nevus",
+        "legend": "Longitudinal excision showing melanocytic nests in the distal matrix and pigment in the lower nail plate. (Time: 2764s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Nail Apparatus Melanoma",
+    "definition": "Malignant melanoma arising from the nail unit epithelium (matrix or bed).",
+    "tags": [
+      "Skin::Neoplastic::Melanocytic::Malignant::Melanoma_Acral_Lentiginous"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Longitudinal melanonychia (broad >3mm, irregular, changing). Hutchinson sign (pigment on proximal nail fold). Triangle sign (proximal width > distal). Nail dystrophy. Amelanotic variants occur.",
+    "pathogenesis": "Malignant transformation of matrix melanocytes. Acral lentiginous subtype is most common.",
+    "macroscopic": "Variegated pigmented band, ulceration, nail destruction.",
+    "microscopic": "Increased density of atypical melanocytes (confluent). Pagetoid spread into the nail plate and upper epithelium. Thick and thin dendrites. Invasive component may involve bone. Hutchinson sign correlates with spread to eponychium/nail fold.",
+    "ancillary_studies": "SOX10, Melan-A (assess breadth and spread). PRAME may be utilized (though not explicitly detailed in lecture, molecular testing implies this utility).",
+    "differential_diagnosis": "Subungual hemorrhage, Fungal melanonychia, Nail Nevus, Lentigo.",
+    "staging": "AJCC guidelines used (no specific nail staging). Thickness measurement can be difficult due to tissue orientation/bone.",
+    "prognosis_and_prediction": "Historically poor due to delayed diagnosis. High risk features include ulceration, bone invasion, high mitotic rate.",
+    "related_figures": [
+      {
+        "id": "Slide_125",
+        "src": "_asset_library/lectures/Derm_Lecture_25_nail/Derm_Lecture_25_nail_slide_0125.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_25_nail/Derm_Lecture_25_nail_slide_0125.jpg",
+        "diagnosis": "Nail Apparatus Melanoma",
+        "legend": "Clinical presentation showing extensive Hutchinson sign and nail dystrophy. (Time: 2925s)"
+      },
+      {
+        "id": "Slide_129",
+        "src": "_asset_library/lectures/Derm_Lecture_25_nail/Derm_Lecture_25_nail_slide_0129.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_25_nail/Derm_Lecture_25_nail_slide_0129.jpg",
+        "diagnosis": "Melanoma In Situ",
+        "legend": "Punch biopsy showing confluent atypical proliferation and superbasal scatter into the plate. (Time: 3004s)"
+      }
+    ]
+  }
+]

@@ -1,0 +1,467 @@
+[
+  {
+    "entity_name": "Granuloma Annulare",
+    "definition": "A benign inflammatory skin condition characterized by a palisaded or interstitial granulomatous dermatitis primarily driven by macrophages/histiocytes.",
+    "tags": [
+      "Skin::Inflammatory::Granulomatous::Granuloma_Annulare"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Manifests as annular plaques with a heaped-up border and central atrophy (clearing). There is a female predilection. Clinical variants include localized (few lesions), disseminated (many lesions), perforating, subcutaneous (common in children), and linear. Approximately 50% of cases self-resolve within a couple of years, while others persist.",
+    "pathogenesis": "Primarily macrophage/histiocyte-driven inflammation.",
+    "macroscopic": "Annular plaque with minimal surface change and central clearing.",
+    "microscopic": "Two main patterns: Palisaded and Interstitial.\n\n1. **Palisaded Pattern:** Histiocytes line up around central zones of necrobiosis (pinkish-blue collagen). The blue hue is due to mucin. In sun-protected skin, multinucleated histiocytes are rare. In sun-damaged skin, multinucleated histiocytes are common and often show elastophagocytosis.\n2. **Interstitial Pattern:** More subtle; characterized by increased cellularity (histiocytes) between collagen bundles and associated mucin, without distinct palisading.",
+    "ancillary_studies": "Colloidal iron stain (positive for mucin).",
+    "differential_diagnosis": "Necrobiosis Lipoidica, Rheumatoid Nodule, Necrobiotic Xanthogranuloma, Palisaded Neutrophilic and Granulomatous Dermatitis (PNGD), Scleromyxedema (granulomatous variant).",
+    "staging": null,
+    "prognosis_and_prediction": "50% self-resolve; others may be persistent and resistant to treatment.",
+    "related_figures": [
+      {
+        "id": "Slide_7",
+        "src": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0007.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0007.jpg",
+        "diagnosis": "Granuloma Annulare",
+        "legend": "Clinical variants listed and typical clinical course. (Time: 243s)"
+      },
+      {
+        "id": "Slide_9",
+        "src": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0009.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0009.jpg",
+        "diagnosis": "Granuloma Annulare",
+        "legend": "Clinical appearance of an annular plaque with heaped-up border. (Time: 309s)"
+      },
+      {
+        "id": "Slide_10",
+        "src": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0010.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0010.jpg",
+        "diagnosis": "Granuloma Annulare",
+        "legend": "Low power view showing the classic palisaded pattern with central mucin. (Time: 325s)"
+      },
+      {
+        "id": "Slide_12",
+        "src": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0012.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0012.jpg",
+        "diagnosis": "Granuloma Annulare",
+        "legend": "Interstitial variant showing subtle inflammation between collagen bundles. (Time: 478s)"
+      },
+      {
+        "id": "Slide_13",
+        "src": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0013.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0013.jpg",
+        "diagnosis": "Granuloma Annulare",
+        "legend": "Higher power of interstitial variant showing granular blue mucin. (Time: 525s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Necrobiosis Lipoidica",
+    "definition": "A chronic granulomatous dermatitis, often associated with diabetes, characterized by degeneration of collagen (necrobiosis) and granulomatous inflammation involving the dermis and subcutaneous fat.",
+    "tags": [
+      "Skin::Inflammatory::Granulomatous::Necrobiosis_Lipoidica"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Characteristically presents on the anterior shins (legs) as yellowish-orange atrophic plaques with telangiectasia. Rarely occurs off the legs (e.g., arms/hands). Strong association with diabetes (65% of NL patients have diabetes, though very few diabetics develop NL) and thyroid disease. Can ulcerate and be painful.",
+    "pathogenesis": "Unknown, but strong metabolic associations.",
+    "macroscopic": "Yellow-orange atrophic plaques.",
+    "microscopic": "Requires a deep punch biopsy as it affects both dermis and subcutaneous fat. \n- **Architecture:** Palisaded granulomatous dermatitis and predominantly septal panniculitis. \n- **Dermis:** Alternating tiers of granulomatous inflammation and acellular 'necrobiosis' (degenerated collagen). Palisading is less distinct than in GA.\n- **Cellular Infiltrate:** Multinucleated histiocytes and plasma cells are characteristically present.",
+    "ancillary_studies": null,
+    "differential_diagnosis": "Granuloma Annulare (usually purely dermal or subcutaneous, not both; lacks plasma cells), Necrobiotic Xanthogranuloma (has cholesterol clefts and bizarre giant cells).",
+    "staging": null,
+    "prognosis_and_prediction": "Often chronic; spontaneous resolution is less common than in GA.",
+    "related_figures": [
+      {
+        "id": "Slide_15",
+        "src": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0015.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0015.jpg",
+        "diagnosis": "Necrobiosis Lipoidica",
+        "legend": "Clinical presentation on the hand (unusual site) mimicking GA. (Time: 561s)"
+      },
+      {
+        "id": "Slide_16",
+        "src": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0016.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0016.jpg",
+        "diagnosis": "Necrobiosis Lipoidica",
+        "legend": "Classic clinical appearance on the anterior shins with yellow-orange hue. (Time: 576s)"
+      },
+      {
+        "id": "Slide_18",
+        "src": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0018.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0018.jpg",
+        "diagnosis": "Necrobiosis Lipoidica",
+        "legend": "Low power histology showing involvement of dermis and subcutaneous fat (septal panniculitis). (Time: 683s)"
+      },
+      {
+        "id": "Slide_19",
+        "src": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0019.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0019.jpg",
+        "diagnosis": "Necrobiosis Lipoidica",
+        "legend": "Zones of acellular necrobiosis in the dermis. (Time: 753s)"
+      },
+      {
+        "id": "Slide_20",
+        "src": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0020.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0020.jpg",
+        "diagnosis": "Necrobiosis Lipoidica",
+        "legend": "High power showing multinucleated histiocytes and plasma cells. (Time: 788s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Necrobiotic Xanthogranuloma",
+    "definition": "A rare, systemic histiocytic disorder characterized by destructive granulomatous skin lesions, often in the periorbital region, and associated with paraproteinemia.",
+    "tags": [
+      "Skin::Inflammatory::Granulomatous::Necrobiotic_Xanthogranuloma"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Indurated plaques or nodules, characteristically in a periorbital location. Can ulcerate. Strongly associated with IgG monoclonal gammopathy.",
+    "pathogenesis": "Associated with hematologic abnormalities (paraproteinemia).",
+    "macroscopic": "Yellowish plaques, periorbital preference.",
+    "microscopic": "Similar low-power appearance to Necrobiosis Lipoidica (dermal and septal panniculitis involvement with necrobiosis). \nKey distinguishing features:\n- **Bizarre Giant Cells:** Very large, multinucleated histiocytes (Touton-like or ring-shaped) containing massive numbers of nuclei (up to 100).\n- **Cholesterol Clefts:** Needle-like spaces within the granulomas.\n- Presence of plasma cells.",
+    "ancillary_studies": "Workup for monoclonal gammopathy (IgG).",
+    "differential_diagnosis": "Necrobiosis Lipoidica (lacks cholesterol clefts and such bizarre giant cells), Granuloma Annulare.",
+    "staging": null,
+    "prognosis_and_prediction": "Chronic course; associated with underlying hematologic malignancy.",
+    "related_figures": [
+      {
+        "id": "Slide_21",
+        "src": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0021.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0021.jpg",
+        "diagnosis": "Necrobiotic Xanthogranuloma",
+        "legend": "Clinical presentation with periorbital plaques. (Time: 812s)"
+      },
+      {
+        "id": "Slide_23",
+        "src": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0023.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0023.jpg",
+        "diagnosis": "Necrobiotic Xanthogranuloma",
+        "legend": "High power showing extremely large, bizarre multinucleated giant cells. (Time: 913s)"
+      },
+      {
+        "id": "Slide_24",
+        "src": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0024.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0024.jpg",
+        "diagnosis": "Necrobiotic Xanthogranuloma",
+        "legend": "Histology showing cholesterol clefts within the granulomatous inflammation. (Time: 938s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Rheumatoid Nodule",
+    "definition": "A subcutaneous nodule composed of palisading granulomas, occurring in patients with rheumatoid arthritis.",
+    "tags": [
+      "Skin::Inflammatory::Granulomatous::Rheumatoid_Nodule"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Occurs in ~30% of patients with Rheumatoid Arthritis. Firm, non-tender nodules, clinically fixed to the underlying periosteum or fascia. Common on extensor surfaces.",
+    "pathogenesis": "Immune-mediated granulomatous response in RA.",
+    "macroscopic": "Firm subcutaneous nodule.",
+    "microscopic": "Palisaded granulomatous pattern. Deep dermis/subcutis. Central area contains abundant eosinophilic (red/pink) fibrinoid material (fibrinoid necrosis), surrounded by a palisade of histiocytes.",
+    "ancillary_studies": null,
+    "differential_diagnosis": "Granuloma Annulare (mucin instead of fibrin), Deep Granuloma Annulare.",
+    "staging": null,
+    "prognosis_and_prediction": null,
+    "related_figures": [
+      {
+        "id": "Slide_26",
+        "src": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0026.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0026.jpg",
+        "diagnosis": "Rheumatoid Nodule",
+        "legend": "Histology showing central red/pink fibrinoid material surrounded by palisaded histiocytes. (Time: 980s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Palisaded Neutrophilic and Granulomatous Dermatitis",
+    "definition": "A cutaneous reaction pattern associated with systemic diseases, particularly connective tissue diseases, showing a spectrum from vasculitis to palisaded granulomas.",
+    "tags": [
+      "Skin::Inflammatory::Granulomatous::Palisaded_Neutrophilic_Granulomatous_Dermatitis"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Papules or nodules on extensor surfaces (knees, elbows, dorsal hands). Associated with connective tissue diseases (Lupus, RA, Autoimmune arthritis).",
+    "pathogenesis": "Evolutionary process: Starts as leukocytoclastic vasculitis \u2192 evolves into palisaded granulomatous dermatitis.",
+    "macroscopic": "Papules/nodules on extensor joints.",
+    "microscopic": "Features depend on the stage of the lesion. \n- **Early/Active:** Neutrophilic leukocytoclastic vasculitis-like pattern.\n- **Developed:** Palisaded granulomas surrounding a center containing neutrophils and basophilic nuclear debris (leukocytoclasia). Dermal collagen degeneration.",
+    "ancillary_studies": null,
+    "differential_diagnosis": "Interstitial Granulomatous Dermatitis (IGD), Granuloma Annulare.",
+    "staging": null,
+    "prognosis_and_prediction": "Often reflects activity of underlying systemic disease.",
+    "related_figures": [
+      {
+        "id": "Slide_29",
+        "src": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0029.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0029.jpg",
+        "diagnosis": "PNGD",
+        "legend": "Acral skin biopsy showing nodular areas of inflammation in the dermis. (Time: 1106s)"
+      },
+      {
+        "id": "Slide_30",
+        "src": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0030.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0030.jpg",
+        "diagnosis": "PNGD",
+        "legend": "High power showing central basophilic nuclear debris (leukocytoclasia) surrounded by palisaded histiocytes. (Time: 1145s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Gout",
+    "definition": "A metabolic disorder characterized by the deposition of monosodium urate crystals in tissues (tophi), inciting a granulomatous response.",
+    "tags": [
+      "Skin::Depositional_Metabolic::Crystal::Gout_Urate_Crystal"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Painful nodules (tophi). Classic on toes/fingers/ears, but can occur in unexpected locations. Often not suspected clinically when biopsied from non-acral sites.",
+    "pathogenesis": "Uric acid crystal deposition.",
+    "macroscopic": "Chalky white material.",
+    "microscopic": "Large deposits of amorphous, pale gray material in the dermis (tophus). \n- **Key Artifact:** Formalin dissolves urate crystals, leaving 'shadows' or amorphous gray material. Alcohol fixation preserves the brownish-red crystals.\n- **Reaction:** Fine rim of palisaded granulomatous inflammation and multinucleated histiocytes enveloping the deposits.",
+    "ancillary_studies": "Alcohol fixation (ethanol) to preserve crystals for polarization.",
+    "differential_diagnosis": "Pseudogout, Calcinosis Cutis.",
+    "staging": null,
+    "prognosis_and_prediction": null,
+    "related_figures": [
+      {
+        "id": "Slide_32",
+        "src": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0032.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0032.jpg",
+        "diagnosis": "Gout",
+        "legend": "Low power showing deposits of pale gray material with a granulomatous rim. (Time: 1193s)"
+      },
+      {
+        "id": "Slide_33",
+        "src": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0033.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0033.jpg",
+        "diagnosis": "Gout",
+        "legend": "High power showing the 'shadows' of dissolved crystals and multinucleated histiocytes. (Time: 1250s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Sarcoidosis",
+    "definition": "A systemic granulomatous disease of unknown etiology, characterized by the formation of non-caseating 'naked' epithelioid granulomas.",
+    "tags": [
+      "Skin::Inflammatory::Granulomatous::Sarcoidosis_Cutaneous"
+    ],
+    "html_gcs_path": null,
+    "clinical": "The 'great mimicker.' Presentations include papules, plaques, alopecia (scarring or non-scarring), lupus pernio, and hypopigmented plaques. 30% of systemic sarcoid patients have skin involvement. Erythema Nodosum is a favorable prognostic indicator.",
+    "pathogenesis": "Immune-mediated. High CD4:CD8 ratio suggests Th1 response.",
+    "macroscopic": "Variable; red-brown to violaceous papules and plaques.",
+    "microscopic": "**Sarcoidal Pattern:** Nodular collections of epithelioid histiocytes (abundant pale cytoplasm, round nuclei). \n- **'Naked' Granulomas:** Characteristically sparse lymphocytic infiltrate around the granulomas (though some variants have more lymphocytes).\n- Can occur within tattoos or scars (scar sarcoid).",
+    "ancillary_studies": "CD4 and CD8 immunostains (High CD4:CD8 ratio is characteristic). Special stains for microorganisms (AFB, Fite, GMS) to rule out infection.",
+    "differential_diagnosis": "Infectious granulomas (TB, fungal), Foreign body reaction, Granulomatous Rosacea, Granulomatous Dermatitis of Immunodeficiency (inverted CD4:CD8 ratio).",
+    "staging": null,
+    "prognosis_and_prediction": null,
+    "related_figures": [
+      {
+        "id": "Slide_38",
+        "src": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0038.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0038.jpg",
+        "diagnosis": "Sarcoidosis",
+        "legend": "Histology showing diffuse sarcoidal inflammation with 'naked' granulomas (sparse lymphocytes). (Time: 1507s)"
+      },
+      {
+        "id": "Slide_40",
+        "src": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0040.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0040.jpg",
+        "diagnosis": "Sarcoidosis",
+        "legend": "Sarcoidal reaction within a tattoo. (Time: 1590s)"
+      },
+      {
+        "id": "Slide_66",
+        "src": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0066.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0066.jpg",
+        "diagnosis": "Sarcoidosis vs Immunodeficiency",
+        "legend": "Comparison of CD8 staining: Sparse in Sarcoidosis (Left) vs. Abundant in Immunodeficiency (Right). (Time: 2914s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Granulomatous Cheilitis",
+    "definition": "A chronic inflammatory condition of the lips, considered part of the spectrum of orofacial granulomatosis and the Miescher-Melkersson-Rosenthal syndrome.",
+    "tags": [
+      "Skin::Inflammatory::Granulomatous::Granulomatous_Cheilitis_Melkersson_Rosenthal"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Persistent, firm swelling/induration of the lips. Part of Melkersson-Rosenthal syndrome triad (Cheilitis, Fissured tongue, Facial nerve palsy). Can overlap with Crohn's disease.",
+    "pathogenesis": "Unknown.",
+    "macroscopic": "Macrocheilia (enlarged lips).",
+    "microscopic": "**Clinical-Pathologic Disconnect:** Despite impressive clinical swelling, histology often shows minimal findings. \n- Small, non-caseating granulomas may be seen but are often sparse. \n- Level sections are often required to find a single granuloma.",
+    "ancillary_studies": null,
+    "differential_diagnosis": "Sarcoidosis, Crohn's Disease (metastatic), Foreign body reaction.",
+    "staging": null,
+    "prognosis_and_prediction": null,
+    "related_figures": [
+      {
+        "id": "Slide_43",
+        "src": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0043.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0043.jpg",
+        "diagnosis": "Granulomatous Cheilitis",
+        "legend": "Clinical presentation of significant lip swelling. (Time: 1694s)"
+      },
+      {
+        "id": "Slide_44",
+        "src": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0044.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0044.jpg",
+        "diagnosis": "Granulomatous Cheilitis",
+        "legend": "Histology often shows sparse or difficult-to-find granulomas despite clinical size. (Time: 1704s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Tuberculosis (Cutaneous)",
+    "definition": "Cutaneous infection by Mycobacterium tuberculosis characterized by tuberculoid granulomas.",
+    "tags": [
+      "Skin::Infectious::Bacterial::Tuberculosis"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Rare in developed countries. Varied presentation (Lupus Vulgaris, Scrofuloderma, etc.).",
+    "pathogenesis": "Mycobacterial infection.",
+    "macroscopic": "Variable.",
+    "microscopic": "**Tuberculoid Pattern:** Palisaded or nodular granulomas with central caseous necrosis and neutrophils, surrounded by a lymphocytic rim.",
+    "ancillary_studies": "AFB (Ziehl-Neelsen) or Fite stains to demonstrate organisms (often scant).",
+    "differential_diagnosis": "Palisaded Granulomatous Dermatitis, Sarcoidosis.",
+    "staging": null,
+    "prognosis_and_prediction": null,
+    "related_figures": [
+      {
+        "id": "Slide_45",
+        "src": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0045.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0045.jpg",
+        "diagnosis": "Tuberculoid Granuloma",
+        "legend": "Description of the tuberculoid pattern with necrosis. (Time: 1767s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Juvenile Xanthogranuloma",
+    "definition": "A benign non-Langerhans cell histiocytosis, most common in children, characterized by accumulation of lipidized histiocytes.",
+    "tags": [
+      "Skin::Depositional_Metabolic::Xanthoma::Xanthogranuloma_Juvenile"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Erythematous to orange-yellow papules or nodules. Common in children. Multiple lesions in adults warrant workup for hematologic/lymphoproliferative disorders.",
+    "pathogenesis": "Non-Langerhans cell histiocytosis.",
+    "macroscopic": "Yellow-orange papule.",
+    "microscopic": "Sheet-like or nodular infiltrate of histiocytes. \n- **Touton Giant Cells:** Characteristic multinucleated cells with a central ring of nuclei, a central pink cytoplasmic zone, and a peripheral vacuolated (foamy) lipid-rich zone.",
+    "ancillary_studies": null,
+    "differential_diagnosis": "Other Xanthomas, Histiocytomas.",
+    "staging": null,
+    "prognosis_and_prediction": "Benign course in children.",
+    "related_figures": [
+      {
+        "id": "Slide_48",
+        "src": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0048.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0048.jpg",
+        "diagnosis": "Juvenile Xanthogranuloma",
+        "legend": "Histology showing classic Touton giant cells. (Time: 1934s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Scleromyxedema",
+    "definition": "A rare fibromucinous disorder associated with paraproteinemia, typically characterized by mucin and fibrosis, but occasionally presenting as a granulomatous variant.",
+    "tags": [
+      "Skin::Depositional_Metabolic::Mucinosis::Scleromyxedema"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Waxy or pearly papules (face/glabella, dorsal hands), diffuse induration/thickening of skin with accentuated folds (resembling leonine facies).",
+    "pathogenesis": "Associated with IgG lambda paraproteinemia.",
+    "macroscopic": "Generalized papular eruption and induration.",
+    "microscopic": "**Classic Pattern:** Mucin deposition, fibrosis, and increased proliferation of plump fibroblasts (CD34+). \n**Granulomatous Variant:** Approximately 25% of biopsies show an Interstitial Granulomatous Dermatitis pattern mimicking Interstitial GA (interstitial histiocytes + mucin) rather than the classic fibrosis.",
+    "ancillary_studies": "CD68 (histiocytes), Alcian Blue or Colloidal Iron (mucin), CD34 (fibroblasts).",
+    "differential_diagnosis": "Interstitial Granuloma Annulare, Leprosy, Mycosis Fungoides.",
+    "staging": null,
+    "prognosis_and_prediction": null,
+    "related_figures": [
+      {
+        "id": "Slide_50",
+        "src": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0050.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0050.jpg",
+        "diagnosis": "Scleromyxedema",
+        "legend": "Clinical appearance showing waxy papules and accentuated skin folds on the face. (Time: 2056s)"
+      },
+      {
+        "id": "Slide_51",
+        "src": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0051.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0051.jpg",
+        "diagnosis": "Scleromyxedema (Granulomatous Variant)",
+        "legend": "Histology showing interstitial histiocytes (CD68+) and mucin (Alcian Blue), mimicking Interstitial GA. (Time: 2214s)"
+      },
+      {
+        "id": "Slide_54",
+        "src": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0054.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0054.jpg",
+        "diagnosis": "Scleromyxedema (Classic)",
+        "legend": "Classic histology with abundant mucin and increased fibroblasts. (Time: 2386s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Granulomatous Lichen Sclerosus",
+    "definition": "A variant of Lichen Sclerosus exhibiting granulomatous inflammation in addition to the classic sclerosing features.",
+    "tags": [
+      "Skin::Inflammatory::Dermal_Sclerosing::Lichen_Sclerosus_et_Atrophicus"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Atrophic plaques with 'cigarette paper' wrinkling. Can occur in genital or extra-genital sites.",
+    "pathogenesis": "Variant of LS, possibly related to ruptured follicles/milia or intrinsic to the inflammation.",
+    "macroscopic": "White atrophic plaques.",
+    "microscopic": "Upper dermis shows classic LS features: Hyperkeratosis, epidermal atrophy, and a band of dermal sclerosis/hyalinization. \n- **Granulomatous Component:** Deeper to the sclerosis, there is a granulomatous infiltrate containing multinucleated giant cells and elastophagocytosis.",
+    "ancillary_studies": null,
+    "differential_diagnosis": "Morphea, Granuloma Annulare.",
+    "staging": null,
+    "prognosis_and_prediction": null,
+    "related_figures": [
+      {
+        "id": "Slide_59",
+        "src": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0059.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0059.jpg",
+        "diagnosis": "Granulomatous Lichen Sclerosus",
+        "legend": "Histology showing classic LS features (sclerosis, atrophy) with an underlying granulomatous infiltrate. (Time: 2480s)"
+      },
+      {
+        "id": "Slide_60",
+        "src": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0060.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0060.jpg",
+        "diagnosis": "Granulomatous Lichen Sclerosus",
+        "legend": "High power showing multinucleated histiocytes. (Time: 2565s)"
+      },
+      {
+        "id": "Slide_61",
+        "src": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0061.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0061.jpg",
+        "diagnosis": "Lichen Sclerosus",
+        "legend": "Clinical appearance of extragenital LS. (Time: 2574s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Granulomatous Dermatitis of Immunodeficiency",
+    "definition": "A granulomatous eruption occurring in patients with primary immunodeficiencies (e.g., CVID, Ataxia Telangiectasia) or other immunocompromised states.",
+    "tags": [
+      "Skin::Inflammatory::Granulomatous::Granulomatous_Dermatitis_of_Immunodeficiency"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Lesions often have surface changes (crust/scale), unlike classic GA/Sarcoid. Occurs in CVID, Ataxia Telangiectasia, and other immunodeficiencies.",
+    "pathogenesis": "Immune dysregulation. Rubella virus has been identified in some lesions.",
+    "macroscopic": "Papules/plaques with scale/crust.",
+    "microscopic": "Variable histology: Can be Palisaded, Sarcoidal, or Nondescript granulomatous dermatitis. \n- **Key Immunophenotype:** Inverted CD4:CD8 ratio (CD8 predominant), contrasting with Sarcoidosis (CD4 predominant).",
+    "ancillary_studies": "CD4 and CD8 immunostains (show CD8 > CD4). PCR/stains for Rubella or other viruses may be considered.",
+    "differential_diagnosis": "Sarcoidosis (High CD4:CD8), Infectious Granulomas.",
+    "staging": null,
+    "prognosis_and_prediction": null,
+    "related_figures": [
+      {
+        "id": "Slide_66",
+        "src": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0066.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0066.jpg",
+        "diagnosis": "Immunodeficiency Granuloma vs Sarcoidosis",
+        "legend": "Immunostaining showing CD8 predominance in Immunodeficiency (Right) vs paucity in Sarcoid (Left). (Time: 2914s)"
+      },
+      {
+        "id": "Slide_67",
+        "src": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0067.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North/Derm_Lecture_11_Granulomatous_dermatitis with Jeff North_slide_0067.jpg",
+        "diagnosis": "Granulomatous Dermatitis of Immunodeficiency",
+        "legend": "Example showing a palisaded pattern in an immunodeficient patient. (Time: 2942s)"
+      }
+    ]
+  }
+]

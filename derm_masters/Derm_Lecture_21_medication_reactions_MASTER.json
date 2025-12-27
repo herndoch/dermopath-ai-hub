@@ -1,0 +1,549 @@
+[
+  {
+    "entity_name": "Morbilliform Drug Reaction (Exanthematous Drug Eruption)",
+    "definition": "The most common type of drug eruption (approx. 90%), characterized by a widespread maculopapular rash mimicking viral exanthems.",
+    "tags": [
+      "Skin::Inflammatory::Drug_Eruption::Morbilliform_Drug_Reaction"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Widespread erythematous macules and papules. Often indistinguishable clinically from viral exanthems.",
+    "pathogenesis": "Hypersensitivity reaction. Mechanisms vary; can involve IgE release (Type 1), cytotoxic interface dermatitis, or antigen-antibody complexes.",
+    "macroscopic": "Erythematous macules and papules, often confluent. Lack of scale initially (unlike GVHD).",
+    "microscopic": "Mild spongiosis (often lower epidermis) and/or mild vacuolar interface change. 'Dual pattern' (mixture of spongiotic and interface dermatitis) is a strong clue. Superficial perivascular infiltrate containing lymphocytes and eosinophils (present in ~60% of cases). Rare necrotic keratinocytes. Dilated vessels in papillary dermis.",
+    "ancillary_studies": "Eosinophils present in ~60%, absent in 40%. Basophils (important) cannot be identified on H&E.",
+    "differential_diagnosis": "Viral exanthem (often overlaps/indistinguishable), Graft-versus-Host Disease (GVHD often has compact hyperkeratosis, rare in drug), Early Pemphigoid (urticarial stage), Early Erythema Multiforme.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Usually resolves upon discontinuation of the offending agent.",
+    "related_figures": [
+      {
+        "id": "Slide_5",
+        "src": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0005.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0005.jpg",
+        "diagnosis": "Morbilliform Drug Reaction",
+        "legend": "Superficial perivascular lymphocytic infiltrate. (Time: 403s)"
+      },
+      {
+        "id": "Slide_6",
+        "src": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0006.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0006.jpg",
+        "diagnosis": "Morbilliform Drug Reaction",
+        "legend": "Area showing interface changes: vacuolar change, pointed rete ridges, hypergranulosis. (Time: 407s)"
+      },
+      {
+        "id": "Slide_7",
+        "src": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0007.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0007.jpg",
+        "diagnosis": "Morbilliform Drug Reaction",
+        "legend": "Area showing spongiotic changes: intercellular edema and confluent parakeratosis. The mixture of Slide 6 and 7 patterns favors drug eruption. (Time: 428s)"
+      },
+      {
+        "id": "Slide_9",
+        "src": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0009.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0009.jpg",
+        "diagnosis": "Morbilliform Drug Reaction",
+        "legend": "Classic nonspecific pattern: superficial lymphocytes, slight vacuolar change, slight spongiosis. (Time: 466s)"
+      },
+      {
+        "id": "Slide_16",
+        "src": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0016.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0016.jpg",
+        "diagnosis": "Morbilliform Drug Reaction",
+        "legend": "Spongiosis more pronounced in the lower half of the epidermis. (Time: 738s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Fixed Drug Eruption",
+    "definition": "A distinctive drug eruption characterized by recurrent lesions at the same site upon re-exposure to the offending drug.",
+    "tags": [
+      "Skin::Inflammatory::Drug_Eruption::Fixed_Drug_Eruption"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Round/oval lesions, usually distal. Orange to slightly brown color. Recurs in the same location.",
+    "pathogenesis": "Delayed-type hypersensitivity mediated by CD8+ T cells resident in the skin.",
+    "macroscopic": "Well-demarcated erythematous to violaceous plaques, often with central blistering or necrosis. Post-inflammatory hyperpigmentation is common.",
+    "microscopic": "Interface dermatitis with lymphocyte-mediated junctional destruction. Single dyskeratotic/necrotic keratinocytes. Key diagnostic features differentiating from EM: 1) Melanophages in the upper reticular dermis (indicate recurrence/depth drops with each bout). 2) Eosinophils (often in clusters). 3) Neutrophils may be present.",
+    "ancillary_studies": "N/A",
+    "differential_diagnosis": "Erythema Multiforme (EM typically lacks deep melanophages, has fewer/no eosinophils, and no neutrophils).",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Excellent prognosis if drug is avoided; recurs at same site if rechallenged.",
+    "related_figures": [
+      {
+        "id": "Slide_20",
+        "src": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0020.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0020.jpg",
+        "diagnosis": "Fixed Drug Eruption",
+        "legend": "Interface dermatitis with junctional inflammation. (Time: 819s)"
+      },
+      {
+        "id": "Slide_21",
+        "src": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0021.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0021.jpg",
+        "diagnosis": "Fixed Drug Eruption",
+        "legend": "Presence of melanophages in the papillary dermis. (Time: 827s)"
+      },
+      {
+        "id": "Slide_22",
+        "src": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0022.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0022.jpg",
+        "diagnosis": "Fixed Drug Eruption",
+        "legend": "Melanophages extending into the upper reticular dermis (deeper than EM), plus eosinophils and neutrophils. (Time: 867s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Lichenoid Drug Eruption",
+    "definition": "An interface dermatitis mimicking Lichen Planus, caused by various medications (antimalarials, beta-blockers, thiazides, gold, PD-1 inhibitors).",
+    "tags": [
+      "Skin::Inflammatory::Drug_Eruption::Lichenoid_Drug_Eruption"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Violaceous papules/plaques resembling Lichen Planus (LP), but often in older patients (50-60s vs 30s for LP). Can be photodistributed or generalized. Onset and resolution can be delayed (months/years).",
+    "pathogenesis": "T-cell mediated reaction to antigens altered by drugs.",
+    "macroscopic": "Psoriasiform or lichenoid papules/plaques. May involve lips.",
+    "microscopic": "Lichenoid interface dermatitis. Distinguishing features from idiopathic LP: 1) Parakeratosis (rare in LP). 2) Eosinophils, Plasma cells, or Neutrophils in infiltrate. 3) Deep vascular plexus involvement. 4) Cytoid bodies (dyskeratotic cells) present high in the cornified or granular layer (in LP they drop to dermis). Can be atrophic or hypertrophic.",
+    "ancillary_studies": "N/A",
+    "differential_diagnosis": "Lichen Planus (usually lacks eos/parakeratosis, cytoid bodies drop down), Psoriasis (if parakeratotic).",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Can persist for long periods even after drug withdrawal (e.g., Gold, Antimalarials).",
+    "related_figures": [
+      {
+        "id": "Slide_31",
+        "src": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0031.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0031.jpg",
+        "diagnosis": "Lichenoid Drug Eruption",
+        "legend": "Cytoid bodies (dyskeratotic cells) visible high in the cornified layer. (Time: 1241s)"
+      },
+      {
+        "id": "Slide_35",
+        "src": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0035.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0035.jpg",
+        "diagnosis": "Lichenoid Drug Eruption",
+        "legend": "Prominent parakeratosis, a feature rarely seen in idiopathic Lichen Planus. (Time: 1297s)"
+      },
+      {
+        "id": "Slide_37",
+        "src": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0037.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0037.jpg",
+        "diagnosis": "Lichenoid Drug Eruption",
+        "legend": "Saw-toothed rete ridges mimicking LP, but with numerous eosinophils. (Time: 1330s)"
+      },
+      {
+        "id": "Slide_38",
+        "src": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0038.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0038.jpg",
+        "diagnosis": "Atrophic Lichenoid Drug Eruption",
+        "legend": "Thinned epidermis with loss of rete ridges. (Time: 1346s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Immune Checkpoint Inhibitor Reaction",
+    "definition": "Cutaneous adverse events associated with PD-1/PD-L1 inhibitors and CTLA-4 inhibitors, often presenting as lichenoid or bullous eruptions.",
+    "tags": [
+      "Skin::Inflammatory::Drug_Eruption::Immune_Checkpoint_Inhibitor_Reaction"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Can present as lichenoid dermatitis, bullous pemphigoid-like eruptions, or vitiligo-like changes. May present in a Blaschkoid/linear distribution (unmasking neoantigens).",
+    "pathogenesis": "Untethering of the immune system leading to T-cell attack on cutaneous antigens (neoantigens).",
+    "macroscopic": "Purple/brown papules or plaques, sometimes linear (Blaschkoid).",
+    "microscopic": "Lichenoid interface dermatitis often with eosinophils. Can overlap with Bullous Pemphigoid features (subepidermal split with eos).",
+    "ancillary_studies": "N/A",
+    "differential_diagnosis": "Lichen Planus, Bullous Pemphigoid.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "N/A",
+    "related_figures": [
+      {
+        "id": "Slide_40",
+        "src": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0040.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0040.jpg",
+        "diagnosis": "Immune Checkpoint Inhibitor Reaction",
+        "legend": "Blaschkoid distribution of purplish-brown lesions. (Time: 1396s)"
+      },
+      {
+        "id": "Slide_41",
+        "src": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0041.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0041.jpg",
+        "diagnosis": "Immune Checkpoint Inhibitor Reaction",
+        "legend": "Lichenoid interface reaction with eosinophils. (Time: 1404s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Leukocytoclastic Vasculitis (Drug-Induced)",
+    "definition": "Small vessel vasculitis caused by hypersensitivity to medications.",
+    "tags": [
+      "Skin::Inflammatory::Vasculitis::Leukocytoclastic_Vasculitis_LCV"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Palpable purpura.",
+    "pathogenesis": "Immune complex deposition (Type III hypersensitivity).",
+    "macroscopic": "Palpable purpura, usually on lower extremities.",
+    "microscopic": "Fibrinoid necrosis of vessel walls, leukocytoclasia (nuclear dust), extravasated erythrocytes. Presence of tissue eosinophils is a 'soft criterion' favoring drug etiology over idiopathic LCV.",
+    "ancillary_studies": "N/A",
+    "differential_diagnosis": "Idiopathic LCV, Henoch-Schonlein Purpura (IgA Vasculitis), Septic Vasculitis.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "N/A",
+    "related_figures": [
+      {
+        "id": "Slide_48",
+        "src": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0048.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0048.jpg",
+        "diagnosis": "Leukocytoclastic Vasculitis",
+        "legend": "Leukocytoclastic vasculitis features. Eosinophils may be present in drug-induced cases. (Time: 1564s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Levamisole-Induced Vasculopathy",
+    "definition": "A distinctive retiform purpura/vasculopathy associated with cocaine adulterated with levamisole.",
+    "tags": [
+      "Skin::Inflammatory::Vasculitis::Thrombotic_Vasculopathy"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Retiform purpura, often involving ears and extremities.",
+    "pathogenesis": "Thrombotic vasculopathy/vasculitis associated with ANCA positivity (often p-ANCA).",
+    "macroscopic": "Purpuric patches with necrosis, often on ears.",
+    "microscopic": "Thrombi in small vessels. More thrombosis than inflammation/neutrophils. Some leukocytoclasia and neutrophil cuffing may be present.",
+    "ancillary_studies": "N/A",
+    "differential_diagnosis": "Septic vasculitis, Disorders of coagulation.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "N/A",
+    "related_figures": [
+      {
+        "id": "Slide_51",
+        "src": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0051.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0051.jpg",
+        "diagnosis": "Levamisole Vasculopathy",
+        "legend": "Thrombi in small vessels. (Time: 1633s)"
+      },
+      {
+        "id": "Slide_52",
+        "src": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0052.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0052.jpg",
+        "diagnosis": "Levamisole Vasculopathy",
+        "legend": "Vascular thrombi with scant neutrophils. (Time: 1643s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Urticarial Drug Eruption",
+    "definition": "A cutaneous drug reaction mimicking urticaria but often with distinct histologic features.",
+    "tags": [
+      "Skin::Inflammatory::Drug_Eruption::Urticarial_Drug_Eruption"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Widespread erythematous wheals, smooth surface. May be annular.",
+    "pathogenesis": "Hypersensitivity reaction.",
+    "macroscopic": "Urticarial plaques/wheals.",
+    "microscopic": "Perivascular and interstitial infiltrate (lymphocytes and eosinophils). Clues favoring drug over ordinary urticaria: 1) Denser infiltrate. 2) Epidermal hyperplasia (acanthosis) if lesions persist. 3) Interstitial eosinophils.",
+    "ancillary_studies": "N/A",
+    "differential_diagnosis": "Urticaria (usually has very sparse infiltrate, no epidermal change), Urticarial Vasculitis.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "N/A",
+    "related_figures": [
+      {
+        "id": "Slide_60",
+        "src": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0060.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0060.jpg",
+        "diagnosis": "Urticarial Drug Eruption",
+        "legend": "Denser infiltrate and epidermal hyperplasia favoring drug eruption. (Time: 1788s)"
+      },
+      {
+        "id": "Slide_61",
+        "src": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0061.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0061.jpg",
+        "diagnosis": "Urticarial Drug Eruption",
+        "legend": "Interstitial eosinophils. (Time: 1809s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Lymphomatoid Drug Eruption",
+    "definition": "A drug eruption characterized by atypical lymphocytic infiltrates mimicking cutaneous lymphoma (pseudolymphoma).",
+    "tags": [
+      "Skin::Inflammatory::Drug_Eruption::Lymphomatoid_Drug_Eruption"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Solitary lesions, generalized rash, or erythroderma. Associated with anticonvulsants (Dilantin) and Mogamulizumab.",
+    "pathogenesis": "Hypersensitivity reaction stimulating lymphocyte activation. In Mogamulizumab (used for MF), the eruption may involve a hypersensitivity reaction by a few remaining clonal cells.",
+    "macroscopic": "Papules, plaques, or erythroderma.",
+    "microscopic": "Atypical lymphocytes (pleomorphic, enlarged) mimicking Mycosis Fungoides or lymphoma. Can be indistinguishable from lymphoma without clinical context.",
+    "ancillary_studies": "Molecular testing (clonality) may show the same clone as the underlying lymphoma (in Mogamulizumab cases) but in lower quantity.",
+    "differential_diagnosis": "Mycosis Fungoides, Cutaneous Lymphoma.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Resolves with drug discontinuation, but histologic resemblance to lymphoma puts patients at risk of misdiagnosis.",
+    "related_figures": [
+      {
+        "id": "Slide_63",
+        "src": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0063.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0063.jpg",
+        "diagnosis": "Lymphomatoid Drug Eruption",
+        "legend": "Extremely atypical lymphocytes mimicking lymphoma. (Time: 1916s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Interstitial Granulomatous Drug Reaction",
+    "definition": "A drug eruption characterized by interstitial histiocytic infiltrates, notably associated with Methotrexate.",
+    "tags": [
+      "Skin::Inflammatory::Granulomatous::Interstitial_Granulomatous_Drug_Reaction"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Varied presentations. Methotrexate toxicity specifically presents as a papular eruption on the buttocks/thighs.",
+    "pathogenesis": "Drug-induced alteration of collagen/connective tissue prompting histiocytic response.",
+    "macroscopic": "Papules, plaques, sometimes annular.",
+    "microscopic": "Interstitial histiocytes infiltrating between collagen bundles. Methotrexate-specific finding: Histiocytes rosetting around thickened collagen bundles. Lacks the mucin seen in Granuloma Annulare.",
+    "ancillary_studies": "N/A",
+    "differential_diagnosis": "Granuloma Annulare (has mucin), Interstitial Granulomatous Dermatitis.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "N/A",
+    "related_figures": [
+      {
+        "id": "Slide_70",
+        "src": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0070.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0070.jpg",
+        "diagnosis": "Methotrexate-induced Papular Eruption",
+        "legend": "Interstitial histiocytes. (Time: 2092s)"
+      },
+      {
+        "id": "Slide_71",
+        "src": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0071.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0071.jpg",
+        "diagnosis": "Methotrexate-induced Papular Eruption",
+        "legend": "Histiocytes rosetting around thickened collagen bundles. (Time: 2101s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Halogenoderma",
+    "definition": "A rare neutrophilic dermatosis caused by ingestion of halogens (iodides, bromides).",
+    "tags": [
+      "Skin::Inflammatory::Neutrophilic::Halogenoderma"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Widespread verrucous, crusted plaques. History of seaweed ingestion or halogen containing drugs.",
+    "pathogenesis": "Neutrophilic reaction to halogen excretion.",
+    "macroscopic": "Verrucous, vegetating plaques.",
+    "microscopic": "Pseudoepitheliomatous hyperplasia (PEH) (can mimic SCC), intraepidermal neutrophilic abscesses, dense dermal neutrophilic infiltrate.",
+    "ancillary_studies": "N/A",
+    "differential_diagnosis": "Squamous Cell Carcinoma (due to PEH), Blastomycosis-like Pyoderma, Pemphigus Vegetans.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "N/A",
+    "related_figures": [
+      {
+        "id": "Slide_77",
+        "src": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0077.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0077.jpg",
+        "diagnosis": "Halogenoderma",
+        "legend": "Marked pseudoepitheliomatous hyperplasia. (Time: 2236s)"
+      },
+      {
+        "id": "Slide_78",
+        "src": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0078.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0078.jpg",
+        "diagnosis": "Halogenoderma",
+        "legend": "Neutrophilic infiltrate surrounding epithelial hyperplasia. (Time: 2243s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Acute Generalized Exanthematous Pustulosis (AGEP)",
+    "definition": "A severe cutaneous adverse reaction characterized by rapid onset of sterile pustules on an erythematous base.",
+    "tags": [
+      "Skin::Inflammatory::Drug_Eruption::Acute_Generalized_Exanthematous_Pustulosis_AGEP"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Tiny non-follicular pustules on erythematous background, fever, leukocytosis. Often associated with antibiotics.",
+    "pathogenesis": "T-cell mediated neutrophilic response.",
+    "macroscopic": "Widespread pustules, often starting in flexures.",
+    "microscopic": "Subcorneal/intraepidermal spongiform pustules (neutrophils). Marked papillary dermal edema (more than psoriasis). Eosinophils in dermal infiltrate (helps distinguish from psoriasis). Necrotic keratinocytes.",
+    "ancillary_studies": "N/A",
+    "differential_diagnosis": "Pustular Psoriasis (lacks eos, necrotic cells, and marked edema usually), Toxic Epidermal Necrolysis (in confluent cases).",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Usually resolves rapidly (weeks) after drug cessation.",
+    "related_figures": [
+      {
+        "id": "Slide_81",
+        "src": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0081.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0081.jpg",
+        "diagnosis": "AGEP",
+        "legend": "Marked papillary dermal edema and dyskeratotic cells. (Time: 2347s)"
+      },
+      {
+        "id": "Slide_86",
+        "src": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0086.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0086.jpg",
+        "diagnosis": "AGEP",
+        "legend": "Neutrophilic pustule. (Time: 2421s)"
+      },
+      {
+        "id": "Slide_87",
+        "src": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0087.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0087.jpg",
+        "diagnosis": "AGEP",
+        "legend": "Subepidermal edema. (Time: 2429s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Neutrophilic Eccrine Hidradenitis",
+    "definition": "A neutrophilic dermatosis often associated with chemotherapy (Toxic Erythema of Chemotherapy), affecting eccrine glands.",
+    "tags": [
+      "Skin::Inflammatory::Neutrophilic::Neutrophilic_Eccrine_Hidradenitis"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Papules and plaques in patients receiving chemotherapy.",
+    "pathogenesis": "Toxic effect of drug excretion through eccrine glands.",
+    "macroscopic": "Erythematous papules/plaques.",
+    "microscopic": "Neutrophilic infiltrate tropic to eccrine secretory coils and ducts. Squamous metaplasia of eccrine ducts (Syringosquamous Metaplasia) seen in chronic/evolving lesions.",
+    "ancillary_studies": "N/A",
+    "differential_diagnosis": "Infection (bacterial eccrine infection), Sweet Syndrome.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "N/A",
+    "related_figures": [
+      {
+        "id": "Slide_92",
+        "src": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0092.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0092.jpg",
+        "diagnosis": "Neutrophilic Eccrine Hidradenitis",
+        "legend": "Neutrophils surrounding eccrine secretory coil. (Time: 2579s)"
+      },
+      {
+        "id": "Slide_95",
+        "src": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0095.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0095.jpg",
+        "diagnosis": "Eccrine Syringosquamous Metaplasia",
+        "legend": "Squamous metaplasia of the eccrine duct. (Time: 2616s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Drug-Induced Erythema Multiforme",
+    "definition": "A variant of Erythema Multiforme caused by medications (~10% of EM cases).",
+    "tags": [
+      "Skin::Inflammatory::Interface::Erythema_Multiforme"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Targetoid lesions.",
+    "pathogenesis": "Hypersensitivity.",
+    "macroscopic": "Target lesions.",
+    "microscopic": "Interface dermatitis with necrotic keratinocytes. Generally indistinguishable from non-drug EM. May have slightly more eosinophils (soft criterion).",
+    "ancillary_studies": "N/A",
+    "differential_diagnosis": "Herpes-associated EM, Fixed Drug Eruption (FDE has deep melanophages/clusters of eos).",
+    "staging": "N/A",
+    "prognosis_and_prediction": "N/A",
+    "related_figures": [
+      {
+        "id": "Slide_101",
+        "src": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0101.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0101.jpg",
+        "diagnosis": "Drug-induced Erythema Multiforme",
+        "legend": "Interface dermatitis, possibly with subtle increase in eosinophils. (Time: 2697s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Symmetrical Drug-Related Intertriginous and Flexural Erythema (SDRIFE)",
+    "definition": "A distinct drug eruption occurring in gluteal and intertriginous areas (formerly 'Baboon Syndrome').",
+    "tags": [
+      "Skin::Inflammatory::Drug_Eruption::Symmetrical_Drug_Related_Intertriginous_And_Flexural_Erythema_SDRIFE"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Symmetrical erythema in flexural/intertriginous areas.",
+    "pathogenesis": "Systemic contact dermatitis-like mechanism.",
+    "macroscopic": "Erythema in groins, buttocks, axillae.",
+    "microscopic": "Superficial and deep perivascular infiltrate (unusual for contact dermatitis). Pattern can be spongiotic or interface.",
+    "ancillary_studies": "N/A",
+    "differential_diagnosis": "Allergic Contact Dermatitis (usually superficial only).",
+    "staging": "N/A",
+    "prognosis_and_prediction": "N/A",
+    "related_figures": [
+      {
+        "id": "Slide_103",
+        "src": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0103.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0103.jpg",
+        "diagnosis": "SDRIFE",
+        "legend": "Clinical appearance in flexural areas. (Time: 2721s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS)",
+    "definition": "A severe, potentially life-threatening drug reaction with skin rash, eosinophilia, and internal organ involvement.",
+    "tags": [
+      "Skin::Inflammatory::Drug_Eruption::Drug_Reaction_With_Eosinophilia_And_Systemic_Symptoms_DRESS"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Widespread rash, facial edema, lymphadenopathy, fever, organ involvement (liver, etc.). Delayed onset (2-6 weeks).",
+    "pathogenesis": "Complex interaction of drug hypersensitivity and viral reactivation (HHV-6).",
+    "macroscopic": "Morbilliform eruption, facial edema, may progress to erythroderma.",
+    "microscopic": "Highly variable (protean). *Key Feature:* Coexistence of Spongiotic and Interface dermatitis patterns in the same specimen. Eosinophils usually present. Can show pseudolymphomatous features (atypical lymphocytes). Can mimic GVHD.",
+    "ancillary_studies": "Eosinophils commonly present.",
+    "differential_diagnosis": "Viral exanthem, Lymphoma (due to atypical cells), GVHD.",
+    "staging": "N/A",
+    "prognosis_and_prediction": "Significant mortality/morbidity due to organ failure.",
+    "related_figures": [
+      {
+        "id": "Slide_5",
+        "src": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0005.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0005.jpg",
+        "diagnosis": "DRESS",
+        "legend": "Superficial perivascular infiltrate. (Time: 403s)"
+      },
+      {
+        "id": "Slide_6",
+        "src": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0006.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0006.jpg",
+        "diagnosis": "DRESS",
+        "legend": "Area showing interface dermatitis. (Time: 407s)"
+      },
+      {
+        "id": "Slide_7",
+        "src": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0007.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0007.jpg",
+        "diagnosis": "DRESS",
+        "legend": "Area showing spongiotic dermatitis. The combination (Slide 6+7) is characteristic. (Time: 428s)"
+      },
+      {
+        "id": "Slide_111",
+        "src": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0111.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0111.jpg",
+        "diagnosis": "DRESS",
+        "legend": "Pseudolymphomatous infiltrate with atypical cells and eosinophils. (Time: 2947s)"
+      }
+    ]
+  },
+  {
+    "entity_name": "Toxic Epidermal Necrolysis (TEN)",
+    "definition": "A life-threatening cutaneous adverse reaction characterized by extensive necrosis and detachment of the epidermis.",
+    "tags": [
+      "Skin::Inflammatory::Blistering::Stevens_Johnson_Syndrome_Toxic_Epidermal_Necrolysis"
+    ],
+    "html_gcs_path": null,
+    "clinical": "Widespread skin pain, erythema, and sheet-like detachment of skin (>30% BSA). Mucosal involvement.",
+    "pathogenesis": "Massive keratinocyte apoptosis (Fas-FasL mediated).",
+    "macroscopic": "Dusky erythema, flaccid blisters, positive Nikolsky sign, large sheets of denuded skin.",
+    "microscopic": "Full-thickness epidermal necrosis. Pauci-inflammatory infiltrate (sparse lymphocytes) at the dermal-epidermal junction (contrast with EM which is more inflammatory). 'More necrosis than hypersensitivity'.",
+    "ancillary_studies": "N/A",
+    "differential_diagnosis": "Staphylococcal Scalded Skin Syndrome (split is subcorneal, not full thickness), Erythema Multiforme (more inflammatory, less necrosis).",
+    "staging": "N/A",
+    "prognosis_and_prediction": "High mortality rate.",
+    "related_figures": [
+      {
+        "id": "Slide_118",
+        "src": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0118.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0118.jpg",
+        "diagnosis": "Toxic Epidermal Necrolysis",
+        "legend": "Full thickness epidermal necrosis. (Time: 3048s)"
+      },
+      {
+        "id": "Slide_119",
+        "src": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0119.jpg",
+        "gcs_path": "_asset_library/lectures/Derm_Lecture_21_medication_reactions/Derm_Lecture_21_medication_reactions_slide_0119.jpg",
+        "diagnosis": "Toxic Epidermal Necrolysis",
+        "legend": "Necrotic epidermis with sparse inflammatory infiltrate. (Time: 3058s)"
+      }
+    ]
+  }
+]
